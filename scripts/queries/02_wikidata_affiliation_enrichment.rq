@@ -1,0 +1,165 @@
+# Step 04 template: enrich the current cohort with affiliation and
+# representation fields from Wikidata.
+#
+# Recommended workflow:
+# 1. Run scripts/queries/01_export_wikidata_values_block.py after Step 02.
+# 2. Use the generated full or chunked query files in outputs/.
+# 3. Run the query or query parts in the Wikidata Query Service.
+# 4. Save the CSV export as data/raw/wikidata_affiliation_enrichment.csv,
+#    or pass one or more export paths to Step 04 with --input.
+#
+# Notes:
+# - This query is cohort-based on purpose. It enriches the current pilot rather
+#   than redefining the cohort from scratch.
+# - Some properties are multi-valued. The query preserves that ambiguity with
+#   pipe-delimited fields so the pipeline can inspect it later.
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX schema: <http://schema.org/>
+
+SELECT
+  ?person
+  ?personLabel
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?deathPlace), "/entity/");
+    separator=" | "
+  ) AS ?death_place_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?deathPlaceLabel;
+    separator=" | "
+  ) AS ?death_place_labels)
+  (GROUP_CONCAT(DISTINCT STR(?deathCoords); separator=" | ") AS ?death_coords)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?countryOfCitizenship), "/entity/");
+    separator=" | "
+  ) AS ?citizenship_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?countryOfCitizenshipLabel;
+    separator=" | "
+  ) AS ?citizenship_labels)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?residence), "/entity/");
+    separator=" | "
+  ) AS ?residence_ids)
+  (GROUP_CONCAT(DISTINCT ?residenceLabel; separator=" | ") AS ?residence_labels)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?workLocation), "/entity/");
+    separator=" | "
+  ) AS ?work_location_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?workLocationLabel;
+    separator=" | "
+  ) AS ?work_location_labels)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?nativeLanguage), "/entity/");
+    separator=" | "
+  ) AS ?native_language_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?nativeLanguageLabel;
+    separator=" | "
+  ) AS ?native_language_labels)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?languagesSpokenWrittenSigned), "/entity/");
+    separator=" | "
+  ) AS ?spoken_written_language_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?languagesSpokenWrittenSignedLabel;
+    separator=" | "
+  ) AS ?spoken_written_language_labels)
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?writingLanguage), "/entity/");
+    separator=" | "
+  ) AS ?writing_language_ids)
+  (GROUP_CONCAT(DISTINCT ?writingLanguageLabel; separator=" | ") AS ?writing_language_labels)
+  (COUNT(DISTINCT ?wikiArticle) AS ?wikipedia_sitelink_count)
+  ?has_frwiki
+  ?has_enwiki
+  ?has_itwiki
+  ?has_dewiki
+  ?has_eswiki
+  ?has_plwiki
+  ?has_ruwiki
+WHERE {
+  # BEGIN COHORT VALUES
+  VALUES ?person {
+    wd:Q101638
+    wd:Q3185843
+  }
+  # END COHORT VALUES
+
+  OPTIONAL { ?person wdt:P20 ?deathPlace. }
+  OPTIONAL { ?deathPlace wdt:P625 ?deathCoords. }
+  OPTIONAL { ?person wdt:P27 ?countryOfCitizenship. }
+  OPTIONAL { ?person wdt:P551 ?residence. }
+  OPTIONAL { ?person wdt:P937 ?workLocation. }
+  OPTIONAL { ?person wdt:P103 ?nativeLanguage. }
+  OPTIONAL { ?person wdt:P1412 ?languagesSpokenWrittenSigned. }
+  OPTIONAL { ?person wdt:P6886 ?writingLanguage. }
+
+  OPTIONAL {
+    ?wikiArticle schema:about ?person ;
+                 schema:isPartOf ?wikiSite .
+    ?wikiSite wikibase:wikiGroup "wikipedia" .
+  }
+
+  BIND(
+    EXISTS {
+      ?frArticle schema:about ?person ;
+                 schema:isPartOf <https://fr.wikipedia.org/> .
+    } AS ?has_frwiki
+  )
+  BIND(
+    EXISTS {
+      ?enArticle schema:about ?person ;
+                 schema:isPartOf <https://en.wikipedia.org/> .
+    } AS ?has_enwiki
+  )
+  BIND(
+    EXISTS {
+      ?itArticle schema:about ?person ;
+                 schema:isPartOf <https://it.wikipedia.org/> .
+    } AS ?has_itwiki
+  )
+  BIND(
+    EXISTS {
+      ?deArticle schema:about ?person ;
+                 schema:isPartOf <https://de.wikipedia.org/> .
+    } AS ?has_dewiki
+  )
+  BIND(
+    EXISTS {
+      ?esArticle schema:about ?person ;
+                 schema:isPartOf <https://es.wikipedia.org/> .
+    } AS ?has_eswiki
+  )
+  BIND(
+    EXISTS {
+      ?plArticle schema:about ?person ;
+                 schema:isPartOf <https://pl.wikipedia.org/> .
+    } AS ?has_plwiki
+  )
+  BIND(
+    EXISTS {
+      ?ruArticle schema:about ?person ;
+                 schema:isPartOf <https://ru.wikipedia.org/> .
+    } AS ?has_ruwiki
+  )
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en,fr".
+  }
+}
+GROUP BY
+  ?person
+  ?personLabel
+  ?has_frwiki
+  ?has_enwiki
+  ?has_itwiki
+  ?has_dewiki
+  ?has_eswiki
+  ?has_plwiki
+  ?has_ruwiki
+ORDER BY ?personLabel

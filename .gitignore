@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+*_Zone.Identifier
+
+# Intermediate data files
+/data/interim/
+
+# Generated reports and presentation assets
+/outputs/*
+!/outputs/.gitkeep

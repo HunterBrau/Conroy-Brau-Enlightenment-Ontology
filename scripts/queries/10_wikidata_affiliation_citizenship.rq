@@ -1,0 +1,38 @@
+# Step 04 split query: citizenship evidence.
+#
+# Use this when the combined enrichment query is too heavy for the endpoint.
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT
+  ?person
+  ?personLabel
+  (GROUP_CONCAT(
+    DISTINCT STRAFTER(STR(?countryOfCitizenship), "/entity/");
+    separator=" | "
+  ) AS ?citizenship_ids)
+  (GROUP_CONCAT(
+    DISTINCT ?countryOfCitizenshipLabel;
+    separator=" | "
+  ) AS ?citizenship_labels)
+WHERE {
+  # BEGIN COHORT VALUES
+  VALUES ?person {
+    wd:Q101638
+    wd:Q3185843
+  }
+  # END COHORT VALUES
+
+  OPTIONAL { ?person wdt:P27 ?countryOfCitizenship. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en,fr".
+  }
+}
+GROUP BY
+  ?person
+  ?personLabel
+ORDER BY ?personLabel

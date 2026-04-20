@@ -1,0 +1,92 @@
+# Step 04 split query: Wikipedia representation evidence.
+#
+# Use this when the combined enrichment query is too heavy for the endpoint.
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX schema: <http://schema.org/>
+
+SELECT
+  ?person
+  ?personLabel
+  (COUNT(DISTINCT ?wikiArticle) AS ?wikipedia_sitelink_count)
+  ?has_frwiki
+  ?has_enwiki
+  ?has_itwiki
+  ?has_dewiki
+  ?has_eswiki
+  ?has_plwiki
+  ?has_ruwiki
+WHERE {
+  # BEGIN COHORT VALUES
+  VALUES ?person {
+    wd:Q101638
+    wd:Q3185843
+  }
+  # END COHORT VALUES
+
+  OPTIONAL {
+    ?wikiArticle schema:about ?person ;
+                 schema:isPartOf ?wikiSite .
+    ?wikiSite wikibase:wikiGroup "wikipedia" .
+  }
+
+  BIND(
+    EXISTS {
+      ?frArticle schema:about ?person ;
+                 schema:isPartOf <https://fr.wikipedia.org/> .
+    } AS ?has_frwiki
+  )
+  BIND(
+    EXISTS {
+      ?enArticle schema:about ?person ;
+                 schema:isPartOf <https://en.wikipedia.org/> .
+    } AS ?has_enwiki
+  )
+  BIND(
+    EXISTS {
+      ?itArticle schema:about ?person ;
+                 schema:isPartOf <https://it.wikipedia.org/> .
+    } AS ?has_itwiki
+  )
+  BIND(
+    EXISTS {
+      ?deArticle schema:about ?person ;
+                 schema:isPartOf <https://de.wikipedia.org/> .
+    } AS ?has_dewiki
+  )
+  BIND(
+    EXISTS {
+      ?esArticle schema:about ?person ;
+                 schema:isPartOf <https://es.wikipedia.org/> .
+    } AS ?has_eswiki
+  )
+  BIND(
+    EXISTS {
+      ?plArticle schema:about ?person ;
+                 schema:isPartOf <https://pl.wikipedia.org/> .
+    } AS ?has_plwiki
+  )
+  BIND(
+    EXISTS {
+      ?ruArticle schema:about ?person ;
+                 schema:isPartOf <https://ru.wikipedia.org/> .
+    } AS ?has_ruwiki
+  )
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en,fr".
+  }
+}
+GROUP BY
+  ?person
+  ?personLabel
+  ?has_frwiki
+  ?has_enwiki
+  ?has_itwiki
+  ?has_dewiki
+  ?has_eswiki
+  ?has_plwiki
+  ?has_ruwiki
+ORDER BY ?personLabel

@@ -1,0 +1,47 @@
+# Reconstructed current-cohort geography export for the pilot dataset.
+#
+# Important note:
+# - This is a reproducible re-export query for the current cohort QIDs.
+# - It is not guaranteed to be byte-identical to the original manual query
+#   used to create 18thcentury_french_writers_table.csv, because that original
+#   query text was not preserved in the repository.
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+SELECT
+  ?person
+  ?personLabel
+  ?birthYear
+  ?birthPlaceLabel
+  ?coords
+  (GROUP_CONCAT(DISTINCT ?occupationLabel; separator=", ") AS ?occupations)
+WHERE {
+  # BEGIN COHORT VALUES
+  VALUES ?person {
+    wd:Q101638
+    wd:Q3185843
+  }
+  # END COHORT VALUES
+
+  OPTIONAL {
+    ?person wdt:P569 ?birthDate .
+    BIND(YEAR(?birthDate) AS ?birthYear)
+  }
+  OPTIONAL { ?person wdt:P19 ?birthPlace. }
+  OPTIONAL { ?birthPlace wdt:P625 ?coords. }
+  OPTIONAL { ?person wdt:P106 ?occupation. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en,fr".
+  }
+}
+GROUP BY
+  ?person
+  ?personLabel
+  ?birthYear
+  ?birthPlaceLabel
+  ?coords
+ORDER BY ?personLabel
