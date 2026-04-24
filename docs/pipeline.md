@@ -35,6 +35,10 @@ and models.
 
 9. **Step 09 - Optional Domain-Specific Enrichment** *(planned)*
 
+Between Step 03 and Step 04, the repository also includes a non-numbered
+label-correction helper that builds auditable correction tables for unresolved
+Wikidata QID labels.
+
 ## Core Rules
 
 - One pipeline step equals one script.
@@ -349,6 +353,76 @@ Duplicate reporting should distinguish between:
 
 - rows that belong to duplicated entities
 - surplus duplicate rows beyond the first row per entity
+
+## Label Correction Helper - Unresolved Wikidata Labels
+
+This helper creates audit tables for rows where Step 02 found labels that still
+look like raw Wikidata QIDs.
+
+Script:
+
+`scripts/queries/12_build_wikidata_label_corrections.py`
+
+This is intentionally documented as a helper rather than a numbered pipeline
+step. It fetches labels from Wikidata and writes small correction tables, but
+it does not transform the cohort or resolve interpretive ambiguity.
+
+### Purpose
+
+Some person names and birth-place labels in the original French-facing
+Wikidata export were returned as raw QIDs, usually because no French label was
+available for the entity at export time. The helper queries Wikidata for
+available labels and descriptions so those unresolved labels can be repaired
+later in a documented way.
+
+### Input
+
+`data/interim/writers_cleaned.csv`
+
+Fields used:
+
+- `wikidata_id`
+- `name`
+- `name_is_qid`
+- `birth_year`
+- `birth_place`
+- `birth_place_is_qid`
+
+### Transformations
+
+The helper:
+
+- collects QIDs from unresolved person-name rows
+- collects QIDs from unresolved birth-place rows
+- queries the Wikidata entity API for labels and descriptions
+- chooses a readable label using the language order:
+
+```text
+fr, en, de, it, es, nl, pl, ru, pt, sv, da, la, then any available label
+```
+
+The chosen label and its language are recorded. French and English labels and
+descriptions are also recorded when available.
+
+### Outputs
+
+Person-name correction table:
+
+`data/processed/person_name_label_corrections.csv`
+
+Birth-place correction table:
+
+`data/processed/birth_place_label_corrections.csv`
+
+These are versioned audit tables. They identify replacement labels, but they
+do not overwrite `data/interim/writers_cleaned.csv`.
+
+### Non-goals
+
+- no raw-data edits
+- no in-place mutation of the cleaned cohort
+- no deduplication
+- no choice among conflicting birth years or birth places
 
 ## Step 04 - Expand Wikidata Affiliation and Representation Fields
 

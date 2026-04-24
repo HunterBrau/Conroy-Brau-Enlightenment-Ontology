@@ -1,0 +1,10 @@
+birth_place_qid,original_birth_place,resolved_birth_place,resolved_label_language,label_fr,label_en,description_fr,description_en,affected_row_count,affected_entity_count,example_wikidata_ids,example_names,label_source
+Q4948642,Q4948642,Bothmar Castle,en,,Bothmar Castle,,"castle at Malans, Graubünden, Switzerland",1,1,http://www.wikidata.org/entity/Q683660,Johann Gaudenz von Salis-Seewis,wikidata_wbgetentities
+Q1007758,Q1007758,Chartoryisk,en,,Chartoryisk,,"village in Manevychi Raion, Volyn Oblast, Ukraine",1,1,http://www.wikidata.org/entity/Q2566534,Franciszka Urszula Wiśniowiecki,wikidata_wbgetentities
+Q15215556,Q15215556,Dysart Castle,en,,Dysart Castle,,"castle ruins in Dysart, County Kilkenny, Ireland",1,1,http://www.wikidata.org/entity/Q82049,George Berkeley,wikidata_wbgetentities
+Q19845815,Q19845815,Kibworth Harcourt,en,,Kibworth Harcourt,"établissement humain du Harborough, Angleterre, Royaume-Uni","village and civil parish in Harborough, Leicestershire, England",1,1,http://www.wikidata.org/entity/Q268305,Anna Laetitia Barbauld,wikidata_wbgetentities
+Q3313975,Q3313975,Pampacolca District,en,,Pampacolca District,district péruvien,"district in Arequipa, Peru",1,1,http://www.wikidata.org/entity/Q4861101,Juan Pablo Viscardo y Guzmán,wikidata_wbgetentities
+Q992199,Q992199,Perevolochna,en,,Perevolochna,,"submerged settlement in Poltava, Ukraine",1,1,http://www.wikidata.org/entity/Q2412021,Ivan Martynov,wikidata_wbgetentities
+Q2991904,Q2991904,Tsarychanka Raion,en,,Tsarychanka Raion,raïon ukrainien,"raion in Dnipropetrovsk Oblast, Ukraine",1,1,http://www.wikidata.org/entity/Q4132959,Q4132959,wikidata_wbgetentities
+Q4477408,Q4477408,Urusovo,en,,Urusovo,village russe,"human settlement in Chaplyginsky District, Lipetsk Oblast, Russia",1,1,http://www.wikidata.org/entity/Q4099212,Anna Bunina,wikidata_wbgetentities
+Q846444,Q846444,Werbau,de,,,commune de Slovaquie,town in Slovakia,1,1,http://www.wikidata.org/entity/Q93419,Maurice Beniowski,wikidata_wbgetentities

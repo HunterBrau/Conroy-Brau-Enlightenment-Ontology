@@ -18,6 +18,9 @@ Current query artifacts:
   the cleaned cohort, full current-cohort query files, and chunked query files.
 - `11_run_wikidata_query_batch.py` runs one generated query file or a whole
   directory of generated query files and saves matching CSV exports.
+- `12_build_wikidata_label_corrections.py` builds small correction tables for
+  unresolved person-name and birth-place labels that still appear as Wikidata
+  QIDs after Step 02.
 - `outputs/wikidata_cohort_values_block.txt` stores the generated block.
 - `outputs/wikidata_affiliation_enrichment_query.rq` stores the full generated
   all-in-one Step 04 query.
@@ -107,3 +110,20 @@ therefore reproducibility aids, not claims of byte-identical recovery.
 The project should avoid introducing several unrelated external acquisition
 scripts at once. Wikidata remains the identity spine unless a later research
 decision explicitly changes that.
+
+## Label Correction Helper
+
+Run this after Steps 01 and 02, and usually after Step 03 diagnostics:
+
+```powershell
+python scripts/queries/12_build_wikidata_label_corrections.py
+```
+
+It reads `data/interim/writers_cleaned.csv` and writes:
+
+- `data/processed/person_name_label_corrections.csv`
+- `data/processed/birth_place_label_corrections.csv`
+
+The helper does not change the cleaned cohort. It records readable Wikidata
+labels, fallback languages, and descriptions so a later deterministic pipeline
+step can apply corrections without losing the original QID values.

@@ -93,7 +93,7 @@ Directory roles:
 |---|---|
 | `data/raw/` | Immutable source exports |
 | `data/interim/` | Temporary pipeline outputs, not versioned |
-| `data/processed/` | Final clean datasets |
+| `data/processed/` | Versioned processed datasets and audit tables |
 | `docs/` | Pipeline contract and research notes |
 | `figures/` | Generated visuals |
 | `notebooks/` | Analysis and visualization notebooks only |
@@ -219,6 +219,24 @@ Step 03: Dataset diagnostics
   - CSV tables as the canonical diagnostic format, with Markdown limited to a
     short orientation note
 
+Label correction support task
+
+- Script: `scripts/queries/12_build_wikidata_label_corrections.py`
+- Input: `data/interim/writers_cleaned.csv`
+- Outputs:
+  - `data/processed/person_name_label_corrections.csv`
+  - `data/processed/birth_place_label_corrections.csv`
+- Behavior:
+  - finds rows where person names or birthplaces still look like raw Wikidata
+    QIDs
+  - fetches available Wikidata labels and descriptions for those QIDs
+  - prefers French labels, then English labels, then other available labels
+  - writes correction tables as an audit trail
+- Non-goals:
+  - does not modify raw data
+  - does not overwrite `data/interim/writers_cleaned.csv`
+  - does not deduplicate people or choose among conflicting birth data
+
 Step 04: Merge Wikidata enrichment export
 
 - Script: `scripts/pipeline/04_merge_wikidata_enrichment.py`
@@ -298,6 +316,16 @@ python scripts/pipeline/03_diagnose_dataset.py
 
 Each script reads from `data/`, writes to `data/`, and prints a summary. No
 script should depend on notebook execution.
+
+To build correction tables for unresolved Wikidata labels:
+
+```powershell
+python scripts/queries/12_build_wikidata_label_corrections.py
+```
+
+This writes small versioned audit tables to `data/processed/`. The correction
+tables identify readable replacement labels; they do not mutate the cleaned
+cohort in place.
 
 To prepare the Step 04 enrichment query:
 
@@ -404,5 +432,6 @@ Current cleanup focus:
 - Align the repository with the 1675-1775 research scope.
 - Preserve VIAF ambiguity explicitly.
 - Diagnose the current pilot dataset before expanding interpretation.
+- Keep unresolved-label correction tables as a documented audit trail.
 - Make richer Wikidata enrichment reproducible before adding additional
   authority systems.
