@@ -59,7 +59,8 @@ Wikidata QID labels.
 
 ## Cohort Tracks
 
-The repository now has two explicit corpus tracks:
+The repository now has one active analytical corpus track and one legacy
+provenance track:
 
 - `french_seed`: the legacy flat-file French-facing seed, with VIAF merged as
   supporting metadata.
@@ -70,8 +71,9 @@ The machine-readable manifest is:
 
 `data/cohorts/cohort_manifest.csv`
 
-Most current scripts accept `--cohort-id`. The default is `french_seed`, so
-existing flat-file commands continue to work. Global outputs are written under:
+Most current scripts accept `--cohort-id`. The default is `global_writers`;
+pass `--cohort-id french_seed` only when refreshing legacy/provenance outputs.
+Global outputs are written under:
 
 ```text
 data/interim/global_writers/

@@ -207,7 +207,7 @@ french_seed
 ```
 
 7. The China/British Empire diagnostics now run on the global cohort and the
-   French seed cohort, using:
+   legacy French seed, using:
 
 ```text
 country of citizenship

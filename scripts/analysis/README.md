@@ -107,7 +107,9 @@ python scripts/analysis/03_build_geographic_scope_analysis.py --cohort-id global
 
 ## 04_compare_cohorts.py
 
-Builds comparison tables across the French seed and global writer cohorts.
+Builds backward-compatible comparison tables across the legacy French seed and
+the global writer cohort. New national or imperial comparisons should use
+`07_build_context_slice_tables.py`.
 
 Outputs are written to `data/processed/` and include:
 

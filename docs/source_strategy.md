@@ -19,8 +19,8 @@ This keeps the pipeline:
 
 ## Immediate Sequence
 
-1. Keep the legacy French seed and global writer cohort separate, but use
-   `global_writers` as the discovery spine for new comparative claims.
+1. Keep the legacy French seed as provenance, but use `global_writers` as the
+   discovery spine for new comparative claims.
 2. Maintain Wikidata API enrichment as the shared route for both cohorts.
 3. Build and review the political-entity crosswalk for France, Germany,
    British/British imperial contexts, and China/Qing contexts.

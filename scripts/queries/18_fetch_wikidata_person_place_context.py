@@ -6,7 +6,7 @@ import json
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from cohorts import COHORT_IDS, DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 
 from wikidata_api import (
     claim_qids,
@@ -233,7 +233,7 @@ def parse_args() -> object:
     parser.add_argument(
         "--cohort-id",
         default=DEFAULT_COHORT_ID,
-        choices=["french_seed", "global_writers"],
+        choices=COHORT_IDS,
         help=f"Cohort to fetch. Default: {DEFAULT_COHORT_ID}.",
     )
     parser.add_argument(

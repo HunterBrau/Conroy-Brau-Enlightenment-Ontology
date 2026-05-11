@@ -5,13 +5,13 @@ from collections import Counter, defaultdict
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import COHORT_IDS, cohort_paths  # noqa: E402
+from cohorts import COMPARISON_COHORT_IDS, cohort_paths  # noqa: E402
 from common import percentage, read_csv_if_exists, split_pipe_values  # noqa: E402
 
 
 def build_summary_rows(project_root: Path) -> pd.DataFrame:
     rows = []
-    for cohort_id in COHORT_IDS:
+    for cohort_id in COMPARISON_COHORT_IDS:
         paths = cohort_paths(project_root, cohort_id)
         diagnostic_df = read_csv_if_exists(paths.interim_dir / "dataset_diagnostics_summary.csv")
         enrichment_df = read_csv_if_exists(paths.enrichment_summary_path)
@@ -54,7 +54,7 @@ def build_summary_rows(project_root: Path) -> pd.DataFrame:
 
 def build_country_citizenship_rows(project_root: Path) -> pd.DataFrame:
     rows = []
-    for cohort_id in COHORT_IDS:
+    for cohort_id in COMPARISON_COHORT_IDS:
         paths = cohort_paths(project_root, cohort_id)
         enriched_df = read_csv_if_exists(paths.enriched_path)
         if enriched_df.empty:
@@ -97,7 +97,7 @@ def build_country_citizenship_rows(project_root: Path) -> pd.DataFrame:
 
 def build_geographic_scope_rows(project_root: Path) -> pd.DataFrame:
     frames = []
-    for cohort_id in COHORT_IDS:
+    for cohort_id in COMPARISON_COHORT_IDS:
         paths = cohort_paths(project_root, cohort_id)
         summary_df = read_csv_if_exists(paths.processed_dir / "geographic_scope_summary.csv")
         if summary_df.empty:
@@ -110,7 +110,7 @@ def build_geographic_scope_rows(project_root: Path) -> pd.DataFrame:
 
 def build_language_representation_rows(project_root: Path) -> pd.DataFrame:
     frames = []
-    for cohort_id in COHORT_IDS:
+    for cohort_id in COMPARISON_COHORT_IDS:
         paths = cohort_paths(project_root, cohort_id)
         language_df = read_csv_if_exists(paths.processed_dir / "representation_language_summary.csv")
         if language_df.empty:

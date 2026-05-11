@@ -31,7 +31,7 @@ native language
 ```
 
 This distinction is especially important for China/Qing and British imperial
-contexts. In the French seed cohort, exact citizenship does not recover either
+contexts. In the legacy French seed, exact citizenship does not recover either
 context well. In the global writer cohort, exact citizenship recovers many
 Chinese/Qing cases but still barely captures British imperial context; place
 evidence recovers many more British imperial cases.

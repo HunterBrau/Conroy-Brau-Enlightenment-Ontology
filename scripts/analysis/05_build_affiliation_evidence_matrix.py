@@ -18,7 +18,7 @@ import sys
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from cohorts import COHORT_IDS, DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 from common import (  # noqa: E402
     join_values,
     normalize_blank_strings,
@@ -278,7 +278,7 @@ def parse_args() -> object:
     parser.add_argument(
         "--cohort-id",
         default=DEFAULT_COHORT_ID,
-        choices=["french_seed", "global_writers"],
+        choices=COHORT_IDS,
         help=f"Cohort to analyze. Default: {DEFAULT_COHORT_ID}.",
     )
     return parser.parse_args()

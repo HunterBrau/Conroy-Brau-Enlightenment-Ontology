@@ -17,8 +17,8 @@ open decisions.
 - Primary comparison frame approved in discussion: France, British/British
   imperial context, China/Qing context, and Germany.
 
-The project has two explicit cohorts, but only one active discovery spine for
-new comparative claims:
+The project has one active discovery spine for new comparative claims, plus a
+legacy track retained for provenance:
 
 | Cohort | Meaning | Current distinct people |
 |---|---:|---:|
@@ -54,7 +54,8 @@ The active workflow is API-first after global discovery:
 12. Build formula-backed affiliation evidence.
 13. Build granular occupation-bucket tables.
 14. Build reproducible context-slice tables.
-15. Compare cohorts.
+15. Build backward-compatible legacy/global comparison outputs only when
+    needed.
 
 Commands are documented in:
 
@@ -101,7 +102,7 @@ Commands are documented in:
 | `scripts/analysis/01_build_representation_matrices.py` | active | representation and affiliation matrices |
 | `scripts/analysis/02_build_place_affiliation_context.py` | active | place-derived affiliation layer |
 | `scripts/analysis/03_build_geographic_scope_analysis.py` | active | Europe/non-Europe and special-context diagnostics |
-| `scripts/analysis/04_compare_cohorts.py` | active | French/global comparison outputs |
+| `scripts/analysis/04_compare_cohorts.py` | legacy support | backward-compatible French/global comparison outputs |
 | `scripts/analysis/00_build_crosswalk_review_matrix.py` | active review | punchcard review table for the political crosswalk |
 | `scripts/analysis/05_build_affiliation_evidence_matrix.py` | active | formula-backed affiliation evidence tallies |
 | `scripts/analysis/06_build_occupation_bucket_tables.py` | active | occupation bucket crosswalk and bucket representation tables |

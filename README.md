@@ -8,7 +8,7 @@ representation across Wikidata, VIAF, and related bibliographic systems.
 This project builds a reproducible data pipeline for a slow, inspectable
 "who's who" of Enlightenment-era cultural figures. The current working scope
 has a reproducible global writer/subclass cohort, plus a retained legacy
-French seed cohort for provenance and backward compatibility. New France,
+French seed track for provenance and backward compatibility. New France,
 Germany, British, and China/Qing comparison slices should be derived from the
 global cohort through the reviewed political-entity crosswalk. VIAF remains
 supporting metadata for the legacy French seed; it is not the current discovery
@@ -108,7 +108,8 @@ Directory roles:
 
 ## Current Data
 
-The repository now has two explicit cohorts declared in
+The cohort manifest now declares one active analytical spine and one legacy
+provenance track in
 `data/cohorts/cohort_manifest.csv`:
 
 1. `french_seed`: the original manual French-facing seed cohort,
@@ -142,8 +143,8 @@ place-affiliation, geographic-scope, and cohort-comparison tables.
 The project should expand outward in a deliberate order:
 
 1. Keep **Wikidata** as the identity spine.
-2. Preserve the legacy French seed for provenance, but derive new comparison
-   slices from `global_writers`.
+2. Preserve the legacy French seed for provenance only, and derive all new
+   national/imperial comparison slices from `global_writers`.
 3. Use API-based Wikidata enrichment for both cohorts.
 4. Build explicit comparison and context-slice tables before adding another
    source family.
@@ -514,7 +515,8 @@ pip install -r requirements.txt
 
 Current cleanup focus:
 
-- Keep the French seed and global writer cohorts comparable.
+- Keep France, Germany, British, and China/Qing as comparable context slices
+  derived from `global_writers`.
 - Review the political-entity and occupation-bucket crosswalks.
 - Preserve VIAF ambiguity and unresolved-label corrections as audit trails.
 - Add visualization and BnF comparison layers only after the Wikidata evidence

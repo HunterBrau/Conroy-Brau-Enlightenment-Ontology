@@ -2,8 +2,12 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-DEFAULT_COHORT_ID = "french_seed"
-COHORT_IDS = [DEFAULT_COHORT_ID, "global_writers"]
+LEGACY_FRENCH_SEED_COHORT_ID = "french_seed"
+DEFAULT_COHORT_ID = "global_writers"
+ACTIVE_COHORT_IDS = [DEFAULT_COHORT_ID]
+LEGACY_COHORT_IDS = [LEGACY_FRENCH_SEED_COHORT_ID]
+COHORT_IDS = [DEFAULT_COHORT_ID, LEGACY_FRENCH_SEED_COHORT_ID]
+COMPARISON_COHORT_IDS = [LEGACY_FRENCH_SEED_COHORT_ID, DEFAULT_COHORT_ID]
 
 
 @dataclass(frozen=True)
@@ -21,6 +25,8 @@ class CohortPaths:
     date_min: int
     date_max: int
     primary_scope_note: str
+    analysis_role: str
+    is_active_discovery: bool
 
     @property
     def merged_path(self) -> Path:
@@ -91,6 +97,8 @@ def cohort_paths(project_root: Path, cohort_id: str = DEFAULT_COHORT_ID) -> Coho
                 "Use global_writers context slices for new France-facing comparison claims; "
                 "VIAF is supporting authority metadata, not the discovery source."
             ),
+            analysis_role="legacy_provenance",
+            is_active_discovery=False,
         )
 
     if cohort_id == "global_writers":
@@ -108,6 +116,8 @@ def cohort_paths(project_root: Path, cohort_id: str = DEFAULT_COHORT_ID) -> Coho
             date_min=1675,
             date_max=1775,
             primary_scope_note="Global writer/subclass discovery cohort; no citizenship filter.",
+            analysis_role="active_analytical_spine",
+            is_active_discovery=True,
         )
 
     raise ValueError(f"Unknown cohort_id: {cohort_id}")
@@ -127,6 +137,8 @@ def cohort_manifest_rows(project_root: Path) -> list[dict]:
                 "processed_output_dir": paths.processed_dir.relative_to(project_root).as_posix(),
                 "date_min": paths.date_min,
                 "date_max": paths.date_max,
+                "analysis_role": paths.analysis_role,
+                "is_active_discovery": paths.is_active_discovery,
                 "primary_scope_note": paths.primary_scope_note,
             }
         )
