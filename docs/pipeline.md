@@ -39,11 +39,15 @@ and models.
 8. **Analysis Layer 05 - Formula-Backed Affiliation Evidence**
    Tally explicit evidence fields for each candidate affiliation.
 
-9. **Step 06 - Map and Network Visualization Datasets** *(planned)*
+9. **Analysis Layer 06 - Granular Occupation Buckets**
+   Build reviewable occupation buckets and language-edition representation
+   summaries.
 
-10. **Step 07 - Compare with BnF** *(planned)*
+10. **Visualization Layer - Map and Network Datasets** *(planned)*
 
-11. **Step 08 - Optional Domain-Specific Enrichment** *(planned)*
+11. **Step 07 - Compare with BnF** *(planned)*
+
+12. **Step 08 - Optional Domain-Specific Enrichment** *(planned)*
 
 Between Step 03 and Step 04, the repository also includes a non-numbered
 label-correction helper that builds auditable correction tables for unresolved
@@ -771,23 +775,45 @@ See also:
 
 `docs/source_strategy.md`
 
-## Planned Occupation Or Cohort Category Normalization
+## Analysis Layer 06 - Granular Occupation Buckets
 
-Once the richer Wikidata fields have been added, Step 03 should be run again.
-The next category-normalization layer can then use those results to define
-occupation buckets or broader cohort labels without guessing blindly from the
-current pilot alone.
+Script:
 
-This step is where the project should decide whether the cohort remains
-writer-centered or expands into a broader Enlightenment character dataset with
-clear category rules.
+`scripts/analysis/06_build_occupation_bucket_tables.py`
 
-## Planned Step 06 - Map and Network Visualization Datasets
+### Purpose
+
+Build a reviewable occupation-bucket layer from the raw Wikidata API
+occupation profile. This layer keeps writerly and non-writerly work visible,
+adds Religion / Theology as a first-class bucket, and writes both a crosswalk
+seed and cohort-specific bucket summaries.
+
+The buckets are deliberately granular enough for conference visualizations but
+still auditable: uncertain or unmapped occupations remain visible instead of
+being silently folded into broad categories.
+
+### Inputs
+
+- `data/raw/*/wikidata_affiliation_enrichment.csv` or the cohort equivalent
+- `data/reference/occupation_bucket_crosswalk_seed.csv`
+
+### Outputs
+
+- `data/reference/occupation_bucket_crosswalk_seed.csv`
+- `data/processed/occupation_bucket_crosswalk_summary.csv`
+- `data/processed/occupation_bucket_entities_long.csv`
+- `data/processed/occupation_bucket_summary.csv`
+- `data/processed/occupation_bucket_language_representation.csv`
+
+For `global_writers`, the processed outputs are written under
+`data/processed/global_writers/`.
+
+## Planned Visualization Layer - Map and Network Datasets
 
 The analysis layers already produce provisional cultural-affiliation,
 place-affiliation, formula-backed affiliation evidence, and Wikipedia
-language-edition matrices. Step 06 should turn those tables into
-presentation-ready geography and network datasets:
+language-edition matrices. A later visualization layer should turn those
+tables into presentation-ready geography and network datasets:
 
 - produce geography-ready tables for maps, mobility views, and network
   analysis

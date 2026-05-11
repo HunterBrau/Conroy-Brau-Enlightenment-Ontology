@@ -14,12 +14,11 @@ import sys
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
-
+from cohorts import COHORT_IDS, cohort_paths  # noqa: E402
+from common import qid_from_uri, split_pipe_values  # noqa: E402
 from crosswalk import MANUAL_REVIEW_SORT_ORDER, load_political_crosswalk  # noqa: E402
 
 
-COHORT_IDS = ["french_seed", "global_writers"]
 TOKEN_COLUMNS = [
     "direct_country_ids",
     "admin_country_ids",
@@ -27,21 +26,6 @@ TOKEN_COLUMNS = [
     "admin_entity_ids",
     "place_id",
 ]
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
-def normalize_qid(value) -> object:
-    if pd.isna(value):
-        return pd.NA
-    token = str(value).strip().rstrip("/")
-    if not token:
-        return pd.NA
-    return token.rsplit("/", 1)[-1]
 
 
 def count_citizenship_usage(enriched_path: Path, crosswalk_ids: set[str]) -> dict[str, int]:
@@ -82,7 +66,7 @@ def count_place_usage(place_context_path: Path, crosswalk_ids: set[str]) -> dict
             if hasattr(row, column):
                 values = split_pipe_values(getattr(row, column))
                 if column == "place_id":
-                    values = [normalize_qid(value) for value in values]
+                    values = [qid_from_uri(value) for value in values]
                 row_tokens.update(str(value) for value in values if pd.notna(value))
         matched_ids = row_tokens & crosswalk_ids
         for token_id in matched_ids:

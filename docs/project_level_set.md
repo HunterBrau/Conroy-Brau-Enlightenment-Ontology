@@ -1,6 +1,6 @@
 # Project Level Set
 
-Last updated: 2026-05-10.
+Last updated: 2026-05-11.
 
 This note is the current working map of the repository after the French-seed
 to global-writer bridge. It separates active project truth from legacy
@@ -43,13 +43,16 @@ The active workflow is API-first after global discovery:
 9. Build place-derived affiliation context.
 10. Build representation matrices.
 11. Build geographic-scope diagnostics.
-12. Compare cohorts.
+12. Build formula-backed affiliation evidence.
+13. Build granular occupation-bucket tables.
+14. Compare cohorts.
 
 Commands are documented in:
 
 - `docs/pipeline.md`
 - `scripts/queries/README.md`
 - `scripts/analysis/README.md`
+- `docs/repository_audit.md`
 
 ## Active Data Spine
 
@@ -72,6 +75,7 @@ Commands are documented in:
 | Path | Status | Role |
 |---|---|---|
 | `scripts/cohorts.py` | active | cohort registry and path contract |
+| `scripts/common.py` | active | shared constants and small deterministic helpers |
 | `scripts/pipeline/00_build_cohort_manifest.py` | active | writes cohort manifest |
 | `scripts/pipeline/01_build_merged_dataset.py` | active | builds cohort merge table |
 | `scripts/pipeline/02_clean_structural_fields.py` | active | structural cleanup and flags |
@@ -161,10 +165,8 @@ been emptied except for `.gitkeep`; active tables now live under
   `needs_review`.
 - Decide high/medium/low presentation thresholds for the formula-backed
   affiliation scores after inspecting the tally outputs.
-- Decide whether generated `data/processed/` CSVs should be committed as
-  research artifacts or regenerated locally as needed.
-- Decide whether to empty ignored `outputs/` now or keep it as temporary
-  historical scratch.
+- Decide whether future generated `data/processed/` CSVs should be committed
+  as research artifacts or regenerated locally as needed.
 - Decide which language editions appear in final visualizations versus full
   analysis tables.
 - Decide when to add BnF after the Wikidata tracks are stable.
@@ -178,5 +180,5 @@ been emptied except for `.gitkeep`; active tables now live under
 3. Keep `outputs/` ignored and empty unless a presentation asset is actively
    being generated.
 4. Keep `data/raw/cache/` ignored; delete it only for local disk cleanup.
-5. Commit active scripts, docs, manifest, and selected processed outputs only
-   after deciding which CSV artifacts belong in version control.
+5. Keep shared helper logic in `scripts/common.py` when adding new scripts, so
+   cohort IDs, language columns, and pipe-delimited field handling do not drift.

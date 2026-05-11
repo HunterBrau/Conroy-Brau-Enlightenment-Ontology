@@ -7,6 +7,7 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from common import normalize_blank_strings, percentage, split_pipe_values  # noqa: E402
 
 
 QID_PATTERN = re.compile(r"(Q\d+)$")
@@ -150,10 +151,6 @@ SUPPLEMENTAL_FIELD_FLAGS = {
 }
 
 
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace(r"^\s*$", pd.NA, regex=True)
-
-
 def normalize_path(project_root: Path, path: Path) -> Path:
     if path.is_absolute():
         return path
@@ -176,17 +173,6 @@ def normalize_wikidata_id(value) -> object:
     if pd.isna(qid):
         return pd.NA
     return f"http://www.wikidata.org/entity/{qid}"
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-
-    return [
-        token.strip()
-        for token in str(value).split("|")
-        if token.strip()
-    ]
 
 
 def join_pipe_values(series: pd.Series) -> object:
@@ -392,12 +378,6 @@ def add_coverage_flags(enriched_df: pd.DataFrame) -> pd.DataFrame:
     )
 
     return enriched_df
-
-
-def percentage(count: int, total: int) -> float:
-    if total == 0:
-        return 0.0
-    return round((count / total) * 100, 2)
 
 
 def build_summary_table(

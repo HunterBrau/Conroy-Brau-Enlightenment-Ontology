@@ -21,7 +21,14 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
-
+from common import (  # noqa: E402
+    join_values,
+    normalize_blank_strings,
+    ordered_unique,
+    percentage,
+    qid_from_uri,
+    split_pipe_values,
+)
 from crosswalk import build_reviewed_scope_sets, load_token_label_overrides  # noqa: E402
 
 
@@ -253,49 +260,6 @@ def apply_reviewed_crosswalk(project_root: Path) -> None:
         "British Empire/colonial context": BRITISH_EMPIRE_CONTEXT_IDS,
     }
     TOKEN_LABEL_OVERRIDES = load_token_label_overrides(project_root, TOKEN_LABEL_OVERRIDES)
-
-
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace(r"^\s*$", pd.NA, regex=True)
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
-def ordered_unique(values) -> list[str]:
-    seen = set()
-    cleaned = []
-    for value in values:
-        if pd.isna(value):
-            continue
-        token = str(value).strip()
-        if token and token not in seen:
-            seen.add(token)
-            cleaned.append(token)
-    return cleaned
-
-
-def join_values(values) -> object:
-    cleaned = ordered_unique(values)
-    if not cleaned:
-        return pd.NA
-    return " | ".join(cleaned)
-
-
-def percentage(count: int, denominator: int) -> float:
-    if denominator == 0:
-        return 0.0
-    return round((count / denominator) * 100, 2)
-
-
-def qid_from_uri(value) -> object:
-    if pd.isna(value):
-        return pd.NA
-    token = str(value).strip().rstrip("/")
-    return token.rsplit("/", 1)[-1]
 
 
 def id_label_lookup_for_row(row) -> dict[str, str]:

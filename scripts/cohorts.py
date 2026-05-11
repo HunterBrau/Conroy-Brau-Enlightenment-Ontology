@@ -3,6 +3,7 @@ from pathlib import Path
 
 
 DEFAULT_COHORT_ID = "french_seed"
+COHORT_IDS = [DEFAULT_COHORT_ID, "global_writers"]
 
 
 @dataclass(frozen=True)
@@ -113,7 +114,7 @@ def cohort_paths(project_root: Path, cohort_id: str = DEFAULT_COHORT_ID) -> Coho
 
 def cohort_manifest_rows(project_root: Path) -> list[dict]:
     rows = []
-    for cohort_id in [DEFAULT_COHORT_ID, "global_writers"]:
+    for cohort_id in COHORT_IDS:
         paths = cohort_paths(project_root, cohort_id)
         rows.append(
             {

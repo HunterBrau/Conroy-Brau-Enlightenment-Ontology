@@ -97,7 +97,7 @@ Directory roles:
 | `docs/` | Pipeline contract and research notes |
 | `figures/` | Generated visuals |
 | `notebooks/` | Analysis and visualization notebooks only |
-| `outputs/` | Tables and presentation assets |
+| `outputs/` | Ignored scratch/presentation exports; active tables live in `data/processed/` |
 | `scripts/pipeline/` | Deterministic data pipeline steps |
 | `scripts/queries/` | Query helpers and source-acquisition scripts |
 | `scripts/analysis/` | Analysis helpers that consume processed data |
@@ -156,6 +156,9 @@ The country-of-citizenship methodology note lives in
 
 The current repo inventory and project reset lives in
 [docs/project_level_set.md](docs/project_level_set.md).
+
+The latest repository audit lives in
+[docs/repository_audit.md](docs/repository_audit.md).
 
 ## Pipeline Definition
 
@@ -484,9 +487,8 @@ pip install -r requirements.txt
 
 Current cleanup focus:
 
-- Align the repository with the 1675-1775 research scope.
-- Preserve VIAF ambiguity explicitly.
-- Diagnose the current pilot dataset before expanding interpretation.
-- Keep unresolved-label correction tables as a documented audit trail.
-- Make richer Wikidata enrichment reproducible before adding additional
-  authority systems.
+- Keep the French seed and global writer cohorts comparable.
+- Review the political-entity and occupation-bucket crosswalks.
+- Preserve VIAF ambiguity and unresolved-label corrections as audit trails.
+- Add visualization and BnF comparison layers only after the Wikidata evidence
+  tables have been reviewed.

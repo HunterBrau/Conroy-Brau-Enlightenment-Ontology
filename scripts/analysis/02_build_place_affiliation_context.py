@@ -15,7 +15,16 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
-
+from common import (  # noqa: E402
+    join_example_values,
+    join_values as join_pipe_values,
+    normalize_blank_strings,
+    percentage,
+    qid_uri,
+    qid_url,
+    ratio,
+    split_pipe_values,
+)
 from crosswalk import load_country_affiliation_mapping  # noqa: E402
 
 
@@ -32,46 +41,8 @@ def load_country_mapping(project_root: Path) -> dict[str, str]:
     return load_country_affiliation_mapping(project_root, dict(module.COUNTRY_ID_TO_AFFILIATION))
 
 
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace(r"^\s*$", pd.NA, regex=True)
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
 def join_values(values) -> object:
-    cleaned = sorted({str(value).strip() for value in values if pd.notna(value) and str(value).strip()})
-    if not cleaned:
-        return pd.NA
-    return " | ".join(cleaned)
-
-
-def join_example_values(values) -> str:
-    cleaned = sorted({str(value).strip() for value in values if pd.notna(value) and str(value).strip()})
-    return " | ".join(cleaned[:8])
-
-
-def qid_uri(qid: str) -> str:
-    return f"http://www.wikidata.org/entity/{qid}"
-
-
-def qid_url(qid: str) -> str:
-    return f"https://www.wikidata.org/wiki/{qid}"
-
-
-def percentage(count: int, total: int) -> float:
-    if total == 0:
-        return 0.0
-    return round((count / total) * 100, 2)
-
-
-def ratio(count: int, total: int) -> object:
-    if total == 0:
-        return pd.NA
-    return round(count / total, 4)
+    return join_pipe_values(values, sort=True)
 
 
 def classify_place_review_status(top_score: int, second_score: int, tie_count: int) -> str:

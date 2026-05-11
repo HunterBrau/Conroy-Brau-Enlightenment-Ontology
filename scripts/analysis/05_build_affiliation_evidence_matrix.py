@@ -19,7 +19,14 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
-
+from common import (  # noqa: E402
+    join_values,
+    normalize_blank_strings,
+    qid_from_uri,
+    qid_uri,
+    ratio,
+    split_pipe_values,
+)
 from crosswalk import load_country_affiliation_mapping  # noqa: E402
 
 
@@ -57,52 +64,6 @@ def load_representation_constants(project_root: Path) -> tuple[dict[str, str], d
     country_mapping = load_country_affiliation_mapping(project_root, dict(module.COUNTRY_ID_TO_AFFILIATION))
     language_mapping = dict(module.LANGUAGE_ID_TO_AFFILIATION)
     return country_mapping, language_mapping
-
-
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace(r"^\s*$", pd.NA, regex=True)
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
-def ordered_unique(values) -> list[str]:
-    seen = set()
-    cleaned = []
-    for value in values:
-        if pd.isna(value):
-            continue
-        token = str(value).strip()
-        if token and token not in seen:
-            seen.add(token)
-            cleaned.append(token)
-    return cleaned
-
-
-def join_values(values) -> object:
-    cleaned = ordered_unique(values)
-    if not cleaned:
-        return pd.NA
-    return " | ".join(cleaned)
-
-
-def ratio(numerator: int, denominator: int) -> object:
-    if denominator == 0:
-        return pd.NA
-    return round(numerator / denominator, 4)
-
-
-def qid_uri(qid: str) -> str:
-    return f"http://www.wikidata.org/entity/{qid}"
-
-
-def qid_from_uri(value) -> object:
-    if pd.isna(value):
-        return pd.NA
-    return str(value).strip().rstrip("/").rsplit("/", 1)[-1]
 
 
 def collect_mapped_affiliations(tokens: list[str], mapping: dict[str, str]) -> set[str]:

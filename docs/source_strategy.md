@@ -94,7 +94,9 @@ Wikidata-centered cohort is stable and after BnF comparison has been scoped.
 - Step 04 should enrich Wikidata fields before new external comparisons.
 - The first analysis layer should build cultural-affiliation and representation
   matrices from explicit evidence fields.
-- Step 06 should turn those matrices into map and network visualization
+- The occupation-bucket layer should keep writerly, non-writerly, and
+  religion/theology occupations visible for review.
+- A later visualization layer should turn the matrices into map and network
   datasets.
 - Step 07 should introduce BnF.
 - Step 09 should remain optional until a concrete question justifies it.

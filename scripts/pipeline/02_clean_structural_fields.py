@@ -7,6 +7,7 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from common import normalize_blank_strings  # noqa: E402
 
 
 POINT_PATTERN = re.compile(
@@ -33,13 +34,6 @@ def parse_point(value) -> tuple:
     lon = float(match.group(1))
     lat = float(match.group(2))
     return (lon, lat)
-
-
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Convert empty strings and whitespace-only strings to pandas NA.
-    """
-    return df.replace(r"^\s*$", pd.NA, regex=True)
 
 
 def extract_birth_year_candidates(value) -> set[int]:

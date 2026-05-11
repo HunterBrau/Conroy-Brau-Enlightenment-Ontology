@@ -5,28 +5,8 @@ from collections import Counter, defaultdict
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import cohort_paths  # noqa: E402
-
-
-COHORT_IDS = ["french_seed", "global_writers"]
-
-
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
-def percentage(count: int, total: int) -> float:
-    if total == 0:
-        return 0.0
-    return round((count / total) * 100, 2)
-
-
-def read_csv_if_exists(path: Path) -> pd.DataFrame:
-    if not path.exists():
-        return pd.DataFrame()
-    return pd.read_csv(path)
+from cohorts import COHORT_IDS, cohort_paths  # noqa: E402
+from common import percentage, read_csv_if_exists, split_pipe_values  # noqa: E402
 
 
 def build_summary_rows(project_root: Path) -> pd.DataFrame:

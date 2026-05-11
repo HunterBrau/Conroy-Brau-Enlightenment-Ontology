@@ -6,16 +6,11 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from common import percentage  # noqa: E402
 
 
 TOP_N = 15
 EXAMPLE_N = 10
-
-
-def percentage(count: int, total: int) -> float:
-    if total == 0:
-        return 0.0
-    return round((count / total) * 100, 2)
 
 
 def unique_join(series: pd.Series) -> object:

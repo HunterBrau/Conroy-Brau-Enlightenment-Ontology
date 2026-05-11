@@ -18,39 +18,18 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
-
+from common import (  # noqa: E402
+    EUROPEAN_LANGUAGE_CODES,
+    WIKI_COLUMNS,
+    bool_value,
+    join_values,
+    normalize_blank_strings,
+    percentage,
+    ratio,
+    split_pipe_values,
+)
 from crosswalk import load_country_affiliation_mapping  # noqa: E402
 
-
-WIKI_COLUMNS = {
-    "frwiki": "has_frwiki",
-    "enwiki": "has_enwiki",
-    "dewiki": "has_dewiki",
-    "itwiki": "has_itwiki",
-    "eswiki": "has_eswiki",
-    "plwiki": "has_plwiki",
-    "ruwiki": "has_ruwiki",
-    "ukwiki": "has_ukwiki",
-    "nlwiki": "has_nlwiki",
-    "ptwiki": "has_ptwiki",
-    "svwiki": "has_svwiki",
-    "dawiki": "has_dawiki",
-}
-
-EUROPEAN_LANGUAGE_CODES = [
-    "fr",
-    "en",
-    "de",
-    "it",
-    "es",
-    "pl",
-    "ru",
-    "uk",
-    "nl",
-    "pt",
-    "sv",
-    "da",
-]
 
 PIPE_COLUMNS = [
     "birth_year",
@@ -277,12 +256,6 @@ TOKEN_LABEL_OVERRIDES = {
 }
 
 
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
 def split_occupation_tokens(value) -> list[str]:
     tokens = []
     for pipe_value in split_pipe_values(value):
@@ -291,18 +264,11 @@ def split_occupation_tokens(value) -> list[str]:
 
 
 def bool_from_cell(value) -> bool:
-    if pd.isna(value):
-        return False
-    if isinstance(value, bool):
-        return value
-    return str(value).strip().lower() in {"true", "1", "yes"}
+    return bool_value(value)
 
 
 def join_unique_values(values) -> object:
-    cleaned = sorted({str(value).strip() for value in values if pd.notna(value) and str(value).strip()})
-    if not cleaned:
-        return pd.NA
-    return " | ".join(cleaned)
+    return join_values(values, sort=True)
 
 
 def join_pipe_values(values) -> object:
@@ -310,22 +276,6 @@ def join_pipe_values(values) -> object:
     if not cleaned:
         return pd.NA
     return " | ".join(cleaned)
-
-
-def percentage(count: int, total: int) -> float:
-    if total == 0:
-        return 0.0
-    return round((count / total) * 100, 2)
-
-
-def ratio(count: int, total: int) -> object:
-    if total == 0:
-        return pd.NA
-    return round(count / total, 4)
-
-
-def normalize_blank_strings(df: pd.DataFrame) -> pd.DataFrame:
-    return df.replace(r"^\s*$", pd.NA, regex=True)
 
 
 def load_name_corrections(project_root: Path) -> dict[str, str]:

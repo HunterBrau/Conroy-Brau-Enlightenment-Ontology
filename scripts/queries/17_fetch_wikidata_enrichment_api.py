@@ -7,6 +7,7 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from common import EUROPEAN_LANGUAGE_CODES as LANGUAGE_CODES, WIKI_COLUMNS  # noqa: E402
 
 from wikidata_api import (
     claim_qids,
@@ -19,22 +20,6 @@ from wikidata_api import (
     qid_uri,
 )
 
-
-LANGUAGE_CODES = ["fr", "en", "de", "it", "es", "pl", "ru", "uk", "nl", "pt", "sv", "da"]
-WIKI_COLUMNS = {
-    "frwiki": "has_frwiki",
-    "enwiki": "has_enwiki",
-    "dewiki": "has_dewiki",
-    "itwiki": "has_itwiki",
-    "eswiki": "has_eswiki",
-    "plwiki": "has_plwiki",
-    "ruwiki": "has_ruwiki",
-    "ukwiki": "has_ukwiki",
-    "nlwiki": "has_nlwiki",
-    "ptwiki": "has_ptwiki",
-    "svwiki": "has_svwiki",
-    "dawiki": "has_dawiki",
-}
 NON_WIKIPEDIA_WIKI_SITES = {
     "commonswiki",
     "incubatorwiki",

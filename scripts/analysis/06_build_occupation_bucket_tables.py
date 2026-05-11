@@ -15,26 +15,17 @@ import unicodedata
 import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
+from cohorts import COHORT_IDS, cohort_paths  # noqa: E402
+from common import (  # noqa: E402
+    WIKI_COLUMNS,
+    bool_value,
+    join_values,
+    qid_from_uri,
+    split_pipe_values,
+)
 
 
-COHORT_IDS = ["french_seed", "global_writers"]
 REFERENCE_PATH = Path("data/reference/occupation_bucket_crosswalk_seed.csv")
-
-WIKI_COLUMNS = {
-    "frwiki": "has_frwiki",
-    "enwiki": "has_enwiki",
-    "dewiki": "has_dewiki",
-    "itwiki": "has_itwiki",
-    "eswiki": "has_eswiki",
-    "plwiki": "has_plwiki",
-    "ruwiki": "has_ruwiki",
-    "ukwiki": "has_ukwiki",
-    "nlwiki": "has_nlwiki",
-    "ptwiki": "has_ptwiki",
-    "svwiki": "has_svwiki",
-    "dawiki": "has_dawiki",
-}
 
 BUCKET_FAMILIES = {
     "Writing / Literature": "Literary and textual production",
@@ -711,27 +702,6 @@ RULE_BUCKETS = [
 ]
 
 
-def split_pipe_values(value) -> list[str]:
-    if pd.isna(value):
-        return []
-    return [token.strip() for token in str(value).split("|") if token.strip()]
-
-
-def join_values(values) -> object:
-    cleaned = []
-    seen = set()
-    for value in values:
-        if pd.isna(value):
-            continue
-        token = str(value).strip()
-        if token and token not in seen:
-            seen.add(token)
-            cleaned.append(token)
-    if not cleaned:
-        return pd.NA
-    return " | ".join(cleaned)
-
-
 def normalize_label(value) -> str:
     if pd.isna(value):
         return ""
@@ -748,24 +718,6 @@ def normalize_label(value) -> str:
     normalized = unicodedata.normalize("NFKD", raw_text)
     ascii_text = "".join(char for char in normalized if not unicodedata.combining(char))
     return re.sub(r"\s+", " ", ascii_text).strip()
-
-
-def qid_from_uri(value) -> object:
-    if pd.isna(value):
-        return pd.NA
-    return str(value).strip().rstrip("/").rsplit("/", 1)[-1]
-
-
-def qid_uri(qid: str) -> str:
-    return f"http://www.wikidata.org/entity/{qid}"
-
-
-def bool_value(value) -> bool:
-    if isinstance(value, bool):
-        return value
-    if pd.isna(value):
-        return False
-    return str(value).strip().lower() in {"true", "1", "yes", "y"}
 
 
 def classify_bucket(occupation_id: str, occupation_label: str) -> tuple[str, str, str]:
