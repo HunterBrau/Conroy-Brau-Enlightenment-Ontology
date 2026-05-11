@@ -1,0 +1,14 @@
+metric,value,notes
+legacy_seed_raw_rows,1722,Rows in the original manual French-seed CSV.
+legacy_seed_distinct_qids,1638,Distinct QIDs in the original manual French seed.
+legacy_seed_qids_in_global_writers,1638,Legacy seed QIDs already present in the reproducible global writer cohort.
+legacy_seed_qids_missing_from_global_writers,0,Legacy seed QIDs not present in the reproducible global writer cohort.
+global_exact_france_q142_citizenship,1565,Global writers with P27 exactly France/Q142.
+global_crosswalk_france_citizenship,1664,Global writers with citizenship matching any France review-group QID in the crosswalk.
+global_france_any_citizenship_or_place_context,2922,Global writers with France crosswalk evidence in citizenship or place context.
+legacy_seed_exact_france_q142_citizenship,1327,Legacy seed QIDs with current P27 exactly France/Q142.
+legacy_seed_crosswalk_france_citizenship,1378,Legacy seed QIDs with current citizenship matching any France review-group QID.
+global_exact_q142_not_in_legacy_seed,238,Exact France/Q142 global writers absent from the legacy manual seed.
+legacy_seed_not_exact_q142,311,Legacy seed QIDs that are not current exact France/Q142 citizens in the global cohort.
+global_crosswalk_france_citizenship_not_in_legacy_seed,286,Crosswalk-France citizenship global writers absent from the legacy manual seed.
+legacy_seed_not_crosswalk_france_citizenship,260,Legacy seed QIDs without current crosswalk-France citizenship in the global cohort.

@@ -68,6 +68,15 @@ two raw CSVs:
 - `data/raw/18thcentury_french_writers_table.csv`
 - `data/raw/18thcentury_writers_wikidata_viaf.csv`
 
+Follow-up audit: the original French seed is now best treated as provenance,
+not active discovery. All 1,638 distinct QIDs from the legacy seed are present
+in the reproducible `global_writers` cohort. New France-facing comparisons
+should use the context-slice outputs generated from `global_writers`:
+
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/french_seed_redundancy_audit.csv`
+
 The first raw CSV is the base cohort. It has:
 
 ```text
@@ -97,14 +106,15 @@ analysis scripts.
 
 ## Original Gap
 
-The repo originally supported a French-nationality pilot cohort, while the
+The repo originally supported a manual French-facing pilot cohort, while the
 script also made claims about a global Wikidata writer/subclass cohort.
 
 Those are different corpora:
 
 ```text
-French citizenship seed:
-people born 1675-1775 with writer/subclass occupation and P27 France
+Legacy French-facing seed:
+manual export of people born 1675-1775 with writer/subclass occupation and
+French-facing selection criteria that were not preserved as a script
 
 Global writer/subclass cohort:
 people born 1675-1775 with writer/subclass occupation, regardless of citizenship
@@ -167,11 +177,11 @@ need a multi-signal analysis rather than one exact P27 query.
 
 ## Implemented Bridge
 
-1. The current corpus is labeled as `french_seed`, the French citizenship seed
-   or French-nationality pilot.
+1. The legacy corpus is labeled as `french_seed`, the earlier French-facing
+   pilot.
 
-2. The current analysis outputs are preserved, but described as analysis of
-   that French seed cohort only.
+2. Its current analysis outputs are preserved for backward compatibility, but
+   new France-facing claims should use global-derived context slices.
 
 3. A separate discovery layer exists for the global 1675-1775 writer/subclass
    cohort:

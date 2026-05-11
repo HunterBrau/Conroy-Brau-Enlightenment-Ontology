@@ -75,8 +75,8 @@ def cohort_paths(project_root: Path, cohort_id: str = DEFAULT_COHORT_ID) -> Coho
     if cohort_id == "french_seed":
         return CohortPaths(
             cohort_id="french_seed",
-            description="French country-of-citizenship writer/subclass seed cohort born 1675-1775.",
-            source_type="manual_wikidata_sparql_export_with_viaf_sidecar",
+            description="Legacy manual French-facing writer/subclass seed cohort born 1675-1775.",
+            source_type="legacy_manual_wikidata_sparql_export_with_viaf_sidecar",
             raw_discovery_path=project_root / "data" / "raw" / "18thcentury_french_writers_table.csv",
             raw_viaf_path=project_root / "data" / "raw" / "18thcentury_writers_wikidata_viaf.csv",
             raw_enrichment_path=project_root / "data" / "raw" / "wikidata_affiliation_enrichment.csv",
@@ -87,7 +87,8 @@ def cohort_paths(project_root: Path, cohort_id: str = DEFAULT_COHORT_ID) -> Coho
             date_min=1675,
             date_max=1775,
             primary_scope_note=(
-                "Current flat-file workflow. The seed is French citizenship/context; "
+                "Legacy flat-file workflow retained for provenance and backward compatibility. "
+                "Use global_writers context slices for new France-facing comparison claims; "
                 "VIAF is supporting authority metadata, not the discovery source."
             ),
         )

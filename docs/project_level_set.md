@@ -3,30 +3,38 @@
 Last updated: 2026-05-11.
 
 This note is the current working map of the repository after the French-seed
-to global-writer bridge. It separates active project truth from legacy
-provenance, generated data, local caches, and open decisions.
+to global-writer bridge and the reproducible context-slice layer. It separates
+active project truth from legacy provenance, generated data, local caches, and
+open decisions.
 
 ## Current Scholarly Scope
 
 - Canonical date range: 1675-1775.
 - Identity spine: Wikidata QIDs.
-- Current source family: Wikidata, with VIAF retained as supporting metadata
-  for the original French-seed export.
+- Current source family: Wikidata. VIAF is retained as supporting metadata for
+  the original French-seed export only.
 - Not yet active: BnF or additional external authority files.
 - Primary comparison frame approved in discussion: France, British/British
   imperial context, China/Qing context, and Germany.
 
-The project now has two explicit cohorts:
+The project has two explicit cohorts, but only one active discovery spine for
+new comparative claims:
 
 | Cohort | Meaning | Current distinct people |
 |---|---:|---:|
-| `french_seed` | Original French country-of-citizenship seed cohort, born 1675-1775, writer/subclass occupation | 1,638 |
-| `global_writers` | Global Wikidata humans born 1675-1775 with writer or subclass occupation | 14,377 |
+| `french_seed` | Legacy/manual French-facing seed, retained for provenance and backward compatibility | 1,638 |
+| `global_writers` | Reproducible global Wikidata humans born 1675-1775 with writer or subclass occupation | 14,377 |
 
 The original conference-script count of 18,697 is best understood as a
 person-birth-occupation row count, not a unique-person count. The current
 person spine keeps one row per QID and carries multiple occupation labels as
 multi-value fields.
+
+The legacy French seed is fully contained in `global_writers`: 1,638 / 1,638
+legacy QIDs appear in the reproducible global cohort. It should therefore be
+treated as provenance, not unique discovery data. New France, Germany,
+British, and China/Qing contrasts should use the context-slice outputs derived
+from `global_writers`.
 
 ## Active Pipeline
 
@@ -45,7 +53,8 @@ The active workflow is API-first after global discovery:
 11. Build geographic-scope diagnostics.
 12. Build formula-backed affiliation evidence.
 13. Build granular occupation-bucket tables.
-14. Compare cohorts.
+14. Build reproducible context-slice tables.
+15. Compare cohorts.
 
 Commands are documented in:
 
@@ -66,6 +75,9 @@ Commands are documented in:
 | `data/raw/global_writers_1675_1775_discovery.csv` | generated source | reproducible global discovery output |
 | `data/raw/*wikidata*_enrichment*.csv` | generated source | Wikidata API enrichment exports |
 | `data/raw/*place_context*.csv` | generated source | Wikidata API place-context exports |
+| `data/processed/global_writers/context_slice_membership.csv` | generated deliverable | reproducible France/Germany/British/China slice membership |
+| `data/processed/global_writers/context_slice_summary.csv` | generated deliverable | summary of reproducible context slices |
+| `data/processed/french_seed_redundancy_audit.csv` | generated audit | overlap between legacy French seed and global-derived French slices |
 | `data/interim/` | generated, ignored | merge/clean/diagnostic working tables |
 | `data/processed/` | generated deliverables | analysis-ready outputs, correction tables, comparison tables |
 | `data/raw/cache/` | local cache, ignored | resumable API responses; large but useful |
@@ -93,6 +105,7 @@ Commands are documented in:
 | `scripts/analysis/00_build_crosswalk_review_matrix.py` | active review | punchcard review table for the political crosswalk |
 | `scripts/analysis/05_build_affiliation_evidence_matrix.py` | active | formula-backed affiliation evidence tallies |
 | `scripts/analysis/06_build_occupation_bucket_tables.py` | active | occupation bucket crosswalk and bucket representation tables |
+| `scripts/analysis/07_build_context_slice_tables.py` | active | reproducible global context slices and legacy French-seed audit |
 
 ## Legacy Or Provenance Scripts
 
@@ -145,6 +158,15 @@ been emptied except for `.gitkeep`; active tables now live under
 | European share among binary-classified birth contexts | 98.52% | 94.18% |
 | Non-European/colonial share among binary-classified birth contexts | 1.48% | 5.82% |
 
+Current reproducible context slices from `global_writers`:
+
+| Slice | Any citizenship/place evidence | Citizenship evidence | Place-context evidence |
+|---|---:|---:|---:|
+| British | 2,099 | 1,454 | 1,570 |
+| China/Qing | 424 | 404 | 104 |
+| France | 2,922 | 1,664 | 2,713 |
+| Germany | 3,711 | 1,368 | 3,655 |
+
 ## Decisions Already Made
 
 - Keep 1675-1775 as canon.
@@ -152,7 +174,10 @@ been emptied except for `.gitkeep`; active tables now live under
   analysis is stable.
 - Use Wikidata API enrichment rather than large multivalued SPARQL joins.
 - Treat VIAF as supporting metadata, not as the current discovery source.
-- Preserve `french_seed`; do not relabel it as global.
+- Preserve `french_seed` as legacy/provenance; do not use it as unique
+  discovery data for new France claims.
+- Use `global_writers` plus context-slice tables for new France, Germany,
+  British, and China/Qing comparisons.
 - Treat country of citizenship as one evidence field, not a complete historical
   nationality answer.
 - Keep imperial categories visible because they are central to the argument.
@@ -165,6 +190,9 @@ been emptied except for `.gitkeep`; active tables now live under
   `needs_review`.
 - Decide high/medium/low presentation thresholds for the formula-backed
   affiliation scores after inspecting the tally outputs.
+- Decide whether the flat French-seed processed outputs should eventually move
+  under a legacy/provenance folder, after collaborators are comfortable with
+  the global-derived context slices.
 - Decide whether future generated `data/processed/` CSVs should be committed
   as research artifacts or regenerated locally as needed.
 - Decide which language editions appear in final visualizations versus full

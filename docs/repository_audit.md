@@ -61,8 +61,18 @@ The active project shape is:
 
 The active cohorts remain:
 
-- `french_seed`: 1,638 distinct Wikidata people.
-- `global_writers`: 14,377 distinct Wikidata people.
+- `french_seed`: 1,638 distinct Wikidata people, retained as legacy/provenance.
+- `global_writers`: 14,377 distinct Wikidata people, the active reproducible
+  discovery spine.
+
+The legacy French seed is redundant as discovery data: all 1,638 of its
+distinct QIDs are present in `global_writers`. New France/Germany/British/
+China comparisons should use the reproducible context-slice tables generated
+from the global cohort:
+
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/french_seed_redundancy_audit.csv`
 
 ## Intentional Retention
 
@@ -71,6 +81,8 @@ The following are not cleanup targets right now:
 - `data/raw/cache/`: large, ignored, and useful while API queries still change.
 - Legacy SPARQL scripts in `scripts/queries/`: no longer the recommended
   full-cohort route, but useful for provenance and small checks.
+- Legacy French-seed raw CSVs: retained so previous work can be audited, but
+  not needed for new discovery.
 - Versioned processed CSVs: currently useful for collaborator handoff and
   conference-facing reproducibility.
 - Reference crosswalk seed files: intentionally reviewable, even when some

@@ -43,11 +43,15 @@ and models.
    Build reviewable occupation buckets and language-edition representation
    summaries.
 
-10. **Visualization Layer - Map and Network Datasets** *(planned)*
+10. **Context Slice Layer - Reproducible Crosswalk Slices**
+    Derive France, Germany, British, and China/Qing slices from the global
+    cohort and political-entity crosswalk.
 
-11. **Step 07 - Compare with BnF** *(planned)*
+11. **Visualization Layer - Map and Network Datasets** *(planned)*
 
-12. **Step 08 - Optional Domain-Specific Enrichment** *(planned)*
+12. **Step 07 - Compare with BnF** *(planned)*
+
+13. **Step 08 - Optional Domain-Specific Enrichment** *(planned)*
 
 Between Step 03 and Step 04, the repository also includes a non-numbered
 label-correction helper that builds auditable correction tables for unresolved
@@ -57,8 +61,8 @@ Wikidata QID labels.
 
 The repository now has two explicit corpus tracks:
 
-- `french_seed`: the current flat-file French country-of-citizenship seed
-  cohort, with VIAF merged as supporting metadata.
+- `french_seed`: the legacy flat-file French-facing seed, with VIAF merged as
+  supporting metadata.
 - `global_writers`: the global Wikidata writer/subclass cohort born
   1675-1775, discovered without a country-of-citizenship filter.
 
@@ -86,6 +90,11 @@ query discovers humans born 1675-1775 with occupation writer or a subclass of
 writer. It currently returns 14,377 distinct Wikidata entities, which differs
 from the script's 18,697 table count and is documented in
 `docs/conference_script_alignment.md`.
+
+The original French seed is retained for provenance and backward
+compatibility, but it is no longer needed as a discovery source. Every legacy
+French-seed QID is present in `global_writers`. New France/Germany/British/
+China comparisons should use the reproducible context-slice layer instead.
 
 ## Core Rules
 
@@ -807,6 +816,49 @@ being silently folded into broad categories.
 
 For `global_writers`, the processed outputs are written under
 `data/processed/global_writers/`.
+
+## Context Slice Layer - Reproducible Crosswalk Slices
+
+Script:
+
+`scripts/analysis/07_build_context_slice_tables.py`
+
+### Purpose
+
+Derive comparison slices from the global writer cohort rather than relying on
+the original manual French seed. The script uses
+`data/reference/political_entity_affiliation_crosswalk_seed.csv` to identify
+France, Germany, British, and China/Qing evidence in country-of-citizenship
+and place-context fields.
+
+This layer is the reproducible replacement for new France-facing contrast
+claims. The old French seed stays available as provenance, but it should not be
+used as the canonical definition of France.
+
+### Inputs
+
+- `data/interim/global_writers/writers_wikidata_enriched.csv`
+- `data/processed/global_writers/place_context_long.csv`
+- `data/reference/political_entity_affiliation_crosswalk_seed.csv`
+- `data/raw/18thcentury_french_writers_table.csv` for the legacy overlap audit
+
+### Outputs
+
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/french_seed_redundancy_audit.csv`
+
+### Current French-Seed Audit
+
+The legacy seed has 1,638 distinct QIDs, and all 1,638 are already present in
+the reproducible global writer cohort. It is therefore redundant as discovery
+data. It is not equivalent to current exact `country of citizenship = France`
+because:
+
+- 311 legacy-seed QIDs are not current exact France/Q142 citizens.
+- 238 exact France/Q142 global writers are absent from the legacy seed.
+- 286 crosswalk-France citizenship global writers are absent from the legacy
+  seed.
 
 ## Planned Visualization Layer - Map and Network Datasets
 

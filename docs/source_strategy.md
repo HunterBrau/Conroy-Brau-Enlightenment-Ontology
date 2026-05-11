@@ -19,14 +19,17 @@ This keeps the pipeline:
 
 ## Immediate Sequence
 
-1. Keep the French seed and global writer cohorts separate.
+1. Keep the legacy French seed and global writer cohort separate, but use
+   `global_writers` as the discovery spine for new comparative claims.
 2. Maintain Wikidata API enrichment as the shared route for both cohorts.
 3. Build and review the political-entity crosswalk for France, Germany,
    British/British imperial contexts, and China/Qing contexts.
-4. Re-run diagnostics and representation matrices after crosswalk changes.
-5. Add BnF as the first external comparison source only after the Wikidata
+4. Use the context-slice layer to derive France, Germany, British, and
+   China/Qing comparison groups from the global cohort.
+5. Re-run diagnostics and representation matrices after crosswalk changes.
+6. Add BnF as the first external comparison source only after the Wikidata
    tracks are stable.
-6. Decide whether domain-specific external authorities are worth the added
+7. Decide whether domain-specific external authorities are worth the added
    complexity.
 
 ## Tier 1: Wikidata-Centered Expansion
@@ -96,6 +99,8 @@ Wikidata-centered cohort is stable and after BnF comparison has been scoped.
   matrices from explicit evidence fields.
 - The occupation-bucket layer should keep writerly, non-writerly, and
   religion/theology occupations visible for review.
+- The context-slice layer should replace the manual French seed for new
+  France/Germany/British/China comparisons.
 - A later visualization layer should turn the matrices into map and network
   datasets.
 - Step 07 should introduce BnF.

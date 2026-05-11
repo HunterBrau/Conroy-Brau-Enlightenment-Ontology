@@ -7,9 +7,12 @@ representation across Wikidata, VIAF, and related bibliographic systems.
 
 This project builds a reproducible data pipeline for a slow, inspectable
 "who's who" of Enlightenment-era cultural figures. The current working scope
-has two writer-centered Wikidata cohorts: the original French seed cohort and
-a global writer/subclass cohort. VIAF remains supporting metadata for the
-French seed; it is not the current discovery source.
+has a reproducible global writer/subclass cohort, plus a retained legacy
+French seed cohort for provenance and backward compatibility. New France,
+Germany, British, and China/Qing comparison slices should be derived from the
+global cohort through the reviewed political-entity crosswalk. VIAF remains
+supporting metadata for the legacy French seed; it is not the current discovery
+source.
 
 The project is inspired by the difference between simply counting cultural
 records and using computational methods to transform, model, and compare those
@@ -108,12 +111,21 @@ Directory roles:
 The repository now has two explicit cohorts declared in
 `data/cohorts/cohort_manifest.csv`:
 
-1. `french_seed`: the original French country-of-citizenship seed cohort,
+1. `french_seed`: the original manual French-facing seed cohort,
    using `data/raw/18thcentury_french_writers_table.csv` plus the VIAF sidecar
-   `data/raw/18thcentury_writers_wikidata_viaf.csv`.
+   `data/raw/18thcentury_writers_wikidata_viaf.csv`. This is retained as a
+   legacy/provenance cohort, not as the recommended source for new France
+   claims.
 2. `global_writers`: a reproducible Wikidata discovery cohort of humans born
    1675-1775 whose occupation is writer or a subclass of writer, using
    `data/raw/global_writers_1675_1775_discovery.csv`.
+
+The legacy French seed is fully contained in `global_writers`. The reproducible
+replacement for new contrast work is:
+
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/french_seed_redundancy_audit.csv`
 
 The original French-seed raw CSVs were exported manually from the Wikidata
 Query Service. The exact original query texts were not preserved, so the
@@ -130,9 +142,11 @@ place-affiliation, geographic-scope, and cohort-comparison tables.
 The project should expand outward in a deliberate order:
 
 1. Keep **Wikidata** as the identity spine.
-2. Preserve the French seed and global writer cohorts as separate tracks.
+2. Preserve the legacy French seed for provenance, but derive new comparison
+   slices from `global_writers`.
 3. Use API-based Wikidata enrichment for both cohorts.
-4. Build explicit comparison tables before adding another source family.
+4. Build explicit comparison and context-slice tables before adding another
+   source family.
 5. Add **BnF** as the first external comparison source only after the Wikidata
    tracks and political-entity crosswalk are stable.
 6. Add domain-specific authorities only if a research question clearly needs
@@ -283,7 +297,7 @@ Cohort manifest
 - Script: `scripts/pipeline/00_build_cohort_manifest.py`
 - Output: `data/cohorts/cohort_manifest.csv`
 - Cohorts:
-  - `french_seed`: current flat-file French citizenship seed
+  - `french_seed`: legacy flat-file French-facing seed
   - `global_writers`: global writer/subclass discovery cohort
 
 Global writer discovery
@@ -395,6 +409,19 @@ Analysis Layer 06: Granular occupation buckets
   - maps occupation QIDs to reviewable granular buckets
   - keeps Religion / Theology separate from Philosophy
   - summarizes bucket coverage and language-edition representation
+
+Context Slice Layer: Reproducible crosswalk slices
+
+- Script: `scripts/analysis/07_build_context_slice_tables.py`
+- Outputs:
+  - `data/processed/global_writers/context_slice_membership.csv`
+  - `data/processed/global_writers/context_slice_summary.csv`
+  - `data/processed/french_seed_redundancy_audit.csv`
+- Behavior:
+  - derives France, Germany, British, and China/Qing slices from the global
+    cohort and the reviewed political-entity crosswalk
+  - reports citizenship, place-context, and birth-place-context evidence
+  - audits why the original manual French seed is now redundant as discovery
 
 ## Planned Pipeline Steps
 

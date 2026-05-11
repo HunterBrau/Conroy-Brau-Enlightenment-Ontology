@@ -24,10 +24,10 @@ communities, and what evidence supports their inferred cultural affiliation?
 ## Current Scope
 
 - Cohort dates: 1675-1775.
-- Current cohorts: `french_seed` and `global_writers`.
+- Current cohorts: legacy `french_seed` and reproducible `global_writers`.
 - Occupation scope: writer or subclass of writer.
-- Corpus expansion beyond writer/subclass is deferred until the two current
-  Wikidata tracks and political-entity crosswalk are stable.
+- Corpus expansion beyond writer/subclass is deferred until the global writer
+  track, context slices, and political-entity crosswalk are stable.
 - Geographic scope: European language communities first.
 
 ## Language Editions
@@ -51,8 +51,9 @@ subset while keeping the full matrix available for analysis.
 
 ## Phase 1: Enrich the Current Cohorts
 
-Goal: build richer but still inspectable evidence tables for the French seed
-and global writer/subclass cohorts.
+Goal: build richer but still inspectable evidence tables for the legacy French
+seed and the global writer/subclass cohort, while using global-derived context
+slices for new France/Germany/British/China comparisons.
 
 Field families:
 

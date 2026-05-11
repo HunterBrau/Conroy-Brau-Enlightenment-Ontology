@@ -186,3 +186,26 @@ Run it after API enrichment and representation outputs exist:
 ```powershell
 python scripts/analysis/06_build_occupation_bucket_tables.py
 ```
+
+## 07_build_context_slice_tables.py
+
+Builds reproducible France, Germany, British, and China/Qing context slices
+from the global writer cohort and the reviewed political-entity crosswalk.
+This is the replacement layer for new France-facing contrast claims; the
+manual French seed remains provenance only.
+
+Outputs:
+
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/french_seed_redundancy_audit.csv`
+
+The audit table records that all 1,638 distinct legacy French-seed QIDs are
+already present in `global_writers`, while the old seed is not equivalent to
+current exact France/Q142 citizenship.
+
+Run it after the global place-context and political crosswalk layers exist:
+
+```powershell
+python scripts/analysis/07_build_context_slice_tables.py
+```
