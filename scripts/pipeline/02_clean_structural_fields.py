@@ -1,7 +1,12 @@
 from pathlib import Path
+from argparse import ArgumentParser
 import re
+import sys
 
 import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 
 
 POINT_PATTERN = re.compile(
@@ -56,12 +61,25 @@ def extract_birth_year_candidates(value) -> set[int]:
     }
 
 
-def main() -> None:
-    project_root = Path(__file__).resolve().parents[2]
+def parse_args() -> object:
+    parser = ArgumentParser(description="Clean structural fields for a cohort.")
+    parser.add_argument(
+        "--cohort-id",
+        default=DEFAULT_COHORT_ID,
+        choices=["french_seed", "global_writers"],
+        help=f"Cohort to clean. Default: {DEFAULT_COHORT_ID}.",
+    )
+    return parser.parse_args()
 
-    input_path = project_root / "data" / "interim" / "writers_merged.csv"
-    output_path = project_root / "data" / "interim" / "writers_cleaned.csv"
-    duplicates_path = project_root / "data" / "interim" / "duplicate_wikidata_ids.csv"
+
+def main() -> None:
+    args = parse_args()
+    project_root = Path(__file__).resolve().parents[2]
+    paths = cohort_paths(project_root, args.cohort_id)
+
+    input_path = paths.merged_path
+    output_path = paths.cleaned_path
+    duplicates_path = paths.duplicate_wikidata_ids_path
 
     df = pd.read_csv(input_path)
 
@@ -250,6 +268,7 @@ def main() -> None:
     duplicates_export.to_csv(duplicates_path, index=False)
 
     # Terminal summary.
+    print(f"Cohort: {paths.cohort_id}")
     print(f"Rows written: {len(df_export)}")
     print(f"Cleaned dataset: {output_path}")
     print(f"Duplicate rows file: {duplicates_path}")

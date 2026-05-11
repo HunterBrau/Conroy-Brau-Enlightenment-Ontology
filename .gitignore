@@ -23,6 +23,9 @@ Thumbs.db
 # Intermediate data files
 /data/interim/
 
+# Local API fetch caches
+/data/raw/cache/
+
 # Generated reports and presentation assets
 /outputs/*
 !/outputs/.gitkeep

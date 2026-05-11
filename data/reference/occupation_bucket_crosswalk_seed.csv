@@ -1,0 +1,1126 @@
+occupation_id,occupation_label,occupation_wikidata_url,granular_bucket,bucket_family,bucket_method,manual_review_status,is_writerly_seen,is_nonwriter_seen,all_cohorts_entity_count,all_cohorts_assignment_count,notes,french_seed_entity_count,french_seed_assignment_count,global_writers_entity_count,global_writers_assignment_count
+Q137178806,Q137178806,https://www.wikidata.org/wiki/Q137178806,Unmapped / Review,Needs review,unmapped,needs_review,False,True,15,15,,0,0,15,15
+Q1339249,syndic,https://www.wikidata.org/wiki/Q1339249,Unmapped / Review,Needs review,unmapped,needs_review,False,True,3,3,,0,0,3,3
+Q137178813,Q137178813,https://www.wikidata.org/wiki/Q137178813,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q135221314,Spanish–German translator,https://www.wikidata.org/wiki/Q135221314,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q39020112,Theaterintendant,https://www.wikidata.org/wiki/Q39020112,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q7969963,Warraq,https://www.wikidata.org/wiki/Q7969963,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q10989378,able seaman,https://www.wikidata.org/wiki/Q10989378,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q6484023,agent des terres,https://www.wikidata.org/wiki/Q6484023,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q519076,agent ou agente immobilier,https://www.wikidata.org/wiki/Q519076,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q3606216,aphoriste,https://www.wikidata.org/wiki/Q3606216,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q1279743,archidiaconé luthérien,https://www.wikidata.org/wiki/Q1279743,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q500251,armateur,https://www.wikidata.org/wiki/Q500251,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q4070283,artilleur,https://www.wikidata.org/wiki/Q4070283,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q155647,astrologue,https://www.wikidata.org/wiki/Q155647,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q4848450,bailli,https://www.wikidata.org/wiki/Q4848450,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q107198,barbier,https://www.wikidata.org/wiki/Q107198,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q215144,barde,https://www.wikidata.org/wiki/Q215144,Unmapped / Review,Needs review,unmapped,needs_review,True,False,2,2,,0,0,2,2
+Q4887411,bienfaiteur ou bienfaitrice,https://www.wikidata.org/wiki/Q4887411,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q336221,bijoutier,https://www.wikidata.org/wiki/Q336221,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q1760988,bourrelier,https://www.wikidata.org/wiki/Q1760988,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q833899,bouteiller,https://www.wikidata.org/wiki/Q833899,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q2340797,carrier,https://www.wikidata.org/wiki/Q2340797,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q23646062,cathedral preacher,https://www.wikidata.org/wiki/Q23646062,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q13381458,cavalier de dressage,https://www.wikidata.org/wiki/Q13381458,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q1569495,chargé ou chargée de cours,https://www.wikidata.org/wiki/Q1569495,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q2961975,chef ou cheffe d'entreprise,https://www.wikidata.org/wiki/Q2961975,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q1650915,chercheur ou chercheuse,https://www.wikidata.org/wiki/Q1650915,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q5131856,clerk,https://www.wikidata.org/wiki/Q5131856,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q30242234,combattant ou combattante pour la liberté,https://www.wikidata.org/wiki/Q30242234,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q738142,commis,https://www.wikidata.org/wiki/Q738142,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q3519259,comte ou comtesse,https://www.wikidata.org/wiki/Q3519259,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q11455387,concepteur ou conceptrice de meubles,https://www.wikidata.org/wiki/Q11455387,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q9379869,conférencier ou conférencière,https://www.wikidata.org/wiki/Q9379869,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q708492,conseiller municipal,https://www.wikidata.org/wiki/Q708492,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q201559,corsaire,https://www.wikidata.org/wiki/Q201559,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q156839,cuisinier ou cuisinière,https://www.wikidata.org/wiki/Q156839,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q79742018,dantiste,https://www.wikidata.org/wiki/Q79742018,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q47799218,education activist,https://www.wikidata.org/wiki/Q47799218,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q11051391,envoyé,https://www.wikidata.org/wiki/Q11051391,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q4479442,fondateur ou fondatrice,https://www.wikidata.org/wiki/Q4479442,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q21591523,fruiticulteur,https://www.wikidata.org/wiki/Q21591523,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q844586,gentry,https://www.wikidata.org/wiki/Q844586,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q3109488,gnomoniste,https://www.wikidata.org/wiki/Q3109488,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q627325,graphiste,https://www.wikidata.org/wiki/Q627325,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,4,,2,2,2,2
+Q641208,greffier,https://www.wikidata.org/wiki/Q641208,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q16271064,herpétologue,https://www.wikidata.org/wiki/Q16271064,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,4,,2,2,2,2
+Q10527030,humaniste,https://www.wikidata.org/wiki/Q10527030,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q10295465,hydrographe,https://www.wikidata.org/wiki/Q10295465,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q4199058,iconographe,https://www.wikidata.org/wiki/Q4199058,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q18524037,indianiste,https://www.wikidata.org/wiki/Q18524037,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q765541,kazasker,https://www.wikidata.org/wiki/Q765541,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q26487152,market merchant,https://www.wikidata.org/wiki/Q26487152,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q1585575,master of calculations,https://www.wikidata.org/wiki/Q1585575,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q1519593,maître d'armes,https://www.wikidata.org/wiki/Q1519593,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q29352392,maître spirituel,https://www.wikidata.org/wiki/Q29352392,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q326358,menuisier,https://www.wikidata.org/wiki/Q326358,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q6936867,munshi,https://www.wikidata.org/wiki/Q6936867,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q10333969,muséologue,https://www.wikidata.org/wiki/Q10333969,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q3332711,médiéviste,https://www.wikidata.org/wiki/Q3332711,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,4,,2,2,2,2
+Q783906,neurologue,https://www.wikidata.org/wiki/Q783906,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q17132038,paléographe,https://www.wikidata.org/wiki/Q17132038,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q2295938,pelletier,https://www.wikidata.org/wiki/Q2295938,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q384593,policier ou policière,https://www.wikidata.org/wiki/Q384593,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q28319434,pomologue,https://www.wikidata.org/wiki/Q28319434,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q21178131,portraitiste,https://www.wikidata.org/wiki/Q21178131,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q830337,prieur,https://www.wikidata.org/wiki/Q830337,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q20794925,principal de collège,https://www.wikidata.org/wiki/Q20794925,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,4,,2,2,2,2
+Q618532,propriétaire de bien,https://www.wikidata.org/wiki/Q618532,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q4178004,publicitaire,https://www.wikidata.org/wiki/Q4178004,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q11620676,rakugoka,https://www.wikidata.org/wiki/Q11620676,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q3427922,restaurateur ou restauratrice,https://www.wikidata.org/wiki/Q3427922,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q12097,roi,https://www.wikidata.org/wiki/Q12097,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q117280906,rådmand,https://www.wikidata.org/wiki/Q117280906,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q477406,régent,https://www.wikidata.org/wiki/Q477406,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q57260825,skilled trade,https://www.wikidata.org/wiki/Q57260825,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q133777278,slave driver,https://www.wikidata.org/wiki/Q133777278,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q15976341,slaviste,https://www.wikidata.org/wiki/Q15976341,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q14284,solliciteur,https://www.wikidata.org/wiki/Q14284,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q19513109,spécialiste du néerlandais,https://www.wikidata.org/wiki/Q19513109,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q1020593,stage author,https://www.wikidata.org/wiki/Q1020593,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q915830,subrécargue,https://www.wikidata.org/wiki/Q915830,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q17391659,théoricien ou théoricienne de l'architecture,https://www.wikidata.org/wiki/Q17391659,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q131062,urbaniste,https://www.wikidata.org/wiki/Q131062,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,3,,1,1,2,2
+Q685433,vendeur ou vendeuse,https://www.wikidata.org/wiki/Q685433,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q897317,viticulteur ou viticultrice,https://www.wikidata.org/wiki/Q897317,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q7940086,volcanologue,https://www.wikidata.org/wiki/Q7940086,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,4,,2,2,2,2
+Q690928,écoutète,https://www.wikidata.org/wiki/Q690928,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q1785507,écuyer,https://www.wikidata.org/wiki/Q1785507,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q382887,élu au service public,https://www.wikidata.org/wiki/Q382887,Unmapped / Review,Needs review,unmapped,needs_review,False,True,2,2,,0,0,2,2
+Q4677709,Actor-manager,https://www.wikidata.org/wiki/Q4677709,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2928765,Busshi,https://www.wikidata.org/wiki/Q2928765,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q124514016,Cartographic theorist,https://www.wikidata.org/wiki/Q124514016,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1723181,Chamber councilor,https://www.wikidata.org/wiki/Q1723181,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1410729,Cheikh al-Islam,https://www.wikidata.org/wiki/Q1410729,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q131416318,Church Slavonic writers,https://www.wikidata.org/wiki/Q131416318,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q36380,Compagnie de Jésus,https://www.wikidata.org/wiki/Q36380,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3687335,Conseil d'État,https://www.wikidata.org/wiki/Q3687335,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3023512,Deputy Lieutenant,https://www.wikidata.org/wiki/Q3023512,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1229301,Dissent,https://www.wikidata.org/wiki/Q1229301,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q20474860,Divan poet,https://www.wikidata.org/wiki/Q20474860,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q959495,Front Palace,https://www.wikidata.org/wiki/Q959495,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q64259642,Hofrat,https://www.wikidata.org/wiki/Q64259642,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16785008,Hovrättsråd,https://www.wikidata.org/wiki/Q16785008,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1723169,Kammermohr,https://www.wikidata.org/wiki/Q1723169,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q60523,Kannushi,https://www.wikidata.org/wiki/Q60523,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q5372393,Komminister,https://www.wikidata.org/wiki/Q5372393,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3138036,Kugyō,https://www.wikidata.org/wiki/Q3138036,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1795352,Kämmerer,https://www.wikidata.org/wiki/Q1795352,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q667579,Landaman,https://www.wikidata.org/wiki/Q667579,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q587111,Le Père de mes enfants,https://www.wikidata.org/wiki/Q587111,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q956365,Liedermacher,https://www.wikidata.org/wiki/Q956365,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6823854,Methodist local preacher,https://www.wikidata.org/wiki/Q6823854,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1746361,Minifundia,https://www.wikidata.org/wiki/Q1746361,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1853585,Mohel,https://www.wikidata.org/wiki/Q1853585,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q106887414,Q106887414,https://www.wikidata.org/wiki/Q106887414,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q108439375,Q108439375,https://www.wikidata.org/wiki/Q108439375,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11071934,Q11071934,https://www.wikidata.org/wiki/Q11071934,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11496906,Q11496906,https://www.wikidata.org/wiki/Q11496906,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11569980,Q11569980,https://www.wikidata.org/wiki/Q11569980,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12786593,Q12786593,https://www.wikidata.org/wiki/Q12786593,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q132561893,Q132561893,https://www.wikidata.org/wiki/Q132561893,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q132907677,Q132907677,https://www.wikidata.org/wiki/Q132907677,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1411233,Q1411233,https://www.wikidata.org/wiki/Q1411233,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1796848,Q1796848,https://www.wikidata.org/wiki/Q1796848,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q25524195,Q25524195,https://www.wikidata.org/wiki/Q25524195,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q28950950,Q28950950,https://www.wikidata.org/wiki/Q28950950,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q42296462,Q42296462,https://www.wikidata.org/wiki/Q42296462,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q48976409,Q48976409,https://www.wikidata.org/wiki/Q48976409,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q52008294,Q52008294,https://www.wikidata.org/wiki/Q52008294,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q55092218,Q55092218,https://www.wikidata.org/wiki/Q55092218,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q866195,Q866195,https://www.wikidata.org/wiki/Q866195,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11625245,Rangaku scholar,https://www.wikidata.org/wiki/Q11625245,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11348277,Revivalist,https://www.wikidata.org/wiki/Q11348277,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1265001,Schulrat,https://www.wikidata.org/wiki/Q1265001,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q78952848,adultère,https://www.wikidata.org/wiki/Q78952848,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q5148404,agent colonial,https://www.wikidata.org/wiki/Q5148404,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q323336,agent commercial ou agente commerciale,https://www.wikidata.org/wiki/Q323336,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q4182927,agent de change,https://www.wikidata.org/wiki/Q4182927,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16148831,agent immobilier,https://www.wikidata.org/wiki/Q16148831,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q108333755,agent musical,https://www.wikidata.org/wiki/Q108333755,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q114009157,agent économique,https://www.wikidata.org/wiki/Q114009157,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q369894,aide de camp,https://www.wikidata.org/wiki/Q369894,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q4726509,aliéniste,https://www.wikidata.org/wiki/Q4726509,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1155908,ancien,https://www.wikidata.org/wiki/Q1155908,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16308156,angliciste,https://www.wikidata.org/wiki/Q16308156,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16360440,anthologiste,https://www.wikidata.org/wiki/Q16360440,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q124371677,apprenti maçon,https://www.wikidata.org/wiki/Q124371677,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1643514,arrangeur musical,https://www.wikidata.org/wiki/Q1643514,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q19361459,assyriologue,https://www.wikidata.org/wiki/Q19361459,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1498177,aumônier de prison,https://www.wikidata.org/wiki/Q1498177,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2095549,aviateur ou aviatrice,https://www.wikidata.org/wiki/Q2095549,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q54475348,balnéologue,https://www.wikidata.org/wiki/Q54475348,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q64152206,baltisant,https://www.wikidata.org/wiki/Q64152206,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11242506,bandit de grand chemin,https://www.wikidata.org/wiki/Q11242506,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q81710,berger ou bergère,https://www.wikidata.org/wiki/Q81710,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q71049101,bohémiste,https://www.wikidata.org/wiki/Q71049101,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q329737,boucher ou bouchère,https://www.wikidata.org/wiki/Q329737,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q177529,bourgmestre,https://www.wikidata.org/wiki/Q177529,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2926103,bronzier ou bronzière,https://www.wikidata.org/wiki/Q2926103,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2893972,béguine,https://www.wikidata.org/wiki/Q2893972,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q599898,cacique,https://www.wikidata.org/wiki/Q599898,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q316498,cadet,https://www.wikidata.org/wiki/Q316498,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q23924991,cafetier,https://www.wikidata.org/wiki/Q23924991,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1735282,caissier ou caissière,https://www.wikidata.org/wiki/Q1735282,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16868721,carcinologiste,https://www.wikidata.org/wiki/Q16868721,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q22813360,cartomancien,https://www.wikidata.org/wiki/Q22813360,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2730732,cavalier,https://www.wikidata.org/wiki/Q2730732,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q20814940,caviste,https://www.wikidata.org/wiki/Q20814940,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1639239,chapelier ou chapelière,https://www.wikidata.org/wiki/Q1639239,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q833418,charron,https://www.wikidata.org/wiki/Q833418,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2961411,chasseur d'esclaves,https://www.wikidata.org/wiki/Q2961411,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1714828,chasseur ou chasseresse,https://www.wikidata.org/wiki/Q1714828,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3499072,chef cuisinier ou chef cuisinière,https://www.wikidata.org/wiki/Q3499072,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q806349,chef de groupe musical,https://www.wikidata.org/wiki/Q806349,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2855502,chef de police,https://www.wikidata.org/wiki/Q2855502,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q185166,cheikh,https://www.wikidata.org/wiki/Q185166,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q15401884,chercheur médical,https://www.wikidata.org/wiki/Q15401884,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q102083,chevalier,https://www.wikidata.org/wiki/Q102083,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q5121619,circuit rider,https://www.wikidata.org/wiki/Q5121619,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q57398902,city manager,https://www.wikidata.org/wiki/Q57398902,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q118865,clarinettiste,https://www.wikidata.org/wiki/Q118865,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q139142334,classical oboist,https://www.wikidata.org/wiki/Q139142334,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2978942,clergé réfractaire,https://www.wikidata.org/wiki/Q2978942,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q5131853,clerk,https://www.wikidata.org/wiki/Q5131853,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q114371470,coadjuteur,https://www.wikidata.org/wiki/Q114371470,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q55187,coiffeur ou coiffeuse,https://www.wikidata.org/wiki/Q55187,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q118908201,collecteur de poésie populaire,https://www.wikidata.org/wiki/Q118908201,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q125389672,collecteur de tradition orale,https://www.wikidata.org/wiki/Q125389672,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q54905468,collectionneur d'antiquités,https://www.wikidata.org/wiki/Q54905468,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q58481158,collectionneur d'estampes,https://www.wikidata.org/wiki/Q58481158,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q638172,colporteur,https://www.wikidata.org/wiki/Q638172,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q5152616,commissaire,https://www.wikidata.org/wiki/Q5152616,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q119243802,commissaire chargeur,https://www.wikidata.org/wiki/Q119243802,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2101758,commissaire de police,https://www.wikidata.org/wiki/Q2101758,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q20724003,commissaire des guerres,https://www.wikidata.org/wiki/Q20724003,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2743689,commissaire-priseur,https://www.wikidata.org/wiki/Q2743689,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q5177051,comtesse,https://www.wikidata.org/wiki/Q5177051,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q67175841,concepteur de chaussures,https://www.wikidata.org/wiki/Q67175841,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q273108,condottiere,https://www.wikidata.org/wiki/Q273108,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1126160,connaisseur,https://www.wikidata.org/wiki/Q1126160,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3154693,conseil municipal,https://www.wikidata.org/wiki/Q3154693,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2994371,conseiller du roi,https://www.wikidata.org/wiki/Q2994371,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2994387,conseiller ou conseillère,https://www.wikidata.org/wiki/Q2994387,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q16185210,conseiller ou conseillère politique,https://www.wikidata.org/wiki/Q16185210,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2994439,conservateur de bibliothèque,https://www.wikidata.org/wiki/Q2994439,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q446966,conservateur-restaurateur ou conservatrice-restauratrice,https://www.wikidata.org/wiki/Q446966,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q5784340,consort,https://www.wikidata.org/wiki/Q5784340,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2106711,constructeur naval,https://www.wikidata.org/wiki/Q2106711,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q207978,consul,https://www.wikidata.org/wiki/Q207978,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2997128,cordier,https://www.wikidata.org/wiki/Q2997128,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1155838,correspondant local ou correspondante locale de presse,https://www.wikidata.org/wiki/Q1155838,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q164236,correspondant ou correspondante de guerre,https://www.wikidata.org/wiki/Q164236,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q2274587,corrégidor,https://www.wikidata.org/wiki/Q2274587,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1622975,court poet,https://www.wikidata.org/wiki/Q1622975,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q236979,courtier maritime,https://www.wikidata.org/wiki/Q236979,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1058617,criminaliste,https://www.wikidata.org/wiki/Q1058617,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q8142883,criminologue,https://www.wikidata.org/wiki/Q8142883,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q15442776,cryptographe,https://www.wikidata.org/wiki/Q15442776,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2217284,créateur ou créatrice de marionnettes,https://www.wikidata.org/wiki/Q2217284,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2519927,custode,https://www.wikidata.org/wiki/Q2519927,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1165430,daoshi,https://www.wikidata.org/wiki/Q1165430,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6735310,demoiselle d'honneur,https://www.wikidata.org/wiki/Q6735310,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q47520669,diplomatician,https://www.wikidata.org/wiki/Q47520669,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q8011724,diseur de bonne aventure,https://www.wikidata.org/wiki/Q8011724,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q842811,diététicien ou diététicienne,https://www.wikidata.org/wiki/Q842811,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q281795,doreur ou doreuse,https://www.wikidata.org/wiki/Q281795,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1136290,drogman,https://www.wikidata.org/wiki/Q1136290,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q27044075,duelliste,https://www.wikidata.org/wiki/Q27044075,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12360779,démographe,https://www.wikidata.org/wiki/Q12360779,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q842782,détective,https://www.wikidata.org/wiki/Q842782,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q63755505,employé ou employée d'organisme public,https://www.wikidata.org/wiki/Q63755505,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1495385,enlisted navy sailor,https://www.wikidata.org/wiki/Q1495385,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q14595679,enseigne,https://www.wikidata.org/wiki/Q14595679,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q189829,ermite,https://www.wikidata.org/wiki/Q189829,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12773225,esclave,https://www.wikidata.org/wiki/Q12773225,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q10591707,escroc,https://www.wikidata.org/wiki/Q10591707,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2467532,exorciste,https://www.wikidata.org/wiki/Q2467532,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q381160,expert,https://www.wikidata.org/wiki/Q381160,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q3062119,exploitant ou exploitante agricole,https://www.wikidata.org/wiki/Q3062119,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1409420,feudataire,https://www.wikidata.org/wiki/Q1409420,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1859236,figure folklorique,https://www.wikidata.org/wiki/Q1859236,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q52107355,folklore collector,https://www.wikidata.org/wiki/Q52107355,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12031226,fondeur ou fondeuse,https://www.wikidata.org/wiki/Q12031226,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q2249955,fondeur ou fondeuse de caractères,https://www.wikidata.org/wiki/Q2249955,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q937857,footballeur ou footballeuse,https://www.wikidata.org/wiki/Q937857,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1453786,gardien,https://www.wikidata.org/wiki/Q1453786,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1537035,gondolier,https://www.wikidata.org/wiki/Q1537035,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q62663452,gouache painter,https://www.wikidata.org/wiki/Q62663452,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1260609,grand sénéchal de Suède,https://www.wikidata.org/wiki/Q1260609,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q14290559,guide,https://www.wikidata.org/wiki/Q14290559,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q855091,guitariste,https://www.wikidata.org/wiki/Q855091,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3127709,harpiste,https://www.wikidata.org/wiki/Q3127709,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q16003954,hautboïste,https://www.wikidata.org/wiki/Q16003954,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1067977,hazzan,https://www.wikidata.org/wiki/Q1067977,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3133901,herboriste,https://www.wikidata.org/wiki/Q3133901,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6302990,huissier de justice,https://www.wikidata.org/wiki/Q6302990,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1636680,humaniste de la Renaissance,https://www.wikidata.org/wiki/Q1636680,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q22336956,humanitaire,https://www.wikidata.org/wiki/Q22336956,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q245068,humoriste,https://www.wikidata.org/wiki/Q245068,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q49197733,hungarologue,https://www.wikidata.org/wiki/Q49197733,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1148872,imitateur,https://www.wikidata.org/wiki/Q1148872,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1413522,imposteur,https://www.wikidata.org/wiki/Q1413522,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3149505,improvisateur ou improvisatrice,https://www.wikidata.org/wiki/Q3149505,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1664338,inquisiteur,https://www.wikidata.org/wiki/Q1664338,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1954172,inspirateur ou inspiratrice,https://www.wikidata.org/wiki/Q1954172,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q13138067,instrumentiste à cordes,https://www.wikidata.org/wiki/Q13138067,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3153026,intendant,https://www.wikidata.org/wiki/Q3153026,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q557880,investisseur,https://www.wikidata.org/wiki/Q557880,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3155377,islamologue,https://www.wikidata.org/wiki/Q3155377,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q26831285,joueur de ney,https://www.wikidata.org/wiki/Q26831285,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q53713594,joueur de txistu,https://www.wikidata.org/wiki/Q53713594,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12299841,joueur ou joueuse de cricket,https://www.wikidata.org/wiki/Q12299841,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q10312792,juiz de fora,https://www.wikidata.org/wiki/Q10312792,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12350380,kabbaliste,https://www.wikidata.org/wiki/Q12350380,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6345855,kadi,https://www.wikidata.org/wiki/Q6345855,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3813950,katib,https://www.wikidata.org/wiki/Q3813950,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q22125847,kimono dealer,https://www.wikidata.org/wiki/Q22125847,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q63860448,law teacher,https://www.wikidata.org/wiki/Q63860448,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q6505433,lay theologian,https://www.wikidata.org/wiki/Q6505433,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q18966441,leutnant,https://www.wikidata.org/wiki/Q18966441,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16314361,lexicologue,https://www.wikidata.org/wiki/Q16314361,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q15924544,lichénologue,https://www.wikidata.org/wiki/Q15924544,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q10567966,liturgiste,https://www.wikidata.org/wiki/Q10567966,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q84271380,livestock farmer,https://www.wikidata.org/wiki/Q84271380,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q4175034,législateur ou législatrice,https://www.wikidata.org/wiki/Q4175034,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1466992,lögsögumad,https://www.wikidata.org/wiki/Q1466992,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3277296,magnétiseur,https://www.wikidata.org/wiki/Q3277296,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1126165,mandarin,https://www.wikidata.org/wiki/Q1126165,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q19641,marja-e taqlid,https://www.wikidata.org/wiki/Q19641,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q59325804,martiniste,https://www.wikidata.org/wiki/Q59325804,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q327321,maçon ou maçonne,https://www.wikidata.org/wiki/Q327321,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1284709,maître de guilde,https://www.wikidata.org/wiki/Q1284709,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1463475,maître de la monnaie,https://www.wikidata.org/wiki/Q1463475,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q99735926,maître de pension,https://www.wikidata.org/wiki/Q99735926,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16321429,maître de thé,https://www.wikidata.org/wiki/Q16321429,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1664236,maître des requêtes,https://www.wikidata.org/wiki/Q1664236,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1075186,maîtresse royale,https://www.wikidata.org/wiki/Q1075186,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q273283,mendiant ou mendiante,https://www.wikidata.org/wiki/Q273283,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q178197,mercenaire,https://www.wikidata.org/wiki/Q178197,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q56994345,metricist,https://www.wikidata.org/wiki/Q56994345,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q820037,mineur ou mineuse,https://www.wikidata.org/wiki/Q820037,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q47494964,miniaturiste,https://www.wikidata.org/wiki/Q47494964,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6589202,ministère de l'Intérieur,https://www.wikidata.org/wiki/Q6589202,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q18199649,modiste,https://www.wikidata.org/wiki/Q18199649,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q282718,mosaïste,https://www.wikidata.org/wiki/Q282718,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q15982858,motivateur,https://www.wikidata.org/wiki/Q15982858,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q721960,mousquetaire,https://www.wikidata.org/wiki/Q721960,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16665527,munitionnaire,https://www.wikidata.org/wiki/Q16665527,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q88200885,museum founder,https://www.wikidata.org/wiki/Q88200885,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q61996872,musicographe,https://www.wikidata.org/wiki/Q61996872,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12270170,mutakallim,https://www.wikidata.org/wiki/Q12270170,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16724455,mythologue,https://www.wikidata.org/wiki/Q16724455,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q123266739,nautical scientist,https://www.wikidata.org/wiki/Q123266739,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q28966333,needleworker,https://www.wikidata.org/wiki/Q28966333,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q49084,nouvelle,https://www.wikidata.org/wiki/Q49084,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12797895,occultiste,https://www.wikidata.org/wiki/Q12797895,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q10611691,ornamental sculptor,https://www.wikidata.org/wiki/Q10611691,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q855855,page,https://www.wikidata.org/wiki/Q855855,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q6059640,panégyriste,https://www.wikidata.org/wiki/Q6059640,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q3362826,papetier,https://www.wikidata.org/wiki/Q3362826,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q20857490,pastelliste,https://www.wikidata.org/wiki/Q20857490,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q55982999,pastoraliste,https://www.wikidata.org/wiki/Q55982999,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3368718,pathologiste,https://www.wikidata.org/wiki/Q3368718,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q28869817,payador,https://www.wikidata.org/wiki/Q28869817,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2723794,peda,https://www.wikidata.org/wiki/Q2723794,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q62627163,pedestrian,https://www.wikidata.org/wiki/Q62627163,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q10624795,perruquier,https://www.wikidata.org/wiki/Q10624795,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q5428874,personnel académique,https://www.wikidata.org/wiki/Q5428874,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q13163812,pickpocket,https://www.wikidata.org/wiki/Q13163812,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q64085211,planter,https://www.wikidata.org/wiki/Q64085211,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q323081,polyglotte,https://www.wikidata.org/wiki/Q323081,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q107711,pompier ou pompière,https://www.wikidata.org/wiki/Q107711,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q50916064,popular educator,https://www.wikidata.org/wiki/Q50916064,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q931732,posseq,https://www.wikidata.org/wiki/Q931732,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q59938940,pottery painter,https://www.wikidata.org/wiki/Q59938940,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q691031,premier violon,https://www.wikidata.org/wiki/Q691031,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q203184,première dame,https://www.wikidata.org/wiki/Q203184,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q207293,prince héritier,https://www.wikidata.org/wiki/Q207293,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1402736,privat-docent,https://www.wikidata.org/wiki/Q1402736,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q31837745,private tutor,https://www.wikidata.org/wiki/Q31837745,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1299283,privatier,https://www.wikidata.org/wiki/Q1299283,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2627699,problémiste,https://www.wikidata.org/wiki/Q2627699,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q13235160,producteur ou productrice,https://www.wikidata.org/wiki/Q13235160,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q47541952,producteur ou productrice artistique,https://www.wikidata.org/wiki/Q47541952,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q11974939,professionnel ou professionnelle de la santé,https://www.wikidata.org/wiki/Q11974939,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q26805550,propriétaire de mine,https://www.wikidata.org/wiki/Q26805550,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q14915751,prostitué ou prostituée,https://www.wikidata.org/wiki/Q14915751,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12640328,prébendier,https://www.wikidata.org/wiki/Q12640328,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1285463,préfet,https://www.wikidata.org/wiki/Q1285463,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q371909,préfet,https://www.wikidata.org/wiki/Q371909,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q896598,président du district,https://www.wikidata.org/wiki/Q896598,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q30461,président ou présidente,https://www.wikidata.org/wiki/Q30461,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3765897,pubblicista journalist,https://www.wikidata.org/wiki/Q3765897,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q1191511,pâtissier ou pâtissière,https://www.wikidata.org/wiki/Q1191511,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3595924,qari,https://www.wikidata.org/wiki/Q3595924,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q45353897,qu writer,https://www.wikidata.org/wiki/Q45353897,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q1125062,rebelle,https://www.wikidata.org/wiki/Q1125062,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q130027784,recipe collector,https://www.wikidata.org/wiki/Q130027784,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q42909,reporter ou reportrice,https://www.wikidata.org/wiki/Q42909,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q1251441,responsable,https://www.wikidata.org/wiki/Q1251441,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2145981,restaurateur ou restauratrice d'art,https://www.wikidata.org/wiki/Q2145981,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q7380496,rural dean,https://www.wikidata.org/wiki/Q7380496,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2144983,répétiteur ou répétitrice,https://www.wikidata.org/wiki/Q2144983,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1365552,sacristain,https://www.wikidata.org/wiki/Q1365552,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q703534,salarié,https://www.wikidata.org/wiki/Q703534,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q38142,samouraï,https://www.wikidata.org/wiki/Q38142,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1324245,sapeur,https://www.wikidata.org/wiki/Q1324245,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q947305,scalde,https://www.wikidata.org/wiki/Q947305,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q17054093,schout,https://www.wikidata.org/wiki/Q17054093,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16997621,scieur,https://www.wikidata.org/wiki/Q16997621,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2707485,scénographe,https://www.wikidata.org/wiki/Q2707485,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3479990,serrurier,https://www.wikidata.org/wiki/Q3479990,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q4448440,sesen,https://www.wikidata.org/wiki/Q4448440,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2777958,shochet,https://www.wikidata.org/wiki/Q2777958,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q40309200,silhouettiste,https://www.wikidata.org/wiki/Q40309200,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1897112,skipper,https://www.wikidata.org/wiki/Q1897112,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12718544,socialiste,https://www.wikidata.org/wiki/Q12718544,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1126281,souffleur,https://www.wikidata.org/wiki/Q1126281,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q16742175,spéléologue,https://www.wikidata.org/wiki/Q16742175,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q16061291,stomatologue,https://www.wikidata.org/wiki/Q16061291,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1566164,stove builder,https://www.wikidata.org/wiki/Q1566164,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q29948997,surinamiste,https://www.wikidata.org/wiki/Q29948997,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q20919317,surveying engineer,https://www.wikidata.org/wiki/Q20919317,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q3507251,sylviculteur ou sylvicultrice,https://www.wikidata.org/wiki/Q3507251,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1591359,sysselmann,https://www.wikidata.org/wiki/Q1591359,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1155081,séminariste catholique,https://www.wikidata.org/wiki/Q1155081,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q365461,tanneur,https://www.wikidata.org/wiki/Q365461,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1907198,taxinomiste,https://www.wikidata.org/wiki/Q1907198,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q28255863,textologue,https://www.wikidata.org/wiki/Q28255863,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1716419,tourneur sur bois,https://www.wikidata.org/wiki/Q1716419,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q30029759,trafiquant de fourrures,https://www.wikidata.org/wiki/Q30029759,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q9304839,transformiste,https://www.wikidata.org/wiki/Q9304839,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q811122,travailleur de la construction,https://www.wikidata.org/wiki/Q811122,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q2588761,travailleur qualifié ou travailleuse qualifiée,https://www.wikidata.org/wiki/Q2588761,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12377274,trompettiste,https://www.wikidata.org/wiki/Q12377274,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q388338,trésorier,https://www.wikidata.org/wiki/Q388338,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q17345122,urologue,https://www.wikidata.org/wiki/Q17345122,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q196721,usineur,https://www.wikidata.org/wiki/Q196721,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q416718,vagabond,https://www.wikidata.org/wiki/Q416718,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q102253066,vaudevilliste,https://www.wikidata.org/wiki/Q102253066,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q72683543,viguier,https://www.wikidata.org/wiki/Q72683543,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q21771805,viniculteur,https://www.wikidata.org/wiki/Q21771805,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3560496,violoneux,https://www.wikidata.org/wiki/Q3560496,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q664283,vitrier ou vitrière,https://www.wikidata.org/wiki/Q664283,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3562775,voleur ou voleuse,https://www.wikidata.org/wiki/Q3562775,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q51619,vénérable,https://www.wikidata.org/wiki/Q51619,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q4231368,walī Allah,https://www.wikidata.org/wiki/Q4231368,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q21596860,writing master,https://www.wikidata.org/wiki/Q21596860,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q559597,ébéniste,https://www.wikidata.org/wiki/Q559597,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1218704,échevin,https://www.wikidata.org/wiki/Q1218704,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1823479,éclairagiste,https://www.wikidata.org/wiki/Q1823479,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q15839134,écologue,https://www.wikidata.org/wiki/Q15839134,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q12344332,économe,https://www.wikidata.org/wiki/Q12344332,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q62836368,électeur,https://www.wikidata.org/wiki/Q62836368,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q166382,émir,https://www.wikidata.org/wiki/Q166382,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q26237228,épigrammatiste,https://www.wikidata.org/wiki/Q26237228,Unmapped / Review,Needs review,unmapped,needs_review,True,False,1,1,,0,0,1,1
+Q5403434,éthicien ou éthicienne,https://www.wikidata.org/wiki/Q5403434,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q1381391,évangéliste,https://www.wikidata.org/wiki/Q1381391,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,1,,0,0,1,1
+Q3542795,œnologue,https://www.wikidata.org/wiki/Q3542795,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q1726903,,https://www.wikidata.org/wiki/Q1726903,Unmapped / Review,Needs review,unmapped,needs_review,False,True,1,2,,1,1,1,1
+Q36180,écrivain ou écrivaine,https://www.wikidata.org/wiki/Q36180,Writing / Literature,Literary and textual production,exact_qid:writer,suggested,True,False,10243,11400,,1157,1157,10243,10243
+Q49757,poète ou poétesse,https://www.wikidata.org/wiki/Q49757,Writing / Literature,Literary and textual production,exact_qid:poet,suggested,True,False,4145,4530,,385,385,4145,4145
+Q214917,dramaturge,https://www.wikidata.org/wiki/Q214917,Writing / Literature,Literary and textual production,exact_qid:playwright,suggested,True,False,1050,1436,,386,386,1050,1050
+Q333634,traducteur ou traductrice,https://www.wikidata.org/wiki/Q333634,Translation / Philology / Languages,Literary and textual production,exact_qid:translator,suggested,False,True,1038,1293,,255,255,1038,1038
+Q82955,personnalité politique,https://www.wikidata.org/wiki/Q82955,Politics / Statecraft / Diplomacy,Institutional power,exact_qid:politician,suggested,False,True,863,1104,,241,241,863,863
+Q201788,historien ou historienne,https://www.wikidata.org/wiki/Q201788,Education / Scholarship / Humanities,Intellectual systems,exact_qid:historian,suggested,False,True,777,921,,144,144,777,777
+Q1234713,théologien ou théologienne,https://www.wikidata.org/wiki/Q1234713,Religion / Theology,Intellectual systems,exact_qid:theologian,suggested,False,True,681,702,,21,21,681,681
+Q1622272,professeur d'université,https://www.wikidata.org/wiki/Q1622272,Education / Scholarship / Humanities,Intellectual systems,exact_qid:university professor,suggested,False,True,539,577,,38,38,539,539
+Q4964182,philosophe,https://www.wikidata.org/wiki/Q4964182,Philosophy,Intellectual systems,exact_qid:philosopher,suggested,False,True,442,552,,110,110,442,442
+Q1930187,journaliste,https://www.wikidata.org/wiki/Q1930187,Print / Publishing / Journalism,Literary and textual production,exact_qid:journalist,suggested,True,False,404,561,,157,157,404,404
+Q185351,juriste,https://www.wikidata.org/wiki/Q185351,Law / Administration,Institutional power,exact_qid:jurist,suggested,False,True,398,441,,43,43,398,398
+Q37226,enseignant ou enseignante,https://www.wikidata.org/wiki/Q37226,Education / Scholarship / Humanities,Intellectual systems,exact_qid:teacher,suggested,False,True,391,423,,32,32,391,391
+Q250867,prêtre catholique,https://www.wikidata.org/wiki/Q250867,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,352,410,,58,58,352,352
+Q39631,médecin,https://www.wikidata.org/wiki/Q39631,Medicine / Health,Scientific knowledge,exact_qid:physician,suggested,False,True,335,368,,33,33,335,335
+Q8178443,librettiste,https://www.wikidata.org/wiki/Q8178443,Writing / Literature,Literary and textual production,exact_qid:librettist,suggested,True,False,308,404,,96,96,308,308
+Q6625963,romancier ou romancière,https://www.wikidata.org/wiki/Q6625963,Writing / Literature,Literary and textual production,exact_qid:novelist,suggested,True,False,307,381,,74,74,307,307
+Q1028181,artiste peintre,https://www.wikidata.org/wiki/Q1028181,Visual Arts / Architecture / Design,Arts and performance,exact_qid:painter,suggested,False,True,285,321,,36,36,285,285
+Q40348,avocat ou avocate,https://www.wikidata.org/wiki/Q40348,Law / Administration,Institutional power,label_rule:avocat,suggested,False,True,285,373,,88,88,285,285
+Q42603,prêtre,https://www.wikidata.org/wiki/Q42603,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,264,271,,7,7,264,264
+Q182436,bibliothécaire,https://www.wikidata.org/wiki/Q182436,Education / Scholarship / Humanities,Intellectual systems,label_rule:bibliothecaire,suggested,False,True,240,288,,48,48,240,240
+Q193391,diplomate,https://www.wikidata.org/wiki/Q193391,Politics / Statecraft / Diplomacy,Institutional power,exact_qid:diplomat,suggested,False,True,239,326,,87,87,239,239
+Q36834,compositeur ou compositrice,https://www.wikidata.org/wiki/Q36834,Music / Performance / Theatre,Arts and performance,exact_qid:composer,suggested,False,True,237,272,,35,35,237,237
+Q152002,pasteur,https://www.wikidata.org/wiki/Q152002,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,234,245,,11,11,234,234
+Q13424456,psalmiste,https://www.wikidata.org/wiki/Q13424456,Religion / Theology,Intellectual systems,label_rule:psalmiste,suggested,True,False,231,233,,2,2,231,231
+Q14467526,linguiste,https://www.wikidata.org/wiki/Q14467526,Translation / Philology / Languages,Literary and textual production,label_rule:linguiste,suggested,False,True,220,271,,51,51,220,220
+Q33999,acteur ou actrice,https://www.wikidata.org/wiki/Q33999,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,211,265,,54,54,211,211
+Q864380,biographe,https://www.wikidata.org/wiki/Q864380,Writing / Literature,Literary and textual production,label_rule:biographe,suggested,True,False,204,243,,39,39,204,204
+Q18939491,diariste,https://www.wikidata.org/wiki/Q18939491,Writing / Literature,Literary and textual production,label_rule:diariste,suggested,True,False,203,221,,18,18,203,203
+Q47064,militaire,https://www.wikidata.org/wiki/Q47064,Military,Institutional power,exact_qid:military person,suggested,False,True,202,266,,64,64,202,202
+Q432386,prédicateur,https://www.wikidata.org/wiki/Q432386,Religion / Theology,Intellectual systems,label_rule:predicateur,suggested,False,True,177,184,,7,7,177,177
+Q1231865,pédagogue,https://www.wikidata.org/wiki/Q1231865,Education / Scholarship / Humanities,Intellectual systems,label_rule:pedagogue,suggested,False,True,177,199,,22,22,177,177
+Q2516866,éditeur ou éditrice,https://www.wikidata.org/wiki/Q2516866,Print / Publishing / Journalism,Literary and textual production,exact_qid:editor,suggested,False,True,161,187,,26,26,161,161
+Q170790,mathématicien ou mathématicienne,https://www.wikidata.org/wiki/Q170790,Science / Natural History,Scientific knowledge,label_rule:mathematicien,suggested,False,True,159,198,,39,39,159,159
+Q189290,officier,https://www.wikidata.org/wiki/Q189290,Military,Institutional power,label_rule:officier,suggested,False,True,155,201,,46,46,155,155
+Q11774202,essayiste,https://www.wikidata.org/wiki/Q11774202,Writing / Literature,Literary and textual production,exact_qid:essayist,suggested,True,False,145,201,,56,56,145,145
+Q2374149,botaniste,https://www.wikidata.org/wiki/Q2374149,Science / Natural History,Scientific knowledge,exact_qid:botanist,suggested,False,True,142,176,,34,34,142,142
+Q4263842,critique littéraire,https://www.wikidata.org/wiki/Q4263842,Writing / Literature,Literary and textual production,label_rule:critique litteraire,suggested,True,False,140,186,,46,46,140,140
+Q1423891,ministre du culte,https://www.wikidata.org/wiki/Q1423891,Religion / Theology,Intellectual systems,label_rule:ministre du culte,suggested,False,True,140,143,,3,3,140,140
+Q2259532,clerc,https://www.wikidata.org/wiki/Q2259532,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,125,130,,5,5,125,125
+Q13418253,philologue,https://www.wikidata.org/wiki/Q13418253,Translation / Philology / Languages,Literary and textual production,label_rule:philologue,suggested,False,True,124,144,,20,20,124,124
+Q18814623,autobiographe,https://www.wikidata.org/wiki/Q18814623,Writing / Literature,Literary and textual production,exact_qid:autobiographer,suggested,True,False,123,136,,13,13,123,123
+Q2259451,acteur ou actrice de théâtre,https://www.wikidata.org/wiki/Q2259451,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,120,141,,21,21,120,120
+Q998550,libraire,https://www.wikidata.org/wiki/Q998550,Print / Publishing / Journalism,Literary and textual production,label_rule:libraire,suggested,False,True,112,140,,28,28,112,112
+Q1607826,éditeur ou éditrice,https://www.wikidata.org/wiki/Q1607826,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,False,True,107,129,,22,22,107,107
+Q1209498,juriste-poète,https://www.wikidata.org/wiki/Q1209498,Writing / Literature,Literary and textual production,label_rule:poete,suggested,True,False,103,110,,7,7,103,103
+Q955464,curé,https://www.wikidata.org/wiki/Q955464,Religion / Theology,Intellectual systems,label_rule:cure,suggested,False,True,101,104,,3,3,101,101
+Q188094,économiste,https://www.wikidata.org/wiki/Q188094,Economics / Commerce,Institutional power,exact_qid:economist,suggested,False,True,101,128,,27,27,101,101
+Q11774156,mémorialiste,https://www.wikidata.org/wiki/Q11774156,Writing / Literature,Literary and textual production,label_rule:memorialiste,suggested,True,False,100,125,,25,25,100,100
+Q96236305,pasteur luthérien,https://www.wikidata.org/wiki/Q96236305,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,99,101,,2,2,99,99
+Q14972848,lexicographe,https://www.wikidata.org/wiki/Q14972848,Translation / Philology / Languages,Literary and textual production,label_rule:lexicographe,suggested,False,True,97,127,,30,30,97,97
+Q16533,juge,https://www.wikidata.org/wiki/Q16533,Law / Administration,Institutional power,label_rule:juge,suggested,False,True,94,105,,11,11,94,94
+Q18805,naturaliste,https://www.wikidata.org/wiki/Q18805,Science / Natural History,Scientific knowledge,exact_qid:naturalist,suggested,False,True,89,109,,20,20,89,89
+Q175151,imprimeur ou imprimeuse,https://www.wikidata.org/wiki/Q175151,Print / Publishing / Journalism,Literary and textual production,label_rule:imprimeur,suggested,False,True,85,103,,18,18,85,85
+Q15296811,dessinateur ou dessinatrice,https://www.wikidata.org/wiki/Q15296811,Visual Arts / Architecture / Design,Arts and performance,label_rule:dessinateur,suggested,False,True,82,102,,20,20,82,82
+Q482980,auteur,https://www.wikidata.org/wiki/Q482980,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,80,86,,6,6,80,80
+Q212238,fonctionnaire,https://www.wikidata.org/wiki/Q212238,Law / Administration,Institutional power,exact_qid:civil servant,suggested,False,True,79,88,,9,9,79,79
+Q3621491,archéologue,https://www.wikidata.org/wiki/Q3621491,Education / Scholarship / Humanities,Intellectual systems,label_rule:archeologue,suggested,False,True,77,97,,20,20,77,77
+Q6673651,homme ou femme de lettres,https://www.wikidata.org/wiki/Q6673651,Writing / Literature,Literary and textual production,label_rule:homme ou femme de lettres,suggested,False,True,77,92,,15,15,77,77
+Q215536,marchand ou marchande,https://www.wikidata.org/wiki/Q215536,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,77,83,,6,6,77,77
+Q6051619,publiciste,https://www.wikidata.org/wiki/Q6051619,Print / Publishing / Journalism,Literary and textual production,label_rule:publiciste,suggested,True,False,76,90,,14,14,76,76
+Q599151,haut fonctionnaire ou haute fonctionnaire,https://www.wikidata.org/wiki/Q599151,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,74,103,,29,29,74,74
+Q1792450,historien ou historienne de l'art,https://www.wikidata.org/wiki/Q1792450,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,74,95,,21,21,74,74
+Q3068305,salonnier ou salonnière,https://www.wikidata.org/wiki/Q3068305,Sociability / Patronage / Court,Social and cultural mediation,label_rule:salonniere,suggested,False,True,71,106,,35,35,71,71
+Q24262594,écrivain religieux,https://www.wikidata.org/wiki/Q24262594,Religion / Theology,Intellectual systems,label_rule:religieux,suggested,True,False,69,71,,2,2,69,69
+Q901402,géographe,https://www.wikidata.org/wiki/Q901402,Travel / Geography / Exploration,Mobility and empire,exact_qid:geographer,suggested,False,True,68,90,,22,22,68,68
+Q169470,physicien ou physicienne,https://www.wikidata.org/wiki/Q169470,Science / Natural History,Scientific knowledge,exact_qid:physicist,suggested,False,True,67,86,,19,19,67,67
+Q733786,moine ou moniale,https://www.wikidata.org/wiki/Q733786,Religion / Theology,Intellectual systems,label_rule:moine,suggested,False,True,66,73,,7,7,66,66
+Q639669,musicien ou musicienne,https://www.wikidata.org/wiki/Q639669,Music / Performance / Theatre,Arts and performance,exact_qid:musician,suggested,False,True,65,72,,7,7,65,65
+Q11063,astronome,https://www.wikidata.org/wiki/Q11063,Science / Natural History,Scientific knowledge,exact_qid:astronomer,suggested,False,True,63,80,,17,17,63,63
+Q3303330,calligraphe,https://www.wikidata.org/wiki/Q3303330,Visual Arts / Architecture / Design,Arts and performance,label_rule:calligraphe,suggested,False,True,63,64,,1,1,63,63
+Q3579035,chroniqueur de voyage,https://www.wikidata.org/wiki/Q3579035,Writing / Literature,Literary and textual production,label_rule:chroniqueur,suggested,True,False,63,71,,8,8,63,63
+Q3409375,prêtre anglican,https://www.wikidata.org/wiki/Q3409375,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,59,60,,1,1,59,59
+Q219477,missionnaire,https://www.wikidata.org/wiki/Q219477,Religion / Theology,Intellectual systems,label_rule:missionnaire,suggested,False,True,57,59,,2,2,57,57
+Q131512,agriculteur ou agricultrice,https://www.wikidata.org/wiki/Q131512,Craft / Trade / Industry,Material production,label_rule:agriculteur,suggested,False,True,56,58,,2,2,56,56
+Q487596,dramaturge,https://www.wikidata.org/wiki/Q487596,Writing / Literature,Literary and textual production,label_rule:dramaturge,suggested,True,False,56,66,,10,10,56,56
+Q744738,encyclopédiste,https://www.wikidata.org/wiki/Q744738,Education / Scholarship / Humanities,Intellectual systems,label_rule:encyclopediste,suggested,False,True,56,110,,54,54,56,56
+Q11900058,explorateur ou exploratrice,https://www.wikidata.org/wiki/Q11900058,Travel / Geography / Exploration,Mobility and empire,exact_qid:explorer,suggested,False,True,55,68,,13,13,55,55
+Q3589290,épistolier ou épistolière,https://www.wikidata.org/wiki/Q3589290,Writing / Literature,Literary and textual production,label_rule:epistolier,suggested,True,False,55,65,,10,10,55,55
+Q42973,architecte,https://www.wikidata.org/wiki/Q42973,Visual Arts / Architecture / Design,Arts and performance,exact_qid:architect,suggested,False,True,54,69,,15,15,54,54
+Q774306,chirurgien ou chirurgienne,https://www.wikidata.org/wiki/Q774306,Medicine / Health,Scientific knowledge,label_rule:chirurgien,suggested,False,True,50,55,,5,5,50,50
+Q2566598,religieux ou religieuse catholique,https://www.wikidata.org/wiki/Q2566598,Religion / Theology,Intellectual systems,label_rule:religieux,suggested,False,True,50,52,,2,2,50,50
+Q635734,archiviste,https://www.wikidata.org/wiki/Q635734,Education / Scholarship / Humanities,Intellectual systems,label_rule:archiviste,suggested,False,True,48,53,,5,5,48,48
+Q98833883,théologien protestant,https://www.wikidata.org/wiki/Q98833883,Religion / Theology,Intellectual systems,label_rule:theologien,suggested,False,True,47,47,,0,0,47,47
+Q5758653,enseignant ou enseignante du secondaire,https://www.wikidata.org/wiki/Q5758653,Education / Scholarship / Humanities,Intellectual systems,label_rule:enseignant,suggested,False,True,46,46,,0,0,46,46
+Q11569986,graveur ou graveuse d'estampes,https://www.wikidata.org/wiki/Q11569986,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,46,62,,16,16,46,46
+Q20826540,érudit,https://www.wikidata.org/wiki/Q20826540,Education / Scholarship / Humanities,Intellectual systems,label_rule:erudit,suggested,False,True,46,50,,4,4,46,46
+Q611644,évêque catholique,https://www.wikidata.org/wiki/Q611644,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,45,52,,7,7,45,45
+Q3055126,entomologiste,https://www.wikidata.org/wiki/Q3055126,Science / Natural History,Scientific knowledge,label_rule:entomologiste,suggested,False,True,42,53,,11,11,42,42
+Q121594,professeur,https://www.wikidata.org/wiki/Q121594,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,42,57,,15,15,42,42
+Q4504549,religieux ou religieuse,https://www.wikidata.org/wiki/Q4504549,Religion / Theology,Intellectual systems,label_rule:religieux,suggested,False,True,42,49,,7,7,42,42
+Q4991371,soldat,https://www.wikidata.org/wiki/Q4991371,Military,Institutional power,label_rule:soldat,suggested,False,True,42,49,,7,7,42,42
+Q81096,ingénieur,https://www.wikidata.org/wiki/Q81096,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,41,55,,14,14,41,41
+Q14915627,musicologue,https://www.wikidata.org/wiki/Q14915627,Music / Performance / Theatre,Arts and performance,label_rule:musicologue,suggested,False,True,41,49,,8,8,41,41
+Q753110,auteur-compositeur ou autrice-compositrice,https://www.wikidata.org/wiki/Q753110,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,40,43,,3,3,40,40
+Q808967,barrister,https://www.wikidata.org/wiki/Q808967,Law / Administration,Institutional power,label_rule:barrister,suggested,False,True,39,39,,0,0,39,39
+Q1734662,cartographe,https://www.wikidata.org/wiki/Q1734662,Travel / Geography / Exploration,Mobility and empire,label_rule:cartographe,suggested,False,True,39,49,,10,10,39,39
+Q16258947,fonctionnaire,https://www.wikidata.org/wiki/Q16258947,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,39,39,,0,0,39,39
+Q372436,homme ou femme d'État,https://www.wikidata.org/wiki/Q372436,Politics / Statecraft / Diplomacy,Institutional power,label_rule:homme ou femme d'etat,suggested,False,True,39,45,,6,6,39,39
+Q56033776,pasteur réformé,https://www.wikidata.org/wiki/Q56033776,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,39,39,,0,0,39,39
+Q4853732,auteur ou autrice de littérature pour la jeunesse,https://www.wikidata.org/wiki/Q4853732,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,38,52,,14,14,38,38
+Q177220,chanteur ou chanteuse,https://www.wikidata.org/wiki/Q177220,Music / Performance / Theatre,Arts and performance,label_rule:chanteur,suggested,False,True,38,43,,5,5,38,38
+Q1776724,directeur ou directrice de théâtre,https://www.wikidata.org/wiki/Q1776724,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,38,45,,7,7,38,38
+Q1999841,faqîh,https://www.wikidata.org/wiki/Q1999841,Religion / Theology,Intellectual systems,label_rule:faqih,suggested,False,True,37,37,,0,0,37,37
+Q974144,éducateur ou éducatrice,https://www.wikidata.org/wiki/Q974144,Education / Scholarship / Humanities,Intellectual systems,label_rule:educateur,suggested,False,True,37,41,,4,4,37,37
+Q2478141,aristocrate,https://www.wikidata.org/wiki/Q2478141,Sociability / Patronage / Court,Social and cultural mediation,label_rule:aristocrate,suggested,False,True,36,45,,9,9,36,36
+Q1781198,agronome,https://www.wikidata.org/wiki/Q1781198,Science / Natural History,Scientific knowledge,label_rule:agronome,suggested,False,True,35,46,,11,11,35,35
+Q593644,chimiste,https://www.wikidata.org/wiki/Q593644,Science / Natural History,Scientific knowledge,exact_qid:chemist,suggested,False,True,35,45,,10,10,35,35
+Q12356615,voyageur ou voyageuse,https://www.wikidata.org/wiki/Q12356615,Travel / Geography / Exploration,Mobility and empire,label_rule:voyageur,suggested,False,True,35,44,,9,9,35,35
+Q13391399,chansonnier,https://www.wikidata.org/wiki/Q13391399,Writing / Literature,Literary and textual production,label_rule:chansonnier,suggested,True,False,34,60,,26,26,34,34
+Q10732476,collectionneur ou collectionneuse d'œuvres d'art,https://www.wikidata.org/wiki/Q10732476,Visual Arts / Architecture / Design,Arts and performance,label_rule:collectionneur ou collectionneuse d'oeuvres d'art,suggested,False,True,34,43,,9,9,34,34
+Q13570226,historien ou historienne de la littérature,https://www.wikidata.org/wiki/Q13570226,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,34,42,,8,8,34,34
+Q2468727,érudit classique,https://www.wikidata.org/wiki/Q2468727,Education / Scholarship / Humanities,Intellectual systems,label_rule:erudit,suggested,False,True,34,45,,11,11,34,34
+Q644687,illustrateur ou illustratrice,https://www.wikidata.org/wiki/Q644687,Visual Arts / Architecture / Design,Arts and performance,label_rule:illustrateur,suggested,False,True,33,36,,3,3,33,33
+Q822146,parolier ou parolière,https://www.wikidata.org/wiki/Q822146,Writing / Literature,Literary and textual production,label_rule:parolier,suggested,True,False,33,34,,1,1,33,33
+Q901,scientifique,https://www.wikidata.org/wiki/Q901,Science / Natural History,Scientific knowledge,exact_qid:scientist,suggested,False,True,33,43,,10,10,33,33
+Q5697103,antiquaire,https://www.wikidata.org/wiki/Q5697103,Education / Scholarship / Humanities,Intellectual systems,label_rule:antiquaire,suggested,False,True,31,34,,3,3,31,31
+Q40881196,imprimeur-libraire ou imprimeuse-libraire,https://www.wikidata.org/wiki/Q40881196,Print / Publishing / Journalism,Literary and textual production,label_rule:imprimeur,suggested,False,True,31,39,,8,8,31,31
+Q205375,inventeur,https://www.wikidata.org/wiki/Q205375,Engineering / Technology,Scientific knowledge,exact_qid:inventor,suggested,False,True,31,40,,9,9,31,31
+Q329439,orfèvre graveur ou graveuse,https://www.wikidata.org/wiki/Q329439,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,30,36,,6,6,30,30
+Q43845,personnalité du monde des affaires,https://www.wikidata.org/wiki/Q43845,Economics / Commerce,Institutional power,label_rule:personnalite du monde des affaires,suggested,False,True,30,33,,3,3,30,30
+Q12144794,prosateur ou prosatrice,https://www.wikidata.org/wiki/Q12144794,Writing / Literature,Literary and textual production,label_rule:prosateur,suggested,True,False,30,37,,7,7,30,30
+Q1104153,chanoine,https://www.wikidata.org/wiki/Q1104153,Religion / Theology,Intellectual systems,label_rule:chanoine,suggested,False,True,29,33,,4,4,29,29
+Q51174991,church writer,https://www.wikidata.org/wiki/Q51174991,Religion / Theology,Intellectual systems,label_rule:church writer,suggested,True,False,29,29,,0,0,29,29
+Q3243461,collectionneur ou collectionneuse,https://www.wikidata.org/wiki/Q3243461,Sociability / Patronage / Court,Social and cultural mediation,label_rule:collectionneur ou collectionneuse,suggested,False,True,29,36,,7,7,29,29
+Q4594605,magistrat ou magistrate,https://www.wikidata.org/wiki/Q4594605,Law / Administration,Institutional power,label_rule:magistrat,suggested,False,True,29,44,,15,15,29,29
+Q15472169,mécène,https://www.wikidata.org/wiki/Q15472169,Sociability / Patronage / Court,Social and cultural mediation,label_rule:mecene,suggested,False,True,29,35,,6,6,29,29
+Q16254673,pamphlétaire,https://www.wikidata.org/wiki/Q16254673,Writing / Literature,Literary and textual production,label_rule:pamphletaire,suggested,True,False,29,38,,9,9,29,29
+Q15980158,auteur ou autrice de non-fiction,https://www.wikidata.org/wiki/Q15980158,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,28,33,,5,5,28,28
+Q2004963,numismate,https://www.wikidata.org/wiki/Q2004963,Education / Scholarship / Humanities,Intellectual systems,label_rule:numismate,suggested,False,True,28,30,,2,2,28,28
+Q98833890,théologien ou théologienne catholique,https://www.wikidata.org/wiki/Q98833890,Religion / Theology,Intellectual systems,label_rule:theologien,suggested,False,True,28,28,,0,0,28,28
+Q4773904,anthropologue,https://www.wikidata.org/wiki/Q4773904,Education / Scholarship / Humanities,Intellectual systems,label_rule:anthropologue,suggested,False,True,27,38,,11,11,27,27
+Q483501,artiste,https://www.wikidata.org/wiki/Q483501,Visual Arts / Architecture / Design,Arts and performance,label_rule:artiste,suggested,False,True,27,32,,5,5,27,27
+Q765778,organiste,https://www.wikidata.org/wiki/Q765778,Music / Performance / Theatre,Arts and performance,label_rule:organiste,suggested,False,True,27,28,,1,1,27,27
+Q16267607,philologue classique,https://www.wikidata.org/wiki/Q16267607,Translation / Philology / Languages,Literary and textual production,label_rule:philologue,suggested,False,True,27,29,,2,2,27,27
+Q831474,prêtre chrétien,https://www.wikidata.org/wiki/Q831474,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,27,28,,1,1,27,27
+Q876864,éditeur associé,https://www.wikidata.org/wiki/Q876864,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,True,False,27,28,,1,1,27,27
+Q1731155,orientaliste,https://www.wikidata.org/wiki/Q1731155,Translation / Philology / Languages,Literary and textual production,label_rule:orientaliste,suggested,False,True,25,28,,3,3,25,25
+Q1225716,ornithologue,https://www.wikidata.org/wiki/Q1225716,Science / Natural History,Scientific knowledge,label_rule:ornithologue,suggested,False,True,25,33,,8,8,25,25
+Q350979,zoologiste,https://www.wikidata.org/wiki/Q350979,Science / Natural History,Scientific knowledge,exact_qid:zoologist,suggested,False,True,25,35,,10,10,25,25
+Q18510179,abolitionniste,https://www.wikidata.org/wiki/Q18510179,Social Reform / Activism,Social and cultural mediation,label_rule:abolitionniste,suggested,False,True,24,25,,1,1,24,24
+Q18120029,bibliophile,https://www.wikidata.org/wiki/Q18120029,Education / Scholarship / Humanities,Intellectual systems,label_rule:bibliophile,suggested,False,True,24,35,,11,11,24,24
+Q3064032,fabuliste,https://www.wikidata.org/wiki/Q3064032,Writing / Literature,Literary and textual production,label_rule:fabuliste,suggested,True,False,24,39,,15,15,24,24
+Q13365770,graveur sur cuivre,https://www.wikidata.org/wiki/Q13365770,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,24,29,,5,5,24,24
+Q133485,rabbin,https://www.wikidata.org/wiki/Q133485,Religion / Theology,Intellectual systems,label_rule:rabbin,suggested,False,True,24,25,,1,1,24,24
+Q80687,secrétaire,https://www.wikidata.org/wiki/Q80687,Law / Administration,Institutional power,label_rule:secretaire,suggested,False,True,24,28,,4,4,24,24
+Q1925963,artiste graphique,https://www.wikidata.org/wiki/Q1925963,Visual Arts / Architecture / Design,Arts and performance,label_rule:artiste,suggested,False,True,23,29,,6,6,23,23
+Q715222,dame de compagnie,https://www.wikidata.org/wiki/Q715222,Sociability / Patronage / Court,Social and cultural mediation,label_rule:dame de compagnie,suggested,False,True,23,31,,8,8,23,23
+Q520549,géologue,https://www.wikidata.org/wiki/Q520549,Science / Natural History,Scientific knowledge,label_rule:geologue,suggested,False,True,23,28,,5,5,23,23
+Q1743122,historien ou historienne de l'Église,https://www.wikidata.org/wiki/Q1743122,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,23,23,,0,0,23,23
+Q10669499,officier de marine,https://www.wikidata.org/wiki/Q10669499,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,23,29,,6,6,23,23
+Q548320,frère,https://www.wikidata.org/wiki/Q548320,Religion / Theology,Intellectual systems,label_rule:frere,suggested,False,True,22,22,,0,0,22,22
+Q15991187,grammairien,https://www.wikidata.org/wiki/Q15991187,Translation / Philology / Languages,Literary and textual production,label_rule:grammairien,suggested,False,True,22,31,,9,9,22,22
+Q11386386,auteur de haïkus,https://www.wikidata.org/wiki/Q11386386,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,21,21,,0,0,21,21
+Q806798,banquier,https://www.wikidata.org/wiki/Q806798,Economics / Commerce,Institutional power,label_rule:banquier,suggested,False,True,21,30,,9,9,21,21
+Q864503,biologiste,https://www.wikidata.org/wiki/Q864503,Science / Natural History,Scientific knowledge,exact_qid:biologist,suggested,False,True,21,29,,8,8,21,21
+Q131524,entrepreneur ou entrepreneuse,https://www.wikidata.org/wiki/Q131524,Economics / Commerce,Institutional power,label_rule:entrepreneur,suggested,False,True,21,23,,2,2,21,21
+Q189459,ouléma,https://www.wikidata.org/wiki/Q189459,Religion / Theology,Intellectual systems,label_rule:oulema,suggested,False,True,21,21,,0,0,21,21
+Q12362622,philanthrope,https://www.wikidata.org/wiki/Q12362622,Social Reform / Activism,Social and cultural mediation,label_rule:philanthrope,suggested,False,True,21,23,,2,2,21,21
+Q2504617,romaniste,https://www.wikidata.org/wiki/Q2504617,Translation / Philology / Languages,Literary and textual production,label_rule:romaniste,suggested,False,True,21,32,,11,11,21,21
+Q10862983,aquafortiste,https://www.wikidata.org/wiki/Q10862983,Visual Arts / Architecture / Design,Arts and performance,label_rule:aquafortiste,suggested,False,True,20,25,,5,5,20,20
+Q3330547,chroniqueur ou chroniqueuse,https://www.wikidata.org/wiki/Q3330547,Writing / Literature,Literary and textual production,label_rule:chroniqueur,suggested,False,True,20,20,,0,0,20,20
+Q13416354,minéralogiste,https://www.wikidata.org/wiki/Q13416354,Science / Natural History,Scientific knowledge,label_rule:mineralogiste,suggested,False,True,20,24,,4,4,20,20
+Q9334029,satiriste,https://www.wikidata.org/wiki/Q9334029,Writing / Literature,Literary and textual production,label_rule:satiriste,suggested,True,False,20,21,,1,1,20,20
+Q2865819,artiste lyrique,https://www.wikidata.org/wiki/Q2865819,Music / Performance / Theatre,Arts and performance,label_rule:artiste lyrique,suggested,False,True,19,23,,4,4,19,19
+Q10429346,bibliographe,https://www.wikidata.org/wiki/Q10429346,Education / Scholarship / Humanities,Intellectual systems,label_rule:bibliographe,suggested,False,True,19,21,,2,2,19,19
+Q189010,notaire,https://www.wikidata.org/wiki/Q189010,Law / Administration,Institutional power,label_rule:notaire,suggested,False,True,19,19,,0,0,19,19
+Q1281618,sculpteur ou sculptrice,https://www.wikidata.org/wiki/Q1281618,Visual Arts / Architecture / Design,Arts and performance,exact_qid:sculptor,suggested,False,True,19,24,,5,5,19,19
+Q16031530,théoricien ou théoricienne de la musique,https://www.wikidata.org/wiki/Q16031530,Music / Performance / Theatre,Arts and performance,label_rule:theoricien ou theoricienne de la musique,suggested,False,True,19,25,,6,6,19,19
+Q3391743,artiste visuel ou artiste visuelle,https://www.wikidata.org/wiki/Q3391743,Visual Arts / Architecture / Design,Arts and performance,label_rule:artiste visuel,suggested,False,True,18,23,,5,5,18,18
+Q2138822,clerc régulier,https://www.wikidata.org/wiki/Q2138822,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,18,19,,1,1,18,18
+Q2083925,collectionneur ou collectionneuse de plantes,https://www.wikidata.org/wiki/Q2083925,Sociability / Patronage / Court,Social and cultural mediation,label_rule:collectionneur ou collectionneuse,suggested,False,True,18,23,,5,5,18,18
+Q29514511,compilateur ou compilatrice,https://www.wikidata.org/wiki/Q29514511,Writing / Literature,Literary and textual production,label_rule:compilateur,suggested,False,True,18,20,,2,2,18,18
+Q1595570,historien local,https://www.wikidata.org/wiki/Q1595570,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,18,20,,2,2,18,18
+Q1056391,directeur ou directrice d'école,https://www.wikidata.org/wiki/Q1056391,Education / Scholarship / Humanities,Intellectual systems,label_rule:directeur ou directrice d'ecole,suggested,False,True,17,19,,2,2,17,17
+Q45199,marin,https://www.wikidata.org/wiki/Q45199,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,17,18,,1,1,17,17
+Q19340487,prêtre orthodoxe,https://www.wikidata.org/wiki/Q19340487,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,17,18,,1,1,17,17
+Q17167049,spécialiste de la littérature,https://www.wikidata.org/wiki/Q17167049,Writing / Literature,Literary and textual production,label_rule:specialiste de la litterature,suggested,False,True,17,20,,3,3,17,17
+Q2296367,surintendant,https://www.wikidata.org/wiki/Q2296367,Law / Administration,Institutional power,label_rule:surintendant,suggested,False,True,17,17,,0,0,17,17
+Q8963721,généalogiste,https://www.wikidata.org/wiki/Q8963721,Education / Scholarship / Humanities,Intellectual systems,label_rule:genealogiste,suggested,False,True,16,17,,1,1,16,16
+Q1626130,homme de lettres,https://www.wikidata.org/wiki/Q1626130,Writing / Literature,Literary and textual production,label_rule:homme de lettres,suggested,True,False,16,27,,11,11,16,16
+Q3315492,ministère ecclésiastique,https://www.wikidata.org/wiki/Q3315492,Religion / Theology,Intellectual systems,label_rule:ecclesiastique,suggested,False,True,16,16,,0,0,16,16
+Q12859263,orateur ou oratrice,https://www.wikidata.org/wiki/Q12859263,Writing / Literature,Literary and textual production,label_rule:orateur,suggested,False,True,16,20,,4,4,16,16
+Q2248623,étudiant,https://www.wikidata.org/wiki/Q2248623,Education / Scholarship / Humanities,Intellectual systems,label_rule:etudiant,suggested,False,True,16,16,,0,0,16,16
+Q98544732,collectionneur ou collectionneuse scientifique,https://www.wikidata.org/wiki/Q98544732,Science / Natural History,Scientific knowledge,label_rule:scientifique,suggested,False,True,15,18,,3,3,15,15
+Q1459149,maître d'école,https://www.wikidata.org/wiki/Q1459149,Education / Scholarship / Humanities,Intellectual systems,label_rule:maitre d'ecole,suggested,False,True,15,15,,0,0,15,15
+Q3242115,révolutionnaire,https://www.wikidata.org/wiki/Q3242115,Politics / Statecraft / Diplomacy,Institutional power,label_rule:revolutionnaire,suggested,False,True,15,22,,7,7,15,15
+Q4164507,critique d'art,https://www.wikidata.org/wiki/Q4164507,Education / Scholarship / Humanities,Intellectual systems,label_rule:critique,suggested,True,False,14,23,,9,9,14,14
+Q161944,diacre,https://www.wikidata.org/wiki/Q161944,Religion / Theology,Intellectual systems,label_rule:diacre,suggested,False,True,14,16,,2,2,14,14
+Q25393460,diacre catholique,https://www.wikidata.org/wiki/Q25393460,Religion / Theology,Intellectual systems,label_rule:diacre,suggested,False,True,14,15,,1,1,14,14
+Q381353,femme de lettres,https://www.wikidata.org/wiki/Q381353,Writing / Literature,Literary and textual production,label_rule:femme de lettres,suggested,True,False,14,25,,11,11,14,14
+Q17166634,hagiographe,https://www.wikidata.org/wiki/Q17166634,Writing / Literature,Literary and textual production,label_rule:hagiographe,suggested,True,False,14,14,,0,0,14,14
+Q15985128,historien ou historienne de la médecine,https://www.wikidata.org/wiki/Q15985128,Medicine / Health,Scientific knowledge,label_rule:medecin,suggested,True,False,14,15,,1,1,14,14
+Q30185,maire,https://www.wikidata.org/wiki/Q30185,Law / Administration,Institutional power,label_rule:maire,suggested,False,True,14,15,,1,1,14,14
+Q105186,pharmacien ou pharmacienne,https://www.wikidata.org/wiki/Q105186,Medicine / Health,Scientific knowledge,label_rule:pharmacien,suggested,False,True,14,16,,2,2,14,14
+Q656823,précepteur,https://www.wikidata.org/wiki/Q656823,Education / Scholarship / Humanities,Intellectual systems,label_rule:precepteur,suggested,False,True,14,16,,2,2,14,14
+Q609016,Hofmeister,https://www.wikidata.org/wiki/Q609016,Education / Scholarship / Humanities,Intellectual systems,label_rule:hofmeister,suggested,False,True,13,16,,3,3,13,13
+Q45353837,auteur de poésie ci,https://www.wikidata.org/wiki/Q45353837,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,13,13,,0,0,13,13
+Q264323,chambellan,https://www.wikidata.org/wiki/Q264323,Sociability / Patronage / Court,Social and cultural mediation,label_rule:chambellan,suggested,False,True,13,13,,0,0,13,13
+Q13311320,conseiller royal,https://www.wikidata.org/wiki/Q13311320,Law / Administration,Institutional power,label_rule:conseiller royal,suggested,False,True,13,14,,1,1,13,13
+Q17598791,latiniste,https://www.wikidata.org/wiki/Q17598791,Translation / Philology / Languages,Literary and textual production,label_rule:latiniste,suggested,False,True,13,18,,5,5,13,13
+Q83307,ministre,https://www.wikidata.org/wiki/Q83307,Law / Administration,Institutional power,label_rule:ministre,suggested,False,True,13,14,,1,1,13,13
+Q1238570,politologue,https://www.wikidata.org/wiki/Q1238570,Education / Scholarship / Humanities,Intellectual systems,label_rule:politologue,suggested,False,True,13,19,,6,6,13,13
+Q1483709,propriétaire terrien ou propriétaire terrienne,https://www.wikidata.org/wiki/Q1483709,Economics / Commerce,Institutional power,label_rule:proprietaire terrien,suggested,False,True,13,15,,2,2,13,13
+Q2892720,soufi,https://www.wikidata.org/wiki/Q2892720,Religion / Theology,Intellectual systems,label_rule:soufi,suggested,False,True,13,13,,0,0,13,13
+Q2443377,topographe,https://www.wikidata.org/wiki/Q2443377,Travel / Geography / Exploration,Mobility and empire,label_rule:topographe,suggested,False,True,13,13,,0,0,13,13
+Q9363889,traducteur ou traductrice littéraire,https://www.wikidata.org/wiki/Q9363889,Translation / Philology / Languages,Literary and textual production,label_rule:traducteur,suggested,False,True,13,14,,1,1,13,13
+Q3400985,universitaire,https://www.wikidata.org/wiki/Q3400985,Education / Scholarship / Humanities,Intellectual systems,label_rule:universitaire,suggested,False,True,13,15,,2,2,13,13
+Q10872101,anatomiste,https://www.wikidata.org/wiki/Q10872101,Medicine / Health,Scientific knowledge,label_rule:anatomiste,suggested,False,True,12,14,,2,2,12,12
+Q6430706,critique,https://www.wikidata.org/wiki/Q6430706,Education / Scholarship / Humanities,Intellectual systems,label_rule:critique,suggested,True,False,12,14,,2,2,12,12
+Q294126,géomètre,https://www.wikidata.org/wiki/Q294126,Science / Natural History,Scientific knowledge,label_rule:geometre,suggested,False,True,12,13,,1,1,12,12
+Q20198542,historien ou historienne de la musique,https://www.wikidata.org/wiki/Q20198542,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,12,14,,2,2,12,12
+Q17486330,historien ou historienne des mathématiques,https://www.wikidata.org/wiki/Q17486330,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,True,False,12,15,,3,3,12,12
+Q19507792,illustrateur ou illustratrice scientifique,https://www.wikidata.org/wiki/Q19507792,Science / Natural History,Scientific knowledge,label_rule:scientifique,suggested,False,True,12,13,,1,1,12,12
+Q28692502,militant ou militante pour les droits des femmes,https://www.wikidata.org/wiki/Q28692502,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,12,17,,5,5,12,12
+Q551835,médecin écrivain,https://www.wikidata.org/wiki/Q551835,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,12,14,,2,2,12,12
+Q12372582,propriétaire de plantation,https://www.wikidata.org/wiki/Q12372582,Economics / Commerce,Institutional power,label_rule:proprietaire de plantation,suggested,False,True,12,12,,0,0,12,12
+Q3455803,réalisateur ou réalisatrice,https://www.wikidata.org/wiki/Q3455803,Music / Performance / Theatre,Arts and performance,label_rule:realisateur,suggested,False,True,12,13,,1,1,12,12
+Q2306091,sociologue,https://www.wikidata.org/wiki/Q2306091,Education / Scholarship / Humanities,Intellectual systems,label_rule:sociologue,suggested,False,True,12,17,,5,5,12,12
+Q2732142,statisticien ou statisticienne,https://www.wikidata.org/wiki/Q2732142,Science / Natural History,Scientific knowledge,label_rule:statisticien,suggested,False,True,12,13,,1,1,12,12
+Q437512,tisserand ou tisserande,https://www.wikidata.org/wiki/Q437512,Craft / Trade / Industry,Material production,label_rule:tisserand,suggested,False,True,12,12,,0,0,12,12
+Q24262584,traducteur ou traductrice de la Bible,https://www.wikidata.org/wiki/Q24262584,Translation / Philology / Languages,Literary and textual production,label_rule:traducteur,suggested,False,True,12,12,,0,0,12,12
+Q193364,vicaire,https://www.wikidata.org/wiki/Q193364,Religion / Theology,Intellectual systems,label_rule:vicaire,suggested,False,True,12,13,,1,1,12,12
+Q18844224,écrivain ou écrivaine de science-fiction,https://www.wikidata.org/wiki/Q18844224,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,True,False,12,17,,5,5,12,12
+Q61043360,écrivain écrivant en dialecte,https://www.wikidata.org/wiki/Q61043360,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,True,False,12,12,,0,0,12,12
+Q187865,antiquaire,https://www.wikidata.org/wiki/Q187865,Education / Scholarship / Humanities,Intellectual systems,label_rule:antiquaire,suggested,False,True,11,11,,0,0,11,11
+Q158852,chef ou cheffe d'orchestre ou de chœur,https://www.wikidata.org/wiki/Q158852,Music / Performance / Theatre,Arts and performance,label_rule:chef ou cheffe d'orchestre,suggested,False,True,11,12,,1,1,11,11
+Q9352089,espion ou espionne,https://www.wikidata.org/wiki/Q9352089,Law / Administration,Institutional power,label_rule:espion,suggested,False,True,11,17,,6,6,11,11
+Q1371378,ethnologue,https://www.wikidata.org/wiki/Q1371378,Education / Scholarship / Humanities,Intellectual systems,label_rule:ethnologue,suggested,False,True,11,14,,3,3,11,11
+Q17488465,historien régionaliste,https://www.wikidata.org/wiki/Q17488465,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,11,12,,1,1,11,11
+Q151197,ingénieur militaire,https://www.wikidata.org/wiki/Q151197,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,11,18,,7,7,11,11
+Q3387717,metteur ou metteuse en scène,https://www.wikidata.org/wiki/Q3387717,Music / Performance / Theatre,Arts and performance,label_rule:metteur ou metteuse en scene,suggested,False,True,11,13,,2,2,11,11
+Q854997,moine bouddhiste,https://www.wikidata.org/wiki/Q854997,Religion / Theology,Intellectual systems,label_rule:moine,suggested,False,True,11,11,,0,0,11,11
+Q12328016,mystique,https://www.wikidata.org/wiki/Q12328016,Religion / Theology,Intellectual systems,label_rule:mystique,suggested,False,True,11,12,,1,1,11,11
+Q3589292,épistolière,https://www.wikidata.org/wiki/Q3589292,Writing / Literature,Literary and textual production,label_rule:epistolier,suggested,True,False,11,17,,6,6,11,11
+Q152355,cordonnier ou cordonnière,https://www.wikidata.org/wiki/Q152355,Craft / Trade / Industry,Material production,label_rule:cordonnier,suggested,False,True,10,11,,1,1,10,10
+Q1511216,courtisan,https://www.wikidata.org/wiki/Q1511216,Sociability / Patronage / Court,Social and cultural mediation,label_rule:courtisan,suggested,False,True,10,14,,4,4,10,10
+Q12347522,ethnographe,https://www.wikidata.org/wiki/Q12347522,Education / Scholarship / Humanities,Intellectual systems,label_rule:ethnographe,suggested,False,True,10,10,,0,0,10,10
+Q6666878,hattat,https://www.wikidata.org/wiki/Q6666878,Visual Arts / Architecture / Design,Arts and performance,label_rule:hattat,suggested,False,True,10,10,,0,0,10,10
+Q3140857,horticulteur ou horticultrice,https://www.wikidata.org/wiki/Q3140857,Science / Natural History,Scientific knowledge,label_rule:horticulteur,suggested,False,True,10,12,,2,2,10,10
+Q16947657,lithographe,https://www.wikidata.org/wiki/Q16947657,Visual Arts / Architecture / Design,Arts and performance,label_rule:lithographe,suggested,False,True,10,13,,3,3,10,10
+Q1297719,moraliste,https://www.wikidata.org/wiki/Q1297719,Philosophy,Intellectual systems,label_rule:moraliste,suggested,False,True,10,18,,8,8,10,10
+Q352507,pasteur,https://www.wikidata.org/wiki/Q352507,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,10,10,,0,0,10,10
+Q21550346,philosophe de l'esthétique,https://www.wikidata.org/wiki/Q21550346,Philosophy,Intellectual systems,label_rule:philosophe,suggested,False,True,10,11,,1,1,10,10
+Q11122954,poète de tanka,https://www.wikidata.org/wiki/Q11122954,Writing / Literature,Literary and textual production,label_rule:poete,suggested,True,False,10,10,,0,0,10,10
+Q1469535,prêtre catholique de rite romain,https://www.wikidata.org/wiki/Q1469535,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,10,13,,3,3,10,10
+Q191808,religieuse,https://www.wikidata.org/wiki/Q191808,Religion / Theology,Intellectual systems,label_rule:religieuse,suggested,False,True,10,10,,0,0,10,10
+Q28389,scénariste,https://www.wikidata.org/wiki/Q28389,Writing / Literature,Literary and textual production,label_rule:scenariste,suggested,False,True,10,12,,2,2,10,10
+Q17505902,aquarelliste,https://www.wikidata.org/wiki/Q17505902,Visual Arts / Architecture / Design,Arts and performance,label_rule:aquarelliste,suggested,False,True,9,11,,2,2,9,9
+Q33082999,artiste d'ukiyo-e,https://www.wikidata.org/wiki/Q33082999,Visual Arts / Architecture / Design,Arts and performance,label_rule:artiste,suggested,False,True,9,9,,0,0,9,9
+Q15995642,chef religieux,https://www.wikidata.org/wiki/Q15995642,Religion / Theology,Intellectual systems,label_rule:religieux,suggested,False,True,9,9,,0,0,9,9
+Q11545923,commandant,https://www.wikidata.org/wiki/Q11545923,Military,Institutional power,label_rule:commandant,suggested,False,True,9,14,,5,5,9,9
+Q5716684,danseur ou danseuse,https://www.wikidata.org/wiki/Q5716684,Music / Performance / Theatre,Arts and performance,label_rule:danseur,suggested,False,True,9,10,,1,1,9,9
+Q18916625,helléniste,https://www.wikidata.org/wiki/Q18916625,Translation / Philology / Languages,Literary and textual production,label_rule:helleniste,suggested,False,True,9,12,,3,3,9,9
+Q516463,héraldiste,https://www.wikidata.org/wiki/Q516463,Education / Scholarship / Humanities,Intellectual systems,label_rule:heraldiste,suggested,False,True,9,9,,0,0,9,9
+Q1549283,propriétaire terrien,https://www.wikidata.org/wiki/Q1549283,Economics / Commerce,Institutional power,label_rule:proprietaire terrien,suggested,False,True,9,11,,2,2,9,9
+Q1413170,relieur ou relieuse,https://www.wikidata.org/wiki/Q1413170,Craft / Trade / Industry,Material production,label_rule:relieur,suggested,False,True,9,10,,1,1,9,9
+Q361809,rhéteur ou rhétrice,https://www.wikidata.org/wiki/Q361809,Writing / Literature,Literary and textual production,label_rule:rheteur,suggested,False,True,9,10,,1,1,9,9
+Q1815782,seigneur,https://www.wikidata.org/wiki/Q1815782,Sociability / Patronage / Court,Social and cultural mediation,label_rule:seigneur,suggested,False,True,9,9,,0,0,9,9
+Q15958642,écrivain ou écrivaine politique,https://www.wikidata.org/wiki/Q15958642,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,9,11,,2,2,9,9
+Q852389,apiculteur ou apicultrice,https://www.wikidata.org/wiki/Q852389,Science / Natural History,Scientific knowledge,label_rule:apiculteur,suggested,False,True,8,9,,1,1,8,8
+Q7097633,ashik,https://www.wikidata.org/wiki/Q7097633,Music / Performance / Theatre,Arts and performance,label_rule:ashik,suggested,True,False,8,8,,0,0,8,8
+Q22073916,auteur tragique,https://www.wikidata.org/wiki/Q22073916,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,8,9,,1,1,8,8
+Q330679,cantor,https://www.wikidata.org/wiki/Q330679,Music / Performance / Theatre,Arts and performance,label_rule:cantor,suggested,False,True,8,8,,0,0,8,8
+Q1076502,chef ou cheffe de chœur,https://www.wikidata.org/wiki/Q1076502,Music / Performance / Theatre,Arts and performance,label_rule:chef ou cheffe de choeur,suggested,False,True,8,8,,0,0,8,8
+Q267640,chercheur indépendant,https://www.wikidata.org/wiki/Q267640,Education / Scholarship / Humanities,Intellectual systems,label_rule:chercheur independant,suggested,False,True,8,8,,0,0,8,8
+Q2490358,chorégraphe,https://www.wikidata.org/wiki/Q2490358,Music / Performance / Theatre,Arts and performance,label_rule:choregraphe,suggested,False,True,8,13,,5,5,8,8
+Q20551564,collecteur ou collectrice de textes traditionnels,https://www.wikidata.org/wiki/Q20551564,Writing / Literature,Literary and textual production,label_rule:collecteur ou collectrice de textes traditionnels,suggested,True,False,8,11,,3,3,8,8
+Q1350157,critique de musique,https://www.wikidata.org/wiki/Q1350157,Education / Scholarship / Humanities,Intellectual systems,label_rule:critique,suggested,True,False,8,11,,3,3,8,8
+Q27514986,goguettier,https://www.wikidata.org/wiki/Q27514986,Music / Performance / Theatre,Arts and performance,label_rule:goguettier,suggested,False,True,8,15,,7,7,8,8
+Q11573099,membre de la famille royale,https://www.wikidata.org/wiki/Q11573099,Sociability / Patronage / Court,Social and cultural mediation,label_rule:membre de la famille royale,suggested,False,True,8,9,,1,1,8,8
+Q116,monarque,https://www.wikidata.org/wiki/Q116,Politics / Statecraft / Diplomacy,Institutional power,label_rule:monarque,suggested,False,True,8,9,,1,1,8,8
+Q755070,narrateur,https://www.wikidata.org/wiki/Q755070,Writing / Literature,Literary and textual production,label_rule:narrateur,suggested,False,True,8,9,,1,1,8,8
+Q662729,personnalité,https://www.wikidata.org/wiki/Q662729,Sociability / Patronage / Court,Social and cultural mediation,label_rule:personnalite,suggested,False,True,8,8,,0,0,8,8
+Q2055046,physiologiste,https://www.wikidata.org/wiki/Q2055046,Science / Natural History,Scientific knowledge,label_rule:physiologiste,suggested,False,True,8,9,,1,1,8,8
+Q270141,polymathe,https://www.wikidata.org/wiki/Q270141,Education / Scholarship / Humanities,Intellectual systems,label_rule:polymathe,suggested,False,True,8,9,,1,1,8,8
+Q2029179,prêtre régulier,https://www.wikidata.org/wiki/Q2029179,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,8,8,,0,0,8,8
+Q18533509,rédacteur d'ouvrages de médecine,https://www.wikidata.org/wiki/Q18533509,Print / Publishing / Journalism,Literary and textual production,label_rule:redacteur,suggested,True,False,8,8,,0,0,8,8
+Q916292,scribe,https://www.wikidata.org/wiki/Q916292,Writing / Literature,Literary and textual production,label_rule:scribe,suggested,False,True,8,8,,0,0,8,8
+Q2493637,tertön,https://www.wikidata.org/wiki/Q2493637,Religion / Theology,Intellectual systems,label_rule:terton,suggested,False,True,8,8,,0,0,8,8
+Q1259917,violoniste,https://www.wikidata.org/wiki/Q1259917,Music / Performance / Theatre,Arts and performance,label_rule:violoniste,suggested,False,True,8,8,,0,0,8,8
+Q592996,Amtmann,https://www.wikidata.org/wiki/Q592996,Law / Administration,Institutional power,label_rule:amtmann,suggested,False,True,7,7,,0,0,7,7
+Q3430033,abbé,https://www.wikidata.org/wiki/Q3430033,Religion / Theology,Intellectual systems,label_rule:abbe,suggested,False,True,7,9,,2,2,7,7
+Q16532929,administrateur ou administratrice,https://www.wikidata.org/wiki/Q16532929,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,7,13,,6,6,7,7
+Q3658608,caricaturiste,https://www.wikidata.org/wiki/Q3658608,Visual Arts / Architecture / Design,Arts and performance,label_rule:caricaturiste,suggested,False,True,7,7,,0,0,7,7
+Q208762,chapelain,https://www.wikidata.org/wiki/Q208762,Religion / Theology,Intellectual systems,label_rule:chapelain,suggested,False,True,7,7,,0,0,7,7
+Q674426,conservateur ou conservatrice de musée,https://www.wikidata.org/wiki/Q674426,Visual Arts / Architecture / Design,Arts and performance,label_rule:conservateur ou conservatrice de musee,suggested,False,True,7,12,,5,5,7,7
+Q833860,femme de ménage,https://www.wikidata.org/wiki/Q833860,Craft / Trade / Industry,Material production,label_rule:femme de menage,suggested,False,True,7,7,,0,0,7,7
+Q758780,jardinier ou jardinière,https://www.wikidata.org/wiki/Q758780,Craft / Trade / Industry,Material production,label_rule:jardinier,suggested,False,True,7,7,,0,0,7,7
+Q10873124,joueur ou joueuse d'échecs,https://www.wikidata.org/wiki/Q10873124,Sociability / Patronage / Court,Social and cultural mediation,label_rule:joueur ou joueuse d'echecs,suggested,False,True,7,8,,1,1,7,7
+Q106071206,kyōka poet,https://www.wikidata.org/wiki/Q106071206,Writing / Literature,Literary and textual production,label_rule:kyoka poet,suggested,True,False,7,7,,0,0,7,7
+Q11499147,militant ou militante politique,https://www.wikidata.org/wiki/Q11499147,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,7,7,,0,0,7,7
+Q2310145,météorologue,https://www.wikidata.org/wiki/Q2310145,Science / Natural History,Scientific knowledge,label_rule:meteorologue,suggested,False,True,7,10,,3,3,7,7
+Q15949613,nouvelliste,https://www.wikidata.org/wiki/Q15949613,Writing / Literature,Literary and textual production,label_rule:nouvelliste,suggested,True,False,7,9,,2,2,7,7
+Q1662561,paléontologue,https://www.wikidata.org/wiki/Q1662561,Science / Natural History,Scientific knowledge,label_rule:paleontologue,suggested,False,True,7,12,,5,5,7,7
+Q212980,psychologue,https://www.wikidata.org/wiki/Q212980,Medicine / Health,Scientific knowledge,label_rule:psychologue,suggested,False,True,7,9,,2,2,7,7
+Q512314,socialite,https://www.wikidata.org/wiki/Q512314,Sociability / Patronage / Court,Social and cultural mediation,label_rule:socialite,suggested,False,True,7,9,,2,2,7,7
+Q619553,apologète,https://www.wikidata.org/wiki/Q619553,Religion / Theology,Intellectual systems,label_rule:apologete,suggested,True,False,6,8,,2,2,6,6
+Q918824,aumônier militaire,https://www.wikidata.org/wiki/Q918824,Military,Institutional power,label_rule:militaire,suggested,False,True,6,6,,0,0,6,6
+Q11914886,auteur comique,https://www.wikidata.org/wiki/Q11914886,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,6,8,,2,2,6,6
+Q2135485,bibliothécaire de droit,https://www.wikidata.org/wiki/Q2135485,Education / Scholarship / Humanities,Intellectual systems,label_rule:bibliothecaire,suggested,False,True,6,6,,0,0,6,6
+Q217029,cadi,https://www.wikidata.org/wiki/Q217029,Law / Administration,Institutional power,label_rule:cadi,suggested,False,True,6,6,,0,0,6,6
+Q12377291,censeur,https://www.wikidata.org/wiki/Q12377291,Law / Administration,Institutional power,label_rule:censeur,suggested,False,True,6,9,,3,3,6,6
+Q1237385,chanoine,https://www.wikidata.org/wiki/Q1237385,Religion / Theology,Intellectual systems,label_rule:chanoine,suggested,False,True,6,6,,0,0,6,6
+Q5371902,claveciniste,https://www.wikidata.org/wiki/Q5371902,Music / Performance / Theatre,Arts and performance,label_rule:claveciniste,suggested,False,True,6,8,,2,2,6,6
+Q7501153,commerçant ou commerçante,https://www.wikidata.org/wiki/Q7501153,Economics / Commerce,Institutional power,label_rule:commercant,suggested,False,True,6,6,,0,0,6,6
+Q326653,comptable,https://www.wikidata.org/wiki/Q326653,Economics / Commerce,Institutional power,label_rule:comptable,suggested,False,True,6,7,,1,1,6,6
+Q805221,danseur ou danseuse classique,https://www.wikidata.org/wiki/Q805221,Music / Performance / Theatre,Arts and performance,label_rule:danseur,suggested,False,True,6,8,,2,2,6,6
+Q54128,domestique,https://www.wikidata.org/wiki/Q54128,Craft / Trade / Industry,Material production,label_rule:domestique,suggested,False,True,6,6,,0,0,6,6
+Q4958876,doyen,https://www.wikidata.org/wiki/Q4958876,Law / Administration,Institutional power,label_rule:doyen,suggested,False,True,6,6,,0,0,6,6
+Q107212688,graveur d'ex-libris,https://www.wikidata.org/wiki/Q107212688,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,6,6,,0,0,6,6
+Q6606110,industriel ou industrielle,https://www.wikidata.org/wiki/Q6606110,Economics / Commerce,Institutional power,label_rule:industriel,suggested,False,True,6,8,,2,2,6,6
+Q1958649,inspecteur des écoles,https://www.wikidata.org/wiki/Q1958649,Education / Scholarship / Humanities,Intellectual systems,label_rule:inspecteur des ecoles,suggested,False,True,6,6,,0,0,6,6
+Q2251335,instituteur ou institutrice,https://www.wikidata.org/wiki/Q2251335,Education / Scholarship / Humanities,Intellectual systems,label_rule:instituteur,suggested,False,True,6,6,,0,0,6,6
+Q2664701,jurisconsulte,https://www.wikidata.org/wiki/Q2664701,Law / Administration,Institutional power,label_rule:jurisconsulte,suggested,False,True,6,9,,3,3,6,6
+Q16012028,juriste,https://www.wikidata.org/wiki/Q16012028,Law / Administration,Institutional power,label_rule:juriste,suggested,False,True,6,7,,1,1,6,6
+Q16271261,malacologiste,https://www.wikidata.org/wiki/Q16271261,Science / Natural History,Scientific knowledge,label_rule:malacologiste,suggested,False,True,6,10,,4,4,6,6
+Q173950,marchand ou marchande d'art,https://www.wikidata.org/wiki/Q173950,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,6,7,,1,1,6,6
+Q4002666,médecin militaire,https://www.wikidata.org/wiki/Q4002666,Medicine / Health,Scientific knowledge,label_rule:medecin,suggested,False,True,6,8,,2,2,6,6
+Q18242306,négociant,https://www.wikidata.org/wiki/Q18242306,Economics / Commerce,Institutional power,label_rule:negociant,suggested,False,True,6,10,,4,4,6,6
+Q13638192,obstétricien ou obstétricienne,https://www.wikidata.org/wiki/Q13638192,Medicine / Health,Scientific knowledge,label_rule:obstetricien,suggested,False,True,6,6,,0,0,6,6
+Q2815948,paysagiste,https://www.wikidata.org/wiki/Q2815948,Visual Arts / Architecture / Design,Arts and performance,label_rule:paysagiste,suggested,False,True,6,7,,1,1,6,6
+Q1642960,polémiste,https://www.wikidata.org/wiki/Q1642960,Writing / Literature,Literary and textual production,label_rule:polemiste,suggested,True,False,6,9,,3,3,6,6
+Q600751,procureur ou procureure,https://www.wikidata.org/wiki/Q600751,Religion / Theology,Intellectual systems,label_rule:cure,suggested,False,True,6,6,,0,0,6,6
+Q16145150,professeur ou professeure de musique,https://www.wikidata.org/wiki/Q16145150,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,6,8,,2,2,6,6
+Q185196,sage-femme,https://www.wikidata.org/wiki/Q185196,Medicine / Health,Scientific knowledge,label_rule:sage-femme,suggested,False,True,6,8,,2,2,6,6
+Q242468,tailleur ou tailleuse,https://www.wikidata.org/wiki/Q242468,Craft / Trade / Industry,Material production,label_rule:tailleur,suggested,False,True,6,6,,0,0,6,6
+Q17391638,théoricien ou théoricienne de l'art,https://www.wikidata.org/wiki/Q17391638,Visual Arts / Architecture / Design,Arts and performance,label_rule:theoricien ou theoricienne de l'art,suggested,False,True,6,7,,1,1,6,6
+Q15962340,théoricien ou théoricienne de la littérature,https://www.wikidata.org/wiki/Q15962340,Visual Arts / Architecture / Design,Arts and performance,label_rule:theoricien ou theoricienne de la litterature,suggested,False,True,6,7,,1,1,6,6
+Q3745071,écrivain ou écrivaine scientifique,https://www.wikidata.org/wiki/Q3745071,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,True,False,6,6,,0,0,6,6
+Q121998,ambassadeur,https://www.wikidata.org/wiki/Q121998,Law / Administration,Institutional power,label_rule:ambassadeur,suggested,False,True,5,5,,0,0,5,5
+Q620573,arabisant ou arabisante,https://www.wikidata.org/wiki/Q620573,Translation / Philology / Languages,Literary and textual production,label_rule:arabisant,suggested,False,True,5,6,,1,1,5,5
+Q62083492,auteur de livres jeunesse,https://www.wikidata.org/wiki/Q62083492,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,5,5,,0,0,5,5
+Q2873500,aventurier ou aventurière,https://www.wikidata.org/wiki/Q2873500,Travel / Geography / Exploration,Mobility and empire,label_rule:aventurier,suggested,False,True,5,7,,2,2,5,5
+Q630993,bertsolari,https://www.wikidata.org/wiki/Q630993,Music / Performance / Theatre,Arts and performance,label_rule:bertsolari,suggested,True,False,5,5,,0,0,5,5
+Q106313281,commentateur,https://www.wikidata.org/wiki/Q106313281,Writing / Literature,Literary and textual production,label_rule:commentateur,suggested,False,True,5,5,,0,0,5,5
+Q17337766,critique dramatique,https://www.wikidata.org/wiki/Q17337766,Education / Scholarship / Humanities,Intellectual systems,label_rule:critique,suggested,True,False,5,6,,1,1,5,5
+Q1753370,curé,https://www.wikidata.org/wiki/Q1753370,Religion / Theology,Intellectual systems,label_rule:cure,suggested,False,True,5,6,,1,1,5,5
+Q5322166,designer ou designeuse,https://www.wikidata.org/wiki/Q5322166,Visual Arts / Architecture / Design,Arts and performance,label_rule:designer,suggested,False,True,5,6,,1,1,5,5
+Q1162163,directeur ou directrice,https://www.wikidata.org/wiki/Q1162163,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,5,6,,1,1,5,5
+Q593362,drapier,https://www.wikidata.org/wiki/Q593362,Craft / Trade / Industry,Material production,label_rule:drapier,suggested,False,True,5,6,,1,1,5,5
+Q998628,enlumineur,https://www.wikidata.org/wiki/Q998628,Visual Arts / Architecture / Design,Arts and performance,label_rule:enlumineur,suggested,False,True,5,5,,0,0,5,5
+Q1979607,financier,https://www.wikidata.org/wiki/Q1979607,Economics / Commerce,Institutional power,label_rule:financier,suggested,False,True,5,9,,4,4,5,5
+Q3075052,folkloriste,https://www.wikidata.org/wiki/Q3075052,Education / Scholarship / Humanities,Intellectual systems,label_rule:folkloriste,suggested,False,True,5,5,,0,0,5,5
+Q361593,fonctionnaire de police,https://www.wikidata.org/wiki/Q361593,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,5,6,,1,1,5,5
+Q1895303,forestier ou forestière,https://www.wikidata.org/wiki/Q1895303,Science / Natural History,Scientific knowledge,label_rule:forestier,suggested,False,True,5,5,,0,0,5,5
+Q106201362,gesakusha,https://www.wikidata.org/wiki/Q106201362,Writing / Literature,Literary and textual production,label_rule:gesakusha,suggested,True,False,5,5,,0,0,5,5
+Q1937330,globe-trotteur,https://www.wikidata.org/wiki/Q1937330,Travel / Geography / Exploration,Mobility and empire,label_rule:globe-trotteur,suggested,False,True,5,8,,3,3,5,5
+Q132050,gouverneur,https://www.wikidata.org/wiki/Q132050,Law / Administration,Institutional power,label_rule:gouverneur,suggested,False,True,5,5,,0,0,5,5
+Q3148760,illustrateur ou illustratrice botanique,https://www.wikidata.org/wiki/Q3148760,Visual Arts / Architecture / Design,Arts and performance,label_rule:illustrateur,suggested,False,True,5,5,,0,0,5,5
+Q13582652,ingénieur civil,https://www.wikidata.org/wiki/Q13582652,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,5,7,,2,2,5,5
+Q58968,intellectuel ou intellectuelle,https://www.wikidata.org/wiki/Q58968,Education / Scholarship / Humanities,Intellectual systems,label_rule:intellectuel,suggested,False,True,5,8,,3,3,5,5
+Q289612,maitre d'œuvre,https://www.wikidata.org/wiki/Q289612,Visual Arts / Architecture / Design,Arts and performance,label_rule:maitre d'oeuvre,suggested,False,True,5,6,,1,1,5,5
+Q17769800,marchand d'esclave,https://www.wikidata.org/wiki/Q17769800,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,5,7,,2,2,5,5
+Q462390,maître ou maîtresse de conférences,https://www.wikidata.org/wiki/Q462390,Education / Scholarship / Humanities,Intellectual systems,label_rule:maitre ou maitresse de conferences,suggested,False,True,5,5,,0,0,5,5
+Q15253558,militant ou militante,https://www.wikidata.org/wiki/Q15253558,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,5,6,,1,1,5,5
+Q91187063,moine orthodoxe,https://www.wikidata.org/wiki/Q91187063,Religion / Theology,Intellectual systems,label_rule:moine,suggested,False,True,5,5,,0,0,5,5
+Q12912932,moufassir,https://www.wikidata.org/wiki/Q12912932,Religion / Theology,Intellectual systems,label_rule:moufassir,suggested,False,True,5,5,,0,0,5,5
+Q185992,mufti,https://www.wikidata.org/wiki/Q185992,Religion / Theology,Intellectual systems,label_rule:mufti,suggested,False,True,5,5,,0,0,5,5
+Q2487799,mycologue,https://www.wikidata.org/wiki/Q2487799,Science / Natural History,Scientific knowledge,label_rule:mycologue,suggested,False,True,5,6,,1,1,5,5
+Q247797,officier des douanes,https://www.wikidata.org/wiki/Q247797,Military,Institutional power,label_rule:officier,suggested,False,True,5,5,,0,0,5,5
+Q17351648,rédacteur ou rédactrice,https://www.wikidata.org/wiki/Q17351648,Print / Publishing / Journalism,Literary and textual production,label_rule:redacteur,suggested,True,False,5,7,,2,2,5,5
+Q16611574,réformateur social,https://www.wikidata.org/wiki/Q16611574,Education / Scholarship / Humanities,Intellectual systems,label_rule:formateur,suggested,False,True,5,5,,0,0,5,5
+Q15994177,théoricien ou théoricienne politique,https://www.wikidata.org/wiki/Q15994177,Politics / Statecraft / Diplomacy,Institutional power,label_rule:theoricien ou theoricienne politique,suggested,False,True,5,9,,4,4,5,5
+Q1229025,typographe,https://www.wikidata.org/wiki/Q1229025,Print / Publishing / Journalism,Literary and textual production,label_rule:typographe,suggested,False,True,5,6,,1,1,5,5
+Q23957323,Glosser,https://www.wikidata.org/wiki/Q23957323,Writing / Literature,Literary and textual production,label_rule:glosser,suggested,True,False,4,4,,0,0,4,4
+Q1491183,Legationsrat,https://www.wikidata.org/wiki/Q1491183,Law / Administration,Institutional power,label_rule:legationsrat,suggested,False,True,4,4,,0,0,4,4
+Q335757,assesseur,https://www.wikidata.org/wiki/Q335757,Law / Administration,Institutional power,label_rule:assesseur,suggested,False,True,4,4,,0,0,4,4
+Q37868118,auteur de manuel,https://www.wikidata.org/wiki/Q37868118,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,4,5,,1,1,4,4
+Q19829990,bibliste,https://www.wikidata.org/wiki/Q19829990,Religion / Theology,Intellectual systems,label_rule:bibliste,suggested,False,True,4,4,,0,0,4,4
+Q16334507,bryologiste,https://www.wikidata.org/wiki/Q16334507,Science / Natural History,Scientific knowledge,label_rule:bryologiste,suggested,False,True,4,5,,1,1,4,4
+Q1975935,bushi,https://www.wikidata.org/wiki/Q1975935,Military,Institutional power,label_rule:bushi,suggested,False,True,4,4,,0,0,4,4
+Q12027957,canoniste,https://www.wikidata.org/wiki/Q12027957,Law / Administration,Institutional power,label_rule:canoniste,suggested,False,True,4,4,,0,0,4,4
+Q51598761,censeur royal,https://www.wikidata.org/wiki/Q51598761,Law / Administration,Institutional power,label_rule:censeur,suggested,False,True,4,8,,4,4,4,4
+Q373085,chancelier,https://www.wikidata.org/wiki/Q373085,Law / Administration,Institutional power,label_rule:chancelier,suggested,False,True,4,4,,0,0,4,4
+Q154549,charpentier ou charpentière,https://www.wikidata.org/wiki/Q154549,Craft / Trade / Industry,Material production,label_rule:charpentier,suggested,False,True,4,4,,0,0,4,4
+Q1402561,chef militaire,https://www.wikidata.org/wiki/Q1402561,Military,Institutional power,label_rule:militaire,suggested,False,True,4,5,,1,1,4,4
+Q67775924,collecteur ou collectrice de chanson traditionnelle,https://www.wikidata.org/wiki/Q67775924,Writing / Literature,Literary and textual production,label_rule:collecteur ou collectrice de chanson traditionnelle,suggested,False,True,4,4,,0,0,4,4
+Q16827718,confesseur,https://www.wikidata.org/wiki/Q16827718,Religion / Theology,Intellectual systems,label_rule:confesseur,suggested,False,True,4,4,,0,0,4,4
+Q2135469,conseiller juridique,https://www.wikidata.org/wiki/Q2135469,Law / Administration,Institutional power,label_rule:conseiller juridique,suggested,False,True,4,5,,1,1,4,4
+Q376924,courtisane,https://www.wikidata.org/wiki/Q376924,Sociability / Patronage / Court,Social and cultural mediation,label_rule:courtisan,suggested,False,True,4,4,,0,0,4,4
+Q124605835,dessinateur ou dessinatrice  de carte,https://www.wikidata.org/wiki/Q124605835,Visual Arts / Architecture / Design,Arts and performance,label_rule:dessinateur,suggested,False,True,4,4,,0,0,4,4
+Q1097498,dirigeant ou dirigeante,https://www.wikidata.org/wiki/Q1097498,Law / Administration,Institutional power,label_rule:dirigeant,suggested,False,True,4,5,,1,1,4,4
+Q380075,défenseur,https://www.wikidata.org/wiki/Q380075,Law / Administration,Institutional power,label_rule:defenseur,suggested,False,True,4,5,,1,1,4,4
+Q16314501,encyclopédiste,https://www.wikidata.org/wiki/Q16314501,Education / Scholarship / Humanities,Intellectual systems,label_rule:encyclopediste,suggested,False,True,4,4,,0,0,4,4
+Q3738757,faussaire,https://www.wikidata.org/wiki/Q3738757,Craft / Trade / Industry,Material production,label_rule:faussaire,suggested,False,True,4,4,,0,0,4,4
+Q4685922,formateur ou formatrice pour adultes,https://www.wikidata.org/wiki/Q4685922,Education / Scholarship / Humanities,Intellectual systems,label_rule:formateur,suggested,False,True,4,4,,0,0,4,4
+Q1540278,gouvernante,https://www.wikidata.org/wiki/Q1540278,Education / Scholarship / Humanities,Intellectual systems,label_rule:gouvernante,suggested,False,True,4,5,,1,1,4,4
+Q2640827,gynécologue,https://www.wikidata.org/wiki/Q2640827,Medicine / Health,Scientific knowledge,label_rule:gynecologue,suggested,False,True,4,4,,0,0,4,4
+Q2505739,hispaniste,https://www.wikidata.org/wiki/Q2505739,Translation / Philology / Languages,Literary and textual production,label_rule:hispaniste,suggested,False,True,4,4,,0,0,4,4
+Q16063546,historien ou historienne des sciences,https://www.wikidata.org/wiki/Q16063546,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,True,False,4,7,,3,3,4,4
+Q1288557,hiéromoine,https://www.wikidata.org/wiki/Q1288557,Religion / Theology,Intellectual systems,label_rule:moine,suggested,False,True,4,4,,0,0,4,4
+Q943995,impresario,https://www.wikidata.org/wiki/Q943995,Music / Performance / Theatre,Arts and performance,label_rule:impresario,suggested,False,True,4,5,,1,1,4,4
+Q1651055,ingénieur hydraulicien ou ingénieure hydraulicienne,https://www.wikidata.org/wiki/Q1651055,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,4,4,,0,0,4,4
+Q11085831,interprète,https://www.wikidata.org/wiki/Q11085831,Translation / Philology / Languages,Literary and textual production,label_rule:interprete,suggested,False,True,4,4,,0,0,4,4
+Q20669622,journaliste musical,https://www.wikidata.org/wiki/Q20669622,Print / Publishing / Journalism,Literary and textual production,label_rule:journaliste,suggested,True,False,4,4,,0,0,4,4
+Q329455,juge de paix,https://www.wikidata.org/wiki/Q329455,Law / Administration,Institutional power,label_rule:juge,suggested,False,True,4,5,,1,1,4,4
+Q191421,lama,https://www.wikidata.org/wiki/Q191421,Religion / Theology,Intellectual systems,label_rule:lama,suggested,False,True,4,4,,0,0,4,4
+Q21166956,luthiste,https://www.wikidata.org/wiki/Q21166956,Music / Performance / Theatre,Arts and performance,label_rule:luthiste,suggested,False,True,4,6,,2,2,4,4
+Q497294,lépidoptériste,https://www.wikidata.org/wiki/Q497294,Science / Natural History,Scientific knowledge,label_rule:lepidopteriste,suggested,False,True,4,5,,1,1,4,4
+Q24205162,marchand d'estampes,https://www.wikidata.org/wiki/Q24205162,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,4,6,,2,2,4,4
+Q111837,maréchal,https://www.wikidata.org/wiki/Q111837,Military,Institutional power,label_rule:marechal,suggested,False,True,4,7,,3,3,4,4
+Q1416611,maître de poste,https://www.wikidata.org/wiki/Q1416611,Law / Administration,Institutional power,label_rule:maitre de poste,suggested,False,True,4,4,,0,0,4,4
+Q1172458,muhaddith,https://www.wikidata.org/wiki/Q1172458,Religion / Theology,Intellectual systems,label_rule:muhaddith,suggested,False,True,4,4,,0,0,4,4
+Q24387326,mythographe,https://www.wikidata.org/wiki/Q24387326,Writing / Literature,Literary and textual production,label_rule:mythographe,suggested,True,False,4,4,,0,0,4,4
+Q325855,médecin de bord,https://www.wikidata.org/wiki/Q325855,Medicine / Health,Scientific knowledge,label_rule:medecin,suggested,False,True,4,5,,1,1,4,4
+Q18576582,métallurgiste,https://www.wikidata.org/wiki/Q18576582,Craft / Trade / Industry,Material production,label_rule:metallurgiste,suggested,False,True,4,4,,0,0,4,4
+Q28947943,peintre miniaturiste,https://www.wikidata.org/wiki/Q28947943,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,4,6,,2,2,4,4
+Q486748,pianiste,https://www.wikidata.org/wiki/Q486748,Music / Performance / Theatre,Arts and performance,label_rule:pianiste,suggested,False,True,4,4,,0,0,4,4
+Q55630100,planteur,https://www.wikidata.org/wiki/Q55630100,Economics / Commerce,Institutional power,label_rule:planteur,suggested,False,True,4,8,,4,4,4,4
+Q2330979,polygraphe,https://www.wikidata.org/wiki/Q2330979,Writing / Literature,Literary and textual production,label_rule:polygraphe,suggested,False,True,4,6,,2,2,4,4
+Q1266260,protoiereus,https://www.wikidata.org/wiki/Q1266260,Religion / Theology,Intellectual systems,label_rule:protoiereus,suggested,False,True,4,4,,0,0,4,4
+Q725440,prélat,https://www.wikidata.org/wiki/Q725440,Religion / Theology,Intellectual systems,label_rule:prelat,suggested,False,True,4,4,,0,0,4,4
+Q756215,prévôt,https://www.wikidata.org/wiki/Q756215,Law / Administration,Institutional power,label_rule:prevot,suggested,False,True,4,4,,0,0,4,4
+Q211346,psychiatre,https://www.wikidata.org/wiki/Q211346,Medicine / Health,Scientific knowledge,label_rule:psychiatre,suggested,False,True,4,4,,0,0,4,4
+Q16334509,ptéridologue,https://www.wikidata.org/wiki/Q16334509,Science / Natural History,Scientific knowledge,label_rule:pteridologue,suggested,False,True,4,5,,1,1,4,4
+Q124985058,réformateur,https://www.wikidata.org/wiki/Q124985058,Education / Scholarship / Humanities,Intellectual systems,label_rule:formateur,suggested,False,True,4,5,,1,1,4,4
+Q18810149,sténographe,https://www.wikidata.org/wiki/Q18810149,Craft / Trade / Industry,Material production,label_rule:stenographe,suggested,False,True,4,5,,1,1,4,4
+Q328325,tailleur ou tailleuse de pierre,https://www.wikidata.org/wiki/Q328325,Craft / Trade / Industry,Material production,label_rule:tailleur,suggested,False,True,4,5,,1,1,4,4
+Q901222,tuteur ou tutrice,https://www.wikidata.org/wiki/Q901222,Education / Scholarship / Humanities,Intellectual systems,label_rule:tuteur,suggested,False,True,4,4,,0,0,4,4
+Q202883,vétérinaire,https://www.wikidata.org/wiki/Q202883,Medicine / Health,Scientific knowledge,label_rule:veterinaire,suggested,False,True,4,5,,1,1,4,4
+Q1350189,égyptologue,https://www.wikidata.org/wiki/Q1350189,Translation / Philology / Languages,Literary and textual production,label_rule:egyptologue,suggested,False,True,4,6,,2,2,4,4
+Q15632632,épigraphiste,https://www.wikidata.org/wiki/Q15632632,Education / Scholarship / Humanities,Intellectual systems,label_rule:epigraphiste,suggested,False,True,4,5,,1,1,4,4
+Q11499929,érudit littéraire,https://www.wikidata.org/wiki/Q11499929,Education / Scholarship / Humanities,Intellectual systems,label_rule:erudit,suggested,False,True,4,5,,1,1,4,4
+Q135214963,English–German translator,https://www.wikidata.org/wiki/Q135214963,Translation / Philology / Languages,Literary and textual production,label_rule:english-german translator,suggested,False,True,3,4,,1,1,3,3
+Q1484065,Guslar,https://www.wikidata.org/wiki/Q1484065,Music / Performance / Theatre,Arts and performance,label_rule:guslar,suggested,False,True,3,3,,0,0,3,3
+Q96926046,Kokugaku scholar,https://www.wikidata.org/wiki/Q96926046,Translation / Philology / Languages,Literary and textual production,label_rule:kokugaku scholar,suggested,False,True,3,3,,0,0,3,3
+Q179985,actuaire,https://www.wikidata.org/wiki/Q179985,Economics / Commerce,Institutional power,label_rule:actuaire,suggested,False,True,3,4,,1,1,3,3
+Q17765219,administrateur colonial ou administratrice coloniale,https://www.wikidata.org/wiki/Q17765219,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,3,3,,0,0,3,3
+Q514725,administrateur de district,https://www.wikidata.org/wiki/Q514725,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,3,3,,0,0,3,3
+Q23656820,agent administratif,https://www.wikidata.org/wiki/Q23656820,Law / Administration,Institutional power,label_rule:agent administratif,suggested,False,True,3,3,,0,0,3,3
+Q9149093,alpiniste,https://www.wikidata.org/wiki/Q9149093,Travel / Geography / Exploration,Mobility and empire,label_rule:alpiniste,suggested,False,True,3,4,,1,1,3,3
+Q1131236,apothicaire,https://www.wikidata.org/wiki/Q1131236,Medicine / Health,Scientific knowledge,label_rule:apothicaire,suggested,False,True,3,3,,0,0,3,3
+Q17344952,arachnologue,https://www.wikidata.org/wiki/Q17344952,Science / Natural History,Scientific knowledge,label_rule:arachnologue,suggested,False,True,3,5,,2,2,3,3
+Q49476,archevêque,https://www.wikidata.org/wiki/Q49476,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,3,3,,0,0,3,3
+Q713200,artiste interprète,https://www.wikidata.org/wiki/Q713200,Translation / Philology / Languages,Literary and textual production,label_rule:interprete,suggested,False,True,3,4,,1,1,3,3
+Q572700,bureaucrate,https://www.wikidata.org/wiki/Q572700,Law / Administration,Institutional power,label_rule:bureaucrate,suggested,False,True,3,3,,0,0,3,3
+Q1735732,catéchiste,https://www.wikidata.org/wiki/Q1735732,Religion / Theology,Intellectual systems,label_rule:catechiste,suggested,False,True,3,3,,0,0,3,3
+Q28776412,collectionneur de livres,https://www.wikidata.org/wiki/Q28776412,Sociability / Patronage / Court,Social and cultural mediation,label_rule:collectionneur de livres,suggested,False,True,3,4,,1,1,3,3
+Q9397505,confucianiste,https://www.wikidata.org/wiki/Q9397505,Religion / Theology,Intellectual systems,label_rule:confucianiste,suggested,False,True,3,3,,0,0,3,3
+Q17131110,conseiller de gouvernement,https://www.wikidata.org/wiki/Q17131110,Law / Administration,Institutional power,label_rule:conseiller de gouvernement,suggested,False,True,3,3,,0,0,3,3
+Q3997704,copiste,https://www.wikidata.org/wiki/Q3997704,Writing / Literature,Literary and textual production,label_rule:copiste,suggested,False,True,3,3,,0,0,3,3
+Q52769526,curé,https://www.wikidata.org/wiki/Q52769526,Religion / Theology,Intellectual systems,label_rule:cure,suggested,False,True,3,4,,1,1,3,3
+Q1225491,dilettante,https://www.wikidata.org/wiki/Q1225491,Sociability / Patronage / Court,Social and cultural mediation,label_rule:dilettante,suggested,False,True,3,4,,1,1,3,3
+Q31179608,employé ou employée de bureau,https://www.wikidata.org/wiki/Q31179608,Law / Administration,Institutional power,label_rule:employe ou employee de bureau,suggested,False,True,3,3,,0,0,3,3
+Q13381863,escrimeur ou escrimeuse,https://www.wikidata.org/wiki/Q13381863,Craft / Trade / Industry,Material production,label_rule:escrimeur,suggested,False,True,3,4,,1,1,3,3
+Q21185790,exégète,https://www.wikidata.org/wiki/Q21185790,Religion / Theology,Intellectual systems,label_rule:exegete,suggested,False,True,3,4,,1,1,3,3
+Q12902372,flûtiste,https://www.wikidata.org/wiki/Q12902372,Music / Performance / Theatre,Arts and performance,label_rule:flutiste,suggested,False,True,3,3,,0,0,3,3
+Q56447380,fonctionnaire,https://www.wikidata.org/wiki/Q56447380,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,3,3,,0,0,3,3
+Q1639825,forgeron ou forgeronne,https://www.wikidata.org/wiki/Q1639825,Craft / Trade / Industry,Material production,label_rule:forgeron,suggested,False,True,3,3,,0,0,3,3
+Q851436,garde du corps,https://www.wikidata.org/wiki/Q851436,Craft / Trade / Industry,Material production,label_rule:garde du corps,suggested,False,True,3,3,,0,0,3,3
+Q2518689,guérisseur ou guérisseuse,https://www.wikidata.org/wiki/Q2518689,Medicine / Health,Scientific knowledge,label_rule:guerisseur,suggested,False,True,3,3,,0,0,3,3
+Q116994205,géodésiste,https://www.wikidata.org/wiki/Q116994205,Travel / Geography / Exploration,Mobility and empire,label_rule:geodesiste,suggested,False,True,3,3,,0,0,3,3
+Q15462162,historien ou historienne du culturel,https://www.wikidata.org/wiki/Q15462162,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,3,3,,0,0,3,3
+Q2135538,historien ou historienne du droit,https://www.wikidata.org/wiki/Q2135538,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,3,4,,1,1,3,3
+Q1493121,historien ou historienne militaire,https://www.wikidata.org/wiki/Q1493121,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,3,5,,2,2,3,3
+Q157798,horloger ou horlogère,https://www.wikidata.org/wiki/Q157798,Engineering / Technology,Scientific knowledge,label_rule:horloger,suggested,False,True,3,5,,2,2,3,3
+Q4988856,hébraïsant,https://www.wikidata.org/wiki/Q4988856,Translation / Philology / Languages,Literary and textual production,label_rule:hebraisant,suggested,False,True,3,3,,0,0,3,3
+Q186360,infirmière ou infirmier,https://www.wikidata.org/wiki/Q186360,Medicine / Health,Scientific knowledge,label_rule:infirmiere,suggested,False,True,3,3,,0,0,3,3
+Q18524075,ingénieur ou ingénieure des mines,https://www.wikidata.org/wiki/Q18524075,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,3,4,,1,1,3,3
+Q61820542,inspecteur des impôts,https://www.wikidata.org/wiki/Q61820542,Law / Administration,Institutional power,label_rule:inspecteur des impots,suggested,False,True,3,4,,1,1,3,3
+Q16009129,magistrat ou magistrate,https://www.wikidata.org/wiki/Q16009129,Law / Administration,Institutional power,label_rule:magistrat,suggested,False,True,3,4,,1,1,3,3
+Q2629392,marionnettiste,https://www.wikidata.org/wiki/Q2629392,Music / Performance / Theatre,Arts and performance,label_rule:marionnettiste,suggested,False,True,3,4,,1,1,3,3
+Q215793,maître de chapelle,https://www.wikidata.org/wiki/Q215793,Music / Performance / Theatre,Arts and performance,label_rule:maitre de chapelle,suggested,False,True,3,3,,0,0,3,3
+Q1340643,maître d’œuvre,https://www.wikidata.org/wiki/Q1340643,Visual Arts / Architecture / Design,Arts and performance,label_rule:maitre d'oeuvre,suggested,False,True,3,3,,0,0,3,3
+Q2393361,maître à danser,https://www.wikidata.org/wiki/Q2393361,Music / Performance / Theatre,Arts and performance,label_rule:maitre a danser,suggested,False,True,3,3,,0,0,3,3
+Q117039165,missionnaire chrétien,https://www.wikidata.org/wiki/Q117039165,Religion / Theology,Intellectual systems,label_rule:missionnaire,suggested,False,True,3,3,,0,0,3,3
+Q1708232,médailleur ou médailleuse,https://www.wikidata.org/wiki/Q1708232,Visual Arts / Architecture / Design,Arts and performance,label_rule:medailleur,suggested,False,True,3,4,,1,1,3,3
+Q2073803,national revival activist,https://www.wikidata.org/wiki/Q2073803,Social Reform / Activism,Social and cultural mediation,label_rule:national revival activist,suggested,False,True,3,5,,2,2,3,3
+Q2556132,négociant ou négociante en vin,https://www.wikidata.org/wiki/Q2556132,Economics / Commerce,Institutional power,label_rule:negociant,suggested,False,True,3,4,,1,1,3,3
+Q38239859,officier d'armée de terre,https://www.wikidata.org/wiki/Q38239859,Military,Institutional power,label_rule:officier,suggested,False,True,3,4,,1,1,3,3
+Q12013238,ophtalmologue,https://www.wikidata.org/wiki/Q12013238,Medicine / Health,Scientific knowledge,label_rule:ophtalmologue,suggested,False,True,3,3,,0,0,3,3
+Q838811,paysan ou paysanne,https://www.wikidata.org/wiki/Q838811,Craft / Trade / Industry,Material production,label_rule:paysan,suggested,False,True,3,3,,0,0,3,3
+Q10547393,personnalité politique locale,https://www.wikidata.org/wiki/Q10547393,Politics / Statecraft / Diplomacy,Institutional power,label_rule:personnalite politique,suggested,False,True,3,3,,0,0,3,3
+Q2114605,pharmacologue,https://www.wikidata.org/wiki/Q2114605,Medicine / Health,Scientific knowledge,label_rule:pharmacologue,suggested,False,True,3,3,,0,0,3,3
+Q18930007,philosophe politique,https://www.wikidata.org/wiki/Q18930007,Philosophy,Intellectual systems,label_rule:philosophe,suggested,False,True,3,4,,1,1,3,3
+Q1759246,producteur ou productrice de théâtre,https://www.wikidata.org/wiki/Q1759246,Music / Performance / Theatre,Arts and performance,label_rule:producteur ou productrice de theatre,suggested,False,True,3,3,,0,0,3,3
+Q15977927,professeur d'art,https://www.wikidata.org/wiki/Q15977927,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,3,5,,2,2,3,3
+Q30002353,professeur de langues,https://www.wikidata.org/wiki/Q30002353,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,3,4,,1,1,3,3
+Q11293375,propriétaire de biens,https://www.wikidata.org/wiki/Q11293375,Economics / Commerce,Institutional power,label_rule:proprietaire de biens,suggested,False,True,3,4,,1,1,3,3
+Q66495020,propriétaire terrien,https://www.wikidata.org/wiki/Q66495020,Economics / Commerce,Institutional power,label_rule:proprietaire terrien,suggested,False,True,3,3,,0,0,3,3
+Q499143,précepteur,https://www.wikidata.org/wiki/Q499143,Education / Scholarship / Humanities,Intellectual systems,label_rule:precepteur,suggested,False,True,3,3,,0,0,3,3
+Q1139055,receveur des finances,https://www.wikidata.org/wiki/Q1139055,Economics / Commerce,Institutional power,label_rule:receveur des finances,suggested,False,True,3,4,,1,1,3,3
+Q3147441,recteur,https://www.wikidata.org/wiki/Q3147441,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,3,5,,2,2,3,3
+Q116263992,rhétoricien,https://www.wikidata.org/wiki/Q116263992,Writing / Literature,Literary and textual production,label_rule:rhetoricien,suggested,True,False,3,3,,0,0,3,3
+Q763779,réformateur protestant,https://www.wikidata.org/wiki/Q763779,Education / Scholarship / Humanities,Intellectual systems,label_rule:formateur,suggested,False,True,3,4,,1,1,3,3
+Q15991192,sanskritiste,https://www.wikidata.org/wiki/Q15991192,Translation / Philology / Languages,Literary and textual production,label_rule:sanskritiste,suggested,False,True,3,4,,1,1,3,3
+Q21244999,scientifique de la forêt,https://www.wikidata.org/wiki/Q21244999,Science / Natural History,Scientific knowledge,label_rule:scientifique,suggested,False,True,3,3,,0,0,3,3
+Q12806039,théoricien ou théoricienne militaire,https://www.wikidata.org/wiki/Q12806039,Military,Institutional power,label_rule:militaire,suggested,False,True,3,6,,3,3,3,3
+Q10379007,théâtrologue,https://www.wikidata.org/wiki/Q10379007,Music / Performance / Theatre,Arts and performance,label_rule:theatrologue,suggested,False,True,3,3,,0,0,3,3
+Q3704253,trader,https://www.wikidata.org/wiki/Q3704253,Economics / Commerce,Institutional power,label_rule:trader,suggested,False,True,3,3,,0,0,3,3
+Q135216826,traducteur d'œuvres littéraires de William Shakespeare,https://www.wikidata.org/wiki/Q135216826,Translation / Philology / Languages,Literary and textual production,label_rule:traducteur,suggested,False,True,3,4,,1,1,3,3
+Q13219637,violoncelliste,https://www.wikidata.org/wiki/Q13219637,Music / Performance / Theatre,Arts and performance,label_rule:violoncelliste,suggested,False,True,3,3,,0,0,3,3
+Q1437754,xylographe,https://www.wikidata.org/wiki/Q1437754,Visual Arts / Architecture / Design,Arts and performance,label_rule:xylographe,suggested,False,True,3,3,,0,0,3,3
+Q1368409,éleveur,https://www.wikidata.org/wiki/Q1368409,Craft / Trade / Industry,Material production,label_rule:eleveur,suggested,False,True,3,3,,0,0,3,3
+Q29182,évêque,https://www.wikidata.org/wiki/Q29182,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,3,4,,1,1,3,3
+Q1370540,Akyn,https://www.wikidata.org/wiki/Q1370540,Writing / Literature,Literary and textual production,label_rule:akyn,suggested,False,True,2,2,,0,0,2,2
+Q1714329,Justiciar,https://www.wikidata.org/wiki/Q1714329,Law / Administration,Institutional power,label_rule:justiciar,suggested,False,True,2,2,,0,0,2,2
+Q21281706,administrateur académique,https://www.wikidata.org/wiki/Q21281706,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,2,2,,0,0,2,2
+Q15954519,alchimiste,https://www.wikidata.org/wiki/Q15954519,Science / Natural History,Scientific knowledge,label_rule:chimiste,suggested,False,True,2,3,,1,1,2,2
+Q132851,amiral,https://www.wikidata.org/wiki/Q132851,Military,Institutional power,label_rule:amiral,suggested,False,True,2,2,,0,0,2,2
+Q15983985,archéologue classique,https://www.wikidata.org/wiki/Q15983985,Education / Scholarship / Humanities,Intellectual systems,label_rule:archeologue,suggested,False,True,2,4,,2,2,2,2
+Q26203955,auteur de contes,https://www.wikidata.org/wiki/Q26203955,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,2,4,,2,2,2,2
+Q978044,cadre dirigeant ou cadre dirigeante,https://www.wikidata.org/wiki/Q978044,Law / Administration,Institutional power,label_rule:dirigeant,suggested,False,True,2,3,,1,1,2,2
+Q849424,capitaine de navire,https://www.wikidata.org/wiki/Q849424,Military,Institutional power,label_rule:capitaine,suggested,False,True,2,2,,0,0,2,2
+Q27349,chirurgien-dentiste,https://www.wikidata.org/wiki/Q27349,Medicine / Health,Scientific knowledge,label_rule:chirurgien,suggested,False,True,2,3,,1,1,2,2
+Q1086863,chroniqueur ou chroniqueuse,https://www.wikidata.org/wiki/Q1086863,Writing / Literature,Literary and textual production,label_rule:chroniqueur,suggested,True,False,2,3,,1,1,2,2
+Q105200498,clerc anglican,https://www.wikidata.org/wiki/Q105200498,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,2,2,,0,0,2,2
+Q109120509,collectionneur ou collectionneuse zoologique,https://www.wikidata.org/wiki/Q109120509,Sociability / Patronage / Court,Social and cultural mediation,label_rule:collectionneur ou collectionneuse,suggested,False,True,2,2,,0,0,2,2
+Q12716225,contre-révolutionnaire,https://www.wikidata.org/wiki/Q12716225,Politics / Statecraft / Diplomacy,Institutional power,label_rule:revolutionnaire,suggested,False,True,2,3,,1,1,2,2
+Q10498147,explorateur scientifique,https://www.wikidata.org/wiki/Q10498147,Writing / Literature,Literary and textual production,label_rule:orateur,suggested,False,True,2,3,,1,1,2,2
+Q1955150,fabricant ou fabricante d'instruments de musique,https://www.wikidata.org/wiki/Q1955150,Craft / Trade / Industry,Material production,label_rule:fabricant,suggested,False,True,2,3,,1,1,2,2
+Q1937431,facteur ou factrice d'orgues,https://www.wikidata.org/wiki/Q1937431,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,2,3,,1,1,2,2
+Q50376727,fermier général,https://www.wikidata.org/wiki/Q50376727,Military,Institutional power,label_rule:general,suggested,False,True,2,4,,2,2,2,2
+Q11626664,fonctionnaire de la cour,https://www.wikidata.org/wiki/Q11626664,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,2,2,,0,0,2,2
+Q124307554,generalfiskal,https://www.wikidata.org/wiki/Q124307554,Military,Institutional power,label_rule:general,suggested,False,True,2,2,,0,0,2,2
+Q2596569,gouvernante,https://www.wikidata.org/wiki/Q2596569,Education / Scholarship / Humanities,Intellectual systems,label_rule:gouvernante,suggested,False,True,2,2,,0,0,2,2
+Q17489339,historien moderniste,https://www.wikidata.org/wiki/Q17489339,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,2,2,,0,0,2,2
+Q11486702,historien ou historienne de l'architecture,https://www.wikidata.org/wiki/Q11486702,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,2,3,,1,1,2,2
+Q24265174,historien ou historienne de la philosophie,https://www.wikidata.org/wiki/Q24265174,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,2,2,,0,0,2,2
+Q2700922,horloger,https://www.wikidata.org/wiki/Q2700922,Engineering / Technology,Scientific knowledge,label_rule:horloger,suggested,False,True,2,2,,0,0,2,2
+Q4205432,ichtyologiste,https://www.wikidata.org/wiki/Q4205432,Science / Natural History,Scientific knowledge,label_rule:ichtyologiste,suggested,False,True,2,4,,2,2,2,2
+Q6731168,magistrate,https://www.wikidata.org/wiki/Q6731168,Law / Administration,Institutional power,label_rule:magistrat,suggested,False,True,2,2,,0,0,2,2
+Q1623209,maréchal de la cour,https://www.wikidata.org/wiki/Q1623209,Military,Institutional power,label_rule:marechal,suggested,False,True,2,2,,0,0,2,2
+Q327029,mécanicien ou mécanicienne,https://www.wikidata.org/wiki/Q327029,Engineering / Technology,Scientific knowledge,label_rule:mecanicien,suggested,False,True,2,3,,1,1,2,2
+Q12038843,navigateur ou navigatrice,https://www.wikidata.org/wiki/Q12038843,Travel / Geography / Exploration,Mobility and empire,label_rule:navigateur,suggested,False,True,2,3,,1,1,2,2
+Q7239684,pasteur de l’Église réformée néerlandaise,https://www.wikidata.org/wiki/Q7239684,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,2,2,,0,0,2,2
+Q97486349,pasteur unitarien,https://www.wikidata.org/wiki/Q97486349,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,2,2,,0,0,2,2
+Q21600439,peintre de paysage,https://www.wikidata.org/wiki/Q21600439,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,2,2,,0,0,2,2
+Q2180411,peintre portraitiste,https://www.wikidata.org/wiki/Q2180411,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,2,3,,1,1,2,2
+Q23760244,philosophe du droit,https://www.wikidata.org/wiki/Q23760244,Philosophy,Intellectual systems,label_rule:philosophe,suggested,False,True,2,2,,0,0,2,2
+Q10429561,professeur de dessin,https://www.wikidata.org/wiki/Q10429561,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,2,3,,1,1,2,2
+Q2675537,professeur ou professeure de musique,https://www.wikidata.org/wiki/Q2675537,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,2,3,,1,1,2,2
+Q356139,relecteur-correcteur,https://www.wikidata.org/wiki/Q356139,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,2,3,,1,1,2,2
+Q14466416,rédacteur,https://www.wikidata.org/wiki/Q14466416,Print / Publishing / Journalism,Literary and textual production,label_rule:redacteur,suggested,True,False,2,2,,0,0,2,2
+Q589298,rédacteur ou rédactrice en chef,https://www.wikidata.org/wiki/Q589298,Print / Publishing / Journalism,Literary and textual production,label_rule:redacteur,suggested,True,False,2,4,,2,2,2,2
+Q2304859,souverain,https://www.wikidata.org/wiki/Q2304859,Politics / Statecraft / Diplomacy,Institutional power,label_rule:souverain,suggested,False,True,2,2,,0,0,2,2
+Q1044528,vicaire général,https://www.wikidata.org/wiki/Q1044528,Religion / Theology,Intellectual systems,label_rule:vicaire,suggested,False,True,2,2,,0,0,2,2
+Q1227195,économiste,https://www.wikidata.org/wiki/Q1227195,Economics / Commerce,Institutional power,label_rule:economiste,suggested,False,True,2,2,,0,0,2,2
+Q42361191,écrivain militaire,https://www.wikidata.org/wiki/Q42361191,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,2,2,,0,0,2,2
+Q222836,éditeur ou éditrice musical,https://www.wikidata.org/wiki/Q222836,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,False,True,2,3,,1,1,2,2
+Q3579163,éditeur scientifique,https://www.wikidata.org/wiki/Q3579163,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,True,False,2,4,,2,2,2,2
+Q2009051,Oberamtmann,https://www.wikidata.org/wiki/Q2009051,Law / Administration,Institutional power,label_rule:amtmann,suggested,False,True,1,1,,0,0,1,1
+Q1646408,abbesse,https://www.wikidata.org/wiki/Q1646408,Religion / Theology,Intellectual systems,label_rule:abbe,suggested,False,True,1,1,,0,0,1,1
+Q1135621,abbé,https://www.wikidata.org/wiki/Q1135621,Religion / Theology,Intellectual systems,label_rule:abbe,suggested,False,True,1,1,,0,0,1,1
+Q1800680,acteur amateur,https://www.wikidata.org/wiki/Q1800680,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,1,1,,0,0,1,1
+Q111973149,acteur de kunqu,https://www.wikidata.org/wiki/Q111973149,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,1,1,,0,0,1,1
+Q55960658,administrateur,https://www.wikidata.org/wiki/Q55960658,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,1,2,,1,1,1,1
+Q2824534,administrateur du gouvernement,https://www.wikidata.org/wiki/Q2824534,Law / Administration,Institutional power,label_rule:administrateur,suggested,False,True,1,1,,0,0,1,1
+Q26252897,agroéconomiste,https://www.wikidata.org/wiki/Q26252897,Economics / Commerce,Institutional power,label_rule:economiste,suggested,False,True,1,1,,0,0,1,1
+Q50362553,archevêque titulaire,https://www.wikidata.org/wiki/Q50362553,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,1,1,,0,0,1,1
+Q103893954,architecte d'intérieur,https://www.wikidata.org/wiki/Q103893954,Visual Arts / Architecture / Design,Arts and performance,label_rule:architecte,suggested,False,True,1,1,,0,0,1,1
+Q1294787,artisan ou artisane,https://www.wikidata.org/wiki/Q1294787,Craft / Trade / Industry,Material production,label_rule:artisan,suggested,False,True,1,1,,0,0,1,1
+Q10694573,artiste textile,https://www.wikidata.org/wiki/Q10694573,Visual Arts / Architecture / Design,Arts and performance,label_rule:artiste,suggested,False,True,1,1,,0,0,1,1
+Q105228881,aumônier militaire catholique,https://www.wikidata.org/wiki/Q105228881,Military,Institutional power,label_rule:militaire,suggested,False,True,1,2,,1,1,1,1
+Q12406482,auteur comique,https://www.wikidata.org/wiki/Q12406482,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,1,1,,0,0,1,1
+Q88213697,auteur de dictionnaire,https://www.wikidata.org/wiki/Q88213697,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,1,1,,0,0,1,1
+Q27431213,auteur de livre de cuisine,https://www.wikidata.org/wiki/Q27431213,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,1,1,,0,0,1,1
+Q95612950,auteur de livres de prières,https://www.wikidata.org/wiki/Q95612950,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,False,True,1,1,,0,0,1,1
+Q4421425,auteur ou autrice de contes,https://www.wikidata.org/wiki/Q4421425,Writing / Literature,Literary and textual production,label_rule:auteur,suggested,True,False,1,1,,0,0,1,1
+Q488205,auteur-compositeur-interprète,https://www.wikidata.org/wiki/Q488205,Translation / Philology / Languages,Literary and textual production,label_rule:interprete,suggested,False,True,1,1,,0,0,1,1
+Q758225,avocat,https://www.wikidata.org/wiki/Q758225,Law / Administration,Institutional power,label_rule:avocat,suggested,False,True,1,1,,0,0,1,1
+Q781850,barbier chirurgien,https://www.wikidata.org/wiki/Q781850,Medicine / Health,Scientific knowledge,label_rule:chirurgien,suggested,False,True,1,1,,0,0,1,1
+Q16063497,biologiste de l'évolution,https://www.wikidata.org/wiki/Q16063497,Science / Natural History,Scientific knowledge,label_rule:biologiste,suggested,False,True,1,2,,1,1,1,1
+Q7222701,cantor,https://www.wikidata.org/wiki/Q7222701,Music / Performance / Theatre,Arts and performance,label_rule:cantor,suggested,False,True,1,1,,0,0,1,1
+Q133854714,cartographe maritime,https://www.wikidata.org/wiki/Q133854714,Travel / Geography / Exploration,Mobility and empire,label_rule:cartographe,suggested,False,True,1,1,,0,0,1,1
+Q124569063,cartographe militaire,https://www.wikidata.org/wiki/Q124569063,Travel / Geography / Exploration,Mobility and empire,label_rule:cartographe,suggested,False,True,1,2,,1,1,1,1
+Q50498254,chanoine ad honorem,https://www.wikidata.org/wiki/Q50498254,Religion / Theology,Intellectual systems,label_rule:chanoine,suggested,False,True,1,2,,1,1,1,1
+Q2532239,chanteur folk,https://www.wikidata.org/wiki/Q2532239,Music / Performance / Theatre,Arts and performance,label_rule:chanteur,suggested,False,True,1,1,,0,0,1,1
+Q105200214,clerc catholique,https://www.wikidata.org/wiki/Q105200214,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,1,1,,0,0,1,1
+Q105200154,clerc catholique romain,https://www.wikidata.org/wiki/Q105200154,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,1,1,,0,0,1,1
+Q883211,clerc municipal,https://www.wikidata.org/wiki/Q883211,Religion / Theology,Intellectual systems,label_rule:clerc,suggested,False,True,1,1,,0,0,1,1
+Q1113838,climatologue,https://www.wikidata.org/wiki/Q1113838,Science / Natural History,Scientific knowledge,label_rule:climatologue,suggested,False,True,1,2,,1,1,1,1
+Q104680,colonel,https://www.wikidata.org/wiki/Q104680,Military,Institutional power,label_rule:colonel,suggested,False,True,1,2,,1,1,1,1
+Q2054507,commandant,https://www.wikidata.org/wiki/Q2054507,Military,Institutional power,label_rule:commandant,suggested,False,True,1,1,,0,0,1,1
+Q34306155,commissaire de la marine,https://www.wikidata.org/wiki/Q34306155,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,1,2,,1,1,1,1
+Q4108101,compositeur,https://www.wikidata.org/wiki/Q4108101,Music / Performance / Theatre,Arts and performance,label_rule:compositeur,suggested,False,True,1,1,,0,0,1,1
+Q21680731,compositeur d'opéra,https://www.wikidata.org/wiki/Q21680731,Music / Performance / Theatre,Arts and performance,label_rule:compositeur,suggested,False,True,1,2,,1,1,1,1
+Q21680663,compositeur ou compositrice de musique classique,https://www.wikidata.org/wiki/Q21680663,Music / Performance / Theatre,Arts and performance,label_rule:compositeur,suggested,False,True,1,2,,1,1,1,1
+Q56224063,comptable,https://www.wikidata.org/wiki/Q56224063,Economics / Commerce,Institutional power,label_rule:comptable,suggested,False,True,1,1,,0,0,1,1
+Q117442841,conteur de contes de fées,https://www.wikidata.org/wiki/Q117442841,Writing / Literature,Literary and textual production,label_rule:conteur,suggested,False,True,1,1,,0,0,1,1
+Q12869138,conteur ou conteuse,https://www.wikidata.org/wiki/Q12869138,Writing / Literature,Literary and textual production,label_rule:conteur,suggested,False,True,1,2,,1,1,1,1
+Q499134,copiste,https://www.wikidata.org/wiki/Q499134,Writing / Literature,Literary and textual production,label_rule:copiste,suggested,False,True,1,1,,0,0,1,1
+Q11774490,courtier négociant,https://www.wikidata.org/wiki/Q11774490,Economics / Commerce,Institutional power,label_rule:negociant,suggested,False,True,1,1,,0,0,1,1
+Q1495660,critique gastronomique,https://www.wikidata.org/wiki/Q1495660,Education / Scholarship / Humanities,Intellectual systems,label_rule:critique,suggested,True,False,1,2,,1,1,1,1
+Q683754,dessinateur industriel ou dessinatrice industrielle,https://www.wikidata.org/wiki/Q683754,Economics / Commerce,Institutional power,label_rule:industriel,suggested,False,True,1,1,,0,0,1,1
+Q14623005,dessinateur ou dessinatrice en bâtiment,https://www.wikidata.org/wiki/Q14623005,Visual Arts / Architecture / Design,Arts and performance,label_rule:dessinateur,suggested,False,True,1,1,,0,0,1,1
+Q1114448,dessinateur ou dessinatrice humoristique,https://www.wikidata.org/wiki/Q1114448,Visual Arts / Architecture / Design,Arts and performance,label_rule:dessinateur,suggested,False,True,1,1,,0,0,1,1
+Q7834465,diacre de transition,https://www.wikidata.org/wiki/Q7834465,Religion / Theology,Intellectual systems,label_rule:diacre,suggested,False,True,1,2,,1,1,1,1
+Q32947888,directeur de banque,https://www.wikidata.org/wiki/Q32947888,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,1,1,,0,0,1,1
+Q7246152,directeur de cabinet,https://www.wikidata.org/wiki/Q7246152,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,1,1,,0,0,1,1
+Q2516852,directeur littéraire,https://www.wikidata.org/wiki/Q2516852,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,1,1,,0,0,1,1
+Q1797162,directeur ou directrice artistique,https://www.wikidata.org/wiki/Q1797162,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,1,2,,1,1,1,1
+Q119438664,directeur ou directrice de pensionnat,https://www.wikidata.org/wiki/Q119438664,Education / Scholarship / Humanities,Intellectual systems,label_rule:recteur,suggested,False,True,1,2,,1,1,1,1
+Q723682,doyen,https://www.wikidata.org/wiki/Q723682,Law / Administration,Institutional power,label_rule:doyen,suggested,False,True,1,1,,0,0,1,1
+Q6308672,doyen du chapitre,https://www.wikidata.org/wiki/Q6308672,Law / Administration,Institutional power,label_rule:doyen,suggested,False,True,1,1,,0,0,1,1
+Q2133309,décorateur ou décoratrice d'intérieur,https://www.wikidata.org/wiki/Q2133309,Writing / Literature,Literary and textual production,label_rule:orateur,suggested,False,True,1,1,,0,0,1,1
+Q1476215,défenseur ou défenseuse des droits humains,https://www.wikidata.org/wiki/Q1476215,Law / Administration,Institutional power,label_rule:defenseur,suggested,False,True,1,2,,1,1,1,1
+Q970153,enfant acteur,https://www.wikidata.org/wiki/Q970153,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,1,1,,0,0,1,1
+Q131717117,enseignant de gymnasium,https://www.wikidata.org/wiki/Q131717117,Education / Scholarship / Humanities,Intellectual systems,label_rule:enseignant,suggested,False,True,1,1,,0,0,1,1
+Q63755054,entrepreneur en bâtiment,https://www.wikidata.org/wiki/Q63755054,Economics / Commerce,Institutional power,label_rule:entrepreneur,suggested,False,True,1,1,,0,0,1,1
+Q2341443,fabricant d'instruments,https://www.wikidata.org/wiki/Q2341443,Craft / Trade / Industry,Material production,label_rule:fabricant,suggested,False,True,1,1,,0,0,1,1
+Q62016592,fabricant d'instruments scientifiques,https://www.wikidata.org/wiki/Q62016592,Science / Natural History,Scientific knowledge,label_rule:scientifique,suggested,False,True,1,1,,0,0,1,1
+Q88208289,fabricant de globes,https://www.wikidata.org/wiki/Q88208289,Craft / Trade / Industry,Material production,label_rule:fabricant,suggested,False,True,1,1,,0,0,1,1
+Q2180295,facteur ou factrice,https://www.wikidata.org/wiki/Q2180295,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,1,2,,1,1,1,1
+Q885122,facteur ou factrice de pianos,https://www.wikidata.org/wiki/Q885122,Music / Performance / Theatre,Arts and performance,label_rule:acteur,suggested,False,True,1,1,,0,0,1,1
+Q1328323,fonctionnaire,https://www.wikidata.org/wiki/Q1328323,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,1,1,,0,0,1,1
+Q47171905,fonctionnaire de la dynastie Qing,https://www.wikidata.org/wiki/Q47171905,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,1,1,,0,0,1,1
+Q115761018,fonctionnaire municipal,https://www.wikidata.org/wiki/Q115761018,Law / Administration,Institutional power,label_rule:fonctionnaire,suggested,False,True,1,1,,0,0,1,1
+Q708299,fonctionnaire érudit,https://www.wikidata.org/wiki/Q708299,Education / Scholarship / Humanities,Intellectual systems,label_rule:erudit,suggested,False,True,1,1,,0,0,1,1
+Q885444,forgeron de lames,https://www.wikidata.org/wiki/Q885444,Craft / Trade / Industry,Material production,label_rule:forgeron,suggested,False,True,1,1,,0,0,1,1
+Q135450,frère ou sœur laie,https://www.wikidata.org/wiki/Q135450,Religion / Theology,Intellectual systems,label_rule:frere,suggested,False,True,1,1,,0,0,1,1
+Q3114821,grand prêtre,https://www.wikidata.org/wiki/Q3114821,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,1,1,,0,0,1,1
+Q61465891,graveur ou graveuse de sceau,https://www.wikidata.org/wiki/Q61465891,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,1,1,,0,0,1,1
+Q47005195,graveur sur bois,https://www.wikidata.org/wiki/Q47005195,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,1,1,,0,0,1,1
+Q18510097,graveur sur verre,https://www.wikidata.org/wiki/Q18510097,Visual Arts / Architecture / Design,Arts and performance,label_rule:graveur,suggested,False,True,1,1,,0,0,1,1
+Q70744319,historien du théâtre,https://www.wikidata.org/wiki/Q70744319,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,1,1,,0,0,1,1
+Q17488363,historien ou historienne de l'économie,https://www.wikidata.org/wiki/Q17488363,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,1,1,,0,0,1,1
+Q37311684,historien ou historienne du livre,https://www.wikidata.org/wiki/Q37311684,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,1,1,,0,0,1,1
+Q115793211,independent publisher,https://www.wikidata.org/wiki/Q115793211,Print / Publishing / Journalism,Literary and textual production,label_rule:publisher,suggested,False,True,1,1,,0,0,1,1
+Q3798487,infirmier militaire,https://www.wikidata.org/wiki/Q3798487,Medicine / Health,Scientific knowledge,label_rule:infirmier,suggested,False,True,1,1,,0,0,1,1
+Q16643554,ingénieur géographe,https://www.wikidata.org/wiki/Q16643554,Travel / Geography / Exploration,Mobility and empire,label_rule:geographe,suggested,False,True,1,2,,1,1,1,1
+Q1644847,ingénieur naval,https://www.wikidata.org/wiki/Q1644847,Engineering / Technology,Scientific knowledge,label_rule:ingenieur,suggested,False,True,1,1,,0,0,1,1
+Q107290369,inventeur,https://www.wikidata.org/wiki/Q107290369,Engineering / Technology,Scientific knowledge,label_rule:inventeur,suggested,False,True,1,1,,0,0,1,1
+Q17433421,journaliste scientifique,https://www.wikidata.org/wiki/Q17433421,Print / Publishing / Journalism,Literary and textual production,label_rule:journaliste,suggested,True,False,1,2,,1,1,1,1
+Q42569,lama,https://www.wikidata.org/wiki/Q42569,Religion / Theology,Intellectual systems,label_rule:lama,suggested,False,True,1,1,,0,0,1,1
+Q14565331,logicien ou logicienne,https://www.wikidata.org/wiki/Q14565331,Philosophy,Intellectual systems,label_rule:logicien,suggested,False,True,1,1,,0,0,1,1
+Q20722777,marchand d'armes,https://www.wikidata.org/wiki/Q20722777,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,1,2,,1,1,1,1
+Q115679109,marchand de soie,https://www.wikidata.org/wiki/Q115679109,Economics / Commerce,Institutional power,label_rule:marchand,suggested,False,True,1,1,,0,0,1,1
+Q17433551,marine,https://www.wikidata.org/wiki/Q17433551,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,1,1,,0,0,1,1
+Q6785142,master mariner,https://www.wikidata.org/wiki/Q6785142,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,1,1,,0,0,1,1
+Q21772571,mathématicien géomètre,https://www.wikidata.org/wiki/Q21772571,Science / Natural History,Scientific knowledge,label_rule:mathematicien,suggested,False,True,1,1,,0,0,1,1
+Q10509151,maître d'école élémentaire,https://www.wikidata.org/wiki/Q10509151,Education / Scholarship / Humanities,Intellectual systems,label_rule:maitre d'ecole,suggested,False,True,1,1,,0,0,1,1
+Q1266283,maître ou maîtresse de conférences,https://www.wikidata.org/wiki/Q1266283,Education / Scholarship / Humanities,Intellectual systems,label_rule:maitre ou maitresse de conferences,suggested,False,True,1,1,,0,0,1,1
+Q124536317,membre d'ordres et de sociétés religieuses catholiques romaines,https://www.wikidata.org/wiki/Q124536317,Religion / Theology,Intellectual systems,label_rule:religieuse,suggested,False,True,1,1,,0,0,1,1
+Q114009160,militant de l'émigration,https://www.wikidata.org/wiki/Q114009160,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,1,1,,0,0,1,1
+Q21993562,militant ou militante culturel,https://www.wikidata.org/wiki/Q21993562,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,1,1,,0,0,1,1
+Q11966252,militant ou militante de la cause animale,https://www.wikidata.org/wiki/Q11966252,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,1,2,,1,1,1,1
+Q16323111,militant pour la paix,https://www.wikidata.org/wiki/Q16323111,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,1,2,,1,1,1,1
+Q8359428,militant social,https://www.wikidata.org/wiki/Q8359428,Social Reform / Activism,Social and cultural mediation,label_rule:militant,suggested,False,True,1,1,,0,0,1,1
+Q97722145,moine catholique latin,https://www.wikidata.org/wiki/Q97722145,Religion / Theology,Intellectual systems,label_rule:moine,suggested,False,True,1,1,,0,0,1,1
+Q101084010,musicien de folk,https://www.wikidata.org/wiki/Q101084010,Music / Performance / Theatre,Arts and performance,label_rule:musicien,suggested,False,True,1,1,,0,0,1,1
+Q43682214,mystique chrétien,https://www.wikidata.org/wiki/Q43682214,Religion / Theology,Intellectual systems,label_rule:mystique,suggested,False,True,1,2,,1,1,1,1
+Q10334684,médecin de santé publique,https://www.wikidata.org/wiki/Q10334684,Medicine / Health,Scientific knowledge,label_rule:medecin,suggested,False,True,1,1,,0,0,1,1
+Q1251349,médecin personnel,https://www.wikidata.org/wiki/Q1251349,Medicine / Health,Scientific knowledge,label_rule:medecin,suggested,False,True,1,1,,0,0,1,1
+Q16743941,métaphysicien,https://www.wikidata.org/wiki/Q16743941,Philosophy,Intellectual systems,label_rule:metaphysicien,suggested,False,True,1,2,,1,1,1,1
+Q254651,navigateur ou navigatrice,https://www.wikidata.org/wiki/Q254651,Travel / Geography / Exploration,Mobility and empire,label_rule:navigateur,suggested,False,True,1,1,,0,0,1,1
+Q6337803,neurobiologiste,https://www.wikidata.org/wiki/Q6337803,Science / Natural History,Scientific knowledge,label_rule:biologiste,suggested,False,True,1,1,,0,0,1,1
+Q3546255,océanographe,https://www.wikidata.org/wiki/Q3546255,Science / Natural History,Scientific knowledge,label_rule:oceanographe,suggested,False,True,1,2,,1,1,1,1
+Q3349700,officier de la Marine française,https://www.wikidata.org/wiki/Q3349700,Travel / Geography / Exploration,Mobility and empire,label_rule:marin,suggested,False,True,1,2,,1,1,1,1
+Q19605958,officier de santé,https://www.wikidata.org/wiki/Q19605958,Military,Institutional power,label_rule:officier,suggested,False,True,1,2,,1,1,1,1
+Q118399233,officier municipal,https://www.wikidata.org/wiki/Q118399233,Military,Institutional power,label_rule:officier,suggested,False,True,1,2,,1,1,1,1
+Q9396355,ordre de chanoines réguliers,https://www.wikidata.org/wiki/Q9396355,Religion / Theology,Intellectual systems,label_rule:chanoine,suggested,False,True,1,1,,0,0,1,1
+Q211423,orfèvre,https://www.wikidata.org/wiki/Q211423,Visual Arts / Architecture / Design,Arts and performance,label_rule:orfevre,suggested,False,True,1,1,,0,0,1,1
+Q2216340,orfèvre spécialisé dans le travail de l'argent,https://www.wikidata.org/wiki/Q2216340,Visual Arts / Architecture / Design,Arts and performance,label_rule:orfevre,suggested,False,True,1,1,,0,0,1,1
+Q123738724,ornament designer,https://www.wikidata.org/wiki/Q123738724,Visual Arts / Architecture / Design,Arts and performance,label_rule:designer,suggested,False,True,1,1,,0,0,1,1
+Q12713481,ouvrier ou ouvrière,https://www.wikidata.org/wiki/Q12713481,Craft / Trade / Industry,Material production,label_rule:ouvrier,suggested,False,True,1,1,,0,0,1,1
+Q114797862,pasteur baptiste,https://www.wikidata.org/wiki/Q114797862,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,1,1,,0,0,1,1
+Q97344615,pasteur méthodiste,https://www.wikidata.org/wiki/Q97344615,Religion / Theology,Intellectual systems,label_rule:pasteur,suggested,False,True,1,1,,0,0,1,1
+Q1240788,patron,https://www.wikidata.org/wiki/Q1240788,Sociability / Patronage / Court,Social and cultural mediation,label_rule:patron,suggested,False,True,1,1,,0,0,1,1
+Q1020606,peintre de décor de théâtre,https://www.wikidata.org/wiki/Q1020606,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,1,2,,1,1,1,1
+Q1183704,peintre décorateur,https://www.wikidata.org/wiki/Q1183704,Writing / Literature,Literary and textual production,label_rule:orateur,suggested,False,True,1,1,,0,0,1,1
+Q56312678,peintre sur céramique,https://www.wikidata.org/wiki/Q56312678,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,1,1,,0,0,1,1
+Q24056480,peintre sur porcelaine,https://www.wikidata.org/wiki/Q24056480,Visual Arts / Architecture / Design,Arts and performance,label_rule:peintre,suggested,False,True,1,2,,1,1,1,1
+Q16389557,philosophe des sciences,https://www.wikidata.org/wiki/Q16389557,Philosophy,Intellectual systems,label_rule:philosophe,suggested,False,True,1,2,,1,1,1,1
+Q18930236,philosophe du langage,https://www.wikidata.org/wiki/Q18930236,Philosophy,Intellectual systems,label_rule:philosophe,suggested,False,True,1,2,,1,1,1,1
+Q19350898,physicien théoricien ou physicienne théoricienne,https://www.wikidata.org/wiki/Q19350898,Science / Natural History,Scientific knowledge,label_rule:physicien,suggested,False,True,1,2,,1,1,1,1
+Q3406479,procureur-syndic,https://www.wikidata.org/wiki/Q3406479,Religion / Theology,Intellectual systems,label_rule:cure,suggested,False,True,1,2,,1,1,1,1
+Q81708330,professeur de lettres,https://www.wikidata.org/wiki/Q81708330,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,2,,1,1,1,1
+Q26973007,professeur de philosophie,https://www.wikidata.org/wiki/Q26973007,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,1,,0,0,1,1
+Q48930480,professeur de philosophie,https://www.wikidata.org/wiki/Q48930480,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,1,,0,0,1,1
+Q3406834,professeur des écoles,https://www.wikidata.org/wiki/Q3406834,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,2,,1,1,1,1
+Q7939609,professeur ou professeure de chant,https://www.wikidata.org/wiki/Q7939609,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,1,,0,0,1,1
+Q63677188,professeur ou professeure de droit,https://www.wikidata.org/wiki/Q63677188,Education / Scholarship / Humanities,Intellectual systems,label_rule:professeur,suggested,False,True,1,1,,0,0,1,1
+Q17488316,préhistorien ou préhistorienne,https://www.wikidata.org/wiki/Q17488316,Education / Scholarship / Humanities,Intellectual systems,label_rule:historien,suggested,False,True,1,1,,0,0,1,1
+Q518782,prévôt,https://www.wikidata.org/wiki/Q518782,Law / Administration,Institutional power,label_rule:prevot,suggested,False,True,1,1,,0,0,1,1
+Q4994741,prêtre de paroisse,https://www.wikidata.org/wiki/Q4994741,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,1,1,,0,0,1,1
+Q60232542,prêtre grec-catholique,https://www.wikidata.org/wiki/Q60232542,Religion / Theology,Intellectual systems,label_rule:pretre,suggested,False,True,1,1,,0,0,1,1
+Q55631411,religieuse catholique,https://www.wikidata.org/wiki/Q55631411,Religion / Theology,Intellectual systems,label_rule:religieuse,suggested,False,True,1,1,,0,0,1,1
+Q28146366,religieuse chrétienne,https://www.wikidata.org/wiki/Q28146366,Religion / Theology,Intellectual systems,label_rule:religieuse,suggested,False,True,1,2,,1,1,1,1
+Q6138343,sculpteur ou sculptrice sur bois,https://www.wikidata.org/wiki/Q6138343,Visual Arts / Architecture / Design,Arts and performance,label_rule:sculpteur,suggested,False,True,1,1,,0,0,1,1
+Q1840507,sculpteur sur bois ou autre matériau naturel,https://www.wikidata.org/wiki/Q1840507,Visual Arts / Architecture / Design,Arts and performance,label_rule:sculpteur,suggested,False,True,1,1,,0,0,1,1
+Q319544,secrétaire,https://www.wikidata.org/wiki/Q319544,Law / Administration,Institutional power,label_rule:secretaire,suggested,False,True,1,1,,0,0,1,1
+Q120886563,secrétaire-greffier,https://www.wikidata.org/wiki/Q120886563,Law / Administration,Institutional power,label_rule:secretaire,suggested,False,True,1,2,,1,1,1,1
+Q15255771,sinologue,https://www.wikidata.org/wiki/Q15255771,Translation / Philology / Languages,Literary and textual production,label_rule:sinologue,suggested,False,True,1,2,,1,1,1,1
+Q27532437,suffragiste,https://www.wikidata.org/wiki/Q27532437,Social Reform / Activism,Social and cultural mediation,label_rule:suffrag,suggested,False,True,1,2,,1,1,1,1
+Q5352191,technicien ou technicienne,https://www.wikidata.org/wiki/Q5352191,Engineering / Technology,Scientific knowledge,label_rule:technicien,suggested,False,True,1,1,,0,0,1,1
+Q17994313,theatre entrepreneur,https://www.wikidata.org/wiki/Q17994313,Economics / Commerce,Institutional power,label_rule:entrepreneur,suggested,False,True,1,1,,0,0,1,1
+Q115783625,théologien luthérien,https://www.wikidata.org/wiki/Q115783625,Religion / Theology,Intellectual systems,label_rule:theologien,suggested,False,True,1,1,,0,0,1,1
+Q123819727,théologien orthodoxe,https://www.wikidata.org/wiki/Q123819727,Religion / Theology,Intellectual systems,label_rule:theologien,suggested,False,True,1,1,,0,0,1,1
+Q98028403,tobacco trader,https://www.wikidata.org/wiki/Q98028403,Economics / Commerce,Institutional power,label_rule:trader,suggested,False,True,1,1,,0,0,1,1
+Q28709693,traducteur de l'Iliade,https://www.wikidata.org/wiki/Q28709693,Translation / Philology / Languages,Literary and textual production,label_rule:traducteur,suggested,False,True,1,2,,1,1,1,1
+Q15143191,vulgarisateur ou vulgarisatrice scientifique,https://www.wikidata.org/wiki/Q15143191,Science / Natural History,Scientific knowledge,label_rule:scientifique,suggested,False,True,1,2,,1,1,1,1
+Q108290540,Éleveurs et ouvriers qualifiés de l’élevage de bétail,https://www.wikidata.org/wiki/Q108290540,Craft / Trade / Industry,Material production,label_rule:ouvrier,suggested,False,True,1,1,,0,0,1,1
+Q88190618,écrivain d'art,https://www.wikidata.org/wiki/Q88190618,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,True,False,1,1,,0,0,1,1
+Q100983844,écrivain de jardin,https://www.wikidata.org/wiki/Q100983844,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,1,1,,0,0,1,1
+Q118732656,écrivain ou écrivaine,https://www.wikidata.org/wiki/Q118732656,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,1,1,,0,0,1,1
+Q1318187,écrivain public,https://www.wikidata.org/wiki/Q1318187,Writing / Literature,Literary and textual production,label_rule:ecrivain,suggested,False,True,1,1,,0,0,1,1
+Q3719391,éditeur de partitions musicales,https://www.wikidata.org/wiki/Q3719391,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,False,True,1,1,,0,0,1,1
+Q124634459,éditeur de revue,https://www.wikidata.org/wiki/Q124634459,Print / Publishing / Journalism,Literary and textual production,label_rule:editeur,suggested,False,True,1,1,,0,0,1,1
+Q15632482,épistémologue,https://www.wikidata.org/wiki/Q15632482,Philosophy,Intellectual systems,label_rule:epistemologue,suggested,False,True,1,2,,1,1,1,1
+Q5121550,érudit du judaïsme,https://www.wikidata.org/wiki/Q5121550,Education / Scholarship / Humanities,Intellectual systems,label_rule:erudit,suggested,False,True,1,1,,0,0,1,1
+Q102043668,évêque calviniste,https://www.wikidata.org/wiki/Q102043668,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,1,1,,0,0,1,1
+Q102039658,évêque catholique romain,https://www.wikidata.org/wiki/Q102039658,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,1,1,,0,0,1,1
+Q94939480,évêque luthérien,https://www.wikidata.org/wiki/Q94939480,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,1,1,,0,0,1,1
+Q15283040,évêque orthodoxe,https://www.wikidata.org/wiki/Q15283040,Religion / Theology,Intellectual systems,label_rule:eveque,suggested,False,True,1,1,,0,0,1,1

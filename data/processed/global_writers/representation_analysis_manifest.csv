@@ -1,0 +1,13 @@
+path,description,format
+data/processed/global_writers/representation_entities.csv,One row per distinct Wikidata entity with analysis categories.,csv
+data/processed/global_writers/cultural_affiliation_candidates_long.csv,Candidate affiliation support rows.,csv
+data/processed/global_writers/cultural_affiliation_best_candidates.csv,Best affiliation summary per entity.,csv
+data/processed/global_writers/cultural_affiliation_unmapped_tokens.csv,Unmapped country/language tokens for affiliation scoring.,csv
+data/processed/global_writers/wikipedia_representation_long.csv,One row per entity and Wikipedia language edition.,csv
+data/processed/global_writers/representation_language_summary.csv,Overall representation by Wikipedia language edition.,csv
+data/processed/global_writers/representation_by_gender.csv,Wikipedia representation by gender category.,csv
+data/processed/global_writers/representation_by_affiliation.csv,Wikipedia representation by inferred affiliation category.,csv
+data/processed/global_writers/representation_by_place_affiliation.csv,Wikipedia representation by place-derived affiliation category.,csv
+data/processed/global_writers/representation_by_occupation.csv,Wikipedia representation by raw occupation token.,csv
+data/processed/global_writers/wikidata_label_coverage_by_language.csv,Wikidata label/description coverage by language.,csv
+data/processed/global_writers/representation_analysis_manifest.csv,Inventory of analysis outputs.,csv

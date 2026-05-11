@@ -1,5 +1,10 @@
 from pathlib import Path
+from argparse import ArgumentParser
+import sys
 import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 
 
 def unique_non_null_count(series: pd.Series) -> int:
@@ -14,28 +19,21 @@ def join_unique_values(series: pd.Series) -> object:
     return " | ".join(values)
 
 
-def main() -> None:
-    # Resolve project root from this script's location.
-    project_root = Path(__file__).resolve().parents[2]
-
-    # Define input and output paths.
-    geography_path = (
-        project_root / "data" / "raw" / "18thcentury_french_writers_table.csv"
+def parse_args() -> object:
+    parser = ArgumentParser(description="Build a merged cohort dataset.")
+    parser.add_argument(
+        "--cohort-id",
+        default=DEFAULT_COHORT_ID,
+        choices=["french_seed", "global_writers"],
+        help=f"Cohort to build. Default: {DEFAULT_COHORT_ID}.",
     )
-    viaf_path = project_root / "data" / "raw" / "18thcentury_writers_wikidata_viaf.csv"
-    output_path = project_root / "data" / "interim" / "writers_merged.csv"
-    viaf_conflicts_path = project_root / "data" / "interim" / "viaf_conflicts.csv"
+    return parser.parse_args()
 
-    # Read the two raw CSV files.
-    geography_df = pd.read_csv(geography_path, header=1)
-    viaf_df = pd.read_csv(viaf_path, header=1, dtype={"viaf": "string"})
 
-    # Standardize column names by trimming whitespace.
+def normalize_french_seed_discovery(discovery_path: Path) -> pd.DataFrame:
+    geography_df = pd.read_csv(discovery_path, header=1)
     geography_df.columns = geography_df.columns.str.strip()
-    viaf_df.columns = viaf_df.columns.str.strip()
-
-    # Rename key columns into a more stable shared schema.
-    geography_df = geography_df.rename(
+    return geography_df.rename(
         columns={
             "person": "wikidata_id",
             "personLabel": "name",
@@ -46,6 +44,48 @@ def main() -> None:
         }
     )
 
+
+def normalize_global_discovery(discovery_path: Path) -> pd.DataFrame:
+    discovery_df = pd.read_csv(discovery_path)
+    discovery_df.columns = discovery_df.columns.str.strip()
+    if "person" not in discovery_df.columns:
+        raise SystemExit(f"Global discovery file must contain a person column: {discovery_path}")
+
+    discovery_df = discovery_df.rename(
+        columns={
+            "person": "wikidata_id",
+            "personLabel": "name",
+            "birthDate": "birth_date",
+            "birthYear": "birth_year",
+            "birthPlaceLabel": "birth_place",
+            "occupation_labels": "occupation_raw",
+        }
+    )
+
+    for column in ["birth_place", "coords", "occupation_raw"]:
+        if column not in discovery_df.columns:
+            discovery_df[column] = pd.NA
+    if "occupation_raw" in discovery_df.columns:
+        discovery_df["occupation_raw"] = discovery_df["occupation_raw"].fillna(
+            discovery_df.get("occupation_ids", pd.Series(pd.NA, index=discovery_df.index))
+        )
+
+    keep_columns = [
+        "wikidata_id",
+        "name",
+        "birth_year",
+        "birth_place",
+        "coords",
+        "occupation_raw",
+        "birth_date",
+    ]
+    return discovery_df[[column for column in keep_columns if column in discovery_df.columns]].copy()
+
+
+def summarize_viaf(viaf_path: Path, geography_ids: set[str]) -> tuple[pd.DataFrame, pd.DataFrame]:
+    viaf_df = pd.read_csv(viaf_path, header=1, dtype={"viaf": "string"})
+    viaf_df.columns = viaf_df.columns.str.strip()
+
     viaf_df = viaf_df.rename(
         columns={
             "person": "wikidata_id",
@@ -55,12 +95,8 @@ def main() -> None:
         }
     )
 
-    # Keep only the columns we need from the VIAF table before merging.
     viaf_df = viaf_df[["wikidata_id", "birth_date", "viaf_id"]].copy()
 
-    # Preserve VIAF ambiguity without multiplying geography rows.
-    # If a Wikidata entity has multiple VIAF dates or IDs, keep candidates and
-    # leave the scalar field blank for later diagnostics rather than choosing one.
     viaf_summary_df = (
         viaf_df.groupby("wikidata_id", dropna=False)
         .agg(
@@ -100,7 +136,6 @@ def main() -> None:
         ]
     ]
 
-    geography_ids = set(geography_df["wikidata_id"].dropna())
     joining_conflict_ids = set(
         viaf_summary_df.loc[
             viaf_summary_df["viaf_has_conflict"]
@@ -112,27 +147,80 @@ def main() -> None:
         viaf_df["wikidata_id"].isin(joining_conflict_ids)
     ].sort_values(["wikidata_id", "birth_date", "viaf_id"], na_position="last")
 
-    # Merge: keep every row from the geography table and add VIAF data where available.
-    merged_df = geography_df.merge(
+    return viaf_summary_df, viaf_conflicts_df
+
+
+def empty_viaf_summary(geography_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    viaf_summary_df = geography_df[["wikidata_id"]].drop_duplicates().copy()
+    viaf_summary_df["birth_date_candidates"] = geography_df.get("birth_date", pd.NA)
+    viaf_summary_df["viaf_id_candidates"] = pd.NA
+    viaf_summary_df["viaf_record_count"] = 0
+    viaf_summary_df["viaf_birth_date_count"] = 0
+    viaf_summary_df["viaf_id_count"] = 0
+    viaf_summary_df["viaf_has_conflict"] = False
+    viaf_summary_df["viaf_id"] = pd.NA
+    if "birth_date" in geography_df.columns:
+        viaf_summary_df = viaf_summary_df.drop(columns=["birth_date_candidates"]).merge(
+            geography_df[["wikidata_id", "birth_date"]].drop_duplicates("wikidata_id"),
+            on="wikidata_id",
+            how="left",
+        )
+        viaf_summary_df["birth_date_candidates"] = viaf_summary_df["birth_date"]
+    else:
+        viaf_summary_df["birth_date"] = pd.NA
+    viaf_summary_df = viaf_summary_df[
+        [
+            "wikidata_id",
+            "birth_date",
+            "viaf_id",
+            "birth_date_candidates",
+            "viaf_id_candidates",
+            "viaf_record_count",
+            "viaf_birth_date_count",
+            "viaf_id_count",
+            "viaf_has_conflict",
+        ]
+    ]
+    return viaf_summary_df, pd.DataFrame(columns=["wikidata_id", "birth_date", "viaf_id"])
+
+
+def main() -> None:
+    args = parse_args()
+    project_root = Path(__file__).resolve().parents[2]
+    paths = cohort_paths(project_root, args.cohort_id)
+
+    if not paths.raw_discovery_path.exists():
+        raise SystemExit(f"Missing discovery file for {paths.cohort_id}: {paths.raw_discovery_path}")
+
+    if paths.cohort_id == "french_seed":
+        geography_df = normalize_french_seed_discovery(paths.raw_discovery_path)
+    else:
+        geography_df = normalize_global_discovery(paths.raw_discovery_path)
+
+    geography_ids = set(geography_df["wikidata_id"].dropna())
+    if paths.raw_viaf_path and paths.raw_viaf_path.exists():
+        viaf_summary_df, viaf_conflicts_df = summarize_viaf(paths.raw_viaf_path, geography_ids)
+    else:
+        viaf_summary_df, viaf_conflicts_df = empty_viaf_summary(geography_df)
+
+    merge_base = geography_df.drop(columns=["birth_date"], errors="ignore")
+    merged_df = merge_base.merge(
         viaf_summary_df,
         on="wikidata_id",
         how="left",
         validate="many_to_one",
     )
 
-    # Ensure output directory exists.
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    paths.merged_path.parent.mkdir(parents=True, exist_ok=True)
+    merged_df.to_csv(paths.merged_path, index=False)
+    viaf_conflicts_df.to_csv(paths.viaf_conflicts_path, index=False)
 
-    # Write merged dataset.
-    merged_df.to_csv(output_path, index=False)
-    viaf_conflicts_df.to_csv(viaf_conflicts_path, index=False)
-
-    # Lightweight schema preview for terminal inspection.
+    print(f"Cohort: {paths.cohort_id}")
     print(f"Merged rows: {len(merged_df)}")
     print(f"Columns: {list(merged_df.columns)}")
-    print(f"Output written to: {output_path}")
+    print(f"Output written to: {paths.merged_path}")
     print(f"VIAF conflict rows written: {len(viaf_conflicts_df)}")
-    print(f"VIAF conflicts file: {viaf_conflicts_path}")
+    print(f"VIAF conflicts file: {paths.viaf_conflicts_path}")
 
 
 if __name__ == "__main__":

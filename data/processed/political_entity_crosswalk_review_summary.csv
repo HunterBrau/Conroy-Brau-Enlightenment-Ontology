@@ -1,0 +1,4 @@
+manual_review_label,manual_review_rank,crosswalk_rows,active_rows,needs_attention_rows,mean_review_tally_score
+high,3,14,14,0,1.0
+medium,2,22,19,2,1.0
+low,1,4,3,4,1.0

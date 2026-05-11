@@ -1,0 +1,41 @@
+wikidata_id,label,review_group,affiliation_bucket,context_type,modern_country_id,modern_country_label,include_in_imperial_context,include_in_modern_country_rollup,include_in_europe_binary,include_in_non_europe_or_colonial,manual_review_label,notes
+Q142,France,France,French,modern_state,Q142,France,false,true,true,false,high,Modern France.
+Q70972,Kingdom of France,France,French,historical_state,Q142,France,false,true,true,false,high,Core French monarchy context for the period.
+Q71084,French First Republic,France,French,historical_state,Q142,France,false,true,true,false,high,Revolutionary France.
+Q58296,First French Empire,France,French,imperial_state,Q142,France,true,true,true,false,medium,Post-1775 state but may appear for people in the cohort.
+Q207162,Bourbon Restoration,France,French,historical_state,Q142,France,false,true,true,false,medium,Post-1775 state but may appear for people in the cohort.
+Q861551,July Monarchy,France,French,historical_state,Q142,France,false,true,true,false,medium,Post-1775 state but may appear for people in the cohort.
+Q183,Germany,Germany,German,modern_state,Q183,Germany,false,true,true,false,high,Modern Germany.
+Q38872,Holy Roman Empire,Germany,German/HRE,historical_imperial_context,Q183,Germany,true,false,true,false,medium,Use cautiously; not equivalent to modern Germany.
+Q43287,Prussia,Germany,German/Prussian,historical_state,Q183,Germany,false,false,true,false,medium,Prussian context; not always modern Germany.
+Q27306,Kingdom of Prussia,Germany,German/Prussian,historical_state,Q183,Germany,false,false,true,false,medium,Prussian context; not always modern Germany.
+Q41304,Kingdom of Saxony,Germany,German/Saxon,historical_state,Q183,Germany,false,false,true,false,medium,German state context.
+Q1206012,Kingdom of Saxony,Germany,German/Saxon,historical_state,Q183,Germany,false,false,true,false,medium,German state context; verify duplicate modeling with Q41304.
+Q40,Austria,Germany,Austrian/Habsburg,modern_state,Q40,Austria,false,true,true,false,medium,Keep separate from Germany in final rollups unless explicitly grouped.
+Q153136,Habsburg monarchy,Germany,Austrian/Habsburg,historical_imperial_context,Q40,Austria,true,false,true,false,medium,Habsburg context; relevant contrast but not Germany proper.
+Q28513,Austrian Empire,Germany,Austrian/Habsburg,imperial_state,Q40,Austria,true,false,true,false,medium,Post-1804 Habsburg context; not Germany proper.
+Q8680,British Empire,British,British imperial,imperial_state,Q145,United Kingdom,true,false,false,true,high,Core British imperial ID.
+Q129286,British Raj,British,British imperial/colonial,colonial_state,Q145,United Kingdom,true,false,false,true,high,Colonial India.
+Q2001966,Company rule in India,British,British imperial/colonial,colonial_state,Q145,United Kingdom,true,false,false,true,high,East India Company rule in India.
+Q258532,British America,British,British imperial/colonial,colonial_region,Q145,United Kingdom,true,false,false,true,high,North American colonial context.
+Q179997,Thirteen Colonies,British,British imperial/colonial,colonial_region,Q145,United Kingdom,true,false,false,true,high,Colonial America and pre-US context.
+Q248452,British North America,British,British imperial/colonial,colonial_region,Q145,United Kingdom,true,false,false,true,medium,Useful for place context if it appears.
+Q83164,East India Company,British,British imperial organization,organization,Q145,United Kingdom,true,false,false,true,medium,Do not treat as nationality; useful supporting context.
+Q161885,Kingdom of Great Britain,British,British/UK state,historical_state,Q145,United Kingdom,false,true,true,false,high,Core 18th-century British state.
+Q174193,United Kingdom of Great Britain and Ireland,British,British/UK state,historical_state,Q145,United Kingdom,false,true,true,false,high,Successor state after 1801.
+Q145,United Kingdom,British,British/UK state,modern_state,Q145,United Kingdom,false,true,true,false,high,Modern UK.
+Q179876,Kingdom of England,British,British predecessor,historical_state,Q145,United Kingdom,false,false,true,false,medium,Predecessor context; not modern UK by itself.
+Q230791,Kingdom of Scotland,British,British predecessor,historical_state,Q145,United Kingdom,false,false,true,false,medium,Predecessor context; not modern UK by itself.
+Q215530,Kingdom of Ireland,British,British/Irish crown context,historical_state,Q145,United Kingdom,false,false,true,false,low,Needs careful review; should not automatically erase Irish context.
+Q21,England,British,English/place context,constituent_country,Q145,United Kingdom,false,false,true,false,medium,Useful as place/current geography context.
+Q22,Scotland,British,Scottish/place context,constituent_country,Q145,United Kingdom,false,false,true,false,medium,Useful as place/current geography context.
+Q27,Ireland,British,Irish/place context,modern_state,Q27,Ireland,false,false,true,false,low,Do not automatically collapse into British.
+Q8733,Qing dynasty,China,Qing/Chinese imperial,dynasty,Q148,China,true,false,false,true,high,Core Qing ID for the period.
+Q12060881,Chinese Empire,China,Chinese imperial umbrella,historical_imperial_context,Q148,China,true,false,false,true,medium,Useful if it appears in context; not common in P27.
+Q9903,Ming dynasty,China,Chinese dynastic predecessor,dynasty,Q148,China,true,false,false,true,medium,Broader Chinese historical context; not Qing.
+Q148,People's Republic of China,China,Modern China,modern_state,Q148,China,false,true,false,true,high,Modern China; not historical Qing.
+Q13426199,Republic of China,China,Chinese successor state,historical_state,Q148,China,false,true,false,true,medium,Broader China context.
+Q814959,Beiyang Government,China,Chinese successor government,government,Q148,China,false,true,false,true,medium,Broader China context.
+Q704714,Provisional Government of the Republic of China,China,Chinese successor government,government,Q148,China,false,true,false,true,medium,Broader China context.
+Q696242,Wang Jingwei regime,China,Chinese wartime government,government,Q148,China,false,true,false,true,low,Broader China context; historically outside current cohort period.
+Q175379,Empire of China,China,Chinese imperial successor,historical_state,Q148,China,true,false,false,true,low,Short-lived 1915-1916 state; likely edge case only.

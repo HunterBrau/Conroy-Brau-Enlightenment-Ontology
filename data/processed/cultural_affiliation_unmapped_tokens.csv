@@ -1,0 +1,14 @@
+token_family,token_id,token_label,token_wikidata_url,occurrence_count,entity_count,example_names
+spoken_written_language,Q397,Latin,https://www.wikidata.org/wiki/Q397,77,77,Abbé Prévost | Abigail Adams | Adamántios Koraïs | Albertine Necker de Saussure | Aleksander Benedykt Sobieski | Antioche Cantemir | Antoine Joseph Dezallier d'Argenville | Antoine-Joseph Pernety
+spoken_written_language,Q35497,Ancient Greek,https://www.wikidata.org/wiki/Q35497,12,12,Antal Zechenter | Benedetta Clotilde Lunelli Spinola | Ivan Martynov | Jacek Idzi Przybylski | Jean Nicolas Grou | Joaquín Traggia | John Quincy Adams | Melchiore Cesarotti
+writing_language,Q397,Latin,https://www.wikidata.org/wiki/Q397,5,5,Antoine Joseph Dezallier d'Argenville | Ignjat Đurđević | József Benczur | Leonhard Euler | Miklós Révai
+spoken_written_language,Q1248221,Neo-Latin,https://www.wikidata.org/wiki/Q1248221,2,2,Antoine Gaubil | Gaspard de Gregory
+citizenship,Q1142,,https://www.wikidata.org/wiki/Q1142,1,1,Frédérique Brion
+citizenship,Q589662,Royal Prussia,https://www.wikidata.org/wiki/Q589662,1,1,Georg Forster
+citizenship,Q77,,https://www.wikidata.org/wiki/Q77,1,1,Antoine-Joseph Pernety
+native_language,Q33578,Igbo,https://www.wikidata.org/wiki/Q33578,1,1,Olaudah Equiano
+spoken_written_language,Q11059,Sanskrit,https://www.wikidata.org/wiki/Q11059,1,1,William Jones
+spoken_written_language,Q28602,Aramaic,https://www.wikidata.org/wiki/Q28602,1,1,Junius Frey
+spoken_written_language,Q33538,Syriac,https://www.wikidata.org/wiki/Q33538,1,1,Antoine-Isaac Silvestre de Sacy
+spoken_written_language,Q34057,Tagalog,https://www.wikidata.org/wiki/Q34057,1,1,Joaquín Traggia
+spoken_written_language,Q56612,Samaritan Aramaic,https://www.wikidata.org/wiki/Q56612,1,1,Antoine-Isaac Silvestre de Sacy

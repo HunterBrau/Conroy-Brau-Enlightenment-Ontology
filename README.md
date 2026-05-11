@@ -6,10 +6,10 @@ representation across Wikidata, VIAF, and related bibliographic systems.
 ## Overview
 
 This project builds a reproducible data pipeline for a slow, inspectable
-"who's who" of Enlightenment-era cultural figures. The current pilot dataset
-starts with writer-like Wikidata query exports and VIAF identifiers, but the
-broader research direction includes people associated with literature, music,
-opera, poetry, letters, sculpture, painting, and adjacent cultural work.
+"who's who" of Enlightenment-era cultural figures. The current working scope
+has two writer-centered Wikidata cohorts: the original French seed cohort and
+a global writer/subclass cohort. VIAF remains supporting metadata for the
+French seed; it is not the current discovery source.
 
 The project is inspired by the difference between simply counting cultural
 records and using computational methods to transform, model, and compare those
@@ -105,38 +105,36 @@ Directory roles:
 
 ## Current Data
 
-Two primary raw exports are currently used:
+The repository now has two explicit cohorts declared in
+`data/cohorts/cohort_manifest.csv`:
 
-1. A Wikidata geography export with entity IDs, names, birth years,
-   birthplaces, coordinates, and raw occupation labels.
-2. A Wikidata/VIAF export with entity IDs, full birth dates, and VIAF
-   identifiers.
+1. `french_seed`: the original French country-of-citizenship seed cohort,
+   using `data/raw/18thcentury_french_writers_table.csv` plus the VIAF sidecar
+   `data/raw/18thcentury_writers_wikidata_viaf.csv`.
+2. `global_writers`: a reproducible Wikidata discovery cohort of humans born
+   1675-1775 whose occupation is writer or a subclass of writer, using
+   `data/raw/global_writers_1675_1775_discovery.csv`.
 
-These pilot raw CSVs were originally exported manually from the Wikidata Query
-Service by a collaborator. The exact original query texts were not preserved,
-so the repository now distinguishes between the original manual exports and the
-reconstructed current-cohort query templates that support future
-reproducibility.
+The original French-seed raw CSVs were exported manually from the Wikidata
+Query Service. The exact original query texts were not preserved, so the
+repository keeps reconstruction templates for provenance while the active
+global discovery is scripted.
 
-The current cohort should be treated as a 1675-1775 pilot dataset. It is not
-yet the final broad Enlightenment character dataset.
-
-The current pilot is sufficient for merge, clean, and diagnostic work, but it
-does not yet contain all the fields needed for a cultural-affiliation matrix or
-for language-edition influence analysis. Those later steps will require more
-Wikidata fields before new authority systems are added.
+Both cohorts are enriched with Wikidata affiliation, demographic, occupation,
+label-coverage, notable-work, place-context, and Wikipedia language-edition
+fields. The first analysis layer builds representation, cultural-affiliation,
+place-affiliation, geographic-scope, and cohort-comparison tables.
 
 ## Source Strategy
 
 The project should expand outward in a deliberate order:
 
 1. Keep **Wikidata** as the identity spine.
-2. Diagnose the current pilot dataset before changing its scope.
-3. Add a richer **Wikidata enrichment** export with affiliation and
-   representation fields such as death place, citizenship, residence or work
-   location, language fields, and Wikipedia language-edition presence.
-4. Re-run diagnostics on the enriched Wikidata-centered cohort.
-5. Add **BnF** as the first external comparison source.
+2. Preserve the French seed and global writer cohorts as separate tracks.
+3. Use API-based Wikidata enrichment for both cohorts.
+4. Build explicit comparison tables before adding another source family.
+5. Add **BnF** as the first external comparison source only after the Wikidata
+   tracks and political-entity crosswalk are stable.
 6. Add domain-specific authorities only if a research question clearly needs
    them.
 
@@ -146,6 +144,18 @@ understood.
 
 The fuller source-adoption rationale lives in
 [docs/source_strategy.md](docs/source_strategy.md).
+
+The current analysis roadmap lives in
+[docs/analysis_roadmap.md](docs/analysis_roadmap.md).
+
+The latest conference-script comparison lives in
+[docs/conference_script_alignment.md](docs/conference_script_alignment.md).
+
+The country-of-citizenship methodology note lives in
+[docs/methodology_country_of_citizenship.md](docs/methodology_country_of_citizenship.md).
+
+The current repo inventory and project reset lives in
+[docs/project_level_set.md](docs/project_level_set.md).
 
 ## Pipeline Definition
 
@@ -215,9 +225,6 @@ Step 03: Dataset diagnostics
   - occupation distribution
   - birthplace and coordinate coverage
   - disagreement and ambiguity summaries
-  - diagnostic outputs that guide later enrichment and normalization
-  - CSV tables as the canonical diagnostic format, with Markdown limited to a
-    short orientation note
 
 Label correction support task
 
@@ -241,19 +248,11 @@ Step 04: Merge Wikidata enrichment export
 
 - Script: `scripts/pipeline/04_merge_wikidata_enrichment.py`
 - Query helpers:
-  - `scripts/queries/01_export_wikidata_values_block.py`
-  - `scripts/queries/11_run_wikidata_query_batch.py`
-  - `scripts/queries/02_wikidata_affiliation_enrichment.rq`
-  - `scripts/queries/05_wikidata_affiliation_death_place.rq`
-  - `scripts/queries/06_wikidata_affiliation_languages.rq`
-  - `scripts/queries/07_wikidata_wikipedia_representation.rq`
-  - `scripts/queries/08_wikidata_affiliation_residence.rq`
-  - `scripts/queries/09_wikidata_affiliation_work_location.rq`
-  - `scripts/queries/10_wikidata_affiliation_citizenship.rq`
+  - `scripts/queries/17_fetch_wikidata_enrichment_api.py`
+  - `scripts/queries/wikidata_api.py`
 - Inputs:
   - `data/interim/writers_cleaned.csv`
-  - `data/raw/wikidata_affiliation_enrichment.csv`, or one or more CSV
-    exports or export folders passed with `--input`
+  - `data/raw/wikidata_affiliation_enrichment.csv`
 - Outputs:
   - `data/interim/writers_wikidata_enriched.csv`
   - `data/interim/wikidata_enrichment_missing_entities.csv`
@@ -264,41 +263,155 @@ Step 04: Merge Wikidata enrichment export
 - Behavior:
   - merge richer Wikidata fields back onto the current cohort
   - preserve multi-valued affiliation evidence as pipe-delimited fields
-  - summarize chunked export duplicates rather than multiplying cohort rows
-  - accept split query families and fill absent columns with `NA` until all
-    evidence families have been merged
+  - accepts legacy CSV exports with `--input`, but the default source is the
+    API-generated enrichment CSV
   - add evidence-availability flags without assigning cultural affiliation
+  - add supplemental coverage flags for gender, occupations, label coverage,
+    and notable-work genre evidence
+  - treats ethnic group as contextual evidence rather than an affiliation-tally
+    input
 
-For the full 1675-1775 cohort, the recommended Step 04 workflow is the split
-query family approach. The all-in-one enrichment query is still kept in the
-repository for inspection and for small-cohort tests, but it is more likely to
-time out on the full cohort because multivalued properties can create very
-large intermediate joins.
+For the full 1675-1775 cohort, the recommended Step 04 workflow is the
+API-first route. It avoids the Wikidata Query Service timeouts caused by large
+multivalued SPARQL joins and produces a single raw enrichment CSV.
+
+Cohort manifest
+
+- Script: `scripts/pipeline/00_build_cohort_manifest.py`
+- Output: `data/cohorts/cohort_manifest.csv`
+- Cohorts:
+  - `french_seed`: current flat-file French citizenship seed
+  - `global_writers`: global writer/subclass discovery cohort
+
+Global writer discovery
+
+- Script: `scripts/queries/19_discover_global_writers.py`
+- Output:
+  - `data/raw/global_writers_1675_1775_discovery.csv`
+  - `data/raw/global_writers_1675_1775_discovery_summary.csv`
+- Behavior:
+  - discovers humans born 1675-1775 with occupation `writer` or subclass of
+    writer
+  - uses year-chunked SPARQL with stable `ORDER BY ?person`, `LIMIT`, and
+    `OFFSET`
+  - writes the discovery cohort that later API enrichment expands
+
+Analysis Layer 01: Representation and cultural-affiliation matrices
+
+- Script: `scripts/analysis/01_build_representation_matrices.py`
+- Input:
+  - `data/interim/writers_wikidata_enriched.csv`
+  - `data/processed/person_name_label_corrections.csv`
+- Outputs:
+  - `data/processed/representation_entities.csv`
+  - `data/processed/cultural_affiliation_candidates_long.csv`
+  - `data/processed/cultural_affiliation_best_candidates.csv`
+  - `data/processed/cultural_affiliation_unmapped_tokens.csv`
+  - `data/processed/wikipedia_representation_long.csv`
+  - `data/processed/representation_language_summary.csv`
+  - `data/processed/representation_by_gender.csv`
+  - `data/processed/representation_by_affiliation.csv`
+  - `data/processed/representation_by_place_affiliation.csv`
+  - `data/processed/representation_by_occupation.csv`
+  - `data/processed/wikidata_label_coverage_by_language.csv`
+  - `data/processed/representation_analysis_manifest.csv`
+- Behavior:
+  - collapses enriched rows to one row per Wikidata entity
+  - creates one row per entity per selected Wikipedia language edition
+  - assigns provisional cultural-affiliation candidates from citizenship and
+    language evidence
+  - joins place-derived affiliation context when available
+  - summarizes representation by language edition, gender, core affiliation,
+    place-derived affiliation, and occupation
+
+Place Context Layer: Place-derived affiliation evidence
+
+- Source helper: `scripts/queries/18_fetch_wikidata_person_place_context.py`
+- Analysis script: `scripts/analysis/02_build_place_affiliation_context.py`
+- Raw outputs:
+  - `data/raw/wikidata_person_place_context.csv`
+  - `data/raw/wikidata_place_context_entities.csv`
+- Processed outputs:
+  - `data/processed/place_context_long.csv`
+  - `data/processed/place_affiliation_candidates_long.csv`
+  - `data/processed/place_affiliation_best_candidates.csv`
+  - `data/processed/place_affiliation_unmapped_tokens.csv`
+  - `data/processed/place_affiliation_role_summary.csv`
+- Behavior:
+  - recovers Wikidata place IDs for birth, death, residence, and work location
+  - fetches place coordinates, country IDs, and administrative context
+  - assigns provisional place-derived affiliations separately from the core
+    citizenship/language score
+  - reports coverage and unmapped country tokens for later curation
+
+Analysis Layer 03: Geographic scope diagnostics
+
+- Script: `scripts/analysis/03_build_geographic_scope_analysis.py`
+- Inputs:
+  - `data/interim/writers_wikidata_enriched.csv`
+  - `data/processed/place_context_long.csv`
+- Outputs:
+  - `data/processed/geographic_scope_entity_classification.csv`
+  - `data/processed/geographic_scope_summary.csv`
+  - `data/processed/geographic_scope_special_context_cases.csv`
+  - `data/processed/citizenship_missing_entities.csv`
+- Behavior:
+  - counts entities with and without Wikidata country-of-citizenship evidence
+  - compares exact citizenship matches against China/Qing and British imperial
+    context recovered through place evidence
+  - classifies birth-place context into European, non-European or colonial,
+    mixed, and transcontinental/imperial buckets for auditable geography claims
+
+Analysis Layer 05: Formula-backed affiliation evidence
+
+- Script: `scripts/analysis/05_build_affiliation_evidence_matrix.py`
+- Inputs:
+  - `data/interim/writers_wikidata_enriched.csv`
+  - `data/processed/place_context_long.csv`
+- Outputs:
+  - `data/processed/cultural_affiliation_evidence_matrix.csv`
+  - `data/processed/cultural_affiliation_evidence_best.csv`
+  - `data/processed/cultural_affiliation_evidence_summary.csv`
+- Behavior:
+  - tallies explicit evidence fields for each person and candidate affiliation
+  - reports `supporting_evidence_count / total_evidence_fields`
+  - also reports support over available mapped fields so missing data stays
+    visible
+
+Analysis Layer 06: Granular occupation buckets
+
+- Script: `scripts/analysis/06_build_occupation_bucket_tables.py`
+- Reference output:
+  - `data/reference/occupation_bucket_crosswalk_seed.csv`
+- Processed outputs:
+  - `data/processed/occupation_bucket_crosswalk_summary.csv`
+  - `data/processed/occupation_bucket_entities_long.csv`
+  - `data/processed/occupation_bucket_summary.csv`
+  - `data/processed/occupation_bucket_language_representation.csv`
+- Behavior:
+  - maps occupation QIDs to reviewable granular buckets
+  - keeps Religion / Theology separate from Philosophy
+  - summarizes bucket coverage and language-edition representation
 
 ## Planned Pipeline Steps
 
 | Step | Purpose |
 |---|---|
-| 05 | Re-run diagnostics and normalize occupation or cohort categories |
-| 06 | Cultural-affiliation evidence matrix |
 | 07 | Compare with BnF |
-| 08 | Geography and network analysis datasets |
-| 09 | Optional domain-specific enrichment |
+| 08 | Optional domain-specific enrichment |
 
 Step 03 should be reusable and re-run after major data expansions.
 
 Step 04 stays Wikidata-centered. It adds the fields needed for later inference
 and visualization before the project introduces other external authority
-systems. Because Wikidata Query Service exports are created outside the local
-pipeline, Step 04 is implemented as a two-part workflow: generate query files,
-then merge the exported CSV back into the cohort.
+systems. Step 04 is implemented as a two-part workflow: fetch a Wikidata API
+CSV, then merge that exported CSV back into the cohort.
 
-Step 06 is expected to produce a "punch card" style matrix for each person.
-Candidate affiliations can be scored by checking which evidence fields support
-them, such as birthplace, death place, citizenship, residence or work location,
-language, and Wikipedia language-edition representation. The matrix should keep
-two ideas separate: the affiliation score itself and the completeness of the
-available evidence.
+The analysis layers already produce provisional cultural-affiliation,
+formula-backed affiliation evidence, granular occupation-bucket, and Wikipedia
+language-edition matrices, with place-derived context kept inspectable. Later
+layers should add visual or network outputs without hiding the evidence fields
+that support each claim.
 
 Step 07 should introduce BnF as the first external comparator. Only after that
 should the project decide whether sources such as CERL, Getty, MusicBrainz, or
@@ -327,58 +440,14 @@ This writes small versioned audit tables to `data/processed/`. The correction
 tables identify readable replacement labels; they do not mutate the cleaned
 cohort in place.
 
-To prepare the Step 04 enrichment query:
+To fetch the Step 04 Wikidata enrichment export:
 
 ```powershell
-python scripts/queries/01_export_wikidata_values_block.py
+python scripts/queries/17_fetch_wikidata_enrichment_api.py
 ```
 
-This writes:
-
-- `outputs/wikidata_cohort_values_block.txt`
-- `outputs/wikidata_affiliation_enrichment_query.rq`
-- `outputs/wikidata_affiliation_queries/`
-- `outputs/wikidata_affiliation_death_place_query.rq`
-- `outputs/wikidata_affiliation_death_place_queries/`
-- `outputs/wikidata_affiliation_residence_query.rq`
-- `outputs/wikidata_affiliation_residence_queries/`
-- `outputs/wikidata_affiliation_work_location_query.rq`
-- `outputs/wikidata_affiliation_work_location_queries/`
-- `outputs/wikidata_affiliation_languages_query.rq`
-- `outputs/wikidata_affiliation_languages_queries/`
-- `outputs/wikidata_affiliation_citizenship_query.rq`
-- `outputs/wikidata_affiliation_citizenship_queries/`
-- `outputs/wikidata_wikipedia_representation_query.rq`
-- `outputs/wikidata_wikipedia_representation_queries/`
-- `outputs/wikidata_current_cohort_geography_query.rq`
-- `outputs/wikidata_current_cohort_geography_queries/`
-- `outputs/wikidata_current_cohort_viaf_query.rq`
-- `outputs/wikidata_current_cohort_viaf_queries/`
-
-For the full 1675-1775 cohort, prefer the split Step 04 query families and
-their chunked files. The single combined enrichment query is mainly a
-reference template and a small-cohort convenience query.
-
-You can also run a generated query file directly:
-
-```powershell
-python scripts/queries/00_run_wikidata_sparql_query.py `
-  outputs/wikidata_affiliation_enrichment_query.rq `
-  data/raw/wikidata_affiliation_enrichment.csv
-```
-
-Or export a whole split query family into a folder:
-
-```powershell
-python scripts/queries/11_run_wikidata_query_batch.py `
-  outputs/wikidata_affiliation_languages_queries `
-  data/raw/wikidata_affiliation_languages_parts `
-  --skip-existing
-```
-
-Save a single combined export as:
-
-- `data/raw/wikidata_affiliation_enrichment.csv`
+This writes `data/raw/wikidata_affiliation_enrichment.csv` and uses an ignored
+local cache under `data/raw/cache/` so interrupted API runs can resume.
 
 Then run:
 
@@ -386,24 +455,10 @@ Then run:
 python scripts/pipeline/04_merge_wikidata_enrichment.py
 ```
 
-If you ran chunked queries and saved multiple CSV files in one folder, pass the
-folder path:
+Legacy CSV exports can still be merged explicitly:
 
 ```powershell
-python scripts/pipeline/04_merge_wikidata_enrichment.py --input data/raw/wikidata_affiliation_parts
-```
-
-If you ran the recommended split Step 04 query families, pass each family
-folder:
-
-```powershell
-python scripts/pipeline/04_merge_wikidata_enrichment.py `
-  --input data/raw/wikidata_affiliation_death_place_parts `
-  --input data/raw/wikidata_affiliation_residence_parts `
-  --input data/raw/wikidata_affiliation_work_location_parts `
-  --input data/raw/wikidata_affiliation_languages_parts `
-  --input data/raw/wikidata_affiliation_citizenship_parts `
-  --input data/raw/wikidata_wikipedia_representation_parts
+python scripts/pipeline/04_merge_wikidata_enrichment.py --input path/to/export.csv
 ```
 
 ## Development Rules

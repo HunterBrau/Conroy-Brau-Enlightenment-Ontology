@@ -1,0 +1,60 @@
+token_family,token_id,token_label,token_wikidata_url,occurrence_count,entity_count,place_count,example_places,example_names
+admin_country,Q1028,Maroc,https://www.wikidata.org/wiki/Q1028,2,2,2,Agadir | Marrakech,Domingo Badía y Leblich | Moïse Edrehi
+admin_country,Q1049,Soudan,https://www.wikidata.org/wiki/Q1049,2,1,1,Khartoum,Giovanni Battista Brocchi
+admin_country,Q211,Lettonie,https://www.wikidata.org/wiki/Q211,2,1,1,Varakļāni,Michel-Jean Borch
+admin_country,Q218,Roumanie,https://www.wikidata.org/wiki/Q218,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+admin_country,Q224,Croatie,https://www.wikidata.org/wiki/Q224,2,2,2,Mljet | Rečica,Ignjat Đurđević | Janko Drašković
+admin_country,Q33,Finlande,https://www.wikidata.org/wiki/Q33,2,2,2,Manoir d'Anjala | Uusikaupunki,Bernhard Henrik Crusell | Gustav Philip Creutz
+direct_country,Q1028,Maroc,https://www.wikidata.org/wiki/Q1028,2,2,2,Agadir | Marrakech,Domingo Badía y Leblich | Moïse Edrehi
+direct_country,Q1049,Soudan,https://www.wikidata.org/wiki/Q1049,2,1,1,Khartoum,Giovanni Battista Brocchi
+direct_country,Q203493,royaume de Roumanie,https://www.wikidata.org/wiki/Q203493,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+direct_country,Q211,Lettonie,https://www.wikidata.org/wiki/Q211,2,1,1,Varakļāni,Michel-Jean Borch
+direct_country,Q218,Roumanie,https://www.wikidata.org/wiki/Q218,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+direct_country,Q224,Croatie,https://www.wikidata.org/wiki/Q224,2,2,2,Mljet | Rečica,Ignjat Đurđević | Janko Drašković
+direct_country,Q235,Monaco,https://www.wikidata.org/wiki/Q235,2,2,1,Monaco,Alphonse de Beauchamp | François Morénas
+direct_country,Q2685298,République populaire roumaine,https://www.wikidata.org/wiki/Q2685298,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+direct_country,Q33,Finlande,https://www.wikidata.org/wiki/Q33,2,2,2,Manoir d'Anjala | Uusikaupunki,Bernhard Henrik Crusell | Gustav Philip Creutz
+direct_country,Q389004,principauté de Valachie,https://www.wikidata.org/wiki/Q389004,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+direct_country,Q842794,République socialiste de Roumanie,https://www.wikidata.org/wiki/Q842794,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+direct_country,Q958291,Principautés unies de Moldavie et de Valachie,https://www.wikidata.org/wiki/Q958291,2,2,1,Bucarest,Pierre Bernard de Lamare | Rigas
+admin_country,Q1013,Lesotho,https://www.wikidata.org/wiki/Q1013,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q1019,Madagascar,https://www.wikidata.org/wiki/Q1019,1,1,1,Ambohitralanana,Maurice Beniowski
+admin_country,Q1027,Maurice,https://www.wikidata.org/wiki/Q1027,1,1,1,Port-Louis,Charles de Longchamps
+admin_country,Q1030,Namibie,https://www.wikidata.org/wiki/Q1030,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q1050,Eswatini,https://www.wikidata.org/wiki/Q1050,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q117,Ghana,https://www.wikidata.org/wiki/Q117,1,1,1,Axim,Anton Wilhelm Amo
+admin_country,Q184,Biélorussie,https://www.wikidata.org/wiki/Q184,1,1,1,Pucevіčy,Franciszka Urszula Wiśniowiecki
+admin_country,Q188553,République batave,https://www.wikidata.org/wiki/Q188553,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q200464,Empire colonial portugais,https://www.wikidata.org/wiki/Q200464,1,1,1,Axim,Anton Wilhelm Amo
+admin_country,Q207272,Deuxième République de Pologne,https://www.wikidata.org/wiki/Q207272,1,1,1,Pucevіčy,Franciszka Urszula Wiśniowiecki
+admin_country,Q233,Malte,https://www.wikidata.org/wiki/Q233,1,1,1,La Valette,Pierre Jean Louis Ovide Doublet
+admin_country,Q236,Monténégro,https://www.wikidata.org/wiki/Q236,1,1,1,Budva,Stefano Zannowich
+admin_country,Q258,Afrique du Sud,https://www.wikidata.org/wiki/Q258,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q36704,Yougoslavie,https://www.wikidata.org/wiki/Q36704,1,1,1,Rečica,Janko Drašković
+admin_country,Q419,Pérou,https://www.wikidata.org/wiki/Q419,1,1,1,Pampacolca District,Juan Pablo Viscardo y Guzmán
+admin_country,Q49683,grand-duché de Lituanie,https://www.wikidata.org/wiki/Q49683,1,1,1,Pucevіčy,Franciszka Urszula Wiśniowiecki
+admin_country,Q730,Suriname,https://www.wikidata.org/wiki/Q730,1,1,1,Paramaribo,François Levaillant
+admin_country,Q785,Jersey,https://www.wikidata.org/wiki/Q785,1,1,1,Saint-Hélier,Thomas Pichon
+admin_country,Q954,Zimbabwe,https://www.wikidata.org/wiki/Q954,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+admin_country,Q963,Botswana,https://www.wikidata.org/wiki/Q963,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+direct_country,Q1019,Madagascar,https://www.wikidata.org/wiki/Q1019,1,1,1,Ambohitralanana,Maurice Beniowski
+direct_country,Q1027,Maurice,https://www.wikidata.org/wiki/Q1027,1,1,1,Port-Louis,Charles de Longchamps
+direct_country,Q117,Ghana,https://www.wikidata.org/wiki/Q117,1,1,1,Axim,Anton Wilhelm Amo
+direct_country,Q184,Biélorussie,https://www.wikidata.org/wiki/Q184,1,1,1,Pucevіčy,Franciszka Urszula Wiśniowiecki
+direct_country,Q199688,califat almohade,https://www.wikidata.org/wiki/Q199688,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q200464,Empire colonial portugais,https://www.wikidata.org/wiki/Q200464,1,1,1,Agadir,Moïse Edrehi
+direct_country,Q233,Malte,https://www.wikidata.org/wiki/Q233,1,1,1,La Valette,Pierre Jean Louis Ovide Doublet
+direct_country,Q236,Monténégro,https://www.wikidata.org/wiki/Q236,1,1,1,Budva,Stefano Zannowich
+direct_country,Q258,Afrique du Sud,https://www.wikidata.org/wiki/Q258,1,1,1,cap de Bonne-Espérance,Nicolas-Louis de Lacaille
+direct_country,Q419,Pérou,https://www.wikidata.org/wiki/Q419,1,1,1,Pampacolca District,Juan Pablo Viscardo y Guzmán
+direct_country,Q582861,Mérinides,https://www.wikidata.org/wiki/Q582861,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q58326,Deuxième République,https://www.wikidata.org/wiki/Q58326,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q69808,régime de Vichy,https://www.wikidata.org/wiki/Q69808,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q69829,Quatrième République,https://www.wikidata.org/wiki/Q69829,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q70802,Troisième République française,https://www.wikidata.org/wiki/Q70802,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q71092,Second Empire,https://www.wikidata.org/wiki/Q71092,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q730,Suriname,https://www.wikidata.org/wiki/Q730,1,1,1,Paramaribo,François Levaillant
+direct_country,Q75613,Almoravides,https://www.wikidata.org/wiki/Q75613,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q783684,Gouvernement provisoire de la République française,https://www.wikidata.org/wiki/Q783684,1,1,1,Marrakech,Domingo Badía y Leblich
+direct_country,Q785,Jersey,https://www.wikidata.org/wiki/Q785,1,1,1,Saint-Hélier,Thomas Pichon
+direct_country,Q953,Zambie,https://www.wikidata.org/wiki/Q953,1,1,1,Zambie,Pierre-Augustin Caron de Beaumarchais

@@ -1,0 +1,445 @@
+language_edition,occupation,represented_entities,cohort_group_entities,language_represented_entities,cohort_total_entities,cohort_group_share_pct,language_group_share_pct,representation_rate_pct,representation_index
+dawiki,écrivain ou écrivaine,106,1155,124,1638,70.51,85.48,9.18,1.2123
+dawiki,poète ou poétesse,30,384,124,1638,23.44,24.19,7.81,1.032
+dawiki,dramaturge,19,393,124,1638,23.99,15.32,4.83,0.6386
+dawiki,romancier ou romancière,16,72,124,1638,4.4,12.9,22.22,2.9318
+dawiki,essayiste,9,56,124,1638,3.42,7.26,16.07,2.1228
+dawiki,autobiographe,7,13,124,1638,0.79,5.65,53.85,7.1519
+dawiki,librettiste,7,95,124,1638,5.8,5.65,7.37,0.9741
+dawiki,diariste,6,18,124,1638,1.1,4.84,33.33,4.4
+dawiki,biographe,5,38,124,1638,2.32,4.03,13.16,1.7371
+dawiki,chroniqueur de voyage,4,8,124,1638,0.49,3.23,50.0,6.5918
+dawiki,prosateur ou prosatrice,4,7,124,1638,0.43,3.23,57.14,7.5116
+dawiki,épistolier ou épistolière,4,10,124,1638,0.61,3.23,40.0,5.2951
+dawiki,auteur ou autrice de littérature pour la jeunesse,2,14,124,1638,0.85,1.61,14.29,1.8941
+dawiki,juriste-poète,2,7,124,1638,0.43,1.61,28.57,3.7442
+dawiki,écrivain ou écrivaine de science-fiction,2,5,124,1638,0.31,1.61,40.0,5.1935
+dawiki,fabuliste,1,15,124,1638,0.92,0.81,6.67,0.8804
+dawiki,historien ou historienne des sciences,1,3,124,1638,0.18,0.81,33.33,4.5
+dawiki,psalmiste,1,2,124,1638,0.12,0.81,50.0,6.75
+dawiki,apologète,0,2,124,1638,0.12,0.0,0.0,0.0
+dawiki,auteur comique,0,2,124,1638,0.12,0.0,0.0,0.0
+dawiki,auteur de contes,0,2,124,1638,0.12,0.0,0.0,0.0
+dawiki,auteur tragique,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,chansonnier,0,26,124,1638,1.59,0.0,0.0,0.0
+dawiki,chroniqueur ou chroniqueuse,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,collecteur ou collectrice de textes traditionnels,0,3,124,1638,0.18,0.0,0.0,0.0
+dawiki,femme de lettres,0,11,124,1638,0.67,0.0,0.0,0.0
+dawiki,historien ou historienne de la médecine,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,historien ou historienne des mathématiques,0,3,124,1638,0.18,0.0,0.0,0.0
+dawiki,homme de lettres,0,11,124,1638,0.67,0.0,0.0,0.0
+dawiki,journaliste scientifique,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,mémorialiste,0,25,124,1638,1.53,0.0,0.0,0.0
+dawiki,nouvelliste,0,2,124,1638,0.12,0.0,0.0,0.0
+dawiki,pamphlétaire,0,9,124,1638,0.55,0.0,0.0,0.0
+dawiki,parolier ou parolière,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,poétesse,0,1,124,1638,0.06,0.0,0.0,0.0
+dawiki,écrivain religieux,0,2,124,1638,0.12,0.0,0.0,0.0
+dawiki,épistolière,0,6,124,1638,0.37,0.0,0.0,0.0
+dewiki,écrivain ou écrivaine,591,1155,703,1638,70.51,84.07,51.17,1.1923
+dewiki,dramaturge,170,393,703,1638,23.99,24.18,43.26,1.0079
+dewiki,poète ou poétesse,162,384,703,1638,23.44,23.04,42.19,0.9829
+dewiki,romancier ou romancière,45,72,703,1638,4.4,6.4,62.5,1.4545
+dewiki,librettiste,33,95,703,1638,5.8,4.69,34.74,0.8086
+dewiki,essayiste,30,56,703,1638,3.42,4.27,53.57,1.2485
+dewiki,biographe,13,38,703,1638,2.32,1.85,34.21,0.7974
+dewiki,autobiographe,11,13,703,1638,0.79,1.56,84.62,1.9747
+dewiki,chansonnier,11,26,703,1638,1.59,1.56,42.31,0.9811
+dewiki,diariste,11,18,703,1638,1.1,1.56,61.11,1.4182
+dewiki,mémorialiste,11,25,703,1638,1.53,1.56,44.0,1.0196
+dewiki,auteur ou autrice de littérature pour la jeunesse,10,14,703,1638,0.85,1.42,71.43,1.6706
+dewiki,juriste-poète,7,7,703,1638,0.43,1.0,100.0,2.3256
+dewiki,chroniqueur de voyage,6,8,703,1638,0.49,0.85,75.0,1.7347
+dewiki,prosateur ou prosatrice,6,7,703,1638,0.43,0.85,85.71,1.9767
+dewiki,épistolier ou épistolière,6,10,703,1638,0.61,0.85,60.0,1.3934
+dewiki,fabuliste,5,15,703,1638,0.92,0.71,33.33,0.7717
+dewiki,historien ou historienne des mathématiques,3,3,703,1638,0.18,0.43,100.0,2.3889
+dewiki,historien ou historienne des sciences,3,3,703,1638,0.18,0.43,100.0,2.3889
+dewiki,pamphlétaire,3,9,703,1638,0.55,0.43,33.33,0.7818
+dewiki,écrivain ou écrivaine de science-fiction,3,5,703,1638,0.31,0.43,60.0,1.3871
+dewiki,épistolière,3,6,703,1638,0.37,0.43,50.0,1.1622
+dewiki,femme de lettres,2,11,703,1638,0.67,0.28,18.18,0.4179
+dewiki,apologète,1,2,703,1638,0.12,0.14,50.0,1.1667
+dewiki,auteur comique,1,2,703,1638,0.12,0.14,50.0,1.1667
+dewiki,auteur de contes,1,2,703,1638,0.12,0.14,50.0,1.1667
+dewiki,auteur tragique,1,1,703,1638,0.06,0.14,100.0,2.3333
+dewiki,collecteur ou collectrice de textes traditionnels,1,3,703,1638,0.18,0.14,33.33,0.7778
+dewiki,homme de lettres,1,11,703,1638,0.67,0.14,9.09,0.209
+dewiki,psalmiste,1,2,703,1638,0.12,0.14,50.0,1.1667
+dewiki,chroniqueur ou chroniqueuse,0,1,703,1638,0.06,0.0,0.0,0.0
+dewiki,historien ou historienne de la médecine,0,1,703,1638,0.06,0.0,0.0,0.0
+dewiki,journaliste scientifique,0,1,703,1638,0.06,0.0,0.0,0.0
+dewiki,nouvelliste,0,2,703,1638,0.12,0.0,0.0,0.0
+dewiki,parolier ou parolière,0,1,703,1638,0.06,0.0,0.0,0.0
+dewiki,poétesse,0,1,703,1638,0.06,0.0,0.0,0.0
+dewiki,écrivain religieux,0,2,703,1638,0.12,0.0,0.0,0.0
+enwiki,écrivain ou écrivaine,693,1155,950,1638,70.51,72.95,60.0,1.0346
+enwiki,dramaturge,310,393,950,1638,23.99,32.63,78.88,1.3602
+enwiki,poète ou poétesse,235,384,950,1638,23.44,24.74,61.2,1.0555
+enwiki,librettiste,82,95,950,1638,5.8,8.63,86.32,1.4879
+enwiki,romancier ou romancière,53,72,950,1638,4.4,5.58,73.61,1.2682
+enwiki,essayiste,33,56,950,1638,3.42,3.47,58.93,1.0146
+enwiki,chansonnier,23,26,950,1638,1.59,2.42,88.46,1.522
+enwiki,biographe,20,38,950,1638,2.32,2.11,52.63,0.9095
+enwiki,mémorialiste,16,25,950,1638,1.53,1.68,64.0,1.098
+enwiki,autobiographe,13,13,950,1638,0.79,1.37,100.0,1.7342
+enwiki,auteur ou autrice de littérature pour la jeunesse,12,14,950,1638,0.85,1.26,85.71,1.4824
+enwiki,diariste,12,18,950,1638,1.1,1.26,66.67,1.1455
+enwiki,fabuliste,9,15,950,1638,0.92,0.95,60.0,1.0326
+enwiki,épistolier ou épistolière,8,10,950,1638,0.61,0.84,80.0,1.377
+enwiki,juriste-poète,7,7,950,1638,0.43,0.74,100.0,1.7209
+enwiki,prosateur ou prosatrice,7,7,950,1638,0.43,0.74,100.0,1.7209
+enwiki,chroniqueur de voyage,6,8,950,1638,0.49,0.63,75.0,1.2857
+enwiki,femme de lettres,5,11,950,1638,0.67,0.53,45.45,0.791
+enwiki,pamphlétaire,5,9,950,1638,0.55,0.53,55.56,0.9636
+enwiki,écrivain ou écrivaine de science-fiction,5,5,950,1638,0.31,0.53,100.0,1.7097
+enwiki,épistolière,5,6,950,1638,0.37,0.53,83.33,1.4324
+enwiki,historien ou historienne des mathématiques,3,3,950,1638,0.18,0.32,100.0,1.7778
+enwiki,historien ou historienne des sciences,3,3,950,1638,0.18,0.32,100.0,1.7778
+enwiki,collecteur ou collectrice de textes traditionnels,2,3,950,1638,0.18,0.21,66.67,1.1667
+enwiki,homme de lettres,2,11,950,1638,0.67,0.21,18.18,0.3134
+enwiki,psalmiste,2,2,950,1638,0.12,0.21,100.0,1.75
+enwiki,apologète,1,2,950,1638,0.12,0.11,50.0,0.9167
+enwiki,auteur comique,1,2,950,1638,0.12,0.11,50.0,0.9167
+enwiki,auteur de contes,1,2,950,1638,0.12,0.11,50.0,0.9167
+enwiki,auteur tragique,1,1,950,1638,0.06,0.11,100.0,1.8333
+enwiki,journaliste scientifique,1,1,950,1638,0.06,0.11,100.0,1.8333
+enwiki,parolier ou parolière,1,1,950,1638,0.06,0.11,100.0,1.8333
+enwiki,chroniqueur ou chroniqueuse,0,1,950,1638,0.06,0.0,0.0,0.0
+enwiki,historien ou historienne de la médecine,0,1,950,1638,0.06,0.0,0.0,0.0
+enwiki,nouvelliste,0,2,950,1638,0.12,0.0,0.0,0.0
+enwiki,poétesse,0,1,950,1638,0.06,0.0,0.0,0.0
+enwiki,écrivain religieux,0,2,950,1638,0.12,0.0,0.0,0.0
+eswiki,écrivain ou écrivaine,400,1155,470,1638,70.51,85.11,34.63,1.2071
+eswiki,poète ou poétesse,108,384,470,1638,23.44,22.98,28.12,0.9804
+eswiki,dramaturge,91,393,470,1638,23.99,19.36,23.16,0.807
+eswiki,romancier ou romancière,45,72,470,1638,4.4,9.57,62.5,2.175
+eswiki,essayiste,27,56,470,1638,3.42,5.74,48.21,1.6784
+eswiki,librettiste,17,95,470,1638,5.8,3.62,17.89,0.6241
+eswiki,autobiographe,11,13,470,1638,0.79,2.34,84.62,2.962
+eswiki,diariste,11,18,470,1638,1.1,2.34,61.11,2.1273
+eswiki,biographe,10,38,470,1638,2.32,2.13,26.32,0.9181
+eswiki,mémorialiste,9,25,470,1638,1.53,1.91,36.0,1.2484
+eswiki,auteur ou autrice de littérature pour la jeunesse,6,14,470,1638,0.85,1.28,42.86,1.5059
+eswiki,chroniqueur de voyage,6,8,470,1638,0.49,1.28,75.0,2.6122
+eswiki,prosateur ou prosatrice,6,7,470,1638,0.43,1.28,85.71,2.9767
+eswiki,épistolier ou épistolière,6,10,470,1638,0.61,1.28,60.0,2.0984
+eswiki,chansonnier,5,26,470,1638,1.59,1.06,19.23,0.6667
+eswiki,fabuliste,4,15,470,1638,0.92,0.85,26.67,0.9239
+eswiki,femme de lettres,4,11,470,1638,0.67,0.85,36.36,1.2687
+eswiki,juriste-poète,4,7,470,1638,0.43,0.85,57.14,1.9767
+eswiki,pamphlétaire,4,9,470,1638,0.55,0.85,44.44,1.5455
+eswiki,écrivain ou écrivaine de science-fiction,3,5,470,1638,0.31,0.64,60.0,2.0645
+eswiki,historien ou historienne des sciences,2,3,470,1638,0.18,0.43,66.67,2.3889
+eswiki,épistolière,2,6,470,1638,0.37,0.43,33.33,1.1622
+eswiki,auteur de contes,1,2,470,1638,0.12,0.21,50.0,1.75
+eswiki,auteur tragique,1,1,470,1638,0.06,0.21,100.0,3.5
+eswiki,collecteur ou collectrice de textes traditionnels,1,3,470,1638,0.18,0.21,33.33,1.1667
+eswiki,historien ou historienne de la médecine,1,1,470,1638,0.06,0.21,100.0,3.5
+eswiki,historien ou historienne des mathématiques,1,3,470,1638,0.18,0.21,33.33,1.1667
+eswiki,apologète,0,2,470,1638,0.12,0.0,0.0,0.0
+eswiki,auteur comique,0,2,470,1638,0.12,0.0,0.0,0.0
+eswiki,chroniqueur ou chroniqueuse,0,1,470,1638,0.06,0.0,0.0,0.0
+eswiki,homme de lettres,0,11,470,1638,0.67,0.0,0.0,0.0
+eswiki,journaliste scientifique,0,1,470,1638,0.06,0.0,0.0,0.0
+eswiki,nouvelliste,0,2,470,1638,0.12,0.0,0.0,0.0
+eswiki,parolier ou parolière,0,1,470,1638,0.06,0.0,0.0,0.0
+eswiki,poétesse,0,1,470,1638,0.06,0.0,0.0,0.0
+eswiki,psalmiste,0,2,470,1638,0.12,0.0,0.0,0.0
+eswiki,écrivain religieux,0,2,470,1638,0.12,0.0,0.0,0.0
+frwiki,écrivain ou écrivaine,979,1155,1393,1638,70.51,70.28,84.76,0.9967
+frwiki,dramaturge,374,393,1393,1638,23.99,26.85,95.17,1.1192
+frwiki,poète ou poétesse,347,384,1393,1638,23.44,24.91,90.36,1.0627
+frwiki,librettiste,92,95,1393,1638,5.8,6.6,96.84,1.1379
+frwiki,romancier ou romancière,63,72,1393,1638,4.4,4.52,87.5,1.0273
+frwiki,essayiste,45,56,1393,1638,3.42,3.23,80.36,0.9444
+frwiki,biographe,35,38,1393,1638,2.32,2.51,92.11,1.0819
+frwiki,chansonnier,26,26,1393,1638,1.59,1.87,100.0,1.1761
+frwiki,mémorialiste,23,25,1393,1638,1.53,1.65,92.0,1.0784
+frwiki,diariste,16,18,1393,1638,1.1,1.15,88.89,1.0455
+frwiki,auteur ou autrice de littérature pour la jeunesse,14,14,1393,1638,0.85,1.01,100.0,1.1882
+frwiki,fabuliste,13,15,1393,1638,0.92,0.93,86.67,1.0109
+frwiki,autobiographe,12,13,1393,1638,0.79,0.86,92.31,1.0886
+frwiki,femme de lettres,9,11,1393,1638,0.67,0.65,81.82,0.9701
+frwiki,pamphlétaire,9,9,1393,1638,0.55,0.65,100.0,1.1818
+frwiki,homme de lettres,8,11,1393,1638,0.67,0.57,72.73,0.8507
+frwiki,juriste-poète,7,7,1393,1638,0.43,0.5,100.0,1.1628
+frwiki,prosateur ou prosatrice,7,7,1393,1638,0.43,0.5,100.0,1.1628
+frwiki,épistolier ou épistolière,7,10,1393,1638,0.61,0.5,70.0,0.8197
+frwiki,chroniqueur de voyage,6,8,1393,1638,0.49,0.43,75.0,0.8776
+frwiki,épistolière,6,6,1393,1638,0.37,0.43,100.0,1.1622
+frwiki,écrivain ou écrivaine de science-fiction,5,5,1393,1638,0.31,0.36,100.0,1.1613
+frwiki,historien ou historienne des mathématiques,3,3,1393,1638,0.18,0.22,100.0,1.2222
+frwiki,historien ou historienne des sciences,3,3,1393,1638,0.18,0.22,100.0,1.2222
+frwiki,collecteur ou collectrice de textes traditionnels,2,3,1393,1638,0.18,0.14,66.67,0.7778
+frwiki,nouvelliste,2,2,1393,1638,0.12,0.14,100.0,1.1667
+frwiki,apologète,1,2,1393,1638,0.12,0.07,50.0,0.5833
+frwiki,auteur comique,1,2,1393,1638,0.12,0.07,50.0,0.5833
+frwiki,auteur de contes,1,2,1393,1638,0.12,0.07,50.0,0.5833
+frwiki,auteur tragique,1,1,1393,1638,0.06,0.07,100.0,1.1667
+frwiki,chroniqueur ou chroniqueuse,1,1,1393,1638,0.06,0.07,100.0,1.1667
+frwiki,historien ou historienne de la médecine,1,1,1393,1638,0.06,0.07,100.0,1.1667
+frwiki,journaliste scientifique,1,1,1393,1638,0.06,0.07,100.0,1.1667
+frwiki,parolier ou parolière,1,1,1393,1638,0.06,0.07,100.0,1.1667
+frwiki,psalmiste,1,2,1393,1638,0.12,0.07,50.0,0.5833
+frwiki,poétesse,0,1,1393,1638,0.06,0.0,0.0,0.0
+frwiki,écrivain religieux,0,2,1393,1638,0.12,0.0,0.0,0.0
+itwiki,écrivain ou écrivaine,450,1155,542,1638,70.51,83.03,38.96,1.1776
+itwiki,dramaturge,151,393,542,1638,23.99,27.86,38.42,1.1613
+itwiki,poète ou poétesse,139,384,542,1638,23.44,25.65,36.2,1.0943
+itwiki,librettiste,41,95,542,1638,5.8,7.56,43.16,1.3034
+itwiki,romancier ou romancière,35,72,542,1638,4.4,6.46,48.61,1.4682
+itwiki,essayiste,22,56,542,1638,3.42,4.06,39.29,1.1871
+itwiki,chansonnier,14,26,542,1638,1.59,2.58,53.85,1.6226
+itwiki,biographe,13,38,542,1638,2.32,2.4,34.21,1.0345
+itwiki,diariste,12,18,542,1638,1.1,2.21,66.67,2.0091
+itwiki,mémorialiste,11,25,542,1638,1.53,2.03,44.0,1.3268
+itwiki,autobiographe,10,13,542,1638,0.79,1.85,76.92,2.3418
+itwiki,auteur ou autrice de littérature pour la jeunesse,7,14,542,1638,0.85,1.29,50.0,1.5176
+itwiki,chroniqueur de voyage,6,8,542,1638,0.49,1.11,75.0,2.2653
+itwiki,prosateur ou prosatrice,6,7,542,1638,0.43,1.11,85.71,2.5814
+itwiki,épistolier ou épistolière,6,10,542,1638,0.61,1.11,60.0,1.8197
+itwiki,juriste-poète,5,7,542,1638,0.43,0.92,71.43,2.1395
+itwiki,fabuliste,4,15,542,1638,0.92,0.74,26.67,0.8043
+itwiki,pamphlétaire,4,9,542,1638,0.55,0.74,44.44,1.3455
+itwiki,écrivain ou écrivaine de science-fiction,3,5,542,1638,0.31,0.55,60.0,1.7742
+itwiki,femme de lettres,2,11,542,1638,0.67,0.37,18.18,0.5522
+itwiki,historien ou historienne des mathématiques,2,3,542,1638,0.18,0.37,66.67,2.0556
+itwiki,historien ou historienne des sciences,2,3,542,1638,0.18,0.37,66.67,2.0556
+itwiki,auteur comique,1,2,542,1638,0.12,0.18,50.0,1.5
+itwiki,auteur de contes,1,2,542,1638,0.12,0.18,50.0,1.5
+itwiki,collecteur ou collectrice de textes traditionnels,1,3,542,1638,0.18,0.18,33.33,1.0
+itwiki,homme de lettres,1,11,542,1638,0.67,0.18,9.09,0.2687
+itwiki,épistolière,1,6,542,1638,0.37,0.18,16.67,0.4865
+itwiki,apologète,0,2,542,1638,0.12,0.0,0.0,0.0
+itwiki,auteur tragique,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,chroniqueur ou chroniqueuse,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,historien ou historienne de la médecine,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,journaliste scientifique,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,nouvelliste,0,2,542,1638,0.12,0.0,0.0,0.0
+itwiki,parolier ou parolière,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,poétesse,0,1,542,1638,0.06,0.0,0.0,0.0
+itwiki,psalmiste,0,2,542,1638,0.12,0.0,0.0,0.0
+itwiki,écrivain religieux,0,2,542,1638,0.12,0.0,0.0,0.0
+nlwiki,écrivain ou écrivaine,220,1155,253,1638,70.51,86.96,19.05,1.2333
+nlwiki,poète ou poétesse,46,384,253,1638,23.44,18.18,11.98,0.7756
+nlwiki,dramaturge,37,393,253,1638,23.99,14.62,9.41,0.6094
+nlwiki,romancier ou romancière,29,72,253,1638,4.4,11.46,40.28,2.6045
+nlwiki,essayiste,18,56,253,1638,3.42,7.11,32.14,2.0789
+nlwiki,diariste,13,18,253,1638,1.1,5.14,72.22,4.6727
+nlwiki,autobiographe,7,13,253,1638,0.79,2.77,53.85,3.5063
+nlwiki,librettiste,7,95,253,1638,5.8,2.77,7.37,0.4776
+nlwiki,mémorialiste,7,25,253,1638,1.53,2.77,28.0,1.8105
+nlwiki,épistolier ou épistolière,6,10,253,1638,0.61,2.37,60.0,3.8852
+nlwiki,chroniqueur de voyage,5,8,253,1638,0.49,1.98,62.5,4.0408
+nlwiki,prosateur ou prosatrice,5,7,253,1638,0.43,1.98,71.43,4.6047
+nlwiki,auteur ou autrice de littérature pour la jeunesse,4,14,253,1638,0.85,1.58,28.57,1.8588
+nlwiki,biographe,4,38,253,1638,2.32,1.58,10.53,0.681
+nlwiki,écrivain ou écrivaine de science-fiction,3,5,253,1638,0.31,1.19,60.0,3.8387
+nlwiki,femme de lettres,2,11,253,1638,0.67,0.79,18.18,1.1791
+nlwiki,historien ou historienne des sciences,2,3,253,1638,0.18,0.79,66.67,4.3889
+nlwiki,juriste-poète,2,7,253,1638,0.43,0.79,28.57,1.8372
+nlwiki,épistolière,2,6,253,1638,0.37,0.79,33.33,2.1351
+nlwiki,auteur de contes,1,2,253,1638,0.12,0.4,50.0,3.3333
+nlwiki,collecteur ou collectrice de textes traditionnels,1,3,253,1638,0.18,0.4,33.33,2.2222
+nlwiki,fabuliste,1,15,253,1638,0.92,0.4,6.67,0.4348
+nlwiki,historien ou historienne des mathématiques,1,3,253,1638,0.18,0.4,33.33,2.2222
+nlwiki,pamphlétaire,1,9,253,1638,0.55,0.4,11.11,0.7273
+nlwiki,apologète,0,2,253,1638,0.12,0.0,0.0,0.0
+nlwiki,auteur comique,0,2,253,1638,0.12,0.0,0.0,0.0
+nlwiki,auteur tragique,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,chansonnier,0,26,253,1638,1.59,0.0,0.0,0.0
+nlwiki,chroniqueur ou chroniqueuse,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,historien ou historienne de la médecine,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,homme de lettres,0,11,253,1638,0.67,0.0,0.0,0.0
+nlwiki,journaliste scientifique,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,nouvelliste,0,2,253,1638,0.12,0.0,0.0,0.0
+nlwiki,parolier ou parolière,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,poétesse,0,1,253,1638,0.06,0.0,0.0,0.0
+nlwiki,psalmiste,0,2,253,1638,0.12,0.0,0.0,0.0
+nlwiki,écrivain religieux,0,2,253,1638,0.12,0.0,0.0,0.0
+plwiki,écrivain ou écrivaine,255,1155,289,1638,70.51,88.24,22.08,1.2515
+plwiki,poète ou poétesse,68,384,289,1638,23.44,23.53,17.71,1.0038
+plwiki,dramaturge,54,393,289,1638,23.99,18.69,13.74,0.7791
+plwiki,romancier ou romancière,28,72,289,1638,4.4,9.69,38.89,2.2023
+plwiki,essayiste,13,56,289,1638,3.42,4.5,23.21,1.3158
+plwiki,librettiste,12,95,289,1638,5.8,4.15,12.63,0.7155
+plwiki,autobiographe,10,13,289,1638,0.79,3.46,76.92,4.3797
+plwiki,diariste,9,18,289,1638,1.1,3.11,50.0,2.8273
+plwiki,mémorialiste,7,25,289,1638,1.53,2.42,28.0,1.5817
+plwiki,chansonnier,6,26,289,1638,1.59,2.08,23.08,1.3082
+plwiki,chroniqueur de voyage,6,8,289,1638,0.49,2.08,75.0,4.2449
+plwiki,auteur ou autrice de littérature pour la jeunesse,5,14,289,1638,0.85,1.73,35.71,2.0353
+plwiki,biographe,5,38,289,1638,2.32,1.73,13.16,0.7457
+plwiki,juriste-poète,5,7,289,1638,0.43,1.73,71.43,4.0233
+plwiki,épistolier ou épistolière,5,10,289,1638,0.61,1.73,50.0,2.8361
+plwiki,pamphlétaire,4,9,289,1638,0.55,1.38,44.44,2.5091
+plwiki,prosateur ou prosatrice,4,7,289,1638,0.43,1.38,57.14,3.2093
+plwiki,écrivain ou écrivaine de science-fiction,3,5,289,1638,0.31,1.04,60.0,3.3548
+plwiki,fabuliste,2,15,289,1638,0.92,0.69,13.33,0.75
+plwiki,femme de lettres,2,11,289,1638,0.67,0.69,18.18,1.0299
+plwiki,historien ou historienne des sciences,2,3,289,1638,0.18,0.69,66.67,3.8333
+plwiki,auteur de contes,1,2,289,1638,0.12,0.35,50.0,2.9167
+plwiki,collecteur ou collectrice de textes traditionnels,1,3,289,1638,0.18,0.35,33.33,1.9444
+plwiki,historien ou historienne des mathématiques,1,3,289,1638,0.18,0.35,33.33,1.9444
+plwiki,épistolière,1,6,289,1638,0.37,0.35,16.67,0.9459
+plwiki,apologète,0,2,289,1638,0.12,0.0,0.0,0.0
+plwiki,auteur comique,0,2,289,1638,0.12,0.0,0.0,0.0
+plwiki,auteur tragique,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,chroniqueur ou chroniqueuse,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,historien ou historienne de la médecine,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,homme de lettres,0,11,289,1638,0.67,0.0,0.0,0.0
+plwiki,journaliste scientifique,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,nouvelliste,0,2,289,1638,0.12,0.0,0.0,0.0
+plwiki,parolier ou parolière,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,poétesse,0,1,289,1638,0.06,0.0,0.0,0.0
+plwiki,psalmiste,0,2,289,1638,0.12,0.0,0.0,0.0
+plwiki,écrivain religieux,0,2,289,1638,0.12,0.0,0.0,0.0
+ptwiki,écrivain ou écrivaine,256,1155,280,1638,70.51,91.43,22.16,1.2967
+ptwiki,poète ou poétesse,61,384,280,1638,23.44,21.79,15.89,0.9296
+ptwiki,dramaturge,47,393,280,1638,23.99,16.79,11.96,0.6999
+ptwiki,romancier ou romancière,30,72,280,1638,4.4,10.71,41.67,2.4341
+ptwiki,essayiste,17,56,280,1638,3.42,6.07,30.36,1.7749
+ptwiki,autobiographe,8,13,280,1638,0.79,2.86,61.54,3.6203
+ptwiki,diariste,8,18,280,1638,1.1,2.86,44.44,2.6
+ptwiki,librettiste,8,95,280,1638,5.8,2.86,8.42,0.4931
+ptwiki,mémorialiste,7,25,280,1638,1.53,2.5,28.0,1.634
+ptwiki,auteur ou autrice de littérature pour la jeunesse,6,14,280,1638,0.85,2.14,42.86,2.5176
+ptwiki,chroniqueur de voyage,6,8,280,1638,0.49,2.14,75.0,4.3673
+ptwiki,prosateur ou prosatrice,5,7,280,1638,0.43,1.79,71.43,4.1628
+ptwiki,épistolier ou épistolière,5,10,280,1638,0.61,1.79,50.0,2.9344
+ptwiki,biographe,4,38,280,1638,2.32,1.43,10.53,0.6164
+ptwiki,juriste-poète,3,7,280,1638,0.43,1.07,42.86,2.4884
+ptwiki,pamphlétaire,3,9,280,1638,0.55,1.07,33.33,1.9455
+ptwiki,chansonnier,2,26,280,1638,1.59,0.71,7.69,0.4465
+ptwiki,fabuliste,2,15,280,1638,0.92,0.71,13.33,0.7717
+ptwiki,historien ou historienne des sciences,2,3,280,1638,0.18,0.71,66.67,3.9444
+ptwiki,écrivain ou écrivaine de science-fiction,2,5,280,1638,0.31,0.71,40.0,2.2903
+ptwiki,auteur de contes,1,2,280,1638,0.12,0.36,50.0,3.0
+ptwiki,collecteur ou collectrice de textes traditionnels,1,3,280,1638,0.18,0.36,33.33,2.0
+ptwiki,femme de lettres,1,11,280,1638,0.67,0.36,9.09,0.5373
+ptwiki,historien ou historienne des mathématiques,1,3,280,1638,0.18,0.36,33.33,2.0
+ptwiki,apologète,0,2,280,1638,0.12,0.0,0.0,0.0
+ptwiki,auteur comique,0,2,280,1638,0.12,0.0,0.0,0.0
+ptwiki,auteur tragique,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,chroniqueur ou chroniqueuse,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,historien ou historienne de la médecine,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,homme de lettres,0,11,280,1638,0.67,0.0,0.0,0.0
+ptwiki,journaliste scientifique,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,nouvelliste,0,2,280,1638,0.12,0.0,0.0,0.0
+ptwiki,parolier ou parolière,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,poétesse,0,1,280,1638,0.06,0.0,0.0,0.0
+ptwiki,psalmiste,0,2,280,1638,0.12,0.0,0.0,0.0
+ptwiki,écrivain religieux,0,2,280,1638,0.12,0.0,0.0,0.0
+ptwiki,épistolière,0,6,280,1638,0.37,0.0,0.0,0.0
+ruwiki,écrivain ou écrivaine,487,1155,581,1638,70.51,83.82,42.16,1.1888
+ruwiki,poète ou poétesse,152,384,581,1638,23.44,26.16,39.58,1.116
+ruwiki,dramaturge,138,393,581,1638,23.99,23.75,35.11,0.99
+ruwiki,romancier ou romancière,42,72,581,1638,4.4,7.23,58.33,1.6432
+ruwiki,librettiste,37,95,581,1638,5.8,6.37,38.95,1.0983
+ruwiki,essayiste,25,56,581,1638,3.42,4.3,44.64,1.2573
+ruwiki,chansonnier,16,26,581,1638,1.59,2.75,61.54,1.7296
+ruwiki,mémorialiste,14,25,581,1638,1.53,2.41,56.0,1.5752
+ruwiki,biographe,11,38,581,1638,2.32,1.89,28.95,0.8147
+ruwiki,diariste,11,18,581,1638,1.1,1.89,61.11,1.7182
+ruwiki,auteur ou autrice de littérature pour la jeunesse,10,14,581,1638,0.85,1.72,71.43,2.0235
+ruwiki,autobiographe,10,13,581,1638,0.79,1.72,76.92,2.1772
+ruwiki,juriste-poète,6,7,581,1638,0.43,1.03,85.71,2.3953
+ruwiki,prosateur ou prosatrice,6,7,581,1638,0.43,1.03,85.71,2.3953
+ruwiki,chroniqueur de voyage,5,8,581,1638,0.49,0.86,62.5,1.7551
+ruwiki,pamphlétaire,5,9,581,1638,0.55,0.86,55.56,1.5636
+ruwiki,épistolier ou épistolière,5,10,581,1638,0.61,0.86,50.0,1.4098
+ruwiki,fabuliste,4,15,581,1638,0.92,0.69,26.67,0.75
+ruwiki,historien ou historienne des sciences,3,3,581,1638,0.18,0.52,100.0,2.8889
+ruwiki,écrivain ou écrivaine de science-fiction,3,5,581,1638,0.31,0.52,60.0,1.6774
+ruwiki,femme de lettres,2,11,581,1638,0.67,0.34,18.18,0.5075
+ruwiki,historien ou historienne des mathématiques,2,3,581,1638,0.18,0.34,66.67,1.8889
+ruwiki,épistolière,2,6,581,1638,0.37,0.34,33.33,0.9189
+ruwiki,auteur comique,1,2,581,1638,0.12,0.17,50.0,1.4167
+ruwiki,auteur de contes,1,2,581,1638,0.12,0.17,50.0,1.4167
+ruwiki,auteur tragique,1,1,581,1638,0.06,0.17,100.0,2.8333
+ruwiki,chroniqueur ou chroniqueuse,1,1,581,1638,0.06,0.17,100.0,2.8333
+ruwiki,collecteur ou collectrice de textes traditionnels,1,3,581,1638,0.18,0.17,33.33,0.9444
+ruwiki,parolier ou parolière,1,1,581,1638,0.06,0.17,100.0,2.8333
+ruwiki,apologète,0,2,581,1638,0.12,0.0,0.0,0.0
+ruwiki,historien ou historienne de la médecine,0,1,581,1638,0.06,0.0,0.0,0.0
+ruwiki,homme de lettres,0,11,581,1638,0.67,0.0,0.0,0.0
+ruwiki,journaliste scientifique,0,1,581,1638,0.06,0.0,0.0,0.0
+ruwiki,nouvelliste,0,2,581,1638,0.12,0.0,0.0,0.0
+ruwiki,poétesse,0,1,581,1638,0.06,0.0,0.0,0.0
+ruwiki,psalmiste,0,2,581,1638,0.12,0.0,0.0,0.0
+ruwiki,écrivain religieux,0,2,581,1638,0.12,0.0,0.0,0.0
+svwiki,écrivain ou écrivaine,352,1155,408,1638,70.51,86.27,30.48,1.2235
+svwiki,poète ou poétesse,107,384,408,1638,23.44,26.23,27.86,1.119
+svwiki,dramaturge,87,393,408,1638,23.99,21.32,22.14,0.8887
+svwiki,romancier ou romancière,30,72,408,1638,4.4,7.35,41.67,1.6705
+svwiki,essayiste,20,56,408,1638,3.42,4.9,35.71,1.4327
+svwiki,librettiste,20,95,408,1638,5.8,4.9,21.05,0.8448
+svwiki,mémorialiste,14,25,408,1638,1.53,3.43,56.0,2.2418
+svwiki,autobiographe,11,13,408,1638,0.79,2.7,84.62,3.4177
+svwiki,biographe,9,38,408,1638,2.32,2.21,23.68,0.9526
+svwiki,diariste,9,18,408,1638,1.1,2.21,50.0,2.0091
+svwiki,auteur ou autrice de littérature pour la jeunesse,7,14,408,1638,0.85,1.72,50.0,2.0235
+svwiki,chansonnier,6,26,408,1638,1.59,1.47,23.08,0.9245
+svwiki,prosateur ou prosatrice,6,7,408,1638,0.43,1.47,85.71,3.4186
+svwiki,chroniqueur de voyage,5,8,408,1638,0.49,1.23,62.5,2.5102
+svwiki,juriste-poète,5,7,408,1638,0.43,1.23,71.43,2.8605
+svwiki,épistolier ou épistolière,5,10,408,1638,0.61,1.23,50.0,2.0164
+svwiki,pamphlétaire,4,9,408,1638,0.55,0.98,44.44,1.7818
+svwiki,fabuliste,3,15,408,1638,0.92,0.74,20.0,0.8043
+svwiki,femme de lettres,3,11,408,1638,0.67,0.74,27.27,1.1045
+svwiki,historien ou historienne des sciences,3,3,408,1638,0.18,0.74,100.0,4.1111
+svwiki,écrivain ou écrivaine de science-fiction,3,5,408,1638,0.31,0.74,60.0,2.3871
+svwiki,épistolière,3,6,408,1638,0.37,0.74,50.0,2.0
+svwiki,historien ou historienne des mathématiques,2,3,408,1638,0.18,0.49,66.67,2.7222
+svwiki,auteur comique,1,2,408,1638,0.12,0.25,50.0,2.0833
+svwiki,auteur de contes,1,2,408,1638,0.12,0.25,50.0,2.0833
+svwiki,collecteur ou collectrice de textes traditionnels,1,3,408,1638,0.18,0.25,33.33,1.3889
+svwiki,psalmiste,1,2,408,1638,0.12,0.25,50.0,2.0833
+svwiki,apologète,0,2,408,1638,0.12,0.0,0.0,0.0
+svwiki,auteur tragique,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,chroniqueur ou chroniqueuse,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,historien ou historienne de la médecine,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,homme de lettres,0,11,408,1638,0.67,0.0,0.0,0.0
+svwiki,journaliste scientifique,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,nouvelliste,0,2,408,1638,0.12,0.0,0.0,0.0
+svwiki,parolier ou parolière,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,poétesse,0,1,408,1638,0.06,0.0,0.0,0.0
+svwiki,écrivain religieux,0,2,408,1638,0.12,0.0,0.0,0.0
+ukwiki,écrivain ou écrivaine,202,1155,229,1638,70.51,88.21,17.49,1.251
+ukwiki,poète ou poétesse,68,384,229,1638,23.44,29.69,17.71,1.2666
+ukwiki,dramaturge,39,393,229,1638,23.99,17.03,9.92,0.7099
+ukwiki,romancier ou romancière,26,72,229,1638,4.4,11.35,36.11,2.5795
+ukwiki,essayiste,14,56,229,1638,3.42,6.11,25.0,1.7865
+ukwiki,librettiste,9,95,229,1638,5.8,3.93,9.47,0.6776
+ukwiki,biographe,7,38,229,1638,2.32,3.06,18.42,1.319
+ukwiki,diariste,6,18,229,1638,1.1,2.62,33.33,2.3818
+ukwiki,autobiographe,5,13,229,1638,0.79,2.18,38.46,2.7595
+ukwiki,chroniqueur de voyage,5,8,229,1638,0.49,2.18,62.5,4.449
+ukwiki,mémorialiste,5,25,229,1638,1.53,2.18,20.0,1.4248
+ukwiki,prosateur ou prosatrice,5,7,229,1638,0.43,2.18,71.43,5.0698
+ukwiki,épistolier ou épistolière,4,10,229,1638,0.61,1.75,40.0,2.8689
+ukwiki,auteur ou autrice de littérature pour la jeunesse,3,14,229,1638,0.85,1.31,21.43,1.5412
+ukwiki,chansonnier,3,26,229,1638,1.59,1.31,11.54,0.8239
+ukwiki,pamphlétaire,3,9,229,1638,0.55,1.31,33.33,2.3818
+ukwiki,écrivain ou écrivaine de science-fiction,3,5,229,1638,0.31,1.31,60.0,4.2258
+ukwiki,historien ou historienne des sciences,2,3,229,1638,0.18,0.87,66.67,4.8333
+ukwiki,juriste-poète,2,7,229,1638,0.43,0.87,28.57,2.0233
+ukwiki,auteur de contes,1,2,229,1638,0.12,0.44,50.0,3.6667
+ukwiki,collecteur ou collectrice de textes traditionnels,1,3,229,1638,0.18,0.44,33.33,2.4444
+ukwiki,fabuliste,1,15,229,1638,0.92,0.44,6.67,0.4783
+ukwiki,femme de lettres,1,11,229,1638,0.67,0.44,9.09,0.6567
+ukwiki,historien ou historienne des mathématiques,1,3,229,1638,0.18,0.44,33.33,2.4444
+ukwiki,épistolière,1,6,229,1638,0.37,0.44,16.67,1.1892
+ukwiki,apologète,0,2,229,1638,0.12,0.0,0.0,0.0
+ukwiki,auteur comique,0,2,229,1638,0.12,0.0,0.0,0.0
+ukwiki,auteur tragique,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,chroniqueur ou chroniqueuse,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,historien ou historienne de la médecine,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,homme de lettres,0,11,229,1638,0.67,0.0,0.0,0.0
+ukwiki,journaliste scientifique,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,nouvelliste,0,2,229,1638,0.12,0.0,0.0,0.0
+ukwiki,parolier ou parolière,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,poétesse,0,1,229,1638,0.06,0.0,0.0,0.0
+ukwiki,psalmiste,0,2,229,1638,0.12,0.0,0.0,0.0
+ukwiki,écrivain religieux,0,2,229,1638,0.12,0.0,0.0,0.0

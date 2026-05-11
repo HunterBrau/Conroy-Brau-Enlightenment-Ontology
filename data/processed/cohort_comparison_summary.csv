@@ -1,0 +1,101 @@
+cohort_id,source,metric,value,pct_of_rows,pct_of_entities,notes
+french_seed,dataset_diagnostics,total_rows,1722,100.0,,
+french_seed,dataset_diagnostics,distinct_wikidata_entities,1638,,100.0,
+french_seed,dataset_diagnostics,rows_in_duplicate_entities,159,9.23,,
+french_seed,dataset_diagnostics,surplus_duplicate_rows,84,4.88,,
+french_seed,dataset_diagnostics,duplicate_entities,75,,4.58,
+french_seed,dataset_diagnostics,rows_with_unambiguous_viaf_id,1118,64.92,,
+french_seed,dataset_diagnostics,entities_with_unambiguous_viaf_id,1072,,65.45,
+french_seed,dataset_diagnostics,rows_with_ambiguous_viaf_metadata,152,8.83,,
+french_seed,dataset_diagnostics,entities_with_ambiguous_viaf_metadata,108,,6.59,
+french_seed,dataset_diagnostics,raw_viaf_conflict_rows,243,,,
+french_seed,dataset_diagnostics,rows_with_unambiguous_birth_date,1160,67.36,,
+french_seed,dataset_diagnostics,entities_with_unambiguous_birth_date,1145,,69.9,
+french_seed,dataset_diagnostics,rows_with_birth_year_mismatch,0,0.0,,
+french_seed,dataset_diagnostics,rows_with_birth_year_candidate_ambiguity,78,4.53,,
+french_seed,dataset_diagnostics,rows_without_birth_year_candidate_support,0,0.0,,
+french_seed,dataset_diagnostics,rows_with_unresolved_name_label,26,1.51,,
+french_seed,dataset_diagnostics,rows_with_unresolved_birth_place_label,9,0.52,,
+french_seed,dataset_diagnostics,rows_missing_birth_place,1,0.06,,
+french_seed,dataset_diagnostics,rows_missing_parsed_coordinates,0,0.0,,
+french_seed,dataset_diagnostics,unique_birth_places,749,,,
+french_seed,dataset_diagnostics,unique_occupation_labels,172,,,
+french_seed,wikidata_enrichment,total_rows,1722,100.0,,
+french_seed,wikidata_enrichment,distinct_wikidata_entities,1638,,100.0,
+french_seed,wikidata_enrichment,source_export_groups,1,,,
+french_seed,wikidata_enrichment,raw_enrichment_rows,1638,,,
+french_seed,wikidata_enrichment,normalized_enrichment_entities,1638,,100.0,
+french_seed,wikidata_enrichment,unexpected_duplicate_raw_enrichment_rows,0,,,
+french_seed,wikidata_enrichment,extra_enrichment_entities,0,,,
+french_seed,wikidata_enrichment,rows_with_wikidata_enrichment,1722,100.0,,
+french_seed,wikidata_enrichment,entities_with_wikidata_enrichment,1638,,100.0,
+french_seed,wikidata_enrichment,rows_missing_wikidata_enrichment,0,0.0,,
+french_seed,wikidata_enrichment,entities_missing_wikidata_enrichment,0,,0.0,
+french_seed,geographic_scope,total_entities,1638,,100.0,"Current pipeline cohort, one row per Wikidata entity."
+french_seed,geographic_scope,country_of_citizenship_present,1589,,97.01,Entities with at least one Wikidata P27 value.
+french_seed,geographic_scope,country_of_citizenship_missing,49,,2.99,Entities without a Wikidata P27 value in the enrichment export.
+french_seed,geographic_scope,citizenship_china_or_chinese_state,0,,0.0,Exact P27 token match against reviewed China/Qing-related IDs.
+french_seed,geographic_scope,citizenship_british_empire_or_colonial_state,2,,0.12,Exact P27 token match against reviewed British imperial or colonial IDs.
+french_seed,geographic_scope,place_context_china_or_chinese_state_any_role,1,,0.06,Any birth/death/residence/work-location row with reviewed China/Qing context.
+french_seed,geographic_scope,place_context_british_empire_or_colonial_state_any_role,9,,0.55,Any birth/death/residence/work-location row with reviewed British imperial or colonial context.
+french_seed,geographic_scope,birth_scope_europe,1595,,97.37,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_non_europe_or_colonial,17,,1.04,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_mixed_europe_non_europe_or_colonial,7,,0.43,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_transcontinental_or_imperial_context,19,,1.16,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_unmapped_birth_scope,0,,0.0,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_no_birth_place_context,0,,0.0,Primary geographic scope classification from birth-place context.
+french_seed,geographic_scope,birth_scope_non_europe_or_colonial_inclusive,24,,1.47,Includes mixed Europe/non-Europe or colonial birth-place contexts.
+french_seed,geographic_scope,birth_scope_europe_binary_rollup,1595,,97.37,"Strict European birth-place context, excluding mixed, colonial, transcontinental, and unmapped."
+french_seed,geographic_scope,birth_scope_binary_classified_total,1619,,98.84,Entities classified into the strict Europe vs non-Europe/colonial rollup.
+french_seed,geographic_scope,birth_scope_europe_share_of_binary_classified,1595,,98.52,Share among entities with binary-classified birth-place context.
+french_seed,geographic_scope,birth_scope_non_europe_or_colonial_share_of_binary_classified,24,,1.48,Share among entities with binary-classified birth-place context.
+global_writers,dataset_diagnostics,total_rows,14377,100.0,,
+global_writers,dataset_diagnostics,distinct_wikidata_entities,14377,,100.0,
+global_writers,dataset_diagnostics,rows_in_duplicate_entities,0,0.0,,
+global_writers,dataset_diagnostics,surplus_duplicate_rows,0,0.0,,
+global_writers,dataset_diagnostics,duplicate_entities,0,,0.0,
+global_writers,dataset_diagnostics,rows_with_unambiguous_viaf_id,0,0.0,,
+global_writers,dataset_diagnostics,entities_with_unambiguous_viaf_id,0,,0.0,
+global_writers,dataset_diagnostics,rows_with_ambiguous_viaf_metadata,0,0.0,,
+global_writers,dataset_diagnostics,entities_with_ambiguous_viaf_metadata,0,,0.0,
+global_writers,dataset_diagnostics,raw_viaf_conflict_rows,0,,,
+global_writers,dataset_diagnostics,rows_with_unambiguous_birth_date,14377,100.0,,
+global_writers,dataset_diagnostics,entities_with_unambiguous_birth_date,14377,,100.0,
+global_writers,dataset_diagnostics,rows_with_birth_year_mismatch,0,0.0,,
+global_writers,dataset_diagnostics,rows_with_birth_year_candidate_ambiguity,0,0.0,,
+global_writers,dataset_diagnostics,rows_without_birth_year_candidate_support,0,0.0,,
+global_writers,dataset_diagnostics,rows_with_unresolved_name_label,490,3.41,,
+global_writers,dataset_diagnostics,rows_with_unresolved_birth_place_label,0,0.0,,
+global_writers,dataset_diagnostics,rows_missing_birth_place,14377,100.0,,
+global_writers,dataset_diagnostics,rows_missing_parsed_coordinates,14377,100.0,,
+global_writers,dataset_diagnostics,unique_birth_places,0,,,
+global_writers,dataset_diagnostics,unique_occupation_labels,5934,,,
+global_writers,wikidata_enrichment,total_rows,14377,100.0,,
+global_writers,wikidata_enrichment,distinct_wikidata_entities,14377,,100.0,
+global_writers,wikidata_enrichment,source_export_groups,1,,,
+global_writers,wikidata_enrichment,raw_enrichment_rows,14377,,,
+global_writers,wikidata_enrichment,normalized_enrichment_entities,14377,,100.0,
+global_writers,wikidata_enrichment,unexpected_duplicate_raw_enrichment_rows,0,,,
+global_writers,wikidata_enrichment,extra_enrichment_entities,0,,,
+global_writers,wikidata_enrichment,rows_with_wikidata_enrichment,14377,100.0,,
+global_writers,wikidata_enrichment,entities_with_wikidata_enrichment,14377,,100.0,
+global_writers,wikidata_enrichment,rows_missing_wikidata_enrichment,0,0.0,,
+global_writers,wikidata_enrichment,entities_missing_wikidata_enrichment,0,,0.0,
+global_writers,geographic_scope,total_entities,14377,,100.0,"Current pipeline cohort, one row per Wikidata entity."
+global_writers,geographic_scope,country_of_citizenship_present,9075,,63.12,Entities with at least one Wikidata P27 value.
+global_writers,geographic_scope,country_of_citizenship_missing,5302,,36.88,Entities without a Wikidata P27 value in the enrichment export.
+global_writers,geographic_scope,citizenship_china_or_chinese_state,404,,2.81,Exact P27 token match against reviewed China/Qing-related IDs.
+global_writers,geographic_scope,citizenship_british_empire_or_colonial_state,14,,0.1,Exact P27 token match against reviewed British imperial or colonial IDs.
+global_writers,geographic_scope,place_context_china_or_chinese_state_any_role,104,,0.72,Any birth/death/residence/work-location row with reviewed China/Qing context.
+global_writers,geographic_scope,place_context_british_empire_or_colonial_state_any_role,189,,1.31,Any birth/death/residence/work-location row with reviewed British imperial or colonial context.
+global_writers,geographic_scope,birth_scope_europe,8442,,58.72,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_non_europe_or_colonial,308,,2.14,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_mixed_europe_non_europe_or_colonial,214,,1.49,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_transcontinental_or_imperial_context,435,,3.03,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_unmapped_birth_scope,399,,2.78,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_no_birth_place_context,4579,,31.85,Primary geographic scope classification from birth-place context.
+global_writers,geographic_scope,birth_scope_non_europe_or_colonial_inclusive,522,,3.63,Includes mixed Europe/non-Europe or colonial birth-place contexts.
+global_writers,geographic_scope,birth_scope_europe_binary_rollup,8442,,58.72,"Strict European birth-place context, excluding mixed, colonial, transcontinental, and unmapped."
+global_writers,geographic_scope,birth_scope_binary_classified_total,8964,,62.35,Entities classified into the strict Europe vs non-Europe/colonial rollup.
+global_writers,geographic_scope,birth_scope_europe_share_of_binary_classified,8442,,94.18,Share among entities with binary-classified birth-place context.
+global_writers,geographic_scope,birth_scope_non_europe_or_colonial_share_of_binary_classified,522,,5.82,Share among entities with binary-classified birth-place context.

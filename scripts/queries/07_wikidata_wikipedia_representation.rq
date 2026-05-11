@@ -18,6 +18,11 @@ SELECT
   ?has_eswiki
   ?has_plwiki
   ?has_ruwiki
+  ?has_ukwiki
+  ?has_nlwiki
+  ?has_ptwiki
+  ?has_svwiki
+  ?has_dawiki
 WHERE {
   # BEGIN COHORT VALUES
   VALUES ?person {
@@ -74,6 +79,36 @@ WHERE {
                  schema:isPartOf <https://ru.wikipedia.org/> .
     } AS ?has_ruwiki
   )
+  BIND(
+    EXISTS {
+      ?ukArticle schema:about ?person ;
+                 schema:isPartOf <https://uk.wikipedia.org/> .
+    } AS ?has_ukwiki
+  )
+  BIND(
+    EXISTS {
+      ?nlArticle schema:about ?person ;
+                 schema:isPartOf <https://nl.wikipedia.org/> .
+    } AS ?has_nlwiki
+  )
+  BIND(
+    EXISTS {
+      ?ptArticle schema:about ?person ;
+                 schema:isPartOf <https://pt.wikipedia.org/> .
+    } AS ?has_ptwiki
+  )
+  BIND(
+    EXISTS {
+      ?svArticle schema:about ?person ;
+                 schema:isPartOf <https://sv.wikipedia.org/> .
+    } AS ?has_svwiki
+  )
+  BIND(
+    EXISTS {
+      ?daArticle schema:about ?person ;
+                 schema:isPartOf <https://da.wikipedia.org/> .
+    } AS ?has_dawiki
+  )
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "en,fr".
@@ -89,4 +124,9 @@ GROUP BY
   ?has_eswiki
   ?has_plwiki
   ?has_ruwiki
+  ?has_ukwiki
+  ?has_nlwiki
+  ?has_ptwiki
+  ?has_svwiki
+  ?has_dawiki
 ORDER BY ?personLabel

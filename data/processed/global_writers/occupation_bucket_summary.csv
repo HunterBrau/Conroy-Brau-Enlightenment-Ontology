@@ -1,0 +1,21 @@
+granular_bucket,bucket_family,entity_count,entity_pct,occupation_assignment_count,assignment_pct,unique_occupation_count,writerly_assignment_count,nonwriter_assignment_count,needs_review_occupation_count
+Writing / Literature,Literary and textual production,14083,97.96,18041,50.41,81,17651,390,0
+Education / Scholarship / Humanities,Intellectual systems,2476,17.22,3228,9.02,99,56,3172,0
+Religion / Theology,Intellectual systems,2439,16.96,3413,9.54,97,335,3078,0
+Translation / Philology / Languages,Literary and textual production,1355,9.42,1659,4.64,25,0,1659,0
+Law / Administration,Institutional power,1094,7.61,1301,3.63,63,0,1301,0
+Politics / Statecraft / Diplomacy,Institutional power,1040,7.23,1176,3.29,9,0,1176,0
+Print / Publishing / Journalism,Literary and textual production,791,5.5,1037,2.9,20,531,506,0
+Music / Performance / Theatre,Arts and performance,665,4.63,934,2.61,45,13,921,0
+Science / Natural History,Scientific knowledge,562,3.91,916,2.56,41,0,916,0
+Visual Arts / Architecture / Design,Arts and performance,529,3.68,890,2.49,50,0,890,0
+Unmapped / Review,Needs review,469,3.26,523,1.46,420,12,511,420
+Philosophy,Intellectual systems,450,3.13,472,1.32,10,0,472,0
+Medicine / Health,Scientific knowledge,417,2.9,487,1.36,23,14,473,0
+Military,Institutional power,411,2.86,452,1.26,21,0,452,0
+Economics / Commerce,Institutional power,332,2.31,361,1.01,33,0,361,0
+Sociability / Patronage / Court,Social and cultural mediation,262,1.82,281,0.79,18,0,281,0
+Travel / Geography / Exploration,Mobility and empire,231,1.61,276,0.77,20,0,276,0
+Craft / Trade / Industry,Material production,157,1.09,161,0.45,26,0,161,0
+Engineering / Technology,Scientific knowledge,86,0.6,105,0.29,12,0,105,0
+Social Reform / Activism,Social and cultural mediation,71,0.49,78,0.22,12,0,78,0

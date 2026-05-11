@@ -1,0 +1,5 @@
+metric,value,notes
+script_reported_global_count,18697,Count reported in Conference Paper Script.docx.
+current_wdqs_count,14377,Distinct exported entities from the year-chunked discovery queries.
+exported_distinct_entities,14377,Distinct entities written to the discovery CSV.
+count_delta_current_minus_script,-4320,Positive means current Wikidata returns more entities than the script count.

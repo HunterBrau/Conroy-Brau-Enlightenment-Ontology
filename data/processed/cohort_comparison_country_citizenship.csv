@@ -1,0 +1,385 @@
+cohort_id,citizenship_id,citizenship_label,entity_count,cohort_total_entities,cohort_pct,wikidata_url
+french_seed,Q142,France,1327,1638,81.01,https://www.wikidata.org/wiki/Q142
+french_seed,Q70972,royaume de France,66,1638,4.03,https://www.wikidata.org/wiki/Q70972
+french_seed,Q39,Suisse,40,1638,2.44,https://www.wikidata.org/wiki/Q39
+french_seed,Q183,Allemagne,29,1638,1.77,https://www.wikidata.org/wiki/Q183
+french_seed,Q34266,Empire russe,25,1638,1.53,https://www.wikidata.org/wiki/Q34266
+french_seed,Q23366230,république de Genève,19,1638,1.16,https://www.wikidata.org/wiki/Q23366230
+french_seed,Q172107,république des Deux Nations,14,1638,0.85,https://www.wikidata.org/wiki/Q172107
+french_seed,Q29,Espagne,14,1638,0.85,https://www.wikidata.org/wiki/Q29
+french_seed,Q161885,royaume de Grande-Bretagne,12,1638,0.73,https://www.wikidata.org/wiki/Q161885
+french_seed,Q30,États-Unis,12,1638,0.73,https://www.wikidata.org/wiki/Q30
+french_seed,Q174193,Royaume-Uni de Grande-Bretagne et d'Irlande,11,1638,0.67,https://www.wikidata.org/wiki/Q174193
+french_seed,Q27306,royaume de Prusse,10,1638,0.61,https://www.wikidata.org/wiki/Q27306
+french_seed,Q756617,Royaume de Danemark,7,1638,0.43,https://www.wikidata.org/wiki/Q756617
+french_seed,Q4948,république de Venise,7,1638,0.43,https://www.wikidata.org/wiki/Q4948
+french_seed,Q170072,Provinces-Unies,6,1638,0.37,https://www.wikidata.org/wiki/Q170072
+french_seed,Q28,Hongrie,5,1638,0.31,https://www.wikidata.org/wiki/Q28
+french_seed,Q34,Suède,5,1638,0.31,https://www.wikidata.org/wiki/Q34
+french_seed,Q16,Canada,5,1638,0.31,https://www.wikidata.org/wiki/Q16
+french_seed,Q2577303,royaume de Sardaigne,5,1638,0.31,https://www.wikidata.org/wiki/Q2577303
+french_seed,Q153136,Monarchie de Habsbourg,4,1638,0.24,https://www.wikidata.org/wiki/Q153136
+french_seed,Q12560,Empire ottoman,4,1638,0.24,https://www.wikidata.org/wiki/Q12560
+french_seed,Q131964,empire d'Autriche,4,1638,0.24,https://www.wikidata.org/wiki/Q131964
+french_seed,Q158835,principauté de Liège,4,1638,0.24,https://www.wikidata.org/wiki/Q158835
+french_seed,Q31,Belgique,3,1638,0.18,https://www.wikidata.org/wiki/Q31
+french_seed,Q6581823,Pays-Bas méridionaux,3,1638,0.18,https://www.wikidata.org/wiki/Q6581823
+french_seed,Q12548,Saint-Empire romain germanique,2,1638,0.12,https://www.wikidata.org/wiki/Q12548
+french_seed,Q10957559,principauté de Moldavie,2,1638,0.12,https://www.wikidata.org/wiki/Q10957559
+french_seed,Q154849,grand-duché de Toscane,2,1638,0.12,https://www.wikidata.org/wiki/Q154849
+french_seed,Q145,Royaume-Uni,2,1638,0.12,https://www.wikidata.org/wiki/Q145
+french_seed,Q2227570,duché de Wurtemberg,2,1638,0.12,https://www.wikidata.org/wiki/Q2227570
+french_seed,Q171150,royaume de Hongrie,2,1638,0.12,https://www.wikidata.org/wiki/Q171150
+french_seed,Q426025,duché de Savoie,2,1638,0.12,https://www.wikidata.org/wiki/Q426025
+french_seed,Q20135,grand-duché de Hesse,2,1638,0.12,https://www.wikidata.org/wiki/Q20135
+french_seed,Q36,Pologne,2,1638,0.12,https://www.wikidata.org/wiki/Q36
+french_seed,Q170174,États pontificaux,2,1638,0.12,https://www.wikidata.org/wiki/Q170174
+french_seed,Q80702,Empire espagnol,2,1638,0.12,https://www.wikidata.org/wiki/Q80702
+french_seed,Q55,Pays-Bas,2,1638,0.12,https://www.wikidata.org/wiki/Q55
+french_seed,Q790,Haïti,2,1638,0.12,https://www.wikidata.org/wiki/Q790
+french_seed,Q208169,république de Raguse,2,1638,0.12,https://www.wikidata.org/wiki/Q208169
+french_seed,Q700283,Pays-Bas autrichiens,2,1638,0.12,https://www.wikidata.org/wiki/Q700283
+french_seed,Q29999,Royaume des Pays-Bas,1,1638,0.06,https://www.wikidata.org/wiki/Q29999
+french_seed,Q3456410,république de Mulhouse,1,1638,0.06,https://www.wikidata.org/wiki/Q3456410
+french_seed,Q491507,eyalet d'Égypte,1,1638,0.06,https://www.wikidata.org/wiki/Q491507
+french_seed,Q22880,Palatinat du Rhin,1,1638,0.06,https://www.wikidata.org/wiki/Q22880
+french_seed,Q1142,Allemagne,1,1638,0.06,https://www.wikidata.org/wiki/Q1142
+french_seed,Q186320,grand-duché de Bade,1,1638,0.06,https://www.wikidata.org/wiki/Q186320
+french_seed,Q861551,Saint-Domingue,1,1638,0.06,https://www.wikidata.org/wiki/Q861551
+french_seed,Q186096,Empire russe,1,1638,0.06,https://www.wikidata.org/wiki/Q186096
+french_seed,Q315667,duché de Wurtemberg,1,1638,0.06,https://www.wikidata.org/wiki/Q315667
+french_seed,Q403,Serbie,1,1638,0.06,https://www.wikidata.org/wiki/Q403
+french_seed,Q1055,Hambourg,1,1638,0.06,https://www.wikidata.org/wiki/Q1055
+french_seed,Q42585,royaume de Bohême,1,1638,0.06,https://www.wikidata.org/wiki/Q42585
+french_seed,Q37,Prusse royale,1,1638,0.06,https://www.wikidata.org/wiki/Q37
+french_seed,Q589662,République de Mayence,1,1638,0.06,https://www.wikidata.org/wiki/Q589662
+french_seed,Q706691,république des Deux Nations,1,1638,0.06,https://www.wikidata.org/wiki/Q706691
+french_seed,Q3137802,Principauté de Neuchâtel,1,1638,0.06,https://www.wikidata.org/wiki/Q3137802
+french_seed,Q435583,royaume de Prusse,1,1638,0.06,https://www.wikidata.org/wiki/Q435583
+french_seed,Q221457,république des Deux Nations,1,1638,0.06,https://www.wikidata.org/wiki/Q221457
+french_seed,Q258532,Amérique britannique,1,1638,0.06,https://www.wikidata.org/wiki/Q258532
+french_seed,Q173065,royaume de Naples,1,1638,0.06,https://www.wikidata.org/wiki/Q173065
+french_seed,Q1031430,Pays-Bas des Habsbourg,1,1638,0.06,https://www.wikidata.org/wiki/Q1031430
+french_seed,Q22,Écosse,1,1638,0.06,https://www.wikidata.org/wiki/Q22
+french_seed,Q23498721,Côte-de-l’Or,1,1638,0.06,https://www.wikidata.org/wiki/Q23498721
+french_seed,Q830084,principauté de Brunswick-Wolfenbüttel,1,1638,0.06,https://www.wikidata.org/wiki/Q830084
+french_seed,Q298,Chili,1,1638,0.06,https://www.wikidata.org/wiki/Q298
+french_seed,Q310650,Principauté de Schaumbourg-Lippe,1,1638,0.06,https://www.wikidata.org/wiki/Q310650
+french_seed,Q45670,royaume de Portugal,1,1638,0.06,https://www.wikidata.org/wiki/Q45670
+french_seed,Q71084,Premier Empire français,1,1638,0.06,https://www.wikidata.org/wiki/Q71084
+french_seed,Q179876,royaume d'Angleterre,1,1638,0.06,https://www.wikidata.org/wiki/Q179876
+french_seed,Q159631,Royaume du Wurtemberg,1,1638,0.06,https://www.wikidata.org/wiki/Q159631
+french_seed,Q15864,Pays-Bas autrichiens,1,1638,0.06,https://www.wikidata.org/wiki/Q15864
+french_seed,Q215530,royaume d'Irlande,1,1638,0.06,https://www.wikidata.org/wiki/Q215530
+french_seed,Q179997,Treize colonies,1,1638,0.06,https://www.wikidata.org/wiki/Q179997
+french_seed,Q77,Uruguay,1,1638,0.06,https://www.wikidata.org/wiki/Q77
+french_seed,Q21,royaume de Grande-Bretagne,1,1638,0.06,https://www.wikidata.org/wiki/Q21
+french_seed,Q27,Irlande,1,1638,0.06,https://www.wikidata.org/wiki/Q27
+french_seed,Q165154,royaume de Sardaigne,1,1638,0.06,https://www.wikidata.org/wiki/Q165154
+french_seed,Q168651,landgraviat de Hesse-Cassel,1,1638,0.06,https://www.wikidata.org/wiki/Q168651
+french_seed,Q164079,royaume de Hanovre,1,1638,0.06,https://www.wikidata.org/wiki/Q164079
+french_seed,Q159,Empire russe,1,1638,0.06,https://www.wikidata.org/wiki/Q159
+global_writers,Q142,France,1565,14377,10.89,https://www.wikidata.org/wiki/Q142
+global_writers,Q183,Allemagne,1195,14377,8.31,https://www.wikidata.org/wiki/Q183
+global_writers,Q161885,royaume de Grande-Bretagne,1056,14377,7.35,https://www.wikidata.org/wiki/Q161885
+global_writers,Q174193,Royaume-Uni de Grande-Bretagne et d'Irlande,660,14377,4.59,https://www.wikidata.org/wiki/Q174193
+global_writers,Q34266,Empire russe,479,14377,3.33,https://www.wikidata.org/wiki/Q34266
+global_writers,Q29,Espagne,449,14377,3.12,https://www.wikidata.org/wiki/Q29
+global_writers,Q8733,dynastie Qing,403,14377,2.8,https://www.wikidata.org/wiki/Q8733
+global_writers,Q34,Suède,330,14377,2.3,https://www.wikidata.org/wiki/Q34
+global_writers,Q12560,Empire ottoman,327,14377,2.27,https://www.wikidata.org/wiki/Q12560
+global_writers,Q28,Hongrie,284,14377,1.98,https://www.wikidata.org/wiki/Q28
+global_writers,Q172107,république des Deux Nations,239,14377,1.66,https://www.wikidata.org/wiki/Q172107
+global_writers,Q30,États-Unis,239,14377,1.66,https://www.wikidata.org/wiki/Q30
+global_writers,Q756617,Royaume de Danemark,163,14377,1.13,https://www.wikidata.org/wiki/Q756617
+global_writers,Q4948,république de Venise,163,14377,1.13,https://www.wikidata.org/wiki/Q4948
+global_writers,Q39,Suisse,149,14377,1.04,https://www.wikidata.org/wiki/Q39
+global_writers,Q145,Royaume-Uni,139,14377,0.97,https://www.wikidata.org/wiki/Q145
+global_writers,Q170072,Provinces-Unies,136,14377,0.95,https://www.wikidata.org/wiki/Q170072
+global_writers,Q27306,royaume de Prusse,125,14377,0.87,https://www.wikidata.org/wiki/Q27306
+global_writers,Q131964,empire d'Autriche,125,14377,0.87,https://www.wikidata.org/wiki/Q131964
+global_writers,Q70972,royaume de France,111,14377,0.77,https://www.wikidata.org/wiki/Q70972
+global_writers,Q12548,Saint-Empire romain germanique,92,14377,0.64,https://www.wikidata.org/wiki/Q12548
+global_writers,Q17,Japon,85,14377,0.59,https://www.wikidata.org/wiki/Q17
+global_writers,Q45670,royaume de Portugal,76,14377,0.53,https://www.wikidata.org/wiki/Q45670
+global_writers,Q29999,Royaume des Pays-Bas,76,14377,0.53,https://www.wikidata.org/wiki/Q29999
+global_writers,Q179876,royaume d'Angleterre,70,14377,0.49,https://www.wikidata.org/wiki/Q179876
+global_writers,Q20,Norvège,61,14377,0.42,https://www.wikidata.org/wiki/Q20
+global_writers,Q215530,royaume d'Irlande,53,14377,0.37,https://www.wikidata.org/wiki/Q215530
+global_writers,Q153136,Monarchie de Habsbourg,48,14377,0.33,https://www.wikidata.org/wiki/Q153136
+global_writers,Q55,Pays-Bas,48,14377,0.33,https://www.wikidata.org/wiki/Q55
+global_writers,Q205662,shogunat Tokugawa,42,14377,0.29,https://www.wikidata.org/wiki/Q205662
+global_writers,Q27,Irlande,41,14377,0.29,https://www.wikidata.org/wiki/Q27
+global_writers,Q25,pays de Galles,40,14377,0.28,https://www.wikidata.org/wiki/Q25
+global_writers,Q33,Finlande,36,14377,0.25,https://www.wikidata.org/wiki/Q33
+global_writers,Q155,Brésil,30,14377,0.21,https://www.wikidata.org/wiki/Q155
+global_writers,Q173065,royaume de Naples,29,14377,0.2,https://www.wikidata.org/wiki/Q173065
+global_writers,Q28179,période Joseon,29,14377,0.2,https://www.wikidata.org/wiki/Q28179
+global_writers,Q156199,électorat de Saxe,27,14377,0.19,https://www.wikidata.org/wiki/Q156199
+global_writers,Q96,Mexique,27,14377,0.19,https://www.wikidata.org/wiki/Q96
+global_writers,Q170174,États pontificaux,25,14377,0.17,https://www.wikidata.org/wiki/Q170174
+global_writers,Q21,Angleterre,23,14377,0.16,https://www.wikidata.org/wiki/Q21
+global_writers,Q2577303,royaume de Sardaigne,22,14377,0.15,https://www.wikidata.org/wiki/Q2577303
+global_writers,Q23366230,république de Genève,22,14377,0.15,https://www.wikidata.org/wiki/Q23366230
+global_writers,Q204920,couronne d'Aragon,21,14377,0.15,https://www.wikidata.org/wiki/Q204920
+global_writers,Q171150,royaume de Hongrie,19,14377,0.13,https://www.wikidata.org/wiki/Q171150
+global_writers,Q22,Écosse,19,14377,0.13,https://www.wikidata.org/wiki/Q22
+global_writers,Q154195,royaume de Bavière,18,14377,0.13,https://www.wikidata.org/wiki/Q154195
+global_writers,Q154849,grand-duché de Toscane,17,14377,0.12,https://www.wikidata.org/wiki/Q154849
+global_writers,Q1028,Maroc,17,14377,0.12,https://www.wikidata.org/wiki/Q1028
+global_writers,Q45,Portugal,16,14377,0.11,https://www.wikidata.org/wiki/Q45
+global_writers,Q403,Serbie,16,14377,0.11,https://www.wikidata.org/wiki/Q403
+global_writers,Q31,Belgique,15,14377,0.1,https://www.wikidata.org/wiki/Q31
+global_writers,Q153015,royaume de Saxe,14,14377,0.1,https://www.wikidata.org/wiki/Q153015
+global_writers,Q33296,Empire moghol,14,14377,0.1,https://www.wikidata.org/wiki/Q33296
+global_writers,Q41,Grèce,14,14377,0.1,https://www.wikidata.org/wiki/Q41
+global_writers,Q706018,électorat de Brunswick-Lunebourg,13,14377,0.09,https://www.wikidata.org/wiki/Q706018
+global_writers,Q189,Islande,13,14377,0.09,https://www.wikidata.org/wiki/Q189
+global_writers,Q668,Inde,13,14377,0.09,https://www.wikidata.org/wiki/Q668
+global_writers,Q159631,Royaume du Wurtemberg,12,14377,0.08,https://www.wikidata.org/wiki/Q159631
+global_writers,Q36,Pologne,12,14377,0.08,https://www.wikidata.org/wiki/Q36
+global_writers,Q165154,royaume de Sardaigne,12,14377,0.08,https://www.wikidata.org/wiki/Q165154
+global_writers,Q80702,Empire espagnol,11,14377,0.08,https://www.wikidata.org/wiki/Q80702
+global_writers,Q38,Italie,11,14377,0.08,https://www.wikidata.org/wiki/Q38
+global_writers,Q16,Canada,11,14377,0.08,https://www.wikidata.org/wiki/Q16
+global_writers,Q155570,grand-duché de Saxe-Weimar-Eisenach,10,14377,0.07,https://www.wikidata.org/wiki/Q155570
+global_writers,Q18234383,Empire safavide,10,14377,0.07,https://www.wikidata.org/wiki/Q18234383
+global_writers,Q186096,tsarat de Moscou,10,14377,0.07,https://www.wikidata.org/wiki/Q186096
+global_writers,Q430309,Đại Việt,9,14377,0.06,https://www.wikidata.org/wiki/Q430309
+global_writers,Q20135,grand-duché de Hesse,9,14377,0.06,https://www.wikidata.org/wiki/Q20135
+global_writers,Q164079,royaume de Hanovre,8,14377,0.06,https://www.wikidata.org/wiki/Q164079
+global_writers,Q881,Vietnam,8,14377,0.06,https://www.wikidata.org/wiki/Q881
+global_writers,Q180393,royaume des Deux-Siciles,8,14377,0.06,https://www.wikidata.org/wiki/Q180393
+global_writers,Q230791,Royaume d'Écosse,8,14377,0.06,https://www.wikidata.org/wiki/Q230791
+global_writers,Q10800791,Revival Lê dynasty,8,14377,0.06,https://www.wikidata.org/wiki/Q10800791
+global_writers,Q208169,république de Raguse,8,14377,0.06,https://www.wikidata.org/wiki/Q208169
+global_writers,Q174306,république de Gênes,8,14377,0.06,https://www.wikidata.org/wiki/Q174306
+global_writers,Q77,Uruguay,8,14377,0.06,https://www.wikidata.org/wiki/Q77
+global_writers,Q230,Géorgie,7,14377,0.05,https://www.wikidata.org/wiki/Q230
+global_writers,Q700283,Pays-Bas autrichiens,7,14377,0.05,https://www.wikidata.org/wiki/Q700283
+global_writers,Q170603,Nouvelle-Espagne,7,14377,0.05,https://www.wikidata.org/wiki/Q170603
+global_writers,Q42585,royaume de Bohême,7,14377,0.05,https://www.wikidata.org/wiki/Q42585
+global_writers,Q699964,archiduché d'Autriche,6,14377,0.04,https://www.wikidata.org/wiki/Q699964
+global_writers,Q62633,grand-duché de Finlande,6,14377,0.04,https://www.wikidata.org/wiki/Q62633
+global_writers,Q6581823,Pays-Bas méridionaux,6,14377,0.04,https://www.wikidata.org/wiki/Q6581823
+global_writers,Q2227570,duché de Wurtemberg,6,14377,0.04,https://www.wikidata.org/wiki/Q2227570
+global_writers,Q159,Empire russe,6,14377,0.04,https://www.wikidata.org/wiki/Q159
+global_writers,Q158835,principauté de Liège,6,14377,0.04,https://www.wikidata.org/wiki/Q158835
+global_writers,Q153529,duché de Milan,6,14377,0.04,https://www.wikidata.org/wiki/Q153529
+global_writers,Q186320,grand-duché de Bade,6,14377,0.04,https://www.wikidata.org/wiki/Q186320
+global_writers,Q146871,émirat de Dariya,5,14377,0.03,https://www.wikidata.org/wiki/Q146871
+global_writers,Q11876909,État du Brésil,5,14377,0.03,https://www.wikidata.org/wiki/Q11876909
+global_writers,Q37,Lituanie,5,14377,0.03,https://www.wikidata.org/wiki/Q37
+global_writers,Q188553,Royaume de Hollande,5,14377,0.03,https://www.wikidata.org/wiki/Q188553
+global_writers,Q298,Chili,5,14377,0.03,https://www.wikidata.org/wiki/Q298
+global_writers,Q38872,Prusse,5,14377,0.03,https://www.wikidata.org/wiki/Q38872
+global_writers,Q179997,Treize colonies,5,14377,0.03,https://www.wikidata.org/wiki/Q179997
+global_writers,Q258532,Amérique britannique,5,14377,0.03,https://www.wikidata.org/wiki/Q258532
+global_writers,Q62651,royaume de Danemark et de Norvège,5,14377,0.03,https://www.wikidata.org/wiki/Q62651
+global_writers,Q282475,Empire russe,5,14377,0.03,https://www.wikidata.org/wiki/Q282475
+global_writers,Q241,Cuba,5,14377,0.03,https://www.wikidata.org/wiki/Q241
+global_writers,Q529605,Électorat de Hesse,5,14377,0.03,https://www.wikidata.org/wiki/Q529605
+global_writers,Q146597,Afcharides,5,14377,0.03,https://www.wikidata.org/wiki/Q146597
+global_writers,Q717,Venezuela,5,14377,0.03,https://www.wikidata.org/wiki/Q717
+global_writers,Q3399982,royaume d'Espagne,5,14377,0.03,https://www.wikidata.org/wiki/Q3399982
+global_writers,Q63158027,dynastie Zend,4,14377,0.03,https://www.wikidata.org/wiki/Q63158027
+global_writers,Q858,Syrie,4,14377,0.03,https://www.wikidata.org/wiki/Q858
+global_writers,Q71084,République batave,4,14377,0.03,https://www.wikidata.org/wiki/Q71084
+global_writers,Q152115,duché de Varsovie,4,14377,0.03,https://www.wikidata.org/wiki/Q152115
+global_writers,Q3279296,Suède-Finlande,4,14377,0.03,https://www.wikidata.org/wiki/Q3279296
+global_writers,Q10957559,principauté de Moldavie,4,14377,0.03,https://www.wikidata.org/wiki/Q10957559
+global_writers,Q675085,Duché de Saxe-Gotha-Altenbourg,4,14377,0.03,https://www.wikidata.org/wiki/Q675085
+global_writers,Q869,Thaïlande,4,14377,0.03,https://www.wikidata.org/wiki/Q869
+global_writers,Q252580,duché de Modène et Reggio,4,14377,0.03,https://www.wikidata.org/wiki/Q252580
+global_writers,Q414,Argentine,4,14377,0.03,https://www.wikidata.org/wiki/Q414
+global_writers,Q704288,duché de Holstein,4,14377,0.03,https://www.wikidata.org/wiki/Q704288
+global_writers,Q26167,duché de Schleswig,4,14377,0.03,https://www.wikidata.org/wiki/Q26167
+global_writers,Q388739,dynastie Zend,4,14377,0.03,https://www.wikidata.org/wiki/Q388739
+global_writers,Q419,Pérou,4,14377,0.03,https://www.wikidata.org/wiki/Q419
+global_writers,Q3462133,duché de Saxe-Cobourg et Gotha,3,14377,0.02,https://www.wikidata.org/wiki/Q3462133
+global_writers,Q222,Albanie,3,14377,0.02,https://www.wikidata.org/wiki/Q222
+global_writers,Q212278,République batave,3,14377,0.02,https://www.wikidata.org/wiki/Q212278
+global_writers,Q158445,grand-duché de Mecklembourg-Schwerin,3,14377,0.02,https://www.wikidata.org/wiki/Q158445
+global_writers,Q4899891,beylicat de Tunis,3,14377,0.02,https://www.wikidata.org/wiki/Q4899891
+global_writers,Q6500483,dynastie Nguyen,3,14377,0.02,https://www.wikidata.org/wiki/Q6500483
+global_writers,Q15864,royaume uni des Pays-Bas,3,14377,0.02,https://www.wikidata.org/wiki/Q15864
+global_writers,Q838931,Royaume d'Italie,3,14377,0.02,https://www.wikidata.org/wiki/Q838931
+global_writers,Q214,Slovaquie,3,14377,0.02,https://www.wikidata.org/wiki/Q214
+global_writers,Q2055400,eyalet de Bosnie,3,14377,0.02,https://www.wikidata.org/wiki/Q2055400
+global_writers,Q17252,Tibet,3,14377,0.02,https://www.wikidata.org/wiki/Q17252
+global_writers,Q426025,duché de Savoie,3,14377,0.02,https://www.wikidata.org/wiki/Q426025
+global_writers,Q212439,hetmanat cosaque,3,14377,0.02,https://www.wikidata.org/wiki/Q212439
+global_writers,Q1636212,Empire safavide,3,14377,0.02,https://www.wikidata.org/wiki/Q1636212
+global_writers,Q1209822,Royaume de Kakhétie,3,14377,0.02,https://www.wikidata.org/wiki/Q1209822
+global_writers,Q836,Birmanie,3,14377,0.02,https://www.wikidata.org/wiki/Q836
+global_writers,Q258,Afrique du Sud,3,14377,0.02,https://www.wikidata.org/wiki/Q258
+global_writers,Q209857,royaume de Lombardie-Vénétie,3,14377,0.02,https://www.wikidata.org/wiki/Q209857
+global_writers,Q1033,Nigeria,3,14377,0.02,https://www.wikidata.org/wiki/Q1033
+global_writers,Q148499,marche de Brandebourg,3,14377,0.02,https://www.wikidata.org/wiki/Q148499
+global_writers,Q55599391,Royaume de Sardaigne (1324-1713),3,14377,0.02,https://www.wikidata.org/wiki/Q55599391
+global_writers,Q326029,duché de Brunswick,3,14377,0.02,https://www.wikidata.org/wiki/Q326029
+global_writers,Q188586,royaume de Sicile,3,14377,0.02,https://www.wikidata.org/wiki/Q188586
+global_writers,Q221457,république des Deux Nations,3,14377,0.02,https://www.wikidata.org/wiki/Q221457
+global_writers,Q49683,grand-duché de Lituanie,3,14377,0.02,https://www.wikidata.org/wiki/Q49683
+global_writers,Q233,Malte,3,14377,0.02,https://www.wikidata.org/wiki/Q233
+global_writers,Q224,Croatie,3,14377,0.02,https://www.wikidata.org/wiki/Q224
+global_writers,Q736,Équateur,3,14377,0.02,https://www.wikidata.org/wiki/Q736
+global_writers,Q408,Australie,3,14377,0.02,https://www.wikidata.org/wiki/Q408
+global_writers,Q266923,royaume de Mysore,2,14377,0.01,https://www.wikidata.org/wiki/Q266923
+global_writers,Q711,Mongolie,2,14377,0.01,https://www.wikidata.org/wiki/Q711
+global_writers,Q148,République populaire de Chine,2,14377,0.01,https://www.wikidata.org/wiki/Q148
+global_writers,Q1034173,Dynastie Tây Sơn,2,14377,0.01,https://www.wikidata.org/wiki/Q1034173
+global_writers,Q476033,Royaume des Pays-Bas,2,14377,0.01,https://www.wikidata.org/wiki/Q476033
+global_writers,Q28025,royaume de Ryūkyū,2,14377,0.01,https://www.wikidata.org/wiki/Q28025
+global_writers,Q29520,Chine,2,14377,0.01,https://www.wikidata.org/wiki/Q29520
+global_writers,Q556263,duché de Brunswick-Lunebourg,2,14377,0.01,https://www.wikidata.org/wiki/Q556263
+global_writers,Q1031430,Pays-Bas des Habsbourg,2,14377,0.01,https://www.wikidata.org/wiki/Q1031430
+global_writers,Q210198,Khanat d'Erevan,2,14377,0.01,https://www.wikidata.org/wiki/Q210198
+global_writers,Q1134180,Bas-Canada,2,14377,0.01,https://www.wikidata.org/wiki/Q1134180
+global_writers,Q211,Lettonie,2,14377,0.01,https://www.wikidata.org/wiki/Q211
+global_writers,Q774,Guatemala,2,14377,0.01,https://www.wikidata.org/wiki/Q774
+global_writers,Q491507,eyalet d'Égypte,2,14377,0.01,https://www.wikidata.org/wiki/Q491507
+global_writers,Q211435,vice-royauté du Pérou,2,14377,0.01,https://www.wikidata.org/wiki/Q211435
+global_writers,Q655621,Principauté de Transylvanie,2,14377,0.01,https://www.wikidata.org/wiki/Q655621
+global_writers,Q8680,Empire britannique,2,14377,0.01,https://www.wikidata.org/wiki/Q8680
+global_writers,Q889,Afghanistan,2,14377,0.01,https://www.wikidata.org/wiki/Q889
+global_writers,Q219,Bulgarie,2,14377,0.01,https://www.wikidata.org/wiki/Q219
+global_writers,Q836680,duché de Nassau,2,14377,0.01,https://www.wikidata.org/wiki/Q836680
+global_writers,Q168651,landgraviat de Hesse-Cassel,2,14377,0.01,https://www.wikidata.org/wiki/Q168651
+global_writers,Q12183875,Empire chérifien,2,14377,0.01,https://www.wikidata.org/wiki/Q12183875
+global_writers,Q4453628,khanat de Tabriz,2,14377,0.01,https://www.wikidata.org/wiki/Q4453628
+global_writers,Q22880,royaume de Bavière,2,14377,0.01,https://www.wikidata.org/wiki/Q22880
+global_writers,Q739,Colombie,2,14377,0.01,https://www.wikidata.org/wiki/Q739
+global_writers,Q284667,Électorat de Mayence,2,14377,0.01,https://www.wikidata.org/wiki/Q284667
+global_writers,Q315667,duché de Wurtemberg,2,14377,0.01,https://www.wikidata.org/wiki/Q315667
+global_writers,Q841364,royaume d'Ayutthaya,2,14377,0.01,https://www.wikidata.org/wiki/Q841364
+global_writers,Q195972,Royaume de Karthli,2,14377,0.01,https://www.wikidata.org/wiki/Q195972
+global_writers,Q223936,Royaume d'Italie (1805-1814),2,14377,0.01,https://www.wikidata.org/wiki/Q223936
+global_writers,Q3045696,régence d'Alger,2,14377,0.01,https://www.wikidata.org/wiki/Q3045696
+global_writers,Q790,Haïti,2,14377,0.01,https://www.wikidata.org/wiki/Q790
+global_writers,Q172579,royaume d'Italie,2,14377,0.01,https://www.wikidata.org/wiki/Q172579
+global_writers,Q156038,Empire russe,2,14377,0.01,https://www.wikidata.org/wiki/Q156038
+global_writers,Q1796551,Îles-sous-le-Vent britanniques,2,14377,0.01,https://www.wikidata.org/wiki/Q1796551
+global_writers,Q256961,Électorat de Bavière,2,14377,0.01,https://www.wikidata.org/wiki/Q256961
+global_writers,Q467627,Empire Durrani,2,14377,0.01,https://www.wikidata.org/wiki/Q467627
+global_writers,Q389004,principauté de Valachie,2,14377,0.01,https://www.wikidata.org/wiki/Q389004
+global_writers,Q693551,landgraviat de Hesse-Darmstadt,2,14377,0.01,https://www.wikidata.org/wiki/Q693551
+global_writers,Q1055,Hambourg,2,14377,0.01,https://www.wikidata.org/wiki/Q1055
+global_writers,Q12844379,Empire russe,2,14377,0.01,https://www.wikidata.org/wiki/Q12844379
+global_writers,Q146862,deuxième État saoudien,2,14377,0.01,https://www.wikidata.org/wiki/Q146862
+global_writers,Q56376885,Émirat Bani Khalid,1,14377,0.01,https://www.wikidata.org/wiki/Q56376885
+global_writers,Q249428,grand-duché de Berg,1,14377,0.01,https://www.wikidata.org/wiki/Q249428
+global_writers,Q200464,State of Grão-Pará and Rio Negro,1,14377,0.01,https://www.wikidata.org/wiki/Q200464
+global_writers,Q3339389,État du Brésil,1,14377,0.01,https://www.wikidata.org/wiki/Q3339389
+global_writers,Q3382803,beylicat de Tunis,1,14377,0.01,https://www.wikidata.org/wiki/Q3382803
+global_writers,Q85816686,Qasimides,1,14377,0.01,https://www.wikidata.org/wiki/Q85816686
+global_writers,Q151624,Confédération germanique,1,14377,0.01,https://www.wikidata.org/wiki/Q151624
+global_writers,Q699923,empire d'Autriche,1,14377,0.01,https://www.wikidata.org/wiki/Q699923
+global_writers,Q117020,cité libre impériale de Nuremberg,1,14377,0.01,https://www.wikidata.org/wiki/Q117020
+global_writers,Q185072,Courlande,1,14377,0.01,https://www.wikidata.org/wiki/Q185072
+global_writers,Q9903,dynastie Qing,1,14377,0.01,https://www.wikidata.org/wiki/Q9903
+global_writers,Q1188459,Khanat de Yarkand,1,14377,0.01,https://www.wikidata.org/wiki/Q1188459
+global_writers,Q159856,duché de Brabant,1,14377,0.01,https://www.wikidata.org/wiki/Q159856
+global_writers,Q4208754,Kaitag Utsmiate,1,14377,0.01,https://www.wikidata.org/wiki/Q4208754
+global_writers,Q48779892,royaume de Naples,1,14377,0.01,https://www.wikidata.org/wiki/Q48779892
+global_writers,Q884763,évêché de Passau,1,14377,0.01,https://www.wikidata.org/wiki/Q884763
+global_writers,Q12375230,Finlande,1,14377,0.01,https://www.wikidata.org/wiki/Q12375230
+global_writers,Q43266,Moravie,1,14377,0.01,https://www.wikidata.org/wiki/Q43266
+global_writers,Q20018403,Tunisie ottomane,1,14377,0.01,https://www.wikidata.org/wiki/Q20018403
+global_writers,Q3137802,Principauté de Neuchâtel,1,14377,0.01,https://www.wikidata.org/wiki/Q3137802
+global_writers,Q3456410,république de Mulhouse,1,14377,0.01,https://www.wikidata.org/wiki/Q3456410
+global_writers,Q878276,Dynastie Lê,1,14377,0.01,https://www.wikidata.org/wiki/Q878276
+global_writers,Q817165,présidence du Bengale,1,14377,0.01,https://www.wikidata.org/wiki/Q817165
+global_writers,Q7646305,Suriname,1,14377,0.01,https://www.wikidata.org/wiki/Q7646305
+global_writers,Q1794,Francfort-sur-le-Main,1,14377,0.01,https://www.wikidata.org/wiki/Q1794
+global_writers,Q664,Nouvelle-Zélande,1,14377,0.01,https://www.wikidata.org/wiki/Q664
+global_writers,Q278874,Anhalt-Dessau,1,14377,0.01,https://www.wikidata.org/wiki/Q278874
+global_writers,Q158151,duché de Saxe-Altenbourg,1,14377,0.01,https://www.wikidata.org/wiki/Q158151
+global_writers,Q16069,Biberach an der Riß,1,14377,0.01,https://www.wikidata.org/wiki/Q16069
+global_writers,Q912,Mali,1,14377,0.01,https://www.wikidata.org/wiki/Q912
+global_writers,Q1077630,République des Sept-Îles,1,14377,0.01,https://www.wikidata.org/wiki/Q1077630
+global_writers,Q902,Bangladesh,1,14377,0.01,https://www.wikidata.org/wiki/Q902
+global_writers,Q1634940,Empire russe,1,14377,0.01,https://www.wikidata.org/wiki/Q1634940
+global_writers,Q694269,Landgraviat de Hesse-Hombourg,1,14377,0.01,https://www.wikidata.org/wiki/Q694269
+global_writers,Q630163,Principauté de Schwarzbourg-Sondershausen,1,14377,0.01,https://www.wikidata.org/wiki/Q630163
+global_writers,Q2614104,Royaume de Hollande,1,14377,0.01,https://www.wikidata.org/wiki/Q2614104
+global_writers,Q17993985,Domaines protégés de l'Iran,1,14377,0.01,https://www.wikidata.org/wiki/Q17993985
+global_writers,Q209065,royaume de Grèce,1,14377,0.01,https://www.wikidata.org/wiki/Q209065
+global_writers,Q18097,Corée,1,14377,0.01,https://www.wikidata.org/wiki/Q18097
+global_writers,Q100594799,landgraviat de Hesse-Cassel,1,14377,0.01,https://www.wikidata.org/wiki/Q100594799
+global_writers,Q704300,Ville libre de Francfort,1,14377,0.01,https://www.wikidata.org/wiki/Q704300
+global_writers,Q281005,duché de Saxe-Hildburghausen,1,14377,0.01,https://www.wikidata.org/wiki/Q281005
+global_writers,Q14551680,principauté de Lippe,1,14377,0.01,https://www.wikidata.org/wiki/Q14551680
+global_writers,Q7904317,électorat de Cologne,1,14377,0.01,https://www.wikidata.org/wiki/Q7904317
+global_writers,Q165040,duché de Parme et Plaisance,1,14377,0.01,https://www.wikidata.org/wiki/Q165040
+global_writers,Q11024667,duché de Mecklembourg-Schwerin,1,14377,0.01,https://www.wikidata.org/wiki/Q11024667
+global_writers,Q2843,Lübeck,1,14377,0.01,https://www.wikidata.org/wiki/Q2843
+global_writers,Q1408764,Circassie,1,14377,0.01,https://www.wikidata.org/wiki/Q1408764
+global_writers,Q874,Turkménistan,1,14377,0.01,https://www.wikidata.org/wiki/Q874
+global_writers,Q189326,dynastie Zend,1,14377,0.01,https://www.wikidata.org/wiki/Q189326
+global_writers,Q2325193,Austria lombarde,1,14377,0.01,https://www.wikidata.org/wiki/Q2325193
+global_writers,Q1740542,Afcharides,1,14377,0.01,https://www.wikidata.org/wiki/Q1740542
+global_writers,Q1041,Sénégal,1,14377,0.01,https://www.wikidata.org/wiki/Q1041
+global_writers,Q811,Nicaragua,1,14377,0.01,https://www.wikidata.org/wiki/Q811
+global_writers,Q213353,République cisalpine,1,14377,0.01,https://www.wikidata.org/wiki/Q213353
+global_writers,Q463289,République italienne,1,14377,0.01,https://www.wikidata.org/wiki/Q463289
+global_writers,Q723118,duché de Milan,1,14377,0.01,https://www.wikidata.org/wiki/Q723118
+global_writers,Q2670751,margraviat de Moravie,1,14377,0.01,https://www.wikidata.org/wiki/Q2670751
+global_writers,Q769668,Province de New York,1,14377,0.01,https://www.wikidata.org/wiki/Q769668
+global_writers,Q310650,Principauté de Schaumbourg-Lippe,1,14377,0.01,https://www.wikidata.org/wiki/Q310650
+global_writers,Q622783,Pays-Bas autrichiens,1,14377,0.01,https://www.wikidata.org/wiki/Q622783
+global_writers,Q129286,Raj britannique,1,14377,0.01,https://www.wikidata.org/wiki/Q129286
+global_writers,Q2001966,domination de la Compagnie britannique des Indes orientales en Inde,1,14377,0.01,https://www.wikidata.org/wiki/Q2001966
+global_writers,Q212,Empire russe,1,14377,0.01,https://www.wikidata.org/wiki/Q212
+global_writers,Q11750128,Empire russe,1,14377,0.01,https://www.wikidata.org/wiki/Q11750128
+global_writers,Q894030,empire Bornu,1,14377,0.01,https://www.wikidata.org/wiki/Q894030
+global_writers,Q600524,Empire de Sokoto,1,14377,0.01,https://www.wikidata.org/wiki/Q600524
+global_writers,Q8890160,république des Deux Nations,1,14377,0.01,https://www.wikidata.org/wiki/Q8890160
+global_writers,Q12491039,Kingdom of Kubu,1,14377,0.01,https://www.wikidata.org/wiki/Q12491039
+global_writers,Q2617267,Irak sous l'Empire ottoman,1,14377,0.01,https://www.wikidata.org/wiki/Q2617267
+global_writers,Q528042,Dalmatie,1,14377,0.01,https://www.wikidata.org/wiki/Q528042
+global_writers,Q4073209,Q4073209,1,14377,0.01,https://www.wikidata.org/wiki/Q4073209
+global_writers,Q117,Ghana,1,14377,0.01,https://www.wikidata.org/wiki/Q117
+global_writers,Q160440,khanat de Crimée,1,14377,0.01,https://www.wikidata.org/wiki/Q160440
+global_writers,Q1142,Allemagne,1,14377,0.01,https://www.wikidata.org/wiki/Q1142
+global_writers,Q1115291,royaume d'Ayutthaya,1,14377,0.01,https://www.wikidata.org/wiki/Q1115291
+global_writers,Q1155700,royaume de Rattanakosin,1,14377,0.01,https://www.wikidata.org/wiki/Q1155700
+global_writers,Q57695350,Irlande,1,14377,0.01,https://www.wikidata.org/wiki/Q57695350
+global_writers,Q3324486,principauté ecclésiastique de Monténégro,1,14377,0.01,https://www.wikidata.org/wiki/Q3324486
+global_writers,Q641,république de Venise,1,14377,0.01,https://www.wikidata.org/wiki/Q641
+global_writers,Q854,Sri Lanka,1,14377,0.01,https://www.wikidata.org/wiki/Q854
+global_writers,Q546,Mantoue,1,14377,0.01,https://www.wikidata.org/wiki/Q546
+global_writers,Q617,Padoue,1,14377,0.01,https://www.wikidata.org/wiki/Q617
+global_writers,Q6247,Trieste,1,14377,0.01,https://www.wikidata.org/wiki/Q6247
+global_writers,Q700663,duché de Saxe-Cobourg-Saalfeld,1,14377,0.01,https://www.wikidata.org/wiki/Q700663
+global_writers,Q589662,République de Mayence,1,14377,0.01,https://www.wikidata.org/wiki/Q589662
+global_writers,Q706691,république des Deux Nations,1,14377,0.01,https://www.wikidata.org/wiki/Q706691
+global_writers,Q32,Luxembourg,1,14377,0.01,https://www.wikidata.org/wiki/Q32
+global_writers,Q18129046,État d'Oudh,1,14377,0.01,https://www.wikidata.org/wiki/Q18129046
+global_writers,Q796,Irak,1,14377,0.01,https://www.wikidata.org/wiki/Q796
+global_writers,Q23498721,Côte-de-l’Or,1,14377,0.01,https://www.wikidata.org/wiki/Q23498721
+global_writers,Q830084,principauté de Brunswick-Wolfenbüttel,1,14377,0.01,https://www.wikidata.org/wiki/Q830084
+global_writers,Q228,Andorre,1,14377,0.01,https://www.wikidata.org/wiki/Q228
+global_writers,Q217196,couronne de Castille,1,14377,0.01,https://www.wikidata.org/wiki/Q217196
+global_writers,Q804,Panama,1,14377,0.01,https://www.wikidata.org/wiki/Q804
+global_writers,Q63149558,Perse qadjare,1,14377,0.01,https://www.wikidata.org/wiki/Q63149558
+global_writers,Q210551,Uruguay,1,14377,0.01,https://www.wikidata.org/wiki/Q210551
+global_writers,Q157710,duché de Saxe-Meiningen,1,14377,0.01,https://www.wikidata.org/wiki/Q157710
+global_writers,Q1827039,Đàng Trong,1,14377,0.01,https://www.wikidata.org/wiki/Q1827039
+global_writers,Q1240096,principauté d'Hyderābād,1,14377,0.01,https://www.wikidata.org/wiki/Q1240096
+global_writers,Q853968,Hindustan,1,14377,0.01,https://www.wikidata.org/wiki/Q853968
+global_writers,Q695316,principauté de Schwarzbourg-Rudolstadt,1,14377,0.01,https://www.wikidata.org/wiki/Q695316
+global_writers,Q19569014,Empire Durrani,1,14377,0.01,https://www.wikidata.org/wiki/Q19569014
+global_writers,Q435583,royaume de Prusse,1,14377,0.01,https://www.wikidata.org/wiki/Q435583
+global_writers,Q42406,Anglais,1,14377,0.01,https://www.wikidata.org/wiki/Q42406
+global_writers,Q15128058,Nassau-Sarrebruck,1,14377,0.01,https://www.wikidata.org/wiki/Q15128058
+global_writers,Q157367,Brandebourg-Prusse,1,14377,0.01,https://www.wikidata.org/wiki/Q157367
+global_writers,Q3113481,grand-duché de Transylvanie,1,14377,0.01,https://www.wikidata.org/wiki/Q3113481
+global_writers,Q41470,Kurdistan,1,14377,0.01,https://www.wikidata.org/wiki/Q41470
+global_writers,Q861551,Saint-Domingue,1,14377,0.01,https://www.wikidata.org/wiki/Q861551
+global_writers,Q928,Philippines,1,14377,0.01,https://www.wikidata.org/wiki/Q928
+global_writers,Q170390,comté d'Oldenbourg,1,14377,0.01,https://www.wikidata.org/wiki/Q170390
+global_writers,Q501303,Ville libre de Cracovie,1,14377,0.01,https://www.wikidata.org/wiki/Q501303
+global_writers,Q262,Algérie,1,14377,0.01,https://www.wikidata.org/wiki/Q262
+global_writers,Q701614,principauté archiépiscopale de Salzbourg,1,14377,0.01,https://www.wikidata.org/wiki/Q701614
+global_writers,Q706152,royaume de Prusse,1,14377,0.01,https://www.wikidata.org/wiki/Q706152

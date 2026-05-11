@@ -1,0 +1,392 @@
+token_family,token_id,token_label,token_wikidata_url,occurrence_count,entity_count,place_count,example_places,example_names
+direct_country,Q17,Japon,https://www.wikidata.org/wiki/Q17,139,88,76,Aizuma | Aoyama | Chōkoku-ji Temple (Nagano) | Denma-cho prison | Edo | Fukagawa | Furuseki | Gion,Akera Kankō | Akisato Ritō | Aoki Kon’yō | Ban Kōkei | Carl Peter Thunberg | Chiyo-ni | Hagiwara Sōko | Hakuin Ekaku
+admin_country,Q17,Japon,https://www.wikidata.org/wiki/Q17,137,91,78,Aizuma | Aoyama | Changgyeonggung | Chōkoku-ji Temple (Nagano) | Denma-cho prison | Edo | Fukagawa | Furuseki,Akera Kankō | Akisato Ritō | Aoki Kon’yō | Ban Kōkei | Carl Peter Thunberg | Chiyo-ni | Hagiwara Sōko | Hakuin Ekaku
+direct_country,Q20,Norvège,https://www.wikidata.org/wiki/Q20,89,52,57,Arendal | Bergen | Bokn | Bremanger | Christiania | Christiansand | Davik | Drammen,Anders Rognaldsen Ness | Bendix Djurhuus Prahl | Christen Pram | Christian Braunmann Tullin | Christian Ludwig Brau | Christiane Koren | Cille Gad | Claus Fasting
+admin_country,Q20,Norvège,https://www.wikidata.org/wiki/Q20,88,52,56,Arendal | Bergen | Bokn | Bremanger | Christiania | Christiansand | Davik | Drammen,Anders Rognaldsen Ness | Bendix Djurhuus Prahl | Christen Pram | Christian Braunmann Tullin | Christian Ludwig Brau | Christiane Koren | Cille Gad | Claus Fasting
+direct_country,Q43,Turquie,https://www.wikidata.org/wiki/Q43,78,60,56,Alanya | Amasya | Asie mineure | Aydın | Ağrı | Bademli | Bandırma | Bartın,Ahmad Asim | Ahmet Efendi Dürri | Anna Larpent | Aşık Üzeyir | Bandırmalı Hamit Efendi | Bekri Mustafa Pascha | Bostancıbaşı Hafız İsmail Pasha | Darendeli Cebecizade Mehmed Pasha
+admin_country,Q43,Turquie,https://www.wikidata.org/wiki/Q43,76,58,54,Alanya | Amasya | Aydın | Ağrı | Bademli | Bandırma | Bartın | Bitlis,Ahmad Asim | Ahmet Efendi Dürri | Aşık Üzeyir | Bandırmalı Hamit Efendi | Bekri Mustafa Pascha | Bostancıbaşı Hafız İsmail Pasha | Darendeli Cebecizade Mehmed Pasha | Dertli
+admin_country,Q200464,Empire colonial portugais,https://www.wikidata.org/wiki/Q200464,58,38,26,Ajumako | Ambaca | Axim | Bahia | Barcelos | Belém | Brasilia | Campos dos Goytacazes,André de Barros | Anton Wilhelm Amo | António Dinis da Cruz e Silva | António José da Silva | Antônio Ferreira França | Antônio Gomes Ferreira de Castilho | Bárbara Heliodora | Carlos de São Francisco
+direct_country,Q33,Finlande,https://www.wikidata.org/wiki/Q33,58,35,46,Académie royale d'Åbo | Eura | Gamlakarleby | Haapajärvi | Iitti | Ilmajoki | Jomala | Kalajoki,Abraham Achrenius | Agatha Lovisa de la Myle | Anders Chydenius | Antti Lizelius | August Nordenskiöld | Bernhard Henrik Crusell | Brita Sidonia Gadd | Carl Fredric Nordenskiöld le jeune
+admin_country,Q33,Finlande,https://www.wikidata.org/wiki/Q33,57,34,45,Académie royale d'Åbo | Eura | Haapajärvi | Iitti | Ilmajoki | Jomala | Kalajoki | Kangasala,Abraham Achrenius | Agatha Lovisa de la Myle | Antti Lizelius | August Nordenskiöld | Bernhard Henrik Crusell | Brita Sidonia Gadd | Carl Fredric Nordenskiöld le jeune | Catharina Charlotta Swedenmarck
+direct_country,Q155,Brésil,https://www.wikidata.org/wiki/Q155,57,37,23,Bahia | Barcelos | Belém | Brasilia | Brésil | Campos dos Goytacazes | Itaparica | Mariana,André de Barros | António Dinis da Cruz e Silva | António José da Silva | Antônio Ferreira França | Antônio Gomes Ferreira de Castilho | Bárbara Heliodora | Carlos de São Francisco | Cláudio Manuel da Costa
+direct_country,Q96,Mexique,https://www.wikidata.org/wiki/Q96,57,38,28,Asientos | Atlixco | Celaya | Chiapa de Corzo | Ciudad Victoria | Cunduacán | Guadalajara | Guanajuato,Agustín Pomposo Fernández | Andrés Cavo | Andrés Manuel del Río | Antonio María de Bucareli y Ursúa | Antonio de León y Gama | Bruno Francisco Larrañaga | Cayetano Cabrera y Quintero | Diego Bermúdez de Castro
+admin_country,Q96,Mexique,https://www.wikidata.org/wiki/Q96,56,37,27,Asientos | Atlixco | Celaya | Chiapa de Corzo | Ciudad Victoria | Cunduacán | Guadalajara | Guanajuato,Agustín Pomposo Fernández | Andrés Cavo | Andrés Manuel del Río | Antonio María de Bucareli y Ursúa | Antonio de León y Gama | Bruno Francisco Larrañaga | Cayetano Cabrera y Quintero | Diego Bermúdez de Castro
+admin_country,Q155,Brésil,https://www.wikidata.org/wiki/Q155,54,35,22,Bahia | Barcelos | Belém | Brasilia | Campos dos Goytacazes | Itaparica | Mariana | Niterói,André de Barros | António Dinis da Cruz e Silva | António José da Silva | Antônio Ferreira França | Antônio Gomes Ferreira de Castilho | Bárbara Heliodora | Carlos de São Francisco | Cláudio Manuel da Costa
+direct_country,Q224,Croatie,https://www.wikidata.org/wiki/Q224,52,36,41,Barban | Brdovec | Brist | Cesarska Ves | Dalmatie | Davor | Ivanić-Grad | Jastrebarsko,Adam Alojzij Baričević | Andrija Dorotić | Andrija Jambrešić | Andrija Kačić Miošić | Antal Nagy | Antun Kanižlić | Antun Vranić | Bernardin Leaković
+admin_country,Q224,Croatie,https://www.wikidata.org/wiki/Q224,50,35,39,Barban | Brdovec | Brist | Cesarska Ves | Davor | Ivanić-Grad | Jastrebarsko | Karlovac,Adam Alojzij Baričević | Andrija Dorotić | Andrija Jambrešić | Andrija Kačić Miošić | Antal Nagy | Antun Kanižlić | Antun Vranić | Bernardin Leaković
+admin_country,Q794,Iran,https://www.wikidata.org/wiki/Q794,49,34,25,Bojnourd | Chiraz | Chouchtar | Damghan | Darreh Bagh | Golestan | Hajji Qushan | Hamadan,Abd al-Razzak Beg | Abu al-Qasim Qomi | Adeodatus Babik | Ahmad Naraqi | Ahmad al-Muhsini | Amir Oghli | Arif Tabrizi | Azar Bigdeli
+direct_country,Q794,Iran,https://www.wikidata.org/wiki/Q794,49,34,25,Bojnourd | Chiraz | Chouchtar | Damghan | Darreh Bagh | Golestan | Hajji Qushan | Hamadan,Abd al-Razzak Beg | Abu al-Qasim Qomi | Adeodatus Babik | Ahmad Naraqi | Ahmad al-Muhsini | Amir Oghli | Arif Tabrizi | Azar Bigdeli
+direct_country,Q881,Vietnam,https://www.wikidata.org/wiki/Q881,42,29,19,Bắc Ninh | Hanoï | Haïphong | Hoàng Liệt | Huế | Hà Nam | Hà Tĩnh | Hải Dương,Bá Lân Nguyễn | Ho Si Dong | Hồ Xuân Hương | Lê Ngọc Hân | Lê Quý Đôn | Nguyễn Du | Nguyễn Khản | Nguyễn Thị Ngọc Diễm
+direct_country,Q211,Lettonie,https://www.wikidata.org/wiki/Q211,40,30,23,Apriķi | Augstkalne | Cesvaine | Courlande | Dagda | Grobiņa | Iecava | Ikšķile,Alexander Johann Stender | Benigna Gottlieb von Trotha gt Treyden | Carl August Kütner | Casimir Ulrich Boehlendorff | Christian Friedrich Launitz | Christian Wilhelm Brockhusen | Christoph Friedrich Neander | Christoph Reinhold Girgensohn
+admin_country,Q211,Lettonie,https://www.wikidata.org/wiki/Q211,39,29,22,Apriķi | Augstkalne | Cesvaine | Courlande | Dagda | Grobiņa | Iecava | Ikšķile,Alexander Johann Stender | Benigna Gottlieb von Trotha gt Treyden | Carl August Kütner | Casimir Ulrich Boehlendorff | Christian Friedrich Launitz | Christian Wilhelm Brockhusen | Christoph Friedrich Neander | Christoph Reinhold Girgensohn
+admin_country,Q881,Vietnam,https://www.wikidata.org/wiki/Q881,39,27,16,Bắc Ninh | Hanoï | Haïphong | Huế | Hà Nam | Hà Tĩnh | Hải Dương | Lương Tài,Bá Lân Nguyễn | Ho Si Dong | Hồ Xuân Hương | Lê Ngọc Hân | Lê Quý Đôn | Nguyễn Du | Nguyễn Khản | Nguyễn Án
+direct_country,Q184,Biélorussie,https://www.wikidata.org/wiki/Q184,32,31,27,Bahdanava | Bienica | Biélorussie | Bykhaw | Chklow | Dziatlava | Dzitryki | Horsplia,Adam Stanisław Naruszewicz | Anna Olimpia Mostowska | Anselm Eckart | Baruch Schick of Shklov | Fabian Sakowicz | Francesco Angiolini | Franciszka Urszula Wiśniowiecki | Ignacy Bykowski
+direct_country,Q2597352,Royaume de Norvège,https://www.wikidata.org/wiki/Q2597352,32,25,6,Bergen | Christiania | Christiansand | Oslo | Q137661465 | Stavanger,Bendix Djurhuus Prahl | Christian Braunmann Tullin | Cille Gad | Claus Fasting | Claus Pavels | Ditlevine Feddersen | Enevold de Falsen | Frederik Schmidt
+direct_country,Q62651,royaume de Danemark et de Norvège,https://www.wikidata.org/wiki/Q62651,32,25,6,Bergen | Christiania | Christiansand | Oslo | Q137661465 | Stavanger,Bendix Djurhuus Prahl | Christian Braunmann Tullin | Cille Gad | Claus Fasting | Claus Pavels | Ditlevine Feddersen | Enevold de Falsen | Frederik Schmidt
+admin_country,Q217230,empire du Brésil,https://www.wikidata.org/wiki/Q217230,30,22,7,Mariana | Ouro Preto | Rio de Janeiro | Serro | São Gonçalo do Sapucaí | São João del-Rei | Tiradentes,André de Barros | António Dinis da Cruz e Silva | António José da Silva | Bárbara Heliodora | Carlos de São Francisco | Cláudio Manuel da Costa | Domingos Caldas Barbosa | Domingos Vidal Barbosa Lage
+direct_country,Q62589,Suède-Norvège,https://www.wikidata.org/wiki/Q62589,29,24,4,Bergen | Christiania | Oslo | Stavanger,Bendix Djurhuus Prahl | Christian Braunmann Tullin | Cille Gad | Claus Fasting | Claus Pavels | Ditlevine Feddersen | Enevold de Falsen | Frederik Schmidt
+direct_country,Q796,Irak,https://www.wikidata.org/wiki/Q796,29,19,10,Bagdad | Hilla | Irak | Kadhimiya | Kerbala | Kirkouk | Mossoul | Nadjaf,Abdürrezzak Nevres | Abu Ali al-Haeri | Ahmad al-Attar | Alʼuzry | Hassan Qaftan | Hussein Najaf | Jawad Siahpoush | Marouf Nodeyi
+admin_country,Q184,Biélorussie,https://www.wikidata.org/wiki/Q184,28,28,25,Bahdanava | Bienica | Bykhaw | Chklow | Dziatlava | Dzitryki | Horsplia | Jasianiec,Adam Stanisław Naruszewicz | Anna Olimpia Mostowska | Anselm Eckart | Baruch Schick of Shklov | Francesco Angiolini | Franciszka Urszula Wiśniowiecki | Ignacy Bykowski | Ignacy Błażej Łopaciński
+admin_country,Q796,Irak,https://www.wikidata.org/wiki/Q796,28,18,9,Bagdad | Hilla | Kadhimiya | Kerbala | Kirkouk | Mossoul | Nadjaf | Nassiriya,Abdürrezzak Nevres | Abu Ali al-Haeri | Ahmad al-Attar | Alʼuzry | Hassan Qaftan | Hussein Najaf | Jawad Siahpoush | Marouf Nodeyi
+admin_country,Q49683,grand-duché de Lituanie,https://www.wikidata.org/wiki/Q49683,27,26,23,Dagda | Dziatlava | Dzitryki | Horsplia | Jasianiec | Lahišyn | Lapacina | Mala-Jeĺnia,Adam Stanisław Naruszewicz | Anna Olimpia Mostowska | Anselm Eckart | Francesco Angiolini | Franciszka Urszula Wiśniowiecki | Ignacy Bykowski | Ignacy Błażej Łopaciński | Joachim Chreptowicz
+direct_country,Q1028,Maroc,https://www.wikidata.org/wiki/Q1028,27,18,12,Agadir | Ahl Tifnoute | Aoulouz | Chefchaouen | Fès | Maroc | Marrakech | Meknès,Abou El Kacem Zayani | Ahmad ibn Ajiba | Ahmad ibn Idris | Al-Bannani | David Hassine | Domingo Badía y Leblich | Hemmou Talb | Mohammed al-Harraq al-Alami
+admin_country,Q1028,Maroc,https://www.wikidata.org/wiki/Q1028,25,16,10,Agadir | Ahl Tifnoute | Aoulouz | Chefchaouen | Fès | Marrakech | Meknès | Moulay Brahim,Abou El Kacem Zayani | Ahmad ibn Ajiba | Ahmad ibn Idris | Al-Bannani | David Hassine | Domingo Badía y Leblich | Hemmou Talb | Mohammed al-Harraq al-Alami
+admin_country,Q2088324,Brésil colonial,https://www.wikidata.org/wiki/Q2088324,23,18,2,Belém | Rio de Janeiro,André de Barros | António Dinis da Cruz e Silva | António José da Silva | Carlos de São Francisco | Domingos Caldas Barbosa | Domingos Vidal Barbosa Lage | Georg Heinrich von Langsdorff | Inácio José de Alvarenga Peixoto
+direct_country,Q843,Pakistan,https://www.wikidata.org/wiki/Q843,23,12,16,Alpuri | Badin | Bahawâlpur | Bhit Shah | Daraza | Hala | Jandiala Sher Khan | Kasur,Bulleh Shah | Farad Faqir | Hafiz Alpuri | Hazrat Khawaja Muhammad Zaman Luari Sharif | Khawaja Khuda Bakhsh Multani | Mir Ali Sir Thattvi | Muhammad Maharvi | Sachal Sarmast
+admin_country,Q843,Pakistan,https://www.wikidata.org/wiki/Q843,22,13,16,Alpuri | Badin | Bahawâlpur | Bhit Shah | Daraza | Hala | Jandiala Sher Khan | Jhenaidah,Bulleh Shah | Farad Faqir | Hafiz Alpuri | Hazrat Khawaja Muhammad Zaman Luari Sharif | Khawaja Khuda Bakhsh Multani | Lalon | Mir Ali Sir Thattvi | Muhammad Maharvi
+admin_country,Q903779,"Royaume uni de Portugal, du Brésil et des Algarves",https://www.wikidata.org/wiki/Q903779,22,17,1,Rio de Janeiro,André de Barros | António Dinis da Cruz e Silva | António José da Silva | Carlos de São Francisco | Domingos Caldas Barbosa | Domingos Vidal Barbosa Lage | Georg Heinrich von Langsdorff | Inácio José de Alvarenga Peixoto
+admin_country,Q227,Azerbaïdjan,https://www.wikidata.org/wiki/Q227,20,15,15,Abdal (Agdam) | Abragunus | Cəhri | Gulabli (Agdam) | Hal (Qubadli) | Kotcharli (Tartar) | Ochakan | Ordubad,Abdurrahman aga Shair | Ahmad bay Hali | Ashig Valeh | Grigor Oshakantsi | Hakob Nagashi Hovnatanyan | Joseph Emin | Mahammadqulu Salik Ordubadi | Molla Penah Vakıf
+direct_country,Q419,Pérou,https://www.wikidata.org/wiki/Q419,20,16,7,Cuzco | Lima | Pampacolca District | Pisco | Piura | Pérou | Trujillo,Alonso Carrió de la Vandera | Blas Ostolaza | Francisco del Castillo | Joannes Baptista Oppitz | José Eusebio Llano Zapata | José Manuel Valdés | José Mariano de Aguirre | José Pastor Larrinaga
+admin_country,Q218,Roumanie,https://www.wikidata.org/wiki/Q218,19,15,6,Académie princière de Bucarest | Bucarest | Canta | Cernatu de Sus | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Demeter Ágota | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely
+admin_country,Q419,Pérou,https://www.wikidata.org/wiki/Q419,19,15,6,Cuzco | Lima | Pampacolca District | Pisco | Piura | Trujillo,Alonso Carrió de la Vandera | Blas Ostolaza | Francisco del Castillo | Joannes Baptista Oppitz | José Eusebio Llano Zapata | José Manuel Valdés | José Mariano de Aguirre | José Pastor Larrinaga
+direct_country,Q227,Azerbaïdjan,https://www.wikidata.org/wiki/Q227,19,14,14,Abdal (Agdam) | Abragunus | Cəhri | Gulabli (Agdam) | Hal (Qubadli) | Kotcharli (Tartar) | Ordubad | Shorot,Abdurrahman aga Shair | Ahmad bay Hali | Ashig Valeh | Hakob Nagashi Hovnatanyan | Joseph Emin | Mahammadqulu Salik Ordubadi | Molla Penah Vakıf | Molla Veli Vidadi
+direct_country,Q218,Roumanie,https://www.wikidata.org/wiki/Q218,18,15,5,Bucarest | Canta | Cernatu de Sus | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Demeter Ágota | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely
+direct_country,Q205662,shogunat Tokugawa,https://www.wikidata.org/wiki/Q205662,17,14,1,Edo,Hattori Nankaku | Hōseidō Kisanji | Inoue Kinga | Jippensha Ikku | Kameda Bōsai | Kamo no Mabuchi | Kanai Sanshō | Karai Senryū
+admin_country,Q183464,Livonie,https://www.wikidata.org/wiki/Q183464,16,16,2,Jelgava | palais de Jelgava,Alexander Johann Stender | Benigna Gottlieb von Trotha gt Treyden | Carl August Kütner | Casimir Ulrich Boehlendorff | Conrad Schultz | Friedrich Bernhard Albers | Friedrich Ludwig Lindner | Friedrich Schulz
+direct_country,Q203493,royaume de Roumanie,https://www.wikidata.org/wiki/Q203493,16,13,3,Bucarest | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely | Naum Râmniceanu
+direct_country,Q2685298,République populaire roumaine,https://www.wikidata.org/wiki/Q2685298,16,13,3,Bucarest | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely | Naum Râmniceanu
+direct_country,Q842794,République socialiste de Roumanie,https://www.wikidata.org/wiki/Q842794,16,13,3,Bucarest | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely | Naum Râmniceanu
+direct_country,Q958291,Principautés unies de Moldavie et de Valachie,https://www.wikidata.org/wiki/Q958291,16,13,3,Bucarest | Corbi | Sibioara,Athanásios Christópoulos | Constantine Karakasis | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | László Székely | Naum Râmniceanu
+admin_country,Q2630860,Commissariat transcaucasien,https://www.wikidata.org/wiki/Q2630860,15,13,12,Abragunus | Cəhri | Haghpat | Ochakan | Ordubad | Shorot | Telavi | Vaqiri,Anton Ier de Géorgie | Grigor Oshakantsi | Hakob Nagashi Hovnatanyan | Iona Khelashvili | Iwan Georgijewitsch Jalgusidse | Joseph Emin | Mahammadqulu Salik Ordubadi | Molla Veli Vidadi
+direct_country,Q389004,principauté de Valachie,https://www.wikidata.org/wiki/Q389004,15,12,2,Bucarest | Corbi,Athanásios Christópoulos | Constantine Karakasis | Dimitrios Karakasis | Gregory Anushyan | John Komnenos Molyvdos | Lambros Photiadis | Naum Râmniceanu | Neófytos Doúkas
+admin_country,Q131337,République socialiste soviétique d'Azerbaïdjan,https://www.wikidata.org/wiki/Q131337,14,10,10,Abdal (Agdam) | Abragunus | Cəhri | Ordubad | Shorot | Xanağa | Xanlıqlar | Çaykənd,Abdurrahman aga Shair | Hakob Nagashi Hovnatanyan | Joseph Emin | Mahammadqulu Salik Ordubadi | Molla Veli Vidadi | Mustafa aga Arif | Q61105748 | Q97205264
+direct_country,Q200464,Empire colonial portugais,https://www.wikidata.org/wiki/Q200464,14,12,7,Agadir | Barbade | Brésil | Colonia del Sacramento | Ghana | Nagasaki | île de Mozambique,Belinda Royall | Carl Peter Thunberg | Eliza Fenwick | Francisco Xavier Ferreira | Georg Heinrich von Langsdorff | Ishizaki Yushi | Jacinto Ventura de Molina | Manuel José de Lavardén
+direct_country,Q236,Monténégro,https://www.wikidata.org/wiki/Q236,14,10,8,Budva | Cetinje | Dobrota | Kazanci | Kotor | Njeguši | Old Herzegovina | Perast,Andrija Balović | Giuseppe Marinovich | Ivan Antun Nenadić | Ivan Bujović | Ivan Hacking | Petar I Petrović-Njegoš | Q31198782 | Starac Raško
+admin_country,Q207272,Deuxième République de Pologne,https://www.wikidata.org/wiki/Q207272,13,13,12,Bahdanava | Bienica | Dziatlava | Dzitryki | Kosičy | Lahišyn | Lušnieva | Navahroudak,Adam Stanisław Naruszewicz | Franciszka Urszula Wiśniowiecki | Ignacy Bykowski | Józef Baka | Józef Kopeć | Karol Korycki | Kazimierz Kontrym | Kiprijonas Lukauskas
+admin_country,Q236,Monténégro,https://www.wikidata.org/wiki/Q236,13,9,7,Budva | Cetinje | Dobrota | Kazanci | Kotor | Njeguši | Perast,Andrija Balović | Giuseppe Marinovich | Ivan Antun Nenadić | Ivan Bujović | Ivan Hacking | Petar I Petrović-Njegoš | Q31198782 | Stefano Zannowich
+admin_country,Q851,Arabie saoudite,https://www.wikidata.org/wiki/Q851,13,11,8,Al-Ahsa | Al-Hufuf | Al-Mubarraz | Al-Mutayrifi | Al-Qarah | Djeddah | Q12191206 | Rabigh,Abd al-Wahhab ibn Muhammad al-Fayrooz | Ali ibn Muhammad al-Ramadhan | Ibrahim ibn Mahdi Al Arafat | Koca Yusuf Pasha | Kuşadalı̂ İbrâhim Halvetı̂ | Mubarak ibn Ali al-Ahsa'i | Muhammad ibn Abd al-Rahman al-Afaliqi | Muhammad ibn Abdullah al-Ramadhan
+direct_country,Q851,Arabie saoudite,https://www.wikidata.org/wiki/Q851,13,11,8,Al-Ahsa | Al-Hufuf | Al-Mubarraz | Al-Mutayrifi | Al-Qarah | Djeddah | Q12191206 | Rabigh,Abd al-Wahhab ibn Muhammad al-Fayrooz | Ali ibn Muhammad al-Ramadhan | Ibrahim ibn Mahdi Al Arafat | Koca Yusuf Pasha | Kuşadalı̂ İbrâhim Halvetı̂ | Mubarak ibn Ali al-Ahsa'i | Muhammad ibn Abd al-Rahman al-Afaliqi | Muhammad ibn Abdullah al-Ramadhan
+direct_country,Q869,Thaïlande,https://www.wikidata.org/wiki/Q869,13,6,9,Ayutthaya | Bangkok | Chandra Kasem palace | Phra Ratcha Wang Bowon Sathan Phimuk | Phra Ratchawang Boran | Ratchaburi | Thon Buri | Thonburi,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Rama II | Somdet Phra Phonnarat | Taksin | Thammathibet"
+admin_country,Q83286,république fédérative socialiste de Yougoslavie,https://www.wikidata.org/wiki/Q83286,12,10,11,Blagaj | Cetinje | Kazanci | Kotor | Legrad | Ljubuški | Njeguši | Vareš,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Georg Anton Hidja | Lovro Šitović | Luko Stulić | Petar I Petrović-Njegoš | Peter Berke
+admin_country,Q869,Thaïlande,https://www.wikidata.org/wiki/Q869,12,6,8,Ayutthaya | Chandra Kasem palace | Phra Ratcha Wang Bowon Sathan Phimuk | Phra Ratchawang Boran | Ratchaburi | Thon Buri | Thonburi | Wat Pho,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Rama II | Somdet Phra Phonnarat | Taksin | Thammathibet"
+admin_country,Q252,Indonésie,https://www.wikidata.org/wiki/Q252,11,8,6,Batavia | Jakarta | Java | Pekalongan | Surabaya | Surakarta,Carl Peter Thunberg | Cornelius Pieter Schrevelius | Daniël François van Alphen | Hebelius Potter | Jan de Marre | Johanna Maria van Riebeeck | John Leyden | Yasadipura I
+admin_country,Q414,Argentine,https://www.wikidata.org/wiki/Q414,11,10,6,Buenos Aires | Londres | Mendoza | San Miguel de Tucumán | Santiago del Estero | Villa Silípica,Cayetano José Rodríguez | Domingo de Azcuénaga y Basavilbaso | Gaspar Xuarez | Luis Pérez | Manuel Antonio Talavera | Manuel José de Lavardén | María Antonia de Paz y Figueroa | Pantaleón García
+direct_country,Q414,Argentine,https://www.wikidata.org/wiki/Q414,11,10,6,Buenos Aires | Londres | Mendoza | San Miguel de Tucumán | Santiago del Estero | Villa Silípica,Cayetano José Rodríguez | Domingo de Azcuénaga y Basavilbaso | Gaspar Xuarez | Luis Pérez | Manuel Antonio Talavera | Manuel José de Lavardén | María Antonia de Paz y Figueroa | Pantaleón García
+admin_country,Q36704,Yougoslavie,https://www.wikidata.org/wiki/Q36704,10,8,9,Cetinje | Kazanci | Kotor | Legrad | Ljubuški | Njeguši | Rečica | Zaton,Georg Anton Hidja | Janko Drašković | Lovro Šitović | Luko Stulić | Petar I Petrović-Njegoš | Peter Berke | Q31198782 | Tešan Podrugović
+admin_country,Q805,Yémen,https://www.wikidata.org/wiki/Q805,10,6,4,Kawkaban | Q20388480 | Sanaa | Tarim,Abdullah ibn Isa al-Kawkabani | Abdurrahman Alaidaroos | Alkawkabāny | Muḥammad Ibn-ʿAlī aš-Šaukānī | al-Amīr | al-Ḥūthī
+direct_country,Q2196956,royaume de Norvège (872-1397),https://www.wikidata.org/wiki/Q2196956,10,8,1,Christiania,Bendix Djurhuus Prahl | Christian Braunmann Tullin | Ditlevine Feddersen | Enevold de Falsen | Hans Nielsen Hauge | Jens Essendrop | Jens Rathke | Otto Holmboe
+direct_country,Q49683,grand-duché de Lituanie,https://www.wikidata.org/wiki/Q49683,10,10,9,Navahroudak | Q3692401 | Vilkamirsky povet | Voïvodie de Minsk | Voïvodie de Podlachie (1513–1795) | Voïvodie de Vitebsk | Wolkowysky povet | powiat de Pinsk,Franciszek Bohomolec | Józef Baka | Józef Kazimierz Świętorzecki | Józef Kopeć | Karol Malinowski | Nikodem Musnicki | Regina Salomea Pilsztyn | Stanisław Siestrzeńcewicz-Bohusz
+direct_country,Q62623,Union de Kalmar,https://www.wikidata.org/wiki/Q62623,10,8,1,Christiania,Bendix Djurhuus Prahl | Christian Braunmann Tullin | Ditlevine Feddersen | Enevold de Falsen | Hans Nielsen Hauge | Jens Essendrop | Jens Rathke | Otto Holmboe
+direct_country,Q805,Yémen,https://www.wikidata.org/wiki/Q805,10,6,4,Kawkaban | Q20388480 | Sanaa | Tarim,Abdullah ibn Isa al-Kawkabani | Abdurrahman Alaidaroos | Alkawkabāny | Muḥammad Ibn-ʿAlī aš-Šaukānī | al-Amīr | al-Ḥūthī
+admin_country,Q139670,République démocratique d'Arménie,https://www.wikidata.org/wiki/Q139670,9,7,7,Abragunus | Cəhri | Ochakan | Ordubad | Shorot | Vanevan | Xanağa,Grigor Oshakantsi | Hakob Nagashi Hovnatanyan | Mahammadqulu Salik Ordubadi | Q61105748 | Q97205264 | Qudsi Vanandi | Âşık Allahverdi
+admin_country,Q171348,couronne du royaume de Pologne,https://www.wikidata.org/wiki/Q171348,9,9,7,Chełm Land | Dagda | Kraków Voivodeship | Voïvodie de Bełz | Voïvodie de Podlachie (1513–1795) | Voïvodie de Sandomir | voïvodie de Ruthénie,Józef Pomorzkant | Karol Malinowski | Michael Roth | Michał Dymitr Krajewski | Mikołaj Skaradkiewicz | Q11763922 | Q123177014 | Wincenty Skrzetuski
+admin_country,Q206411,République démocratique d'Azerbaïdjan,https://www.wikidata.org/wiki/Q206411,9,7,7,Abdal (Agdam) | Abragunus | Cəhri | Ordubad | Shorot | Xanağa | Çaykənd,Hakob Nagashi Hovnatanyan | Joseph Emin | Mahammadqulu Salik Ordubadi | Q61105748 | Q97205264 | Qudsi Vanandi | Zarnigar Derbentli
+admin_country,Q948,Tunisie,https://www.wikidata.org/wiki/Q948,9,5,4,Le Kef | M'saken | Testour | Tunis,Hammude Paşa | Mohamed Ouerghi | Nehorai Garmon | Q12228476 | Sidi Brahim Riahi
+direct_country,Q252,Indonésie,https://www.wikidata.org/wiki/Q252,9,7,5,Jakarta | Java | Pekalongan | Surabaya | Surakarta,Cornelius Pieter Schrevelius | Daniël François van Alphen | Hebelius Potter | Jan de Marre | Johanna Maria van Riebeeck | John Leyden | Yasadipura I
+direct_country,Q948,Tunisie,https://www.wikidata.org/wiki/Q948,9,5,4,Le Kef | M'saken | Testour | Tunis,Hammude Paşa | Mohamed Ouerghi | Nehorai Garmon | Q12228476 | Sidi Brahim Riahi
+admin_country,Q191077,royaume de Yougoslavie,https://www.wikidata.org/wiki/Q191077,8,6,7,Blagaj | Cetinje | Kazanci | Kotor | Njeguši | Vareš | Žepče,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Petar I Petrović-Njegoš | Q31198782 | Tešan Podrugović
+admin_country,Q225,Bosnie-Herzégovine,https://www.wikidata.org/wiki/Q225,8,5,8,Blagaj | Kazanci | Ljubuški | Mostar | Q1018672 | Travnik | Vareš | Žepče,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Lovro Šitović | Tešan Podrugović
+admin_country,Q330756,République démocratique fédérative de Transcaucasie,https://www.wikidata.org/wiki/Q330756,8,7,6,Abdal (Agdam) | Ochakan | Xanlıqlar | Yukhary Salahly | Çaykənd | İkinci Şıxlı,Abdurrahman aga Shair | Grigor Oshakantsi | Joseph Emin | Molla Penah Vakıf | Molla Veli Vidadi | Mustafa aga Arif | Zarnigar Derbentli
+admin_country,Q822,Liban,https://www.wikidata.org/wiki/Q822,8,6,7,Baabda | Deir-el-Qamar | Dhour Choueir | Eddeh | Jebchit | Tripoli | Zouk Mikael,Abbas al-Musawi al-Makki | Abdallah Zakher | Elias  Edde | Hananiah Al-Munnir | Miguel Casiri | Niqula al-Turk
+admin_country,Q858,Syrie,https://www.wikidata.org/wiki/Q858,8,7,5,Hama | Homs | Idleb | Maarat al-Numan District | Manin,Abdallah Zakher | Amin bin Khaled Al-Jundi | Azmzade Esad Paşa | Aḥmad Ibn-ʿAlī al-Manīnī | Butrus Karamah | Mikhail al-Bahri | Q107183169
+direct_country,Q1033,Nigeria,https://www.wikidata.org/wiki/Q1033,8,6,7,Abaji | Afrique de l’Ouest | Akwa Akpa | Boussa | Maratta | Sokoto | empire Bornu,Abd al-Rahman Tsatsa | Jeffrey Brace | John Jea | Mungo Park | Ousmane dan Fodio | Ukawsaw Gronniosaw
+direct_country,Q171348,couronne du royaume de Pologne,https://www.wikidata.org/wiki/Q171348,8,8,6,Chełm Land | Kraków Voivodeship | Voïvodie de Bełz | Voïvodie de Podlachie (1513–1795) | Voïvodie de Sandomir | voïvodie de Ruthénie,Józef Pomorzkant | Karol Malinowski | Michał Dymitr Krajewski | Mikołaj Skaradkiewicz | Q11763922 | Q123177014 | Wincenty Skrzetuski | Zofia Lubomirska
+direct_country,Q225,Bosnie-Herzégovine,https://www.wikidata.org/wiki/Q225,8,5,8,Blagaj | Kazanci | Ljubuški | Mostar | Q1018672 | Travnik | Vareš | Žepče,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Lovro Šitović | Tešan Podrugović
+direct_country,Q230,Géorgie,https://www.wikidata.org/wiki/Q230,8,8,7,Géorgie | Mingrélie | Mtskheta | Sagouramo | Telavi | Vaqiri | Zalda,Ali Bey al-Kabir | Anton Ier de Géorgie | Davit Gouramichvili | Domentius IV of Georgia | Grigol Meskhishvili | Iona Khelashvili | Iwan Georgijewitsch Jalgusidse | Koca Yusuf Pasha
+direct_country,Q324470,Qara Qoyunlu,https://www.wikidata.org/wiki/Q324470,8,6,2,Erciş | Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Ercişli Emrah | Fatali bay Hali-Ganjavi | Nasha Tabrizi | Q16365122
+direct_country,Q717,Venezuela,https://www.wikidata.org/wiki/Q717,8,7,5,Caracas | Carthagène des Indes | Cumaná | Guama | Parroquia San Francisco,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | George Martine | José Domingo Díaz | Juan Antonio Navarrete | Juan Germán Roscio | Simón Rodríguez
+direct_country,Q766,Jamaïque,https://www.wikidata.org/wiki/Q766,8,7,3,Jamaïque | Kingston | Spanish Town,Anne Brodbelt | Francis Williams | Miguel de Gijón y León | Robert Dallas | Robert Wedderburn | Teresia Constantia Muilman | William Beckford
+direct_country,Q822,Liban,https://www.wikidata.org/wiki/Q822,8,6,7,Baabda | Deir-el-Qamar | Dhour Choueir | Eddeh | Jebchit | Tripoli | Zouk Mikael,Abbas al-Musawi al-Makki | Abdallah Zakher | Elias  Edde | Hananiah Al-Munnir | Miguel Casiri | Niqula al-Turk
+direct_country,Q83891,Empire sassanide,https://www.wikidata.org/wiki/Q83891,8,6,2,Ochakan | Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Fatali bay Hali-Ganjavi | Grigor Oshakantsi | Nasha Tabrizi | Q16365122
+direct_country,Q858,Syrie,https://www.wikidata.org/wiki/Q858,8,7,5,Hama | Homs | Idleb | Maarat al-Numan District | Manin,Abdallah Zakher | Amin bin Khaled Al-Jundi | Azmzade Esad Paşa | Aḥmad Ibn-ʿAlī al-Manīnī | Butrus Karamah | Mikhail al-Bahri | Q107183169
+direct_country,Q884,Corée du Sud,https://www.wikidata.org/wiki/Q884,8,6,6,Ansan | Changgyeonggung | Gwangju | Namyang-eup | Séoul | Wonju,Hyegyeong | Im Yunjidang | Jeong Yak-yong | Park Ji-won | Yi Ik | Yi Ok
+admin_country,Q146713,Fédération arabe d'Irak et de Jordanie,https://www.wikidata.org/wiki/Q146713,7,6,2,Kadhimiya | Mossoul,Alʼuzry | Muhammad Zayni al-Baghdadi | Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+admin_country,Q149805,royaume d'Irak,https://www.wikidata.org/wiki/Q149805,7,6,2,Kadhimiya | Mossoul,Alʼuzry | Muhammad Zayni al-Baghdadi | Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+admin_country,Q230,Géorgie,https://www.wikidata.org/wiki/Q230,7,7,7,Mingrélie | Mtskheta | Ochakan | Sagouramo | Telavi | Vaqiri | Zalda,Ali Bey al-Kabir | Anton Ier de Géorgie | Davit Gouramichvili | Domentius IV of Georgia | Grigor Oshakantsi | Iona Khelashvili | Iwan Georgijewitsch Jalgusidse
+admin_country,Q399,Arménie,https://www.wikidata.org/wiki/Q399,7,5,5,Haghpat | Ochakan | Ordubad | Vanevan | Xanağa,Grigor Oshakantsi | Mahammadqulu Salik Ordubadi | Qudsi Vanandi | Sayat-Nova | Âşık Allahverdi
+admin_country,Q717,Venezuela,https://www.wikidata.org/wiki/Q717,7,6,4,Caracas | Cumaná | Guama | Parroquia San Francisco,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | José Domingo Díaz | Juan Antonio Navarrete | Juan Germán Roscio | Simón Rodríguez
+direct_country,Q178084,Ilkhanat,https://www.wikidata.org/wiki/Q178084,7,5,1,Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Fatali bay Hali-Ganjavi | Nasha Tabrizi | Q16365122
+direct_country,Q18234383,Empire safavide,https://www.wikidata.org/wiki/Q18234383,7,5,1,Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Fatali bay Hali-Ganjavi | Nasha Tabrizi | Q16365122
+direct_country,Q189,Islande,https://www.wikidata.org/wiki/Q189,7,4,7,Helgafellssveit | Hraunhreppur | Seltjarnarnes | Selárdalur | Snæfellsnes | Svefneyjar | Tröllaskagi,Bjarne Pálsson | Eggert Olafsen | Jón Þorláksson á Bægisá | Árni Böðvarsson
+direct_country,Q555994,Aq Qoyunlu,https://www.wikidata.org/wiki/Q555994,7,5,1,Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Fatali bay Hali-Ganjavi | Nasha Tabrizi | Q16365122
+direct_country,Q7418448,Eldiguzid state,https://www.wikidata.org/wiki/Q7418448,7,5,1,Tabriz,Abd al-Razzak Beg | Arif Tabrizi | Fatali bay Hali-Ganjavi | Nasha Tabrizi | Q16365122
+admin_country,Q1062422,dynastie Konbaung,https://www.wikidata.org/wiki/Q1062422,6,4,4,Phra Ratcha Wang Bowon Sathan Phimuk | Thon Buri | Thonburi | Wat Pho,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Somdet Phra Phonnarat | Taksin"
+admin_country,Q1115291,royaume de Thonburi,https://www.wikidata.org/wiki/Q1115291,6,4,4,Phra Ratcha Wang Bowon Sathan Phimuk | Thon Buri | Thonburi | Wat Pho,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Somdet Phra Phonnarat | Taksin"
+admin_country,Q1155700,royaume de Rattanakosin,https://www.wikidata.org/wiki/Q1155700,6,4,4,Phra Ratcha Wang Bowon Sathan Phimuk | Thon Buri | Thonburi | Wat Pho,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Somdet Phra Phonnarat | Taksin"
+admin_country,Q153128,État indépendant de Croatie,https://www.wikidata.org/wiki/Q153128,6,6,6,"Blagaj | Legrad | Vareš | Zaton | Šumet, Dubrovnik | Žepče",Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Georg Anton Hidja | Luko Stulić | Peter Berke
+admin_country,Q408,Australie,https://www.wikidata.org/wiki/Q408,6,6,3,Nouvelle-Galles du Sud | Parramatta | Windsor,Elizabeth Macarthur | George Barrington | George Howe | Helenus Scott | Margaret Catchpole | William Cox
+admin_country,Q836,Birmanie,https://www.wikidata.org/wiki/Q836,6,5,5,Ava | Rangoun | Sagaing | Shwebo | Sinbaungwe Township,Muhammad Bahâdur Shâh | Myawaddy Mingyi U Sa | Q130118612 | Saya Gyi U Nu | U Kyin U
+admin_country,Q841364,royaume d'Ayutthaya,https://www.wikidata.org/wiki/Q841364,6,4,4,Phra Ratcha Wang Bowon Sathan Phimuk | Thon Buri | Thonburi | Wat Pho,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Mạc Thiên Tứ | Somdet Phra Phonnarat | Taksin"
+direct_country,Q139708,mandat français en Syrie et au Liban,https://www.wikidata.org/wiki/Q139708,6,5,3,Hama | Homs | Tripoli,Abdallah Zakher | Amin bin Khaled Al-Jundi | Butrus Karamah | Miguel Casiri | Mikhail al-Bahri
+direct_country,Q37024,Serbie-et-Monténégro,https://www.wikidata.org/wiki/Q37024,6,5,1,Perast,Andrija Balović | Giuseppe Marinovich | Ivan Antun Nenadić | Ivan Bujović | Ivan Hacking
+direct_country,Q408,Australie,https://www.wikidata.org/wiki/Q408,6,6,3,Nouvelle-Galles du Sud | Parramatta | Windsor,Elizabeth Macarthur | George Barrington | George Howe | Helenus Scott | Margaret Catchpole | William Cox
+direct_country,Q77,Uruguay,https://www.wikidata.org/wiki/Q77,6,6,3,Colonia del Sacramento | Montevideo | Uruguay,Francisco Xavier Ferreira | Jacinto Ventura de Molina | Joaquín Lencina | José Manuel Pérez Castellano | José Manuel Úbeda | Manuel José de Lavardén
+direct_country,Q83286,république fédérative socialiste de Yougoslavie,https://www.wikidata.org/wiki/Q83286,6,5,1,Perast,Andrija Balović | Giuseppe Marinovich | Ivan Antun Nenadić | Ivan Bujović | Ivan Hacking
+direct_country,Q836,Birmanie,https://www.wikidata.org/wiki/Q836,6,5,5,Ava | Rangoun | Sagaing | Shwebo | Sinbaungwe Township,Muhammad Bahâdur Shâh | Myawaddy Mingyi U Sa | Q130118612 | Saya Gyi U Nu | U Kyin U
+direct_country,Q838261,république fédérale de Yougoslavie,https://www.wikidata.org/wiki/Q838261,6,5,1,Perast,Andrija Balović | Giuseppe Marinovich | Ivan Antun Nenadić | Ivan Bujović | Ivan Hacking
+admin_country,Q1747689,Rome antique,https://www.wikidata.org/wiki/Q1747689,5,4,2,Homs | Tarse,Amin bin Khaled Al-Jundi | Butrus Karamah | Mikhail al-Bahri | Tarsusi Mehmet Efendi
+admin_country,Q189,Islande,https://www.wikidata.org/wiki/Q189,5,3,5,Helgafellssveit | Seltjarnarnes | Snæfellsnes | Svefneyjar | Tröllaskagi,Bjarne Pálsson | Eggert Olafsen | Árni Böðvarsson
+admin_country,Q3041595,république d'Irak,https://www.wikidata.org/wiki/Q3041595,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+admin_country,Q3108185,république d'Irak (1968-2003),https://www.wikidata.org/wiki/Q3108185,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+admin_country,Q4628,îles Féroé,https://www.wikidata.org/wiki/Q4628,5,3,5,Kollafjørður | Miðvágur | Nes | Nólsoy | Sumba,Jens Christian Djurhuus | Jens Christian Svabo | Nólsoyar Páll
+admin_country,Q736,Équateur,https://www.wikidata.org/wiki/Q736,5,5,3,Cayambe | Daule | Quito,Antonio de Alcedo | Catalina de Jesús Herrera | Eugenio Espejo | Juan Bautista Aguirre | Miguel de Gijón y León
+admin_country,Q77,Uruguay,https://www.wikidata.org/wiki/Q77,5,5,2,Colonia del Sacramento | Montevideo,Francisco Xavier Ferreira | Jacinto Ventura de Molina | Joaquín Lencina | José Manuel Pérez Castellano | Manuel José de Lavardén
+admin_country,Q842794,République socialiste de Roumanie,https://www.wikidata.org/wiki/Q842794,5,5,5,Académie princière de Bucarest | Canta | Cernatu de Sus | Corbi | Sibioara,Demeter Ágota | László Székely | Naum Râmniceanu | Neófytos Doúkas | Péter Bod
+direct_country,Q1041,Sénégal,https://www.wikidata.org/wiki/Q1041,5,4,4,Afrique de l’Ouest | Fouta-Toro | Sénégal | Sénégambie,Jeffrey Brace | Mungo Park | Omar ibn Saïd | Phillis Wheatley
+direct_country,Q1044,Sierra Leone,https://www.wikidata.org/wiki/Q1044,5,4,3,Afrique de l’Ouest | Freetown | Sierra Leone,Anna Maria Falconbridge | August Nordenskiöld | Jeffrey Brace | Mungo Park
+direct_country,Q117,Ghana,https://www.wikidata.org/wiki/Q117,5,5,4,Afrique de l’Ouest | Ajumako | Axim | Ghana,Anton Wilhelm Amo | Belinda Royall | Jeffrey Brace | Mungo Park | Quobna Ottobah Cugoano
+direct_country,Q12536,califat abbasside,https://www.wikidata.org/wiki/Q12536,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+direct_country,Q1760404,Uqaylides,https://www.wikidata.org/wiki/Q1760404,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+direct_country,Q189545,Zengides,https://www.wikidata.org/wiki/Q189545,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+direct_country,Q2017684,protectorat français de Tunisie,https://www.wikidata.org/wiki/Q2017684,5,4,1,Tunis,Hammude Paşa | Nehorai Garmon | Q12228476 | Sidi Brahim Riahi
+direct_country,Q233,Malte,https://www.wikidata.org/wiki/Q233,5,4,3,La Valette | Malte | Rabat,Giovanni Antonio Ciantar | Giovanni Pietro Francesco Agius de Soldanis | Pierre Jean Louis Ovide Doublet | Vittorio Barzoni
+direct_country,Q32,Luxembourg,https://www.wikidata.org/wiki/Q32,5,3,5,Echternach | Eich | Grevenmacher | Luxembourg | Pfaffenthal,Cyprien Merjai | Mathias Schou | Maurice Detten
+direct_country,Q4628,îles Féroé,https://www.wikidata.org/wiki/Q4628,5,3,5,Kollafjørður | Miðvágur | Nes | Nólsoy | Sumba,Jens Christian Djurhuus | Jens Christian Svabo | Nólsoyar Páll
+direct_country,Q711,Mongolie,https://www.wikidata.org/wiki/Q711,5,4,3,Altanbulag | Mongolie | Oulan-Bator,3rd Jebtsundamba Khutughtu | Lobzang Tenpai Dronme | Tutob Nyima | Zhavzan Luvsantu̇vdėnvaanchigzhigmėdzhamt︠s︡
+direct_country,Q736,Équateur,https://www.wikidata.org/wiki/Q736,5,5,3,Cayambe | Daule | Quito,Antonio de Alcedo | Catalina de Jesús Herrera | Eugenio Espejo | Juan Bautista Aguirre | Miguel de Gijón y León
+direct_country,Q752662,Hafsides,https://www.wikidata.org/wiki/Q752662,5,4,1,Tunis,Hammude Paşa | Nehorai Garmon | Q12228476 | Sidi Brahim Riahi
+direct_country,Q837187,Hamdanides,https://www.wikidata.org/wiki/Q837187,5,4,1,Mossoul,Muḥammad Amīn ibn Khayr Allāh ʻUmarī | Muḥammad al-ʻUmarī | Q12224342 | Uthman al-Haya'i al-Jalili
+admin_country,Q18097,Corée,https://www.wikidata.org/wiki/Q18097,4,3,2,Changgyeonggung | Séoul,Hyegyeong | Park Ji-won | Yi Ik
+admin_country,Q18234383,Empire safavide,https://www.wikidata.org/wiki/Q18234383,4,4,3,Hajji Qushan | Kadhimiya | Şəmkir,Alʼuzry | Magtymguly Pyragy | Molla Veli Vidadi | Muhammad Zayni al-Baghdadi
+admin_country,Q203493,royaume de Roumanie,https://www.wikidata.org/wiki/Q203493,4,4,4,Académie princière de Bucarest | Canta | Cernatu de Sus | Sibioara,Demeter Ágota | László Székely | Neófytos Doúkas | Péter Bod
+admin_country,Q233,Malte,https://www.wikidata.org/wiki/Q233,4,3,2,La Valette | Rabat,Giovanni Antonio Ciantar | Giovanni Pietro Francesco Agius de Soldanis | Pierre Jean Louis Ovide Doublet
+admin_country,Q258,Afrique du Sud,https://www.wikidata.org/wiki/Q258,4,4,3,Le Cap | Stellenbosch | cap de Bonne-Espérance,Johanna Engela Swellengrebel | Meent Borcherds | Nicolas-Louis de Lacaille | Q133692680
+admin_country,Q2685298,République populaire roumaine,https://www.wikidata.org/wiki/Q2685298,4,4,4,Académie princière de Bucarest | Canta | Cernatu de Sus | Sibioara,Demeter Ágota | László Székely | Neófytos Doúkas | Péter Bod
+admin_country,Q28179,période Joseon,https://www.wikidata.org/wiki/Q28179,4,3,2,Changgyeonggung | Séoul,Hyegyeong | Park Ji-won | Yi Ik
+admin_country,Q28233,Empire de Corée,https://www.wikidata.org/wiki/Q28233,4,3,2,Changgyeonggung | Séoul,Hyegyeong | Park Ji-won | Yi Ik
+admin_country,Q32,Luxembourg,https://www.wikidata.org/wiki/Q32,4,3,4,Echternach | Grevenmacher | Luxembourg | Pfaffenthal,Cyprien Merjai | Mathias Schou | Maurice Detten
+admin_country,Q711,Mongolie,https://www.wikidata.org/wiki/Q711,4,3,2,Altanbulag | Oulan-Bator,3rd Jebtsundamba Khutughtu | Lobzang Tenpai Dronme | Zhavzan Luvsantu̇vdėnvaanchigzhigmėdzhamt︠s︡
+admin_country,Q730,Suriname,https://www.wikidata.org/wiki/Q730,4,3,2,Jodensavanne | Paramaribo,David Nassy | François Levaillant | Paul François Roos
+admin_country,Q739,Colombie,https://www.wikidata.org/wiki/Q739,4,4,3,Bogota | Carthagène des Indes | villa del Rosario,George Martine | José Celestino Bruno Mutis y Bosio | Juan Germán Roscio | Manuel del Socorro Rodríguez
+admin_country,Q766,Jamaïque,https://www.wikidata.org/wiki/Q766,4,4,2,Kingston | Spanish Town,Anne Brodbelt | Francis Williams | Robert Dallas | Teresia Constantia Muilman
+admin_country,Q865,Taïwan,https://www.wikidata.org/wiki/Q865,4,1,3,Tainan | Yilan | comté de Penghu,Yang Tingli
+admin_country,Q884,Corée du Sud,https://www.wikidata.org/wiki/Q884,4,4,4,Ansan | Changgyeonggung | Namyang-eup | Wonju,Hyegyeong | Im Yunjidang | Yi Ik | Yi Ok
+direct_country,Q1011,Cap-Vert,https://www.wikidata.org/wiki/Q1011,4,4,2,Afrique de l’Ouest | Santiago,Domingos Vidal Barbosa Lage | Francisco de Paula Medina e Vasconcelos | Jeffrey Brace | Mungo Park
+direct_country,Q1025,Mauritanie,https://www.wikidata.org/wiki/Q1025,4,4,3,Afrique de l’Ouest | Chinguetti | Fouta-Toro,Jeffrey Brace | Mungo Park | Omar ibn Saïd | Q113339773
+direct_country,Q10463,Capitainerie générale du Venezuela,https://www.wikidata.org/wiki/Q10463,4,4,1,Caracas,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | José Domingo Díaz | Simón Rodríguez
+direct_country,Q1747689,Rome antique,https://www.wikidata.org/wiki/Q1747689,4,3,1,Homs,Amin bin Khaled Al-Jundi | Butrus Karamah | Mikhail al-Bahri
+direct_country,Q188161,Indes orientales néerlandaises,https://www.wikidata.org/wiki/Q188161,4,4,2,Batavia | Surabaya,Carl Peter Thunberg | Daniël François van Alphen | Hebelius Potter | Johanna Maria van Riebeeck
+direct_country,Q232,Kazakhstan,https://www.wikidata.org/wiki/Q232,4,3,3,Bayanaoul | Kazakhstan | district de Djamboul,Bukhar-zhirau Kalmakanov | Q12543332 | Q12543335
+direct_country,Q258,Afrique du Sud,https://www.wikidata.org/wiki/Q258,4,4,3,Le Cap | Stellenbosch | cap de Bonne-Espérance,Johanna Engela Swellengrebel | Meent Borcherds | Nicolas-Louis de Lacaille | Q133692680
+direct_country,Q3408341,province de Caracas,https://www.wikidata.org/wiki/Q3408341,4,4,1,Caracas,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | José Domingo Díaz | Simón Rodríguez
+direct_country,Q399,Arménie,https://www.wikidata.org/wiki/Q399,4,4,4,Arménie | Haghpat | Ochakan | Vanevan,Grigor Oshakantsi | Q121582669 | Sayat-Nova | Âşık Allahverdi
+direct_country,Q503585,Corée durant la colonisation japonaise,https://www.wikidata.org/wiki/Q503585,4,4,2,Hoeryŏng | Séoul,Hyegyeong | Pak Che-ga | Park Ji-won | Yi Ik
+direct_country,Q730,Q730,https://www.wikidata.org/wiki/Q730,4,3,2,Jodensavanne | Paramaribo,David Nassy | François Levaillant | Paul François Roos
+direct_country,Q739,Colombie,https://www.wikidata.org/wiki/Q739,4,4,3,Bogota | Carthagène des Indes | villa del Rosario,George Martine | José Celestino Bruno Mutis y Bosio | Juan Germán Roscio | Manuel del Socorro Rodríguez
+direct_country,Q781,Antigua-et-Barbuda,https://www.wikidata.org/wiki/Q781,4,4,2,"Antigua | Falmouth, Antigua",Henrietta Liston | Samuel Martin | William Gilbert | William Young
+direct_country,Q865,Taïwan,https://www.wikidata.org/wiki/Q865,4,1,3,Tainan | Yilan | comté de Penghu,Yang Tingli
+direct_country,Q889,Afghanistan,https://www.wikidata.org/wiki/Q889,4,3,4,Afghanistan | Hérat | Kandahâr | Kheyrabad,Ahmad Shâh | Baba G Rehmat Ullah | Sayyodiy
+direct_country,Q8965,vice-royauté de Nouvelle-Grenade,https://www.wikidata.org/wiki/Q8965,4,4,1,Caracas,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | José Domingo Díaz | Simón Rodríguez
+admin_country,Q1049,Soudan,https://www.wikidata.org/wiki/Q1049,3,2,2,Dongola | Khartoum,Giovanni Battista Brocchi | Ibrahim-Bey
+admin_country,Q130229,République socialiste soviétique de Géorgie,https://www.wikidata.org/wiki/Q130229,3,3,3,Haghpat | Telavi | Vaqiri,Anton Ier de Géorgie | Iona Khelashvili | Sayat-Nova
+admin_country,Q15102440,"royaume des Serbes, Croates et Slovènes",https://www.wikidata.org/wiki/Q15102440,3,3,3,Blagaj | Vareš | Žepče,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac
+admin_country,Q188712,empire du Japon,https://www.wikidata.org/wiki/Q188712,3,3,3,Hoeryŏng | Kanda | Shimo-Meguro,Aoki Kon’yō | Kameda Bōsai | Pak Che-ga
+admin_country,Q212056,République populaire mongole,https://www.wikidata.org/wiki/Q212056,3,3,1,Oulan-Bator,3rd Jebtsundamba Khutughtu | Lobzang Tenpai Dronme | Zhavzan Luvsantu̇vdėnvaanchigzhigmėdzhamt︠s︡
+admin_country,Q221,Macédoine du Nord,https://www.wikidata.org/wiki/Q221,3,2,2,Lazaropolé | monastère de Lechok,Gyurchin Kokale | Kiril Peïtchinovitch
+admin_country,Q232,Kazakhstan,https://www.wikidata.org/wiki/Q232,3,2,2,Bayanaoul | district de Djamboul,Bukhar-zhirau Kalmakanov | Q12543335
+admin_country,Q245160,République démocratique de Géorgie,https://www.wikidata.org/wiki/Q245160,3,3,3,Haghpat | Telavi | Vaqiri,Anton Ier de Géorgie | Iona Khelashvili | Sayat-Nova
+admin_country,Q37024,Serbie-et-Monténégro,https://www.wikidata.org/wiki/Q37024,3,2,3,Cetinje | Kazanci | Njeguši,Petar I Petrović-Njegoš | Tešan Podrugović
+admin_country,Q424,Cambodge,https://www.wikidata.org/wiki/Q424,3,3,2,Huế | Krong Kep,Mạc Thiên Tứ | Nguyễn Du | Thì Nhậm Ngô
+admin_country,Q838261,république fédérale de Yougoslavie,https://www.wikidata.org/wiki/Q838261,3,2,3,Cetinje | Kazanci | Njeguši,Petar I Petrović-Njegoš | Tešan Podrugović
+admin_country,Q863,Tadjikistan,https://www.wikidata.org/wiki/Q863,3,3,3,Asht | Gulkhani | Hisor,Mohammad Sharif Golkhani | Q25514485 | Q4286280
+admin_country,Q889,Afghanistan,https://www.wikidata.org/wiki/Q889,3,2,3,Hérat | Kandahâr | Kheyrabad,Ahmad Shâh | Sayyodiy
+admin_country,Q928,Philippines,https://www.wikidata.org/wiki/Q928,3,2,2,Manille | Tondo,José de la Cruz | Luis Rodríguez-Varela
+direct_country,Q1005,Gambie,https://www.wikidata.org/wiki/Q1005,3,3,2,Afrique de l’Ouest | Sénégambie,Jeffrey Brace | Mungo Park | Phillis Wheatley
+direct_country,Q1006,Guinée,https://www.wikidata.org/wiki/Q1006,3,3,2,Afrique de l’Ouest | Guinée,Ignatius Sancho | Jeffrey Brace | Mungo Park
+direct_country,Q1049,Soudan,https://www.wikidata.org/wiki/Q1049,3,2,2,Dongola | Khartoum,Giovanni Battista Brocchi | Ibrahim-Bey
+direct_country,Q12544,Empire byzantin,https://www.wikidata.org/wiki/Q12544,3,3,1,Tokat,Derviş Ahmed | Q31189844 | Seyyid Hasan Paşa
+direct_country,Q207272,Deuxième République de Pologne,https://www.wikidata.org/wiki/Q207272,3,3,3,Bahdanava | Bienica | Lušnieva,Józef Kopeć | Kazimierz Kontrym | Kiprijonas Lukauskas
+direct_country,Q212056,République populaire mongole,https://www.wikidata.org/wiki/Q212056,3,3,1,Oulan-Bator,3rd Jebtsundamba Khutughtu | Lobzang Tenpai Dronme | Zhavzan Luvsantu̇vdėnvaanchigzhigmėdzhamt︠s︡
+direct_country,Q221,Macédoine du Nord,https://www.wikidata.org/wiki/Q221,3,2,2,Lazaropolé | monastère de Lechok,Gyurchin Kokale | Kiril Peïtchinovitch
+direct_country,Q241,Cuba,https://www.wikidata.org/wiki/Q241,3,3,3,Bayamo | Cuba | Matanzas,Manuel del Socorro Rodríguez | Thérèse Jeanne Julienne Bretton des Chapelles | Tomás Romay
+direct_country,Q2444884,Tibet,https://www.wikidata.org/wiki/Q2444884,3,3,1,Kham,Katok Rigdzin Chenpo Tsewang Norbu | Situ Panchen | Yeshe Lobzang Tenpai Gonpo
+direct_country,Q763,Saint-Christophe-et-Niévès,https://www.wikidata.org/wiki/Q763,3,3,3,Charlestown | Saint-Christophe | Saint-Christophe-et-Niévès,Alexander Hamilton | George Howe | James Grainger
+direct_country,Q863,Tadjikistan,https://www.wikidata.org/wiki/Q863,3,3,3,Asht | Gulkhani | Hisor,Mohammad Sharif Golkhani | Q25514485 | Q4286280
+direct_country,Q928,Philippines,https://www.wikidata.org/wiki/Q928,3,2,2,Manille | Tondo,José de la Cruz | Luis Rodríguez-Varela
+admin_country,Q1013,Lesotho,https://www.wikidata.org/wiki/Q1013,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+admin_country,Q1027,Maurice,https://www.wikidata.org/wiki/Q1027,2,2,1,Port-Louis,Charles de Longchamps | Francisco Noroña
+admin_country,Q1030,Namibie,https://www.wikidata.org/wiki/Q1030,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+admin_country,Q1033,Nigeria,https://www.wikidata.org/wiki/Q1033,2,2,2,Abaji | Sokoto,Abd al-Rahman Tsatsa | Ousmane dan Fodio
+admin_country,Q1050,Eswatini,https://www.wikidata.org/wiki/Q1050,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+admin_country,Q117,Ghana,https://www.wikidata.org/wiki/Q117,2,2,2,Ajumako | Axim,Anton Wilhelm Amo | Quobna Ottobah Cugoano
+admin_country,Q12536,califat abbasside,https://www.wikidata.org/wiki/Q12536,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q1277557,République fédérative de Yougoslavie,https://www.wikidata.org/wiki/Q1277557,2,1,2,Cetinje | Njeguši,Petar I Petrović-Njegoš
+admin_country,Q132856,République socialiste soviétique d'Arménie,https://www.wikidata.org/wiki/Q132856,2,2,2,Ochakan | Vanevan,Grigor Oshakantsi | Âşık Allahverdi
+admin_country,Q146720,mandat britannique de Mésopotamie,https://www.wikidata.org/wiki/Q146720,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q16056854,royaume de Hongrie,https://www.wikidata.org/wiki/Q16056854,2,2,2,Canta | Cernatu de Sus,Demeter Ágota | Péter Bod
+admin_country,Q16838852,occupation allemande du Monténégro (1943-1944),https://www.wikidata.org/wiki/Q16838852,2,1,2,Cetinje | Njeguši,Petar I Petrović-Njegoš
+admin_country,Q178084,Ilkhanat,https://www.wikidata.org/wiki/Q178084,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q188553,République batave,https://www.wikidata.org/wiki/Q188553,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+admin_country,Q222,Albanie,https://www.wikidata.org/wiki/Q222,2,2,2,Fier | Tirana,Nezim Frakulla | Zenel Bastari
+admin_country,Q223936,Royaume d'Italie (1805-1814),https://www.wikidata.org/wiki/Q223936,2,2,2,"Zaton | Šumet, Dubrovnik",Georg Anton Hidja | Luko Stulić
+admin_country,Q241,Cuba,https://www.wikidata.org/wiki/Q241,2,2,2,Bayamo | Matanzas,Manuel del Socorro Rodríguez | Thérèse Jeanne Julienne Bretton des Chapelles
+admin_country,Q25230,bailliage de Guernesey,https://www.wikidata.org/wiki/Q25230,2,1,2,Guernesey | Saint-Pierre-Port,Richard Saumarez
+admin_country,Q2597352,Royaume de Norvège,https://www.wikidata.org/wiki/Q2597352,2,2,2,Skien | Stavanger,Jens Zetlitz | Magdalene Sophie Buchholm
+admin_country,Q265,Ouzbékistan,https://www.wikidata.org/wiki/Q265,2,1,1,Boukhara,Muhammad Yоqub ibn Doniyolbiy
+admin_country,Q273874,Bouyides,https://www.wikidata.org/wiki/Q273874,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q324470,Qara Qoyunlu,https://www.wikidata.org/wiki/Q324470,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q347,Liechtenstein,https://www.wikidata.org/wiki/Q347,2,2,1,Balzers,F. A. Nuth | Johannes Schreiber
+admin_country,Q386496,royaume du Monténégro,https://www.wikidata.org/wiki/Q386496,2,1,2,Cetinje | Njeguši,Petar I Petrović-Njegoš
+admin_country,Q423,Corée du Nord,https://www.wikidata.org/wiki/Q423,2,2,2,Hoeryŏng | Munchŏn,Li Hyun-sang | Pak Che-ga
+admin_country,Q516160,République démocratique hongroise,https://www.wikidata.org/wiki/Q516160,2,2,2,Canta | Cernatu de Sus,Demeter Ágota | Péter Bod
+admin_country,Q545205,République socialiste fédérative soviétique de Transcaucasie,https://www.wikidata.org/wiki/Q545205,2,2,2,Haghpat | Ochakan,Grigor Oshakantsi | Sayat-Nova
+admin_country,Q555994,Aq Qoyunlu,https://www.wikidata.org/wiki/Q555994,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q55659450,Q55659450,https://www.wikidata.org/wiki/Q55659450,2,2,2,Telavi | Vaqiri,Anton Ier de Géorgie | Iona Khelashvili
+admin_country,Q600018,Royaume de Hongrie,https://www.wikidata.org/wiki/Q600018,2,2,2,Canta | Cernatu de Sus,Demeter Ágota | Péter Bod
+admin_country,Q616992,État indépendant du Monténégro,https://www.wikidata.org/wiki/Q616992,2,1,2,Cetinje | Njeguši,Petar I Petrović-Njegoš
+admin_country,Q625380,royaume de Hongrie orientale,https://www.wikidata.org/wiki/Q625380,2,2,2,Canta | Cernatu de Sus,Demeter Ágota | Péter Bod
+admin_country,Q62589,Suède-Norvège,https://www.wikidata.org/wiki/Q62589,2,2,2,Skien | Stavanger,Jens Zetlitz | Magdalene Sophie Buchholm
+admin_country,Q62651,royaume de Danemark et de Norvège,https://www.wikidata.org/wiki/Q62651,2,2,2,Skien | Stavanger,Jens Zetlitz | Magdalene Sophie Buchholm
+admin_country,Q63158027,Perse qadjare,https://www.wikidata.org/wiki/Q63158027,2,1,1,Xanağa,Mahammadqulu Salik Ordubadi
+admin_country,Q655621,Principauté de Transylvanie,https://www.wikidata.org/wiki/Q655621,2,2,2,Canta | Cernatu de Sus,Demeter Ágota | Péter Bod
+admin_country,Q68678,république socialiste soviétique de Biélorussie,https://www.wikidata.org/wiki/Q68678,2,2,2,Chklow | Piacieŭščyna,Baruch Schick of Shklov | Ignacy Bykowski
+admin_country,Q68682,République soviétique populaire de Boukhara,https://www.wikidata.org/wiki/Q68682,2,1,1,Boukhara,Muhammad Yоqub ibn Doniyolbiy
+admin_country,Q718374,"État des Slovènes, Croates et Serbes",https://www.wikidata.org/wiki/Q718374,2,2,2,"Zaton | Šumet, Dubrovnik",Georg Anton Hidja | Luko Stulić
+admin_country,Q733,Paraguay,https://www.wikidata.org/wiki/Q733,2,2,2,Santa María | Villarrica,Manuel Antonio Talavera | Nicolás Yapuguay
+admin_country,Q750,Bolivie,https://www.wikidata.org/wiki/Q750,2,2,2,Cochabamba | Potosí,Josepha de Escurrechea | Thaddaeus Haenke
+admin_country,Q763,Saint-Christophe-et-Niévès,https://www.wikidata.org/wiki/Q763,2,2,2,Charlestown | Saint-Christophe,Alexander Hamilton | James Grainger
+admin_country,Q774,Guatemala,https://www.wikidata.org/wiki/Q774,2,2,1,Guatemala,Miguel Larreynaga | Rafael García Goyena
+admin_country,Q785,Jersey,https://www.wikidata.org/wiki/Q785,2,2,2,La Trinité | Saint-Hélier,Daniel Dumaresq | Thomas Pichon
+admin_country,Q819,Laos,https://www.wikidata.org/wiki/Q819,2,2,1,Huế,Nguyễn Du | Thì Nhậm Ngô
+admin_country,Q83891,Empire sassanide,https://www.wikidata.org/wiki/Q83891,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q866716,Jalayirides,https://www.wikidata.org/wiki/Q866716,2,2,1,Kadhimiya,Alʼuzry | Muhammad Zayni al-Baghdadi
+admin_country,Q874,Turkménistan,https://www.wikidata.org/wiki/Q874,2,2,2,Lebap | Serakhs,Mämmetweli Kemine | Seyitnazar Seydi
+admin_country,Q954,Zimbabwe,https://www.wikidata.org/wiki/Q954,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+admin_country,Q958291,Principautés unies de Moldavie et de Valachie,https://www.wikidata.org/wiki/Q958291,2,2,2,Académie princière de Bucarest | Sibioara,László Székely | Neófytos Doúkas
+admin_country,Q963,Botswana,https://www.wikidata.org/wiki/Q963,2,2,1,cap de Bonne-Espérance,Johanna Engela Swellengrebel | Nicolas-Louis de Lacaille
+direct_country,Q1007,Guinée-Bissau,https://www.wikidata.org/wiki/Q1007,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q1008,Côte d'Ivoire,https://www.wikidata.org/wiki/Q1008,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q1014,Liberia,https://www.wikidata.org/wiki/Q1014,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q1027,Maurice,https://www.wikidata.org/wiki/Q1027,2,2,1,Port-Louis,Charles de Longchamps | Francisco Noroña
+direct_country,Q1032,Niger,https://www.wikidata.org/wiki/Q1032,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q1039,Sao Tomé-et-Principe,https://www.wikidata.org/wiki/Q1039,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q185682,Indochine française,https://www.wikidata.org/wiki/Q185682,2,2,1,Huế,Nguyễn Du | Thì Nhậm Ngô
+direct_country,Q192184,"Sainte-Hélène, Ascension et Tristan da Cunha",https://www.wikidata.org/wiki/Q192184,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q199688,califat almohade,https://www.wikidata.org/wiki/Q199688,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q217230,empire du Brésil,https://www.wikidata.org/wiki/Q217230,2,2,1,Colonia del Sacramento,Francisco Xavier Ferreira | Manuel José de Lavardén
+direct_country,Q222,Albanie,https://www.wikidata.org/wiki/Q222,2,2,2,Fier | Tirana,Nezim Frakulla | Zenel Bastari
+direct_country,Q235,Monaco,https://www.wikidata.org/wiki/Q235,2,2,1,Monaco,Alphonse de Beauchamp | François Morénas
+direct_country,Q25,pays de Galles,https://www.wikidata.org/wiki/Q25,2,1,2,Arfon Uwch Gwyrfai | Llanfair-Mathafarn-Eithaf,Hugh Evans
+direct_country,Q25230,bailliage de Guernesey,https://www.wikidata.org/wiki/Q25230,2,1,2,Guernesey | Saint-Pierre-Port,Richard Saumarez
+direct_country,Q265,Ouzbékistan,https://www.wikidata.org/wiki/Q265,2,1,1,Boukhara,Muhammad Yоqub ibn Doniyolbiy
+direct_country,Q347,Liechtenstein,https://www.wikidata.org/wiki/Q347,2,2,1,Balzers,F. A. Nuth | Johannes Schreiber
+direct_country,Q3591854,État libre de Cundinamarca,https://www.wikidata.org/wiki/Q3591854,2,2,1,Bogota,José Celestino Bruno Mutis y Bosio | Manuel del Socorro Rodríguez
+direct_country,Q36704,Yougoslavie,https://www.wikidata.org/wiki/Q36704,2,2,2,Karlovac | Yougoslavie,Antun Vranić | Miho Rastić
+direct_country,Q423,Corée du Nord,https://www.wikidata.org/wiki/Q423,2,2,2,Hoeryŏng | Munchŏn,Li Hyun-sang | Pak Che-ga
+direct_country,Q457242,protectorat espagnol au Maroc,https://www.wikidata.org/wiki/Q457242,2,2,1,Tétouan,Ahmad ibn Ajiba | Mohammed al-Harraq al-Alami
+direct_country,Q582861,Mérinides,https://www.wikidata.org/wiki/Q582861,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q58326,Deuxième République,https://www.wikidata.org/wiki/Q58326,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q630882,République de Nouvelle-Grenade,https://www.wikidata.org/wiki/Q630882,2,2,1,Bogota,José Celestino Bruno Mutis y Bosio | Manuel del Socorro Rodríguez
+direct_country,Q63149558,Empire afcharide,https://www.wikidata.org/wiki/Q63149558,2,2,1,La Nouvelle-Djoulfa,Adeodatus Babik | Amir Oghli
+direct_country,Q63158027,Perse qadjare,https://www.wikidata.org/wiki/Q63158027,2,2,1,La Nouvelle-Djoulfa,Adeodatus Babik | Amir Oghli
+direct_country,Q6500483,dynastie Nguyen,https://www.wikidata.org/wiki/Q6500483,2,2,1,Huế,Nguyễn Du | Thì Nhậm Ngô
+direct_country,Q69808,régime de Vichy,https://www.wikidata.org/wiki/Q69808,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q69829,Quatrième République,https://www.wikidata.org/wiki/Q69829,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q701337,Empire du Viêt Nam,https://www.wikidata.org/wiki/Q701337,2,2,1,Huế,Nguyễn Du | Thì Nhậm Ngô
+direct_country,Q70802,Troisième République française,https://www.wikidata.org/wiki/Q70802,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q71092,Second Empire,https://www.wikidata.org/wiki/Q71092,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q733,Paraguay,https://www.wikidata.org/wiki/Q733,2,2,2,Santa María | Villarrica,Manuel Antonio Talavera | Nicolás Yapuguay
+direct_country,Q746558,émirat de Boukhara,https://www.wikidata.org/wiki/Q746558,2,1,1,Boukhara,Muhammad Yоqub ibn Doniyolbiy
+direct_country,Q750,Bolivie,https://www.wikidata.org/wiki/Q750,2,2,2,Cochabamba | Potosí,Josepha de Escurrechea | Thaddaeus Haenke
+direct_country,Q75613,Almoravides,https://www.wikidata.org/wiki/Q75613,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q774,Guatemala,https://www.wikidata.org/wiki/Q774,2,2,1,Guatemala,Miguel Larreynaga | Rafael García Goyena
+direct_country,Q783684,Gouvernement provisoire de la République française,https://www.wikidata.org/wiki/Q783684,2,2,1,Marrakech,Domingo Badía y Leblich | Sulayman du Maroc
+direct_country,Q785,Jersey,https://www.wikidata.org/wiki/Q785,2,2,2,La Trinité | Saint-Hélier,Daniel Dumaresq | Thomas Pichon
+direct_country,Q874,Turkménistan,https://www.wikidata.org/wiki/Q874,2,2,2,Lebap | Serakhs,Mämmetweli Kemine | Seyitnazar Seydi
+direct_country,Q912,Mali,https://www.wikidata.org/wiki/Q912,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q945,Togo,https://www.wikidata.org/wiki/Q945,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q962,Bénin,https://www.wikidata.org/wiki/Q962,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q965,Burkina Faso,https://www.wikidata.org/wiki/Q965,2,2,1,Afrique de l’Ouest,Jeffrey Brace | Mungo Park
+direct_country,Q9676,Île de Man,https://www.wikidata.org/wiki/Q9676,2,2,2,Douglas | Île de Man,Alexander Cruden | Jeremiah Whiting
+admin_country,Q1016,Libye,https://www.wikidata.org/wiki/Q1016,1,1,1,Tripoli,Nehorai Garmon
+admin_country,Q1019,Madagascar,https://www.wikidata.org/wiki/Q1019,1,1,1,Ambohitralanana,Maurice Beniowski
+admin_country,Q1025,Mauritanie,https://www.wikidata.org/wiki/Q1025,1,1,1,Chinguetti,Q113339773
+admin_country,Q1029,Mozambique,https://www.wikidata.org/wiki/Q1029,1,1,1,île de Mozambique,Tomás António Gonzaga
+admin_country,Q1044,Sierra Leone,https://www.wikidata.org/wiki/Q1044,1,1,1,Freetown,August Nordenskiöld
+admin_country,Q1138904,Royaume d'Afghanistan,https://www.wikidata.org/wiki/Q1138904,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q1147043,Song méridionaux,https://www.wikidata.org/wiki/Q1147043,1,1,1,Chang Prefecture,Q135657925
+admin_country,Q1335260,Émirat d'Afghanistan,https://www.wikidata.org/wiki/Q1335260,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q1415128,République d'Afghanistan,https://www.wikidata.org/wiki/Q1415128,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q1415585,État islamique d'Afghanistan,https://www.wikidata.org/wiki/Q1415585,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q156031,Reichskommissariat Ostland,https://www.wikidata.org/wiki/Q156031,1,1,1,Piacieŭščyna,Ignacy Bykowski
+admin_country,Q156038,duché de Courlande,https://www.wikidata.org/wiki/Q156038,1,1,1,Augstkalne,Christoph Friedrich Neander
+admin_country,Q172579,royaume d'Italie,https://www.wikidata.org/wiki/Q172579,1,1,1,Rovinj,Giacomo Angelini
+admin_country,Q192180,République socialiste soviétique de Lettonie,https://www.wikidata.org/wiki/Q192180,1,1,1,Ilūkste,Michael Roth
+admin_country,Q199688,califat almohade,https://www.wikidata.org/wiki/Q199688,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q205718,Zirides,https://www.wikidata.org/wiki/Q205718,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q217,Moldavie,https://www.wikidata.org/wiki/Q217,1,1,1,Vălcineț,Ioan Prale
+admin_country,Q219060,État de Palestine,https://www.wikidata.org/wiki/Q219060,1,1,1,Saffarin,Seffarini
+admin_country,Q2277,Empire romain,https://www.wikidata.org/wiki/Q2277,1,1,1,Çanakkale,Bostancıbaşı Hafız İsmail Pasha
+admin_country,Q228,Andorre,https://www.wikidata.org/wiki/Q228,1,1,1,Ordino,Antoni Fiter i Rossell
+admin_country,Q23427,Ossétie du Sud-Alanie,https://www.wikidata.org/wiki/Q23427,1,1,1,Zalda,Iwan Georgijewitsch Jalgusidse
+admin_country,Q25,pays de Galles,https://www.wikidata.org/wiki/Q25,1,1,1,Arfon Uwch Gwyrfai,Hugh Evans
+admin_country,Q262,Algérie,https://www.wikidata.org/wiki/Q262,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q2662372,Principauté de Minsk,https://www.wikidata.org/wiki/Q2662372,1,1,1,Piacieŭščyna,Ignacy Bykowski
+admin_country,Q2724951,Colonisation portugaise des Amériques,https://www.wikidata.org/wiki/Q2724951,1,1,1,Belém,Tenreiro Aranha
+admin_country,Q3045696,régence d'Alger,https://www.wikidata.org/wiki/Q3045696,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q307697,Zianides,https://www.wikidata.org/wiki/Q307697,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q319460,dynastie Song du Nord,https://www.wikidata.org/wiki/Q319460,1,1,1,Chang Prefecture,Q135657925
+admin_country,Q389004,principauté de Valachie,https://www.wikidata.org/wiki/Q389004,1,1,1,Académie princière de Bucarest,Neófytos Doúkas
+admin_country,Q467627,Empire Durrani,https://www.wikidata.org/wiki/Q467627,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q4689103,État transitoire islamique d'Afghanistan,https://www.wikidata.org/wiki/Q4689103,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q476757,République démocratique d'Afghanistan,https://www.wikidata.org/wiki/Q476757,1,1,1,Kandahâr,Ahmad Shâh
+admin_country,Q503585,Corée durant la colonisation japonaise,https://www.wikidata.org/wiki/Q503585,1,1,1,Changgyeonggung,Hyegyeong
+admin_country,Q55306,zone d'occupation britannique en Allemagne,https://www.wikidata.org/wiki/Q55306,1,1,1,comté de Hoya,Andreas Georg Waehner
+admin_country,Q570767,Oberbefehlshaber der gesamten Deutschen Streitkräfte im Osten,https://www.wikidata.org/wiki/Q570767,1,1,1,Augstkalne,Christoph Friedrich Neander
+admin_country,Q588672,Hammadides,https://www.wikidata.org/wiki/Q588672,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+admin_country,Q664,Nouvelle-Zélande,https://www.wikidata.org/wiki/Q664,1,1,1,Otaki,Te Rauparaha
+admin_country,Q754,Trinité-et-Tobago,https://www.wikidata.org/wiki/Q754,1,1,1,Trinité,Henry Swinburne
+admin_country,Q76236,République socialiste soviétique lituano-biélorusse,https://www.wikidata.org/wiki/Q76236,1,1,1,Piacieŭščyna,Ignacy Bykowski
+admin_country,Q781,Antigua-et-Barbuda,https://www.wikidata.org/wiki/Q781,1,1,1,"Falmouth, Antigua",Henrietta Liston
+admin_country,Q783,Honduras,https://www.wikidata.org/wiki/Q783,1,1,1,Tegucigalpa,Antonio de Paz y Salgado
+admin_country,Q801,Israël,https://www.wikidata.org/wiki/Q801,1,1,1,Saffarin,Seffarini
+admin_country,Q810,Jordanie,https://www.wikidata.org/wiki/Q810,1,1,1,Saffarin,Seffarini
+admin_country,Q811,Nicaragua,https://www.wikidata.org/wiki/Q811,1,1,1,Telica,Miguel Larreynaga
+admin_country,Q842199,République populaire biélorusse,https://www.wikidata.org/wiki/Q842199,1,1,1,Piacieŭščyna,Ignacy Bykowski
+admin_country,Q846,Qatar,https://www.wikidata.org/wiki/Q846,1,1,1,Zubarah,Abd al-Wahhab ibn Muhammad al-Fayrooz
+admin_country,Q854,Sri Lanka,https://www.wikidata.org/wiki/Q854,1,1,1,Colpetty,Gajaman Nona
+admin_country,Q902,Bangladesh,https://www.wikidata.org/wiki/Q902,1,1,1,Jhenaidah,Lalon
+admin_country,Q916,Angola,https://www.wikidata.org/wiki/Q916,1,1,1,Ambaca,Inácio José de Alvarenga Peixoto
+admin_country,Q9676,Île de Man,https://www.wikidata.org/wiki/Q9676,1,1,1,Douglas,Jeremiah Whiting
+admin_country,Q9683,dynastie Tang,https://www.wikidata.org/wiki/Q9683,1,1,1,Chang Prefecture,Q135657925
+direct_country,Q1016,Libye,https://www.wikidata.org/wiki/Q1016,1,1,1,Tripoli,Nehorai Garmon
+direct_country,Q1019,Madagascar,https://www.wikidata.org/wiki/Q1019,1,1,1,Ambohitralanana,Maurice Beniowski
+direct_country,Q1029,Mozambique,https://www.wikidata.org/wiki/Q1029,1,1,1,île de Mozambique,Tomás António Gonzaga
+direct_country,Q1062422,dynastie Konbaung,https://www.wikidata.org/wiki/Q1062422,1,1,1,Bangkok,Rama II
+direct_country,Q1115291,royaume de Thonburi,https://www.wikidata.org/wiki/Q1115291,1,1,1,Bangkok,Rama II
+direct_country,Q1147043,Song méridionaux,https://www.wikidata.org/wiki/Q1147043,1,1,1,Chang Prefecture,Q135657925
+direct_country,Q1155700,royaume de Rattanakosin,https://www.wikidata.org/wiki/Q1155700,1,1,1,Bangkok,Rama II
+direct_country,Q124653007,royaume de la Couronne,https://www.wikidata.org/wiki/Q124653007,1,1,1,île de l'Ascension,Leendert Hasenbosch
+direct_country,Q130654,Empire colonial néerlandais,https://www.wikidata.org/wiki/Q130654,1,1,1,Guyane néerlandaise,Thomas Christie
+direct_country,Q132869361,Q132869361,https://www.wikidata.org/wiki/Q132869361,1,1,1,Heian-kyō,Yosa Buson
+direct_country,Q171393,Valachie,https://www.wikidata.org/wiki/Q171393,1,1,1,Académie princière de Bucarest,Neófytos Doúkas
+direct_country,Q172579,royaume d'Italie,https://www.wikidata.org/wiki/Q172579,1,1,1,Rovinj,Giacomo Angelini
+direct_country,Q191077,royaume de Yougoslavie,https://www.wikidata.org/wiki/Q191077,1,1,1,Mostar,Fevzi Mostarac
+direct_country,Q193619,union d'Afrique du Sud,https://www.wikidata.org/wiki/Q193619,1,1,1,Le Cap,Q133692680
+direct_country,Q199821,Grande Colombie,https://www.wikidata.org/wiki/Q199821,1,1,1,département de Guayaquil,Rafael García Goyena
+direct_country,Q208404,royaume d'Arménie,https://www.wikidata.org/wiki/Q208404,1,1,1,Siounik (province historique),Q20511633
+direct_country,Q217,Moldavie,https://www.wikidata.org/wiki/Q217,1,1,1,Vălcineț,Ioan Prale
+direct_country,Q228,Andorre,https://www.wikidata.org/wiki/Q228,1,1,1,Ordino,Antoni Fiter i Rossell
+direct_country,Q23427,Ossétie du Sud-Alanie,https://www.wikidata.org/wiki/Q23427,1,1,1,Zalda,Iwan Georgijewitsch Jalgusidse
+direct_country,Q2376315,Birmanie britannique,https://www.wikidata.org/wiki/Q2376315,1,1,1,Rangoun,Muhammad Bahâdur Shâh
+direct_country,Q244,Barbade,https://www.wikidata.org/wiki/Q244,1,1,1,Barbade,Eliza Fenwick
+direct_country,Q262,Algérie,https://www.wikidata.org/wiki/Q262,1,1,1,palais de la Jenina,Mezzomorto Hüseyin Pacha
+direct_country,Q272033,comté de Tripoli,https://www.wikidata.org/wiki/Q272033,1,1,1,Tripoli,Miguel Casiri
+direct_country,Q28179,période Joseon,https://www.wikidata.org/wiki/Q28179,1,1,1,période Joseon,Park Ji-won
+direct_country,Q282475,Royaume de Kartl-Kakhétie,https://www.wikidata.org/wiki/Q282475,1,1,1,Haghpat,Sayat-Nova
+direct_country,Q284568,Libye italienne,https://www.wikidata.org/wiki/Q284568,1,1,1,Tripoli,Nehorai Garmon
+direct_country,Q319460,dynastie Song du Nord,https://www.wikidata.org/wiki/Q319460,1,1,1,Chang Prefecture,Q135657925
+direct_country,Q33296,Empire moghol,https://www.wikidata.org/wiki/Q33296,1,1,1,Hala,Shah Abdul Latif Bhittai
+direct_country,Q3433694,Tripolitaine italienne,https://www.wikidata.org/wiki/Q3433694,1,1,1,Tripoli,Nehorai Garmon
+direct_country,Q370736,Colonie du Cap,https://www.wikidata.org/wiki/Q370736,1,1,1,Le Cap,Q133692680
+direct_country,Q398,Bahreïn,https://www.wikidata.org/wiki/Q398,1,1,1,Salmabad,Muhammad ibn Abdullah al-Ramadhan
+direct_country,Q424,Cambodge,https://www.wikidata.org/wiki/Q424,1,1,1,Krong Kep,Mạc Thiên Tứ
+direct_country,Q484195,Empire timouride,https://www.wikidata.org/wiki/Q484195,1,1,1,Hérat,Ahmad Shâh
+direct_country,Q6352367,Kalhora dynasty,https://www.wikidata.org/wiki/Q6352367,1,1,1,Bhit Shah,Shah Abdul Latif Bhittai
+direct_country,Q664,Nouvelle-Zélande,https://www.wikidata.org/wiki/Q664,1,1,1,Otaki,Te Rauparaha
+direct_country,Q7405,dynastie Sui,https://www.wikidata.org/wiki/Q7405,1,1,1,Chang Prefecture,Q135657925
+direct_country,Q754,Trinité-et-Tobago,https://www.wikidata.org/wiki/Q754,1,1,1,Trinité,Henry Swinburne
+direct_country,Q760,Sainte-Lucie,https://www.wikidata.org/wiki/Q760,1,1,1,Sainte-Lucie,David Stuart
+direct_country,Q7646305,Suriname,https://www.wikidata.org/wiki/Q7646305,1,1,1,Jodensavanne,David Nassy
+direct_country,Q769,Grenade,https://www.wikidata.org/wiki/Q769,1,1,1,Grenade,Henry Redhead Yorke
+direct_country,Q783,Honduras,https://www.wikidata.org/wiki/Q783,1,1,1,Tegucigalpa,Antonio de Paz y Salgado
+direct_country,Q801,Israël,https://www.wikidata.org/wiki/Q801,1,1,1,Israël,Haïm Joseph David Azoulay
+direct_country,Q811,Nicaragua,https://www.wikidata.org/wiki/Q811,1,1,1,Telica,Miguel Larreynaga
+direct_country,Q841364,royaume d'Ayutthaya,https://www.wikidata.org/wiki/Q841364,1,1,1,Bangkok,Rama II
+direct_country,Q846,Qatar,https://www.wikidata.org/wiki/Q846,1,1,1,Zubarah,Abd al-Wahhab ibn Muhammad al-Fayrooz
+direct_country,Q854,Sri Lanka,https://www.wikidata.org/wiki/Q854,1,1,1,Colpetty,Gajaman Nona
+direct_country,Q878818,Principauté de Bitlis,https://www.wikidata.org/wiki/Q878818,1,1,1,Bitlis,Şeyh Müştak
+direct_country,Q902,Bangladesh,https://www.wikidata.org/wiki/Q902,1,1,1,Jhenaidah,Lalon
+direct_country,Q916,Angola,https://www.wikidata.org/wiki/Q916,1,1,1,Ambaca,Inácio José de Alvarenga Peixoto
+direct_country,Q953,Zambie,https://www.wikidata.org/wiki/Q953,1,1,1,Zambie,Pierre-Augustin Caron de Beaumarchais
+direct_country,Q9683,dynastie Tang,https://www.wikidata.org/wiki/Q9683,1,1,1,Chang Prefecture,Q135657925

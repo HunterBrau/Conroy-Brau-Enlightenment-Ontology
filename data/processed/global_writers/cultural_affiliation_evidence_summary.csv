@@ -1,0 +1,5 @@
+metric,value,pct
+total_entities,14377,100.0
+entities_with_any_mapped_affiliation_candidate,12129,84.36
+entities_with_unique_top_candidate,9632,67.0
+entities_with_tied_top_candidate,2497,17.37

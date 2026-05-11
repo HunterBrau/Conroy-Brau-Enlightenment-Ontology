@@ -1,6 +1,11 @@
 from pathlib import Path
+from argparse import ArgumentParser
+import sys
 
 import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 
 
 TOP_N = 15
@@ -374,52 +379,39 @@ def build_manifest_table(
     return pd.DataFrame(rows)
 
 
+def parse_args() -> object:
+    parser = ArgumentParser(description="Build dataset diagnostics for a cohort.")
+    parser.add_argument(
+        "--cohort-id",
+        default=DEFAULT_COHORT_ID,
+        choices=["french_seed", "global_writers"],
+        help=f"Cohort to diagnose. Default: {DEFAULT_COHORT_ID}.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
     project_root = Path(__file__).resolve().parents[2]
+    paths = cohort_paths(project_root, args.cohort_id)
 
-    cleaned_path = project_root / "data" / "interim" / "writers_cleaned.csv"
-    raw_conflicts_path = project_root / "data" / "interim" / "viaf_conflicts.csv"
+    cleaned_path = paths.cleaned_path
+    raw_conflicts_path = paths.viaf_conflicts_path
 
-    summary_path = project_root / "data" / "interim" / "dataset_diagnostics_summary.csv"
-    missingness_path = (
-        project_root / "data" / "interim" / "dataset_diagnostics_missingness.csv"
-    )
-    occupation_path = (
-        project_root
-        / "data"
-        / "interim"
-        / "dataset_diagnostics_occupation_distribution.csv"
-    )
-    birth_place_path = (
-        project_root
-        / "data"
-        / "interim"
-        / "dataset_diagnostics_birth_place_distribution.csv"
-    )
-    duplicate_entities_path = (
-        project_root
-        / "data"
-        / "interim"
-        / "dataset_diagnostics_duplicate_entities.csv"
-    )
-    viaf_conflict_entities_path = (
-        project_root
-        / "data"
-        / "interim"
-        / "dataset_diagnostics_viaf_conflict_entities.csv"
-    )
-    report_path = (
-        project_root / "data" / "interim" / "dataset_diagnostics_report.md"
-    )
-    manifest_path = (
-        project_root / "data" / "interim" / "dataset_diagnostics_manifest.csv"
-    )
+    summary_path = paths.interim_dir / "dataset_diagnostics_summary.csv"
+    missingness_path = paths.interim_dir / "dataset_diagnostics_missingness.csv"
+    occupation_path = paths.interim_dir / "dataset_diagnostics_occupation_distribution.csv"
+    birth_place_path = paths.interim_dir / "dataset_diagnostics_birth_place_distribution.csv"
+    duplicate_entities_path = paths.interim_dir / "dataset_diagnostics_duplicate_entities.csv"
+    viaf_conflict_entities_path = paths.interim_dir / "dataset_diagnostics_viaf_conflict_entities.csv"
+    report_path = paths.interim_dir / "dataset_diagnostics_report.md"
+    manifest_path = paths.interim_dir / "dataset_diagnostics_manifest.csv"
 
     if not cleaned_path.exists():
         raise FileNotFoundError(
             "Missing cleaned dataset. Run Step 01 and Step 02 first:\n"
-            "python scripts/pipeline/01_build_merged_dataset.py\n"
-            "python scripts/pipeline/02_clean_structural_fields.py"
+            f"python scripts/pipeline/01_build_merged_dataset.py --cohort-id {paths.cohort_id}\n"
+            f"python scripts/pipeline/02_clean_structural_fields.py --cohort-id {paths.cohort_id}"
         )
 
     df = pd.read_csv(cleaned_path)
@@ -493,6 +485,7 @@ def main() -> None:
     }
 
     print("Dataset diagnostics complete.")
+    print(f"Cohort: {paths.cohort_id}")
     print(f"Summary file: {summary_path}")
     print(f"Report file: {report_path}")
     print()

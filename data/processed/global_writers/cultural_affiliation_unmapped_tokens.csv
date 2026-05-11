@@ -1,0 +1,426 @@
+token_family,token_id,token_label,token_wikidata_url,occurrence_count,entity_count,example_names
+spoken_written_language,Q397,Latin,https://www.wikidata.org/wiki/Q397,524,524,Abbé Prévost | Abigail Adams | Abraham Niclas Edelcrantz | Adam Alojzij Baričević | Adam Besnecker | Adam Gottlob Schirach | Adam Weishaupt | Adamántios Koraïs
+spoken_written_language,Q7850,,https://www.wikidata.org/wiki/Q7850,157,157,3rd Jebtsundamba Khutughtu | Bao Yin | Bao Zhifen | Bao Zhihui | Bao Zhilan | Cai Wan | Cao Xigui | Cao Xikun
+native_language,Q7850,,https://www.wikidata.org/wiki/Q7850,125,125,Bao Yin | Bao Zhifen | Bao Zhihui | Bao Zhilan | Cai Wan | Cao Xigui | Cao Xikun | Cao Xishu
+spoken_written_language,Q37041,,https://www.wikidata.org/wiki/Q37041,95,95,Bao Guixing | Bao Zhizhong | Bo Boming | Cao Xibao | Cao Yishi | Chen Shi | Chen Silong | Chen Zhaolun
+spoken_written_language,Q837169,,https://www.wikidata.org/wiki/Q837169,95,95,Bao Guixing | Bao Zhizhong | Bo Boming | Cao Xibao | Cao Yishi | Chen Shi | Chen Silong | Chen Zhaolun
+writing_language,Q37041,,https://www.wikidata.org/wiki/Q37041,95,95,Bao Guixing | Bao Zhizhong | Bo Boming | Cao Xibao | Cao Yishi | Chen Shi | Chen Silong | Chen Zhaolun
+citizenship,Q17,,https://www.wikidata.org/wiki/Q17,85,85,Akera Kankō | Akisato Ritō | Aoki Kon’yō | Arakida Reijo | Atsujin | Chikamatsu Hanji | Chikamatsu Yanagi | Chiyo-ni
+writing_language,Q397,Latin,https://www.wikidata.org/wiki/Q397,69,69,Adam Alojzij Baričević | Alfonso Clemente de Aróstegui | Anders Carlsson af Kullberg | András Csenkeszfai Poóts | Antoine Joseph Dezallier d'Argenville | Anton Federico Seghezzi | Arsenij Kocak | Bernardo Zamagna
+spoken_written_language,Q5287,,https://www.wikidata.org/wiki/Q5287,67,67,Akera Kankō | Akisato Ritō | Aoki Kon’yō | Arakida Reijo | Ban Kōkei | Bunkō Baba | Chikamatsu Hanji | Chikamatsu Tokuzō
+citizenship,Q20,,https://www.wikidata.org/wiki/Q20,61,61,Anders Rognaldsen Ness | Andreas Eckstorm | Bendix Djurhuus Prahl | Bernt Børretzen | Birgitte Christine Huitfeldt | Christen Pram | Christian Braunmann Tullin | Christiane Koren
+citizenship,Q205662,,https://www.wikidata.org/wiki/Q205662,42,42,Ban Kōkei | Fujisawa Shizan | Hagiwara Sōko | Hayashi Orie | Hori Bakusui | Inoue Kinga | Inoue Randai | Ishikawa Masamochi
+citizenship,Q25,,https://www.wikidata.org/wiki/Q25,40,40,Agnès Maria Bennett | Anna Williams | Catherine Davies | Dafydd Morris | Daniel Jones | David Davis | David Evans | David Richards
+citizenship,Q33,,https://www.wikidata.org/wiki/Q33,36,36,Abraham Achrenius | Alexander Hacks | Anders Aschelinus | Anders Törnudd | Antti Lizelius | Barbara Catharina Mjödh | Carl Gustaf Weman | Catharina Charlotta Ross
+citizenship,Q155,,https://www.wikidata.org/wiki/Q155,30,30,António José da Silva | Antônio Ferreira França | Antônio Gomes Ferreira de Castilho | Antônio Mendes Bordalo | Carlos de São Francisco | Cláudio Manuel da Costa | Domingos Caldas Barbosa | Domingos do Loreto Couto
+citizenship,Q28179,,https://www.wikidata.org/wiki/Q28179,29,29,Chae Je-gong | Hyegyeong | Jeong Cho-bu | Jeong Rae-gyo | Jeong Yak-yong | Jo Su-sam | Kang Jeongildang | Kim Cheon-taek
+spoken_written_language,Q35497,Ancient Greek,https://www.wikidata.org/wiki/Q35497,28,28,András Csenkeszfai Poóts | Antal Zechenter | Antonio Cesari | Benedetta Clotilde Lunelli Spinola | Bernardo Zamagna | Emmanuel Kant | Eugenios Voulgaris | Ewen Maclachlan
+citizenship,Q156199,,https://www.wikidata.org/wiki/Q156199,27,27,Anna Katharina Schönkopf | Anna Nitschmann | August Gottlieb Meissner | Bosćij Michał Wićaz | Carl Renatus Hausen | Christian Felix Weiße | Christian Friedrich Henrici | Christian Friedrich Michaelis
+citizenship,Q96,,https://www.wikidata.org/wiki/Q96,27,27,Agustín Pomposo Fernández | Andrés Cavo | Andrés Manuel del Río | Antonio de León y Gama | Bruno Francisco Larrañaga | Diego Bermúdez de Castro | Diego José Abad | Fermín de Reygadas
+spoken_written_language,Q9309,,https://www.wikidata.org/wiki/Q9309,24,24,Anna Williams | David Richards | Elis Roberts | Evan Evans | Griffith Williams | Iolo Morganwg | John Dyer | John Jenkin
+spoken_written_language,Q9142,,https://www.wikidata.org/wiki/Q9142,23,23,Art Mac Cumhaigh | Brian Merriman | Cathal Buí Mac Giolla Ghunna | Charlotte Brooke | Donnchadh Ruadh Mac Conmara | Dáibhí de Barra | Eibhlín Dubh Ní Chonaill | Eoghan Rua Ó Súilleabháin
+spoken_written_language,Q9043,,https://www.wikidata.org/wiki/Q9043,22,22,Birgitte Christine Huitfeldt | Christen Pram | Christian Braunmann Tullin | Christiane Koren | Cille Gad | Claus Fasting | Claus Frimann | Enevold de Falsen
+citizenship,Q204920,,https://www.wikidata.org/wiki/Q204920,21,21,Albert Borguny i Castelló | Antoni Codorniu | Antoni Serra Serra | Antoni de Peguera i d'Aimeric | Baldiri Reixac i Carbó | Carles Ros | Francisco Pérez Bayer | Jeroni Alemany i Moragues
+spoken_written_language,Q1617,,https://www.wikidata.org/wiki/Q1617,19,19,Azfari | Baba G Rehmat Ullah | Baksh Nasikh | Khwaja Haidar Ali Aatish | K̲h̲vājah Mīr Dard | Mah Laqa Bai | Meer Hasan | Mir Amman
+writing_language,Q9142,,https://www.wikidata.org/wiki/Q9142,19,19,Art Mac Cumhaigh | Brian Merriman | Cathal Buí Mac Giolla Ghunna | Charlotte Brooke | Donnchadh Ruadh Mac Conmara | Dáibhí de Barra | Eibhlín Dubh Ní Chonaill | Eoghan Rua Ó Súilleabháin
+citizenship,Q154195,,https://www.wikidata.org/wiki/Q154195,18,18,Adam Weishaupt | Aloys Senefelder | Charles-Théodore de Dalberg | Charlotte von Kalb | Christoph von Schmid | Franz Xaver von Zwack | Franz von Paula Schrank | Friedrich Heinrich Jacobi
+spoken_written_language,Q9610,,https://www.wikidata.org/wiki/Q9610,18,18,Akinchan Das | Baneshwar Vidyalankar | Barajuram Das | Bharatchandra Ray | Chandi Charan Munshi | Gourangiya Singh | Heyat Mamud | Jaygopal Tarkalankar
+citizenship,Q1028,,https://www.wikidata.org/wiki/Q1028,17,17,Abou El Kacem Zayani | Ahmad ibn Idris | Ahmed ibn al-Mubarak al-Lamati | Al-Bannani | David Hassine | Hamdun ibn al-Hajj al-Fasi | Hemmou Talb | Mohammed al-Harraq al-Alami
+spoken_written_language,Q294,,https://www.wikidata.org/wiki/Q294,15,15,Arnór Jónsson | Bjarne Pálsson | Björg Einarsdóttir | Björn Halldórsson | Eggert Olafsen | Gunnar Pálsson | Halldór Jakobsson | Hallvarður Hallsson
+citizenship,Q153015,,https://www.wikidata.org/wiki/Q153015,14,14,Carl Gottlob Kühn | Carl-Gottlob Cramer | Christian August Fischer | Christian Gottfried Körner | Elisa von der Recke | Friedrich Gottlob Leonhardi | Friedrich Gustav Schilling | Gotthelf August Fischer
+citizenship,Q33296,,https://www.wikidata.org/wiki/Q33296,14,14,Arunachala Kavi | Azfari | Bahuda Dasa | Inšāʿ Allāh Ḫān Inšāʿ | Kotikalapudi Venkatakrishnaiah | Meer Hasan | Mir Taqi Mir | Muhammad Bahâdur Shâh
+spoken_written_language,Q13248,,https://www.wikidata.org/wiki/Q13248,14,14,Adam Gottlob Schirach | Adam Zacharias Schirach | Bosćij Michał Wićaz | Christoph Friedrich Faber | Jan Józef Hawštyn Hauptmann | Johann Gotthold Böhmer | Johann Gotttrau Böhmer | Johann Hortzschansky
+spoken_written_language,Q34271,,https://www.wikidata.org/wiki/Q34271,14,14,Gungthang Tenpe Drönme | Jigme Lingpa | Karma Trinle Dudjom | Katok Rigdzin Chenpo Tsewang Norbu | Kelzang Gyatso | Khamtrül Tendzin Chökyi Nyima | Lobsang Palden Yeshe | Lozang Chokyi Wangchuk
+spoken_written_language,Q8108,,https://www.wikidata.org/wiki/Q8108,14,14,Besiki | David Cholokashvili | Davit Gouramichvili | Dimitri Bagrationi | Giorgi Tumanishvili | Goderdzi Piralishvili | Grigol Meskhishvili | Ioane Batonichvili
+spoken_written_language,Q9199,,https://www.wikidata.org/wiki/Q9199,14,14,Hồ Xuân Hương | Lê Ngọc Hân | Lê Quý Đôn | Mạc Thiên Tứ | Nguyễn Du | Nguyễn Gia Thiều | Nguyễn Án | Phan Huy Ích
+citizenship,Q189,,https://www.wikidata.org/wiki/Q189,13,13,Bjarne Pálsson | Björg Einarsdóttir | Eggert Olafsen | Gunnar Pálsson | Hallgrímur Eldjárnsson | Hálfdan Einarsson | Jón Steingrímsson | Magnús Ketilsson
+citizenship,Q706018,,https://www.wikidata.org/wiki/Q706018,13,13,Adolph Knigge | Albrecht Daniel Thaer | August Wilhelm Iffland | Baron de Münchhausen | Basilius von Ramdohr | Christoph Schmidt-Phiseldeck | Ernst Brandes | Friedrich Ludwig Wilhelm Meyer
+writing_language,Q9610,,https://www.wikidata.org/wiki/Q9610,13,13,Akinchan Chakrabarty | Akinchan Das | Bharatchandra Ray | Chandi Charan Munshi | Jaygopal Tarkalankar | Jaynarayan Ghoshal | Kamalakanta Bhattacharya | Mrityunjay Vidyalankar
+native_language,Q9610,,https://www.wikidata.org/wiki/Q9610,12,12,Akinchan Das | Baneshwar Vidyalankar | Bharatchandra Ray | Chandi Charan Munshi | Jaygopal Tarkalankar | Jaynarayan Ghoshal | Lalon | Mrityunjay Vidyalankar
+spoken_written_language,Q9292,,https://www.wikidata.org/wiki/Q9292,12,12,Ashig Valeh | Baba bey Shakir | Fath Ali Chah Qadjar | Khasta Qasim | Kochkhyur Said | Mirza Muslim Qudsi | Molla Penah Vakıf | Molla Veli Vidadi
+citizenship,Q155570,,https://www.wikidata.org/wiki/Q155570,10,10,August von Kotzebue | Charlotte Henriette Hezel | Charlotte von Stein | Christian August Vulpius | Friedrich Gottlieb Dietrich | Friedrich Justin Bertuch | Johann Karl Fischer | Johann Wolfgang von Goethe
+citizenship,Q18234383,,https://www.wikidata.org/wiki/Q18234383,10,10,Azar Bigdeli | Baba'i ben Lotf | Hajat Shirazi | Hakob Nagashi Hovnatanyan | Ihrek Rezheb | Magtymguly Pyragy | Molla Penah Vakıf | Nasha Tabrizi
+spoken_written_language,Q11059,Sanskrit,https://www.wikidata.org/wiki/Q11059,10,10,Arunachala Kavi | Brajanath Badajena | Jagannath Tarka Panchanan | Jaygopal Tarkalankar | Jaynarayan Ghoshal | Kavikalanidhi Devarshi Shrikrishna Bhatt | Muddupalani | Râm Mohan Roy
+citizenship,Q430309,,https://www.wikidata.org/wiki/Q430309,9,9,Lê Quý Đôn | Lê Quýnh | Nguyễn Du | Q10768976 | Q10799516 | Q10833825 | Q10833870 | Q126656545
+spoken_written_language,Q9314,,https://www.wikidata.org/wiki/Q9314,9,9,Adam Ferguson | Alexander MacKinnon | Ewen Maclachlan | Hector Maclean | Iain MacCodrum | James Macpherson | Lachlan Macpherson | Rob Donn
+citizenship,Q10800791,,https://www.wikidata.org/wiki/Q10800791,8,8,Bá Lân Nguyễn | Ho Si Dong | Nguyễn Án | Q10799818 | Q10800385 | Q10800392 | Q10800394 | Q10800396
+citizenship,Q174306,,https://www.wikidata.org/wiki/Q174306,8,8,Antonio Nervi | Gian Carlo Di Negro | Giovanni Francesco Castagnola | Giuseppe Gregorio Solari | Marie-Christine de Rouvroy | Martino Piaggio | Matteo Franzoni | Steva De Franchi
+citizenship,Q180393,,https://www.wikidata.org/wiki/Q180393,8,8,Agatino Sozzi | Alessandro Cedronio | Domenico Antonio di Fiore | Giovanni Battista Capasso | Giovanni Carlo Cosenza | Guilio Genoino | Ignazio Scimonelli | Salvatore Viganò
+citizenship,Q77,,https://www.wikidata.org/wiki/Q77,8,8,Antoine-Joseph Pernety | Francisco Cabello y Mesa | Félix de Azara | Jacinto Ventura de Molina | Joaquín Lencina | José Manuel Pérez Castellano | José Manuel Úbeda | José Prego de Oliver
+citizenship,Q881,,https://www.wikidata.org/wiki/Q881,8,8,Hồ Xuân Hương | Lê Ngọc Hân | Nguyễn Du | Nguyễn Gia Thiều | Phan Huy Ích | Trịnh Cương | Vũ Miên | Đặng Trần Côn
+native_language,Q33810,,https://www.wikidata.org/wiki/Q33810,8,8,Abhimanyu Samanta Singhara | Bahuda Dasa | Banamali Dasa | Bhakta Charana | Biswanath Khuntia | Brajanath Badajena | Hadidas | Kabi Surya Brahma
+spoken_written_language,Q33810,,https://www.wikidata.org/wiki/Q33810,8,8,Abhimanyu Samanta Singhara | Bahuda Dasa | Banamali Dasa | Bhakta Charana | Biswanath Khuntia | Brajanath Badajena | Hadidas | Kabi Surya Brahma
+spoken_written_language,Q58635,,https://www.wikidata.org/wiki/Q58635,8,8,Ali Haidar | Bulleh Shah | Hamad | Hashim | Q20606273 | Sachal Sarmast | Saleh Muhammad Safoori | Waris Shah
+spoken_written_language,Q8798,,https://www.wikidata.org/wiki/Q8798,8,8,Hryhoriy Skovoroda | Ivan Kotliarevsky | Ivan Yuhasevych-Skliarsky | Klimentìj Zinovìïv | Maksym Berlynskyi | Q12133324 | Semen Klymovskyi | Stepan Lukomsky
+spoken_written_language,Q9078,,https://www.wikidata.org/wiki/Q9078,8,8,Agatha Lovisa de la Myle | Alexander Johann Stender | Christoph Harder | Georg Siegmund von Bilterling | Gothards Fridrichs Stenders | Karl Gotthard Elverfeld | K̦ikul̦a Jēkabs | Michael Roth
+writing_language,Q9309,,https://www.wikidata.org/wiki/Q9309,8,8,David Richards | John Jones | Joseph Harris | Thomas Jones | Titus Lewis | Twm o'r Nant | William Owen Pughe | William Williams Pantycelyn
+citizenship,Q170603,,https://www.wikidata.org/wiki/Q170603,7,7,Cayetano Cabrera y Quintero | José Eduardo de Cárdenas | José Ignacio Bartolache | José Rafael Campoy | Juan de Arriola | Mariano (Álbaro) Barazábal | María Anna Águeda de San Ignacio
+citizenship,Q230,,https://www.wikidata.org/wiki/Q230,7,7,David Bagration | Giorgi Avalichvili | Ketevan de Géorgie | Princess Mariam of Georgia | Teimouraz II de Kakhétie | Timote Gabashvili | Vakhtang VI de Karthli
+spoken_written_language,Q5137,,https://www.wikidata.org/wiki/Q5137,7,7,Bapusaheb Gaekwar | Dheera Bhagat | Muktanand Swami | Muldas | Nishkulanand Swami | Ranchhodji Diwan | Shamal Bhatt
+spoken_written_language,Q8097,,https://www.wikidata.org/wiki/Q8097,7,7,Arunachala Kavi | Kotikalapudi Venkatakrishnaiah | Mamidi venkayya | Muddupalani | Mulugu Papayaradhyulu | Tarikonda Vengamamba | Tipû Sâhib
+spoken_written_language,Q9083,,https://www.wikidata.org/wiki/Q9083,7,7,Antanas Strazdas | Dionizas Poška | Kiprijonas Lukauskas | Kristijonas Donelaitis | Laurynas Bortkevičius | Michel Jérôme Radziwiłł | Vladislovas Daukša
+writing_language,Q13248,,https://www.wikidata.org/wiki/Q13248,7,7,Christoph Friedrich Faber | Jan Józef Hawštyn Hauptmann | Johann Gotttrau Böhmer | Q21016944 | Rudolf Mjeń | Salomon Gottlob Frentzel | Samuel Traugott Pannach
+writing_language,Q58635,,https://www.wikidata.org/wiki/Q58635,7,7,Ali Haidar | Bulleh Shah | Hashim | Q20606273 | Sachal Sarmast | Saleh Muhammad Safoori | Waris Shah
+citizenship,Q153529,,https://www.wikidata.org/wiki/Q153529,6,6,Alberico Barbiano di Belgiojoso | Antonio Francesco Frisi | Biagio Bellotti | Francesca Bicetti De'Buttinoni Imbonati | Francesco Carcano | Girolamo Birago
+citizenship,Q62633,,https://www.wikidata.org/wiki/Q62633,6,6,Brita Sidonia Gadd | Catharina Charlotta Swedenmarck | Frans Michael Franzén | Gustaf Lithou | Henrik Deutsch | Otto Fredrik Wetterhoff
+citizenship,Q699964,,https://www.wikidata.org/wiki/Q699964,6,6,Beda Schuster | Cassian Anton Roschmann | Franz Anton Schraembl | Franz Steininger | Karl Anton von Martini | Matija Antun Relković
+spoken_written_language,Q25433,,https://www.wikidata.org/wiki/Q25433,6,6,Bernhard Gottfried Bueren | Christian Heinrich Wolke | Friedrich Wilhelm Albrecht | Jacob Wilhelm Beverstein | Karl Scheller | Kaspar Friedrich Renner
+spoken_written_language,Q9176,,https://www.wikidata.org/wiki/Q9176,6,6,Chae Je-gong | Hyegyeong | Jeong Yak-yong | Pak Che-ga | Park Ji-won | Yu Deuk-gong
+writing_language,Q8097,,https://www.wikidata.org/wiki/Q8097,6,6,Colin Mackenzie | Kotikalapudi Venkatakrishnaiah | Muddupalani | Q15699352 | Q16746545 | Tarikonda Vengamamba
+writing_language,Q9292,,https://www.wikidata.org/wiki/Q9292,6,6,Ashig Valeh | Khasta Qasim | Mirza Muslim Qudsi | Molla Penah Vakıf | Qudsi Vanandi | Telimxan
+citizenship,Q11876909,,https://www.wikidata.org/wiki/Q11876909,5,5,Bárbara Heliodora | Domingos Vidal Barbosa Lage | Inácio José de Alvarenga Peixoto | José Basílio Gama | Tenreiro Aranha
+citizenship,Q146597,,https://www.wikidata.org/wiki/Q146597,5,5,Abu al-Qasim Qomi | Ahmad Naraqi | Hajat Shirazi | Hossein Rafiq Isfahani | Magtymguly Pyragy
+citizenship,Q146871,,https://www.wikidata.org/wiki/Q146871,5,5,Abd al-Wahhab ibn Muhammad al-Fayrooz | Ahmad al-Muhsini | Ali ibn Muhammad al-Ramadhan | Muhammad ibn Abdullah al-Ramadhan | Saleh ibn Zayn al-Din
+citizenship,Q188553,,https://www.wikidata.org/wiki/Q188553,5,5,Hendrik Frieseman | Hieronymus van Alphen | Jan Jacob Vereul | Johann Gotthard Reinhold | Johannes Bosscha
+citizenship,Q241,,https://www.wikidata.org/wiki/Q241,5,5,Francisco Arrango y Parreño | Francisco Covarrubias | Manuel de Zequeira | Manuel del Socorro Rodríguez | Tomás Romay
+citizenship,Q282475,,https://www.wikidata.org/wiki/Q282475,5,5,David Cholokashvili | Ioane Batonichvili | Iwan Georgijewitsch Jalgusidse | Petre Laradze | Sayat-Nova
+citizenship,Q3399982,,https://www.wikidata.org/wiki/Q3399982,5,5,Alonso López de Rubiños | Antonio de Ulloa | Fernando Ramírez de Luque | Manuel Fortea y Úbeda | Manuel Torres
+citizenship,Q529605,,https://www.wikidata.org/wiki/Q529605,5,5,Charles de Hesse-Cassel | Christian von Massenbach | Dorothea Viehmann | Johann Erdmann Hummel | Nina Aubigny von Engelbrunner
+citizenship,Q62651,,https://www.wikidata.org/wiki/Q62651,5,5,Charles de Hesse-Cassel | Hans Hammond | Ingeborg Kirstine Reichwein | Johan Herman Wessel | Poul Hansen Egede
+citizenship,Q717,,https://www.wikidata.org/wiki/Q717,5,5,Antonio Patricio de Alcalá Centeno | Francisco de Miranda | José Domingo Díaz | Juan Antonio Navarrete | Juan Germán Roscio
+spoken_written_language,Q14549,,https://www.wikidata.org/wiki/Q14549,5,5,Francis Hutcheson | James Hogg | John Skinner | Robert Burns | Robert Fergusson
+spoken_written_language,Q7918,,https://www.wikidata.org/wiki/Q7918,5,5,Joachim Krčovski | Kiril Peïtchinovitch | Pavel Gaydadzhiyski | Païssii de Hilendar | Sophrone de Vratsa
+writing_language,Q5137,,https://www.wikidata.org/wiki/Q5137,5,5,Bapusaheb Gaekwar | Dheera Bhagat | Muldas | Nishkulanand Swami | Shamal Bhatt
+writing_language,Q5287,,https://www.wikidata.org/wiki/Q5287,5,5,Isomaru Kasuya | Jippensha Ikku | Kyokutei Bakin | Sugita Genpaku | Ueda Akinari
+citizenship,Q152115,,https://www.wikidata.org/wiki/Q152115,4,4,Jan Nepomucen Małachowski | Józef Wybicki | Jędrzej Śniadecki | Michał Dymitr Krajewski
+citizenship,Q252580,,https://www.wikidata.org/wiki/Q252580,4,4,Domenico Maria Giacobazzi | Giambattista Lolli | Giuliano Cassiani | Giuliano Sabbatini
+citizenship,Q26167,,https://www.wikidata.org/wiki/Q26167,4,4,Heinrich Wilhelm von Gerstenberg | Jacob Georg Christian Adler | Oluf Gerhard Tychsen | Thomas Christian Tychsen
+citizenship,Q3279296,,https://www.wikidata.org/wiki/Q3279296,4,4,Agatha Lovisa de la Myle | Heikki Väänänen | Iisak Ervast | Tuomas Ragvaldinpoika
+citizenship,Q388739,,https://www.wikidata.org/wiki/Q388739,4,4,Hajat Shirazi | Hossein Rafiq Isfahani | Ihrek Rezheb | Magtymguly Pyragy
+citizenship,Q414,,https://www.wikidata.org/wiki/Q414,4,4,Cayetano José Rodríguez | Domingo de Azcuénaga y Basavilbaso | Luis Pérez | Santiago Spencer Wilde
+citizenship,Q419,,https://www.wikidata.org/wiki/Q419,4,4,Francisco del Castillo | José Manuel Valdés | José Mariano de Aguirre | Manuel Lorenzo de Vidaurre
+citizenship,Q63158027,,https://www.wikidata.org/wiki/Q63158027,4,4,Abu al-Qasim Qomi | Ahmad Naraqi | Ahmad al-Muhsini | Muhammad ibn Ali al-'Aithan
+citizenship,Q675085,,https://www.wikidata.org/wiki/Q675085,4,4,Auguste de Saxe-Gotha-Altenbourg | Emilie von Berlepsch | Friedrich Schlichtegroll | Johann Matthäus Bechstein
+citizenship,Q704288,,https://www.wikidata.org/wiki/Q704288,4,4,Christian Cay Lorenz Hirschfeld | Christian de Stolberg-Stolberg | Frédéric-Léopold de Stolberg-Stolberg | Matthias Claudius
+citizenship,Q858,,https://www.wikidata.org/wiki/Q858,4,4,Q107183169 | Q107183179 | Q28042319 | Ḥāmid ibn ʻAlī ʻImādī
+citizenship,Q869,,https://www.wikidata.org/wiki/Q869,4,4,Q135438205 | Rama II | Somdet Phra Phonnarat | Taksin
+native_language,Q7979,,https://www.wikidata.org/wiki/Q7979,4,4,Adam Walker | Amabel Hume-Campbell | George Anne Bellamy | Thomas Malthus
+spoken_written_language,Q1247932,,https://www.wikidata.org/wiki/Q1247932,4,4,Juwenalis Charkiewicz | Józef Tuławski | Michael Fox | Salvator Ignatz Pintus
+spoken_written_language,Q129431,,https://www.wikidata.org/wiki/Q129431,4,4,Ferenc Temlin | István Küzmics | Mihály Bakos | Miklós Küzmics
+spoken_written_language,Q13199,,https://www.wikidata.org/wiki/Q13199,4,4,Johann Baptista Frizzoni | Johann Theodor von Castelberg | Matthias Conradi | Q131584170
+spoken_written_language,Q1571,,https://www.wikidata.org/wiki/Q1571,4,4,Honaji Bala | Mahipati | Moropant | Ram Jagannath Joshi
+spoken_written_language,Q25448,,https://www.wikidata.org/wiki/Q25448,4,4,Ahmed ibn al-Mubarak al-Lamati | Hemmou Talb | Mohammed al-Tawudi ibn Suda | Sulayman al-Hawwat
+spoken_written_language,Q29507,,https://www.wikidata.org/wiki/Q29507,4,4,Bernaldo de Quirós | Gaspar Melchor de Jovellanos | Teresa Cónsul | Xosefa Xovellanos
+spoken_written_language,Q5885,,https://www.wikidata.org/wiki/Q5885,4,4,Abirami Pattar | Arunachala Kavi | Costanzo Beschi | Kandasami Pulavar
+spoken_written_language,Q750553,,https://www.wikidata.org/wiki/Q750553,4,4,Antônio Ferreira França | Antônio Gomes Ferreira de Castilho | Dávid Alajos Fáy | Santa Rita Durão
+spoken_written_language,Q9217,,https://www.wikidata.org/wiki/Q9217,4,4,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Rama II | Taksin | Thammathibet"
+spoken_written_language,Q9228,,https://www.wikidata.org/wiki/Q9228,4,4,Maung Myat San | Myawaddy Mingyi U Sa | Padethayaza | U Kyin U
+spoken_written_language,Q9264,,https://www.wikidata.org/wiki/Q9264,4,4,Q25514334 | Q3274756 | Q4286280 | Vola
+spoken_written_language,Q9303,,https://www.wikidata.org/wiki/Q9303,4,4,Abdulvehab Ilhamija | Bishop fra Grgo Ilić | Fevzi Mostarac | Mūlā Mustafā Bāšeskī
+spoken_written_language,Q9307,,https://www.wikidata.org/wiki/Q9307,4,4,Antonio María de Castro e Neira | Diego Antonio Cernadas de Castro | Martín Sarmiento | Padre Sobreira
+writing_language,Q1617,,https://www.wikidata.org/wiki/Q1617,4,4,Meer Hasan | Mir Amman | Mir Taqi Mir | Muhammad Bahâdur Shâh
+citizenship,Q1033,,https://www.wikidata.org/wiki/Q1033,3,3,Abd al-Rahman Tsatsa | Abdullahi dan Fodio | John Jea
+citizenship,Q1209822,,https://www.wikidata.org/wiki/Q1209822,3,3,Anton Ier de Géorgie | David Cholokashvili | Mariam-Makrina
+citizenship,Q148499,,https://www.wikidata.org/wiki/Q148499,3,3,Carl Renatus Hausen | Johann Friedrich Cartheuser | Johann Gottlieb Gleditsch
+citizenship,Q158445,,https://www.wikidata.org/wiki/Q158445,3,3,Amalia Holst | Friedrich Ludwig Schröder | Johann Heinrich Voß
+citizenship,Q1636212,,https://www.wikidata.org/wiki/Q1636212,3,3,Ahmad bay Hali | Molla Penah Vakıf | Q16365122
+citizenship,Q17252,,https://www.wikidata.org/wiki/Q17252,3,3,Dokhar Tsering Wanggyel | Gashi Pandita Gonpo Ngodrub Rabten | Gyeltsen Sengge
+citizenship,Q188586,,https://www.wikidata.org/wiki/Q188586,3,3,Antonino Diliberto | Pellegra Bongiovanni | Venerando Gangi
+citizenship,Q2055400,,https://www.wikidata.org/wiki/Q2055400,3,3,Bishop fra Grgo Ilić | Mehmed-Razi Velihodžić | Mula Mustafa Firakija
+citizenship,Q209857,,https://www.wikidata.org/wiki/Q209857,3,3,Ferdinando Arrivabene | Giuseppe Federico Della Chiesa | Luigi Scevola
+citizenship,Q212278,,https://www.wikidata.org/wiki/Q212278,3,3,Jan Jacob Vereul | Johann Gotthard Reinhold | Johannes Bosscha
+citizenship,Q212439,,https://www.wikidata.org/wiki/Q212439,3,3,Q127424698 | Vassili Kapnist | Yakiv Markevych
+citizenship,Q222,,https://www.wikidata.org/wiki/Q222,3,3,Hasan Zyko Kamberi | Jul Variboba | Tahir Efendi Jakova
+citizenship,Q224,,https://www.wikidata.org/wiki/Q224,3,3,Antun Sorkočević | Bernardin Leaković | Ivan Lovrić
+citizenship,Q233,,https://www.wikidata.org/wiki/Q233,3,3,Gioacchino Navarro | Giovanni Antonio Ciantar | Patri Fidiel
+citizenship,Q258,,https://www.wikidata.org/wiki/Q258,3,3,Dorothea Gosen | Jan de Marre | Meent Borcherds
+citizenship,Q326029,,https://www.wikidata.org/wiki/Q326029,3,3,August Lafontaine | Joachim Heinrich Campe | Konrad von Schmidt-Phiseldeck
+citizenship,Q3462133,,https://www.wikidata.org/wiki/Q3462133,3,3,Emilie von Berlepsch | Friedrich Mosengeil | Heinrich August Ottokar Reichard
+citizenship,Q408,,https://www.wikidata.org/wiki/Q408,3,3,Elizabeth Macarthur | George Howe | Laurence Hynes Halloran
+citizenship,Q4899891,,https://www.wikidata.org/wiki/Q4899891,3,3,Mohamed Ouerghi | Nehorai Garmon | Sidi Brahim Riahi
+citizenship,Q49683,,https://www.wikidata.org/wiki/Q49683,3,3,Baruch Schick of Shklov | Dionizas Poška | Michał Olszewski
+citizenship,Q55599391,,https://www.wikidata.org/wiki/Q55599391,3,3,Francesc Massons i Nin | Jacopo Gariglio | Pedru Pisurzi
+citizenship,Q6500483,,https://www.wikidata.org/wiki/Q6500483,3,3,Nguyễn Án | Q10800386 | Q10800389
+citizenship,Q736,,https://www.wikidata.org/wiki/Q736,3,3,Catalina de Jesús Herrera | Juan Bautista Aguirre | Rafael García Goyena
+citizenship,Q836,,https://www.wikidata.org/wiki/Q836,3,3,Myawaddy Mingyi U Sa | Q130118612 | Saya Gyi U Nu
+citizenship,Q838931,,https://www.wikidata.org/wiki/Q838931,3,3,Agostino Palazzi | Isaac Luzzatto | Nicola Francesco Haym
+native_language,Q25448,,https://www.wikidata.org/wiki/Q25448,3,3,Hemmou Talb | Mohammed al-Tawudi ibn Suda | Sulayman al-Hawwat
+native_language,Q5287,,https://www.wikidata.org/wiki/Q5287,3,3,Isomaru Kasuya | Kyokutei Bakin | Sugita Genpaku
+spoken_written_language,Q100103,,https://www.wikidata.org/wiki/Q100103,3,3,Antoon Jacob Wyllie | Joannes Quicke | Tilman-Guillaume Backhuysen
+spoken_written_language,Q11051,,https://www.wikidata.org/wiki/Q11051,3,3,Asaf-ud-Daula | Inšāʿ Allāh Ḫān Inšāʿ | Rasikh Azimabadi
+spoken_written_language,Q13286,,https://www.wikidata.org/wiki/Q13286,3,3,Hanso Nepila | Jan Bjedrich Fryco | Q29954639
+spoken_written_language,Q1568,,https://www.wikidata.org/wiki/Q1568,3,3,Abbas al-Musawi al-Makki | Brajanath Badajena | Lallu Lal
+spoken_written_language,Q33538,Syriac,https://www.wikidata.org/wiki/Q33538,3,3,Antoine-Isaac Silvestre de Sacy | Josef Dobrovský | Thomas Wagstaffe
+spoken_written_language,Q33754,,https://www.wikidata.org/wiki/Q33754,3,3,Carlo Porta | Domenico Balestrieri | Giuseppe Federico Della Chiesa
+spoken_written_language,Q33997,,https://www.wikidata.org/wiki/Q33997,3,3,Sachal Sarmast | Sami | Shah Abdul Latif Bhittai
+spoken_written_language,Q56475,,https://www.wikidata.org/wiki/Q56475,3,3,Abd al-Rahman Tsatsa | Abdullahi dan Fodio | Ousmane dan Fodio
+spoken_written_language,Q9267,,https://www.wikidata.org/wiki/Q9267,3,3,Döwletmämmet Azady | Magtymguly Pyragy | Mämmetweli Kemine
+writing_language,Q7850,,https://www.wikidata.org/wiki/Q7850,3,3,Cao Xueqin | Wang Qi | Yuan Mei
+writing_language,Q9091,,https://www.wikidata.org/wiki/Q9091,3,3,Dominik Rudnicki | Franciszek Dionizy Kniaźnin | Q13033247
+citizenship,Q1034173,,https://www.wikidata.org/wiki/Q1034173,2,2,Q10800392 | Thì Nhậm Ngô
+citizenship,Q1134180,,https://www.wikidata.org/wiki/Q1134180,2,2,Francis Badgley | Jonathan Odell
+citizenship,Q12183875,,https://www.wikidata.org/wiki/Q12183875,2,2,Mohammed ibn Abdessalam ibn Nasir | Mohammed ibn al-Tayyib
+citizenship,Q12844379,,https://www.wikidata.org/wiki/Q12844379,2,2,Abdurrahman aga Shair | Mustafa aga Arif
+citizenship,Q146862,,https://www.wikidata.org/wiki/Q146862,2,2,Ali ibn Muhammad al-Ramadhan | Muhammad ibn Abdullah al-Ramadhan
+citizenship,Q156038,,https://www.wikidata.org/wiki/Q156038,2,2,Benigna Gottlieb von Trotha gt Treyden | Elisa von der Recke
+citizenship,Q172579,,https://www.wikidata.org/wiki/Q172579,2,2,Costanzo Angelini | Francesco de Filos
+citizenship,Q1796551,,https://www.wikidata.org/wiki/Q1796551,2,2,Anne Hart Gilbert | Elizabeth Hart Thwaites
+citizenship,Q195972,,https://www.wikidata.org/wiki/Q195972,2,2,Davit Gouramichvili | Sayat-Nova
+citizenship,Q210198,,https://www.wikidata.org/wiki/Q210198,2,2,Araratskiĭ Artemiĭ | Mirza Muslim Qudsi
+citizenship,Q211,,https://www.wikidata.org/wiki/Q211,2,2,K̦ikul̦a Jēkabs | Michael Roth
+citizenship,Q211435,,https://www.wikidata.org/wiki/Q211435,2,2,José Pastor Larrinaga | Pedro Antonio Echave y Rojas
+citizenship,Q219,,https://www.wikidata.org/wiki/Q219,2,2,Gregory Anushyan | Sophrone de Vratsa
+citizenship,Q223936,,https://www.wikidata.org/wiki/Q223936,2,2,Alberico Barbiano di Belgiojoso | Giovanni Battista Giovio
+citizenship,Q256961,,https://www.wikidata.org/wiki/Q256961,2,2,Benjamin Thompson | Marie Antoinette de Bavière
+citizenship,Q266923,,https://www.wikidata.org/wiki/Q266923,2,2,Sanchiya Honnamma | Tipû Sâhib
+citizenship,Q28025,,https://www.wikidata.org/wiki/Q28025,2,2,Kochinda Chōei | Yonabaru Ryōku
+citizenship,Q284667,,https://www.wikidata.org/wiki/Q284667,2,2,Christian Gotthilf Salzmann | Joseph Martin Kraus
+citizenship,Q29520,,https://www.wikidata.org/wiki/Q29520,2,2,Yun Jing | Zhangju Liang
+citizenship,Q3045696,,https://www.wikidata.org/wiki/Q3045696,2,2,Abdelaziz Ben El Hadj Ibrahim Al Thaminy | İbnü'l-Annabi
+citizenship,Q389004,,https://www.wikidata.org/wiki/Q389004,2,2,Alecu Văcărescu | Ienăchiță Văcărescu
+citizenship,Q4453628,,https://www.wikidata.org/wiki/Q4453628,2,2,Abdurrahman aga Shair | Q16365122
+citizenship,Q467627,,https://www.wikidata.org/wiki/Q467627,2,2,Ahmad Shâh | Sachal Sarmast
+citizenship,Q476033,,https://www.wikidata.org/wiki/Q476033,2,2,Hendrik Frieseman | Willem den Elger
+citizenship,Q556263,,https://www.wikidata.org/wiki/Q556263,2,2,Friederike von Riedesel | Johann Samuel Müller
+citizenship,Q655621,,https://www.wikidata.org/wiki/Q655621,2,2,István Almádi | Katalin Bethlen
+citizenship,Q693551,,https://www.wikidata.org/wiki/Q693551,2,2,Franz Ludwig Cancrin | Georg Christoph Lichtenberg
+citizenship,Q711,,https://www.wikidata.org/wiki/Q711,2,2,Changkya Rölpé Dorjé | Sumpa-khenpo Yeshé-Paljor
+citizenship,Q739,,https://www.wikidata.org/wiki/Q739,2,2,Juan Manuel García Tejada | Manuel del Socorro Rodríguez
+citizenship,Q774,,https://www.wikidata.org/wiki/Q774,2,2,Matías de Córdova | Rafael Landívar
+citizenship,Q836680,,https://www.wikidata.org/wiki/Q836680,2,2,Georg Kaspar Chelius | Hans Christoph Ernst von Gagern
+citizenship,Q841364,,https://www.wikidata.org/wiki/Q841364,2,2,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Thammathibet"
+citizenship,Q889,,https://www.wikidata.org/wiki/Q889,2,2,Baba G Rehmat Ullah | Hafiz Alpuri
+native_language,Q29507,,https://www.wikidata.org/wiki/Q29507,2,2,Gaspar Melchor de Jovellanos | Xosefa Xovellanos
+native_language,Q9217,,https://www.wikidata.org/wiki/Q9217,2,2,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Thammathibet"
+native_language,Q9309,,https://www.wikidata.org/wiki/Q9309,2,2,John Jones | Twm o'r Nant
+spoken_written_language,Q1248221,Neo-Latin,https://www.wikidata.org/wiki/Q1248221,2,2,Antoine Gaubil | Gaspard de Gregory
+spoken_written_language,Q13196,,https://www.wikidata.org/wiki/Q13196,2,2,Bankidas Asiya | Dariyavji
+spoken_written_language,Q13211,,https://www.wikidata.org/wiki/Q13211,2,2,Juozapas Kazimieras Kosakovskis | Regina Salomea Pilsztyn
+spoken_written_language,Q13263,,https://www.wikidata.org/wiki/Q13263,2,2,Abdurahim Nizoriy | Shah Mahmud Churas
+spoken_written_language,Q13389,,https://www.wikidata.org/wiki/Q13389,2,2,Aiźar Baiyq | Salavat Ioulaïev
+spoken_written_language,Q1450506,,https://www.wikidata.org/wiki/Q1450506,2,2,Joseph Browne | Marie-Christine de Rouvroy
+spoken_written_language,Q15085,,https://www.wikidata.org/wiki/Q15085,2,2,Edoardo Ignazio Calvo | Ignazio Isler
+spoken_written_language,Q2093002,,https://www.wikidata.org/wiki/Q2093002,2,2,Tāj ad-Dīn Yālchïghul ōghlī | Utız İmäni
+spoken_written_language,Q25442,,https://www.wikidata.org/wiki/Q25442,2,2,Martin Golian | Michael Johann Walde
+spoken_written_language,Q28602,Aramaic,https://www.wikidata.org/wiki/Q28602,2,2,Josef Dobrovský | Junius Frey
+spoken_written_language,Q33251,,https://www.wikidata.org/wiki/Q33251,2,2,Hristofor Jefarovitch | Kiril Peïtchinovitch
+spoken_written_language,Q33673,,https://www.wikidata.org/wiki/Q33673,2,2,Sanchiya Honnamma | Tipû Sâhib
+spoken_written_language,Q33690,,https://www.wikidata.org/wiki/Q33690,2,2,Christoph Cölestin Mrongovius | Jerzy Olech
+spoken_written_language,Q33902,,https://www.wikidata.org/wiki/Q33902,2,2,Lutf Ali | Sachal Sarmast
+spoken_written_language,Q33976,,https://www.wikidata.org/wiki/Q33976,2,2,Luca Cubeddu | Raimondo Congiu
+spoken_written_language,Q34147,,https://www.wikidata.org/wiki/Q34147,2,2,Antoon Jacob Wyllie | Petrus Vander Borcht
+spoken_written_language,Q35499,,https://www.wikidata.org/wiki/Q35499,2,2,Aleksije Vezilić | Q109485400
+spoken_written_language,Q36236,,https://www.wikidata.org/wiki/Q36236,2,2,Kunchan Nambiar | Tipû Sâhib
+spoken_written_language,Q56393,,https://www.wikidata.org/wiki/Q56393,2,2,Kochinda Chōei | Yonabaru Ryōku
+spoken_written_language,Q7979,,https://www.wikidata.org/wiki/Q7979,2,2,Adam Walker | George Anne Bellamy
+spoken_written_language,Q8748,,https://www.wikidata.org/wiki/Q8748,2,2,Jul Variboba | Nezim Frakulla
+spoken_written_language,Q9091,,https://www.wikidata.org/wiki/Q9091,2,2,Dominik Rudnicki | Franciszek Dionizy Kniaźnin
+spoken_written_language,Q9252,,https://www.wikidata.org/wiki/Q9252,2,2,Bukhar-zhirau Kalmakanov | Q7274360
+spoken_written_language,Q9260,,https://www.wikidata.org/wiki/Q9260,2,2,Q4286280 | Vola
+writing_language,Q11059,Sanskrit,https://www.wikidata.org/wiki/Q11059,2,2,Jagannath Tarka Panchanan | Jaygopal Tarkalankar
+writing_language,Q13196,,https://www.wikidata.org/wiki/Q13196,2,2,Bankidas Asiya | Dariyavji
+writing_language,Q13286,,https://www.wikidata.org/wiki/Q13286,2,2,Jan Bjedrich Fryco | Q29954639
+writing_language,Q14549,,https://www.wikidata.org/wiki/Q14549,2,2,James Hogg | Robert Burns
+writing_language,Q1571,,https://www.wikidata.org/wiki/Q1571,2,2,Honaji Bala | Moropant
+writing_language,Q18130932,,https://www.wikidata.org/wiki/Q18130932,2,2,Cheng Weiyuan | E Gao
+writing_language,Q294,,https://www.wikidata.org/wiki/Q294,2,2,Eggert Olafsen | Árni Böðvarsson
+writing_language,Q33973,,https://www.wikidata.org/wiki/Q33973,2,2,Antonino Diliberto | Ignazio Scimonelli
+writing_language,Q33997,,https://www.wikidata.org/wiki/Q33997,2,2,Sachal Sarmast | Shah Abdul Latif Bhittai
+writing_language,Q5885,,https://www.wikidata.org/wiki/Q5885,2,2,Abirami Pattar | Costanzo Beschi
+writing_language,Q8108,,https://www.wikidata.org/wiki/Q8108,2,2,Davit Gouramichvili | Ioane Batonichvili
+writing_language,Q8798,,https://www.wikidata.org/wiki/Q8798,2,2,Hryhoriy Skovoroda | Ivan Kotliarevsky
+writing_language,Q9043,,https://www.wikidata.org/wiki/Q9043,2,2,Christian Braunmann Tullin | Johan Nordahl Brun
+writing_language,Q9078,,https://www.wikidata.org/wiki/Q9078,2,2,Agatha Lovisa de la Myle | Gothards Fridrichs Stenders
+writing_language,Q9217,,https://www.wikidata.org/wiki/Q9217,2,2,"Anurak Devesh, Deputy Viceroy of Rattanakosin | Thammathibet"
+citizenship,Q100594799,,https://www.wikidata.org/wiki/Q100594799,1,1,Philipp Ludwig Bunsen
+citizenship,Q1041,,https://www.wikidata.org/wiki/Q1041,1,1,Omar ibn Saïd
+citizenship,Q1077630,,https://www.wikidata.org/wiki/Q1077630,1,1,Nikólaos Koutoúzis
+citizenship,Q11024667,,https://www.wikidata.org/wiki/Q11024667,1,1,Johann August von Starck
+citizenship,Q1115291,,https://www.wikidata.org/wiki/Q1115291,1,1,"Anurak Devesh, Deputy Viceroy of Rattanakosin"
+citizenship,Q1142,,https://www.wikidata.org/wiki/Q1142,1,1,Frédérique Brion
+citizenship,Q1155700,,https://www.wikidata.org/wiki/Q1155700,1,1,"Anurak Devesh, Deputy Viceroy of Rattanakosin"
+citizenship,Q117,,https://www.wikidata.org/wiki/Q117,1,1,Belinda Royall
+citizenship,Q117020,,https://www.wikidata.org/wiki/Q117020,1,1,Michael Truckenbrot
+citizenship,Q11750128,,https://www.wikidata.org/wiki/Q11750128,1,1,Adam Czartoryski
+citizenship,Q1188459,,https://www.wikidata.org/wiki/Q1188459,1,1,Shah Mahmud Churas
+citizenship,Q12375230,,https://www.wikidata.org/wiki/Q12375230,1,1,Simo Achrenius
+citizenship,Q1240096,,https://www.wikidata.org/wiki/Q1240096,1,1,Mah Laqa Bai
+citizenship,Q12491039,,https://www.wikidata.org/wiki/Q12491039,1,1,Elizabeth Carter
+citizenship,Q1408764,,https://www.wikidata.org/wiki/Q1408764,1,1,Jebağı Kezenoko
+citizenship,Q14551680,,https://www.wikidata.org/wiki/Q14551680,1,1,Christian Wilhelm von Dohm
+citizenship,Q15128058,,https://www.wikidata.org/wiki/Q15128058,1,1,Charles Auguste Guillaume de Weissenbruch
+citizenship,Q151624,,https://www.wikidata.org/wiki/Q151624,1,1,Theodor von Hallberg-Broich
+citizenship,Q157367,,https://www.wikidata.org/wiki/Q157367,1,1,Johann Christoph Gottsched
+citizenship,Q157710,,https://www.wikidata.org/wiki/Q157710,1,1,Heinrich Cotta
+citizenship,Q158151,,https://www.wikidata.org/wiki/Q158151,1,1,Friedrich Hildebrand von Einsiedel
+citizenship,Q159856,,https://www.wikidata.org/wiki/Q159856,1,1,Constantin Suysken
+citizenship,Q160440,,https://www.wikidata.org/wiki/Q160440,1,1,Q4413122
+citizenship,Q16069,,https://www.wikidata.org/wiki/Q16069,1,1,Christoph Martin Wieland
+citizenship,Q1634940,,https://www.wikidata.org/wiki/Q1634940,1,1,Mahammadqulu Salik Ordubadi
+citizenship,Q165040,,https://www.wikidata.org/wiki/Q165040,1,1,Annibale Scotti
+citizenship,Q170390,,https://www.wikidata.org/wiki/Q170390,1,1,Karl Ludwig von Woltmann
+citizenship,Q1740542,,https://www.wikidata.org/wiki/Q1740542,1,1,Ihrek Rezheb
+citizenship,Q1794,,https://www.wikidata.org/wiki/Q1794,1,1,Johann Georg Schlosser
+citizenship,Q17993985,,https://www.wikidata.org/wiki/Q17993985,1,1,Fath Ali Chah Qadjar
+citizenship,Q18097,,https://www.wikidata.org/wiki/Q18097,1,1,Im Yunjidang
+citizenship,Q18129046,,https://www.wikidata.org/wiki/Q18129046,1,1,Q59237992
+citizenship,Q1827039,,https://www.wikidata.org/wiki/Q1827039,1,1,Mạc Thiên Tứ
+citizenship,Q185072,,https://www.wikidata.org/wiki/Q185072,1,1,Georg Siegmund von Bilterling
+citizenship,Q189326,,https://www.wikidata.org/wiki/Q189326,1,1,Magtymguly Pyragy
+citizenship,Q19569014,,https://www.wikidata.org/wiki/Q19569014,1,1,Sachal Sarmast
+citizenship,Q20018403,,https://www.wikidata.org/wiki/Q20018403,1,1,Q12228476
+citizenship,Q200464,,https://www.wikidata.org/wiki/Q200464,1,1,Tenreiro Aranha
+citizenship,Q209065,,https://www.wikidata.org/wiki/Q209065,1,1,Zóis Pánou
+citizenship,Q210551,,https://www.wikidata.org/wiki/Q210551,1,1,José Manuel Pérez Castellano
+citizenship,Q213353,,https://www.wikidata.org/wiki/Q213353,1,1,Alberico Barbiano di Belgiojoso
+citizenship,Q217196,,https://www.wikidata.org/wiki/Q217196,1,1,Manuel de Jaén
+citizenship,Q228,,https://www.wikidata.org/wiki/Q228,1,1,Antoni Fiter i Rossell
+citizenship,Q2325193,,https://www.wikidata.org/wiki/Q2325193,1,1,Carlo Marin
+citizenship,Q249428,,https://www.wikidata.org/wiki/Q249428,1,1,Arnold Andreas Friedrich Mallinckrodt
+citizenship,Q2614104,,https://www.wikidata.org/wiki/Q2614104,1,1,Johann Gotthard Reinhold
+citizenship,Q2617267,,https://www.wikidata.org/wiki/Q2617267,1,1,Abu-'l-Barakāt ʿAbdallāh Ibn-Ḥusain as- Suwaidī
+citizenship,Q262,,https://www.wikidata.org/wiki/Q262,1,1,El-Habib Benguennoun
+citizenship,Q2670751,,https://www.wikidata.org/wiki/Q2670751,1,1,Josef Dobrovský
+citizenship,Q278874,,https://www.wikidata.org/wiki/Q278874,1,1,François Jean George von Waldersee
+citizenship,Q281005,,https://www.wikidata.org/wiki/Q281005,1,1,Johann Christian Rosenmüller
+citizenship,Q2843,,https://www.wikidata.org/wiki/Q2843,1,1,Johann Erich Biester
+citizenship,Q3113481,,https://www.wikidata.org/wiki/Q3113481,1,1,Ignaz von Born
+citizenship,Q32,,https://www.wikidata.org/wiki/Q32,1,1,Guillermo Dupaix
+citizenship,Q3324486,,https://www.wikidata.org/wiki/Q3324486,1,1,Petar I Petrović-Njegoš
+citizenship,Q3339389,,https://www.wikidata.org/wiki/Q3339389,1,1,Tenreiro Aranha
+citizenship,Q3382803,,https://www.wikidata.org/wiki/Q3382803,1,1,Nehorai Garmon
+citizenship,Q4073209,,https://www.wikidata.org/wiki/Q4073209,1,1,Mirza Ali Al-Akhti
+citizenship,Q41470,,https://www.wikidata.org/wiki/Q41470,1,1,Muhammad ibn Sulayman al-Kurdi
+citizenship,Q4208754,,https://www.wikidata.org/wiki/Q4208754,1,1,Q112994350
+citizenship,Q42406,,https://www.wikidata.org/wiki/Q42406,1,1,Stephen Cullen Carpenter
+citizenship,Q43266,,https://www.wikidata.org/wiki/Q43266,1,1,Leopold Berchtold
+citizenship,Q463289,,https://www.wikidata.org/wiki/Q463289,1,1,Alberico Barbiano di Belgiojoso
+citizenship,Q48779892,,https://www.wikidata.org/wiki/Q48779892,1,1,Marciano Di Leo
+citizenship,Q501303,,https://www.wikidata.org/wiki/Q501303,1,1,Józef Sołtykowicz
+citizenship,Q528042,,https://www.wikidata.org/wiki/Q528042,1,1,Ivan Hacking
+citizenship,Q546,,https://www.wikidata.org/wiki/Q546,1,1,Benedetto Frizzi
+citizenship,Q56376885,,https://www.wikidata.org/wiki/Q56376885,1,1,Muhammad ibn Abd al-Rahman al-Afaliqi
+citizenship,Q57695350,,https://www.wikidata.org/wiki/Q57695350,1,1,Katherine Wilmot
+citizenship,Q589662,Royal Prussia,https://www.wikidata.org/wiki/Q589662,1,1,Georg Forster
+citizenship,Q600524,,https://www.wikidata.org/wiki/Q600524,1,1,Ousmane dan Fodio
+citizenship,Q617,,https://www.wikidata.org/wiki/Q617,1,1,Benedetto Frizzi
+citizenship,Q622783,,https://www.wikidata.org/wiki/Q622783,1,1,Jean François Foppens
+citizenship,Q6247,,https://www.wikidata.org/wiki/Q6247,1,1,Benedetto Frizzi
+citizenship,Q630163,,https://www.wikidata.org/wiki/Q630163,1,1,Johann Christian Hellbach
+citizenship,Q63149558,,https://www.wikidata.org/wiki/Q63149558,1,1,Abu al-Qasim Qomi
+citizenship,Q641,,https://www.wikidata.org/wiki/Q641,1,1,Isabella Teotochi Albrizzi
+citizenship,Q664,,https://www.wikidata.org/wiki/Q664,1,1,Te Rauparaha
+citizenship,Q694269,,https://www.wikidata.org/wiki/Q694269,1,1,Isaak Sinclair
+citizenship,Q695316,,https://www.wikidata.org/wiki/Q695316,1,1,Charlotte von Lengefeld
+citizenship,Q699923,,https://www.wikidata.org/wiki/Q699923,1,1,Valentin Vodnik
+citizenship,Q700663,,https://www.wikidata.org/wiki/Q700663,1,1,Johann Nikolaus Forkel
+citizenship,Q701614,,https://www.wikidata.org/wiki/Q701614,1,1,Ignaz Anton Weiser
+citizenship,Q704300,,https://www.wikidata.org/wiki/Q704300,1,1,Friedrich Maximilian Klinger
+citizenship,Q706152,,https://www.wikidata.org/wiki/Q706152,1,1,Christian Friedrich Sintenis
+citizenship,Q723118,,https://www.wikidata.org/wiki/Q723118,1,1,Alberico Barbiano di Belgiojoso
+citizenship,Q7646305,,https://www.wikidata.org/wiki/Q7646305,1,1,David Nassy
+citizenship,Q769668,,https://www.wikidata.org/wiki/Q769668,1,1,Abigail Franks
+citizenship,Q7904317,,https://www.wikidata.org/wiki/Q7904317,1,1,Franz Wilhelm von Spiegel
+citizenship,Q796,,https://www.wikidata.org/wiki/Q796,1,1,Muḥammad Mahdī ibn Murtaḍá ibn Muḥammad Baḥr al-ʻUlūm
+citizenship,Q804,,https://www.wikidata.org/wiki/Q804,1,1,Víctor de la Guardia y Ayala
+citizenship,Q811,,https://www.wikidata.org/wiki/Q811,1,1,Miguel Larreynaga
+citizenship,Q817165,,https://www.wikidata.org/wiki/Q817165,1,1,Rahimunnessa
+citizenship,Q853968,,https://www.wikidata.org/wiki/Q853968,1,1,Mirza Mazhar Jan-e-Janaan
+citizenship,Q854,,https://www.wikidata.org/wiki/Q854,1,1,Gajaman Nona
+citizenship,Q85816686,,https://www.wikidata.org/wiki/Q85816686,1,1,Abdullah ibn Isa al-Kawkabani
+citizenship,Q874,,https://www.wikidata.org/wiki/Q874,1,1,Mämmetweli Kemine
+citizenship,Q878276,,https://www.wikidata.org/wiki/Q878276,1,1,Nguyễn Huy Quýnh
+citizenship,Q884763,,https://www.wikidata.org/wiki/Q884763,1,1,Johann Balthasar von Antesperg
+citizenship,Q8890160,,https://www.wikidata.org/wiki/Q8890160,1,1,Franciszek Bohusz
+citizenship,Q894030,,https://www.wikidata.org/wiki/Q894030,1,1,Ukawsaw Gronniosaw
+citizenship,Q902,,https://www.wikidata.org/wiki/Q902,1,1,Q16346941
+citizenship,Q912,,https://www.wikidata.org/wiki/Q912,1,1,Mukhtar al-Kunti
+citizenship,Q928,,https://www.wikidata.org/wiki/Q928,1,1,Luis Rodríguez-Varela
+native_language,Q129431,,https://www.wikidata.org/wiki/Q129431,1,1,Mihály Bakos
+native_language,Q13199,,https://www.wikidata.org/wiki/Q13199,1,1,Matthias Conradi
+native_language,Q14549,,https://www.wikidata.org/wiki/Q14549,1,1,Tobias Smollett
+native_language,Q1571,,https://www.wikidata.org/wiki/Q1571,1,1,Moropant
+native_language,Q1617,,https://www.wikidata.org/wiki/Q1617,1,1,Mah Laqa Bai
+native_language,Q294,,https://www.wikidata.org/wiki/Q294,1,1,Árni Böðvarsson
+native_language,Q33410,,https://www.wikidata.org/wiki/Q33410,1,1,Shah Muhammad Ramzan Mehami
+native_language,Q33578,Igbo,https://www.wikidata.org/wiki/Q33578,1,1,Olaudah Equiano
+native_language,Q33813,,https://www.wikidata.org/wiki/Q33813,1,1,Jacobus Scheltema
+native_language,Q34152,,https://www.wikidata.org/wiki/Q34152,1,1,Hemmou Talb
+native_language,Q36236,,https://www.wikidata.org/wiki/Q36236,1,1,Kunchan Nambiar
+native_language,Q9228,,https://www.wikidata.org/wiki/Q9228,1,1,Maung Myat San
+native_language,Q9303,,https://www.wikidata.org/wiki/Q9303,1,1,Fevzi Mostarac
+native_language,Q9314,,https://www.wikidata.org/wiki/Q9314,1,1,Hector Maclean
+spoken_written_language,Q10613434,,https://www.wikidata.org/wiki/Q10613434,1,1,Carl von Becker
+spoken_written_language,Q107358,,https://www.wikidata.org/wiki/Q107358,1,1,William Falconer
+spoken_written_language,Q10948482,,https://www.wikidata.org/wiki/Q10948482,1,1,Yang Tingli
+spoken_written_language,Q131339,,https://www.wikidata.org/wiki/Q131339,1,1,Johann Peter Hebel
+spoken_written_language,Q13238,,https://www.wikidata.org/wiki/Q13238,1,1,Q16720473
+spoken_written_language,Q13336,,https://www.wikidata.org/wiki/Q13336,1,1,Shah Mahmud Churas
+spoken_written_language,Q14196,,https://www.wikidata.org/wiki/Q14196,1,1,Meent Borcherds
+spoken_written_language,Q181074,,https://www.wikidata.org/wiki/Q181074,1,1,Paghtasar Dpir
+spoken_written_language,Q18130932,,https://www.wikidata.org/wiki/Q18130932,1,1,Hakuin Ekaku
+spoken_written_language,Q1828555,,https://www.wikidata.org/wiki/Q1828555,1,1,İbnü'l-Annabi
+spoken_written_language,Q201966,,https://www.wikidata.org/wiki/Q201966,1,1,Samuel Thomson
+spoken_written_language,Q23526,,https://www.wikidata.org/wiki/Q23526,1,1,Ivan Yuhasevych-Skliarsky
+spoken_written_language,Q2501174,,https://www.wikidata.org/wiki/Q2501174,1,1,Johann Michael Sailer
+spoken_written_language,Q25258,,https://www.wikidata.org/wiki/Q25258,1,1,Jens Christian Svabo
+spoken_written_language,Q25355,,https://www.wikidata.org/wiki/Q25355,1,1,Poul Hansen Egede
+spoken_written_language,Q260942,,https://www.wikidata.org/wiki/Q260942,1,1,Simon Gottlieb Brandsch
+spoken_written_language,Q2669891,,https://www.wikidata.org/wiki/Q2669891,1,1,Francesca Bicetti De'Buttinoni Imbonati
+spoken_written_language,Q29540,,https://www.wikidata.org/wiki/Q29540,1,1,Maurus Lindemayr
+spoken_written_language,Q29561,,https://www.wikidata.org/wiki/Q29561,1,1,Dibir-Kadi al-Khunzakhi
+spoken_written_language,Q31746,,https://www.wikidata.org/wiki/Q31746,1,1,Kochkhyur Said
+spoken_written_language,Q33049,,https://www.wikidata.org/wiki/Q33049,1,1,Sachal Sarmast
+spoken_written_language,Q33268,,https://www.wikidata.org/wiki/Q33268,1,1,Gourangiya Singh
+spoken_written_language,Q33357,,https://www.wikidata.org/wiki/Q33357,1,1,Q4413122
+spoken_written_language,Q33410,,https://www.wikidata.org/wiki/Q33410,1,1,Shah Muhammad Ramzan Mehami
+spoken_written_language,Q33454,,https://www.wikidata.org/wiki/Q33454,1,1,Ousmane dan Fodio
+spoken_written_language,Q33549,,https://www.wikidata.org/wiki/Q33549,1,1,Francisco Noroña
+spoken_written_language,Q33655,,https://www.wikidata.org/wiki/Q33655,1,1,Abd al-Rahman Tsatsa
+spoken_written_language,Q33813,,https://www.wikidata.org/wiki/Q33813,1,1,Jacobus Scheltema
+spoken_written_language,Q33845,,https://www.wikidata.org/wiki/Q33845,1,1,Giacomo Antonio Gualzetti
+spoken_written_language,Q33968,,https://www.wikidata.org/wiki/Q33968,1,1,Iwan Georgijewitsch Jalgusidse
+spoken_written_language,Q33973,,https://www.wikidata.org/wiki/Q33973,1,1,Antonino Diliberto
+spoken_written_language,Q34057,Tagalog,https://www.wikidata.org/wiki/Q34057,1,1,Joaquín Traggia
+spoken_written_language,Q34108,,https://www.wikidata.org/wiki/Q34108,1,1,Diego de Torres Villarroel
+spoken_written_language,Q34333,,https://www.wikidata.org/wiki/Q34333,1,1,Tenreiro Aranha
+spoken_written_language,Q35228,,https://www.wikidata.org/wiki/Q35228,1,1,Hryhoriy Skovoroda
+spoken_written_language,Q35243,,https://www.wikidata.org/wiki/Q35243,1,1,Kavikalanidhi Devarshi Shrikrishna Bhatt
+spoken_written_language,Q35357,,https://www.wikidata.org/wiki/Q35357,1,1,József Ficzkó
+spoken_written_language,Q3547774,,https://www.wikidata.org/wiki/Q3547774,1,1,Leonardo Brumati
+spoken_written_language,Q35876,,https://www.wikidata.org/wiki/Q35876,1,1,Nicolás Yapuguay
+spoken_written_language,Q36106,,https://www.wikidata.org/wiki/Q36106,1,1,Martino Piaggio
+spoken_written_language,Q36368,,https://www.wikidata.org/wiki/Q36368,1,1,Muhammad ibn Sulayman al-Kurdi
+spoken_written_language,Q36451,,https://www.wikidata.org/wiki/Q36451,1,1,Te Rauparaha
+spoken_written_language,Q36759,,https://www.wikidata.org/wiki/Q36759,1,1,"Anurak Devesh, Deputy Viceroy of Rattanakosin"
+spoken_written_language,Q36831,,https://www.wikidata.org/wiki/Q36831,1,1,Sayyodiy
+spoken_written_language,Q37053,,https://www.wikidata.org/wiki/Q37053,1,1,Agostino dal Pozzo
+spoken_written_language,Q37733,,https://www.wikidata.org/wiki/Q37733,1,1,Raphaël Berdugo
+spoken_written_language,Q387066,,https://www.wikidata.org/wiki/Q387066,1,1,Jost Bernhard Häfliger
+spoken_written_language,Q5218,,https://www.wikidata.org/wiki/Q5218,1,1,Bernardo Recio
+spoken_written_language,Q5326692,,https://www.wikidata.org/wiki/Q5326692,1,1,Kimuro Bōun
+spoken_written_language,Q547462,,https://www.wikidata.org/wiki/Q547462,1,1,Francesco Pertusati
+spoken_written_language,Q56612,Samaritan Aramaic,https://www.wikidata.org/wiki/Q56612,1,1,Antoine-Isaac Silvestre de Sacy
+spoken_written_language,Q56944,,https://www.wikidata.org/wiki/Q56944,1,1,Nicolás Yapuguay
+spoken_written_language,Q6446173,,https://www.wikidata.org/wiki/Q6446173,1,1,Gourangiya Singh
+spoken_written_language,Q6593714,,https://www.wikidata.org/wiki/Q6593714,1,1,David Friedrichsfeld
+spoken_written_language,Q7224853,,https://www.wikidata.org/wiki/Q7224853,1,1,Yang Tingli
+spoken_written_language,Q7930,,https://www.wikidata.org/wiki/Q7930,1,1,Francisco Noroña
+spoken_written_language,Q838165,,https://www.wikidata.org/wiki/Q838165,1,1,Mihalj Šilobod
+spoken_written_language,Q8821,,https://www.wikidata.org/wiki/Q8821,1,1,Petar I Petrović-Njegoš
+spoken_written_language,Q9186,,https://www.wikidata.org/wiki/Q9186,1,1,Anders Ljungstedt
+spoken_written_language,Q9246,,https://www.wikidata.org/wiki/Q9246,1,1,Changkya Rölpé Dorjé
+writing_language,Q13389,,https://www.wikidata.org/wiki/Q13389,1,1,Salavat Ioulaïev
+writing_language,Q1553250,,https://www.wikidata.org/wiki/Q1553250,1,1,Robert Burns
+writing_language,Q1568,,https://www.wikidata.org/wiki/Q1568,1,1,Lallu Lal
+writing_language,Q181074,,https://www.wikidata.org/wiki/Q181074,1,1,Paghtasar Dpir
+writing_language,Q2093002,,https://www.wikidata.org/wiki/Q2093002,1,1,Q13056112
+writing_language,Q31746,,https://www.wikidata.org/wiki/Q31746,1,1,Kochkhyur Said
+writing_language,Q33251,,https://www.wikidata.org/wiki/Q33251,1,1,Arsenij Kocak
+writing_language,Q33454,,https://www.wikidata.org/wiki/Q33454,1,1,Ousmane dan Fodio
+writing_language,Q33810,,https://www.wikidata.org/wiki/Q33810,1,1,Kabi Surya Brahma
+writing_language,Q33845,,https://www.wikidata.org/wiki/Q33845,1,1,Giacomo Antonio Gualzetti
+writing_language,Q33902,,https://www.wikidata.org/wiki/Q33902,1,1,Lutf Ali
+writing_language,Q34108,,https://www.wikidata.org/wiki/Q34108,1,1,Diego de Torres Villarroel
+writing_language,Q35497,Ancient Greek,https://www.wikidata.org/wiki/Q35497,1,1,Hryhoriy Skovoroda
+writing_language,Q36236,,https://www.wikidata.org/wiki/Q36236,1,1,Kunchan Nambiar
+writing_language,Q547462,,https://www.wikidata.org/wiki/Q547462,1,1,Francesco Pertusati
+writing_language,Q56475,,https://www.wikidata.org/wiki/Q56475,1,1,Ousmane dan Fodio
+writing_language,Q7918,,https://www.wikidata.org/wiki/Q7918,1,1,Païssii de Hilendar
+writing_language,Q7979,,https://www.wikidata.org/wiki/Q7979,1,1,Amabel Hume-Campbell
+writing_language,Q8748,,https://www.wikidata.org/wiki/Q8748,1,1,Zenel Bastari
+writing_language,Q9083,,https://www.wikidata.org/wiki/Q9083,1,1,Kristijonas Donelaitis
+writing_language,Q9199,,https://www.wikidata.org/wiki/Q9199,1,1,Hồ Xuân Hương
+writing_language,Q9252,,https://www.wikidata.org/wiki/Q9252,1,1,Bukhar-zhirau Kalmakanov
+writing_language,Q9267,,https://www.wikidata.org/wiki/Q9267,1,1,Magtymguly Pyragy
+writing_language,Q9314,,https://www.wikidata.org/wiki/Q9314,1,1,Lachlan Macpherson

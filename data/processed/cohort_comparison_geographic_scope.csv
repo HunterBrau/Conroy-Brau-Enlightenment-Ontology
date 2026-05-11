@@ -1,0 +1,37 @@
+cohort_id,metric,entity_count,denominator,pct,notes
+french_seed,total_entities,1638,1638,100.0,"Current pipeline cohort, one row per Wikidata entity."
+french_seed,country_of_citizenship_present,1589,1638,97.01,Entities with at least one Wikidata P27 value.
+french_seed,country_of_citizenship_missing,49,1638,2.99,Entities without a Wikidata P27 value in the enrichment export.
+french_seed,citizenship_china_or_chinese_state,0,1638,0.0,Exact P27 token match against reviewed China/Qing-related IDs.
+french_seed,citizenship_british_empire_or_colonial_state,2,1638,0.12,Exact P27 token match against reviewed British imperial or colonial IDs.
+french_seed,place_context_china_or_chinese_state_any_role,1,1638,0.06,Any birth/death/residence/work-location row with reviewed China/Qing context.
+french_seed,place_context_british_empire_or_colonial_state_any_role,9,1638,0.55,Any birth/death/residence/work-location row with reviewed British imperial or colonial context.
+french_seed,birth_scope_europe,1595,1638,97.37,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_non_europe_or_colonial,17,1638,1.04,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_mixed_europe_non_europe_or_colonial,7,1638,0.43,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_transcontinental_or_imperial_context,19,1638,1.16,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_unmapped_birth_scope,0,1638,0.0,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_no_birth_place_context,0,1638,0.0,Primary geographic scope classification from birth-place context.
+french_seed,birth_scope_non_europe_or_colonial_inclusive,24,1638,1.47,Includes mixed Europe/non-Europe or colonial birth-place contexts.
+french_seed,birth_scope_europe_binary_rollup,1595,1638,97.37,"Strict European birth-place context, excluding mixed, colonial, transcontinental, and unmapped."
+french_seed,birth_scope_binary_classified_total,1619,1638,98.84,Entities classified into the strict Europe vs non-Europe/colonial rollup.
+french_seed,birth_scope_europe_share_of_binary_classified,1595,1619,98.52,Share among entities with binary-classified birth-place context.
+french_seed,birth_scope_non_europe_or_colonial_share_of_binary_classified,24,1619,1.48,Share among entities with binary-classified birth-place context.
+global_writers,total_entities,14377,14377,100.0,"Current pipeline cohort, one row per Wikidata entity."
+global_writers,country_of_citizenship_present,9075,14377,63.12,Entities with at least one Wikidata P27 value.
+global_writers,country_of_citizenship_missing,5302,14377,36.88,Entities without a Wikidata P27 value in the enrichment export.
+global_writers,citizenship_china_or_chinese_state,404,14377,2.81,Exact P27 token match against reviewed China/Qing-related IDs.
+global_writers,citizenship_british_empire_or_colonial_state,14,14377,0.1,Exact P27 token match against reviewed British imperial or colonial IDs.
+global_writers,place_context_china_or_chinese_state_any_role,104,14377,0.72,Any birth/death/residence/work-location row with reviewed China/Qing context.
+global_writers,place_context_british_empire_or_colonial_state_any_role,189,14377,1.31,Any birth/death/residence/work-location row with reviewed British imperial or colonial context.
+global_writers,birth_scope_europe,8442,14377,58.72,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_non_europe_or_colonial,308,14377,2.14,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_mixed_europe_non_europe_or_colonial,214,14377,1.49,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_transcontinental_or_imperial_context,435,14377,3.03,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_unmapped_birth_scope,399,14377,2.78,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_no_birth_place_context,4579,14377,31.85,Primary geographic scope classification from birth-place context.
+global_writers,birth_scope_non_europe_or_colonial_inclusive,522,14377,3.63,Includes mixed Europe/non-Europe or colonial birth-place contexts.
+global_writers,birth_scope_europe_binary_rollup,8442,14377,58.72,"Strict European birth-place context, excluding mixed, colonial, transcontinental, and unmapped."
+global_writers,birth_scope_binary_classified_total,8964,14377,62.35,Entities classified into the strict Europe vs non-Europe/colonial rollup.
+global_writers,birth_scope_europe_share_of_binary_classified,8442,8964,94.18,Share among entities with binary-classified birth-place context.
+global_writers,birth_scope_non_europe_or_colonial_share_of_binary_classified,522,8964,5.82,Share among entities with binary-classified birth-place context.

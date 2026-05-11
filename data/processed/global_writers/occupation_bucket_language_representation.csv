@@ -1,0 +1,241 @@
+language_edition,granular_bucket,bucket_family,represented_entities,bucket_entities,language_represented_entities,cohort_total_entities,bucket_entity_share_pct,language_bucket_share_pct,representation_rate_pct
+dawiki,Writing / Literature,Literary and textual production,564,14083,568,14377,97.96,99.3,4.0
+dawiki,Education / Scholarship / Humanities,Intellectual systems,208,2476,568,14377,17.22,36.62,8.4
+dawiki,Politics / Statecraft / Diplomacy,Institutional power,126,1040,568,14377,7.23,22.18,12.12
+dawiki,Philosophy,Intellectual systems,110,450,568,14377,3.13,19.37,24.44
+dawiki,Religion / Theology,Intellectual systems,109,2439,568,14377,16.96,19.19,4.47
+dawiki,Translation / Philology / Languages,Literary and textual production,103,1355,568,14377,9.42,18.13,7.6
+dawiki,Law / Administration,Institutional power,79,1094,568,14377,7.61,13.91,7.22
+dawiki,Science / Natural History,Scientific knowledge,78,562,568,14377,3.91,13.73,13.88
+dawiki,Print / Publishing / Journalism,Literary and textual production,63,791,568,14377,5.5,11.09,7.96
+dawiki,Music / Performance / Theatre,Arts and performance,49,665,568,14377,4.63,8.63,7.37
+dawiki,Economics / Commerce,Institutional power,45,332,568,14377,2.31,7.92,13.55
+dawiki,Visual Arts / Architecture / Design,Arts and performance,41,529,568,14377,3.68,7.22,7.75
+dawiki,Unmapped / Review,Needs review,38,469,568,14377,3.26,6.69,8.1
+dawiki,Sociability / Patronage / Court,Social and cultural mediation,29,262,568,14377,1.82,5.11,11.07
+dawiki,Travel / Geography / Exploration,Mobility and empire,26,231,568,14377,1.61,4.58,11.26
+dawiki,Military,Institutional power,23,411,568,14377,2.86,4.05,5.6
+dawiki,Medicine / Health,Scientific knowledge,21,417,568,14377,2.9,3.7,5.04
+dawiki,Engineering / Technology,Scientific knowledge,18,86,568,14377,0.6,3.17,20.93
+dawiki,Craft / Trade / Industry,Material production,13,157,568,14377,1.09,2.29,8.28
+dawiki,Social Reform / Activism,Social and cultural mediation,8,71,568,14377,0.49,1.41,11.27
+dewiki,Writing / Literature,Literary and textual production,3901,14083,3980,14377,97.96,98.02,27.7
+dewiki,Education / Scholarship / Humanities,Intellectual systems,1225,2476,3980,14377,17.22,30.78,49.47
+dewiki,Religion / Theology,Intellectual systems,752,2439,3980,14377,16.96,18.89,30.83
+dewiki,Translation / Philology / Languages,Literary and textual production,567,1355,3980,14377,9.42,14.25,41.85
+dewiki,Politics / Statecraft / Diplomacy,Institutional power,502,1040,3980,14377,7.23,12.61,48.27
+dewiki,Law / Administration,Institutional power,367,1094,3980,14377,7.61,9.22,33.55
+dewiki,Science / Natural History,Scientific knowledge,331,562,3980,14377,3.91,8.32,58.9
+dewiki,Print / Publishing / Journalism,Literary and textual production,307,791,3980,14377,5.5,7.71,38.81
+dewiki,Philosophy,Intellectual systems,305,450,3980,14377,3.13,7.66,67.78
+dewiki,Music / Performance / Theatre,Arts and performance,290,665,3980,14377,4.63,7.29,43.61
+dewiki,Visual Arts / Architecture / Design,Arts and performance,198,529,3980,14377,3.68,4.97,37.43
+dewiki,Military,Institutional power,165,411,3980,14377,2.86,4.15,40.15
+dewiki,Unmapped / Review,Needs review,164,469,3980,14377,3.26,4.12,34.97
+dewiki,Medicine / Health,Scientific knowledge,146,417,3980,14377,2.9,3.67,35.01
+dewiki,Sociability / Patronage / Court,Social and cultural mediation,133,262,3980,14377,1.82,3.34,50.76
+dewiki,Economics / Commerce,Institutional power,130,332,3980,14377,2.31,3.27,39.16
+dewiki,Travel / Geography / Exploration,Mobility and empire,111,231,3980,14377,1.61,2.79,48.05
+dewiki,Engineering / Technology,Scientific knowledge,57,86,3980,14377,0.6,1.43,66.28
+dewiki,Craft / Trade / Industry,Material production,47,157,3980,14377,1.09,1.18,29.94
+dewiki,Social Reform / Activism,Social and cultural mediation,39,71,3980,14377,0.49,0.98,54.93
+enwiki,Writing / Literature,Literary and textual production,5229,14083,5305,14377,97.96,98.57,37.13
+enwiki,Education / Scholarship / Humanities,Intellectual systems,1048,2476,5305,14377,17.22,19.75,42.33
+enwiki,Religion / Theology,Intellectual systems,670,2439,5305,14377,16.96,12.63,27.47
+enwiki,Translation / Philology / Languages,Literary and textual production,660,1355,5305,14377,9.42,12.44,48.71
+enwiki,Politics / Statecraft / Diplomacy,Institutional power,641,1040,5305,14377,7.23,12.08,61.63
+enwiki,Print / Publishing / Journalism,Literary and textual production,408,791,5305,14377,5.5,7.69,51.58
+enwiki,Law / Administration,Institutional power,358,1094,5305,14377,7.61,6.75,32.72
+enwiki,Science / Natural History,Scientific knowledge,357,562,5305,14377,3.91,6.73,63.52
+enwiki,Music / Performance / Theatre,Arts and performance,349,665,5305,14377,4.63,6.58,52.48
+enwiki,Philosophy,Intellectual systems,326,450,5305,14377,3.13,6.15,72.44
+enwiki,Visual Arts / Architecture / Design,Arts and performance,296,529,5305,14377,3.68,5.58,55.95
+enwiki,Unmapped / Review,Needs review,203,469,5305,14377,3.26,3.83,43.28
+enwiki,Medicine / Health,Scientific knowledge,186,417,5305,14377,2.9,3.51,44.6
+enwiki,Military,Institutional power,182,411,5305,14377,2.86,3.43,44.28
+enwiki,Sociability / Patronage / Court,Social and cultural mediation,177,262,5305,14377,1.82,3.34,67.56
+enwiki,Economics / Commerce,Institutional power,173,332,5305,14377,2.31,3.26,52.11
+enwiki,Travel / Geography / Exploration,Mobility and empire,148,231,5305,14377,1.61,2.79,64.07
+enwiki,Craft / Trade / Industry,Material production,66,157,5305,14377,1.09,1.24,42.04
+enwiki,Social Reform / Activism,Social and cultural mediation,63,71,5305,14377,0.49,1.19,88.73
+enwiki,Engineering / Technology,Scientific knowledge,58,86,5305,14377,0.6,1.09,67.44
+eswiki,Writing / Literature,Literary and textual production,1827,14083,1835,14377,97.96,99.56,12.97
+eswiki,Education / Scholarship / Humanities,Intellectual systems,533,2476,1835,14377,17.22,29.05,21.53
+eswiki,Politics / Statecraft / Diplomacy,Institutional power,332,1040,1835,14377,7.23,18.09,31.92
+eswiki,Translation / Philology / Languages,Literary and textual production,313,1355,1835,14377,9.42,17.06,23.1
+eswiki,Religion / Theology,Intellectual systems,252,2439,1835,14377,16.96,13.73,10.33
+eswiki,Philosophy,Intellectual systems,238,450,1835,14377,3.13,12.97,52.89
+eswiki,Science / Natural History,Scientific knowledge,235,562,1835,14377,3.91,12.81,41.81
+eswiki,Print / Publishing / Journalism,Literary and textual production,187,791,1835,14377,5.5,10.19,23.64
+eswiki,Law / Administration,Institutional power,142,1094,1835,14377,7.61,7.74,12.98
+eswiki,Visual Arts / Architecture / Design,Arts and performance,140,529,1835,14377,3.68,7.63,26.47
+eswiki,Music / Performance / Theatre,Arts and performance,135,665,1835,14377,4.63,7.36,20.3
+eswiki,Sociability / Patronage / Court,Social and cultural mediation,117,262,1835,14377,1.82,6.38,44.66
+eswiki,Unmapped / Review,Needs review,114,469,1835,14377,3.26,6.21,24.31
+eswiki,Military,Institutional power,106,411,1835,14377,2.86,5.78,25.79
+eswiki,Economics / Commerce,Institutional power,88,332,1835,14377,2.31,4.8,26.51
+eswiki,Medicine / Health,Scientific knowledge,87,417,1835,14377,2.9,4.74,20.86
+eswiki,Travel / Geography / Exploration,Mobility and empire,77,231,1835,14377,1.61,4.2,33.33
+eswiki,Engineering / Technology,Scientific knowledge,44,86,1835,14377,0.6,2.4,51.16
+eswiki,Social Reform / Activism,Social and cultural mediation,36,71,1835,14377,0.49,1.96,50.7
+eswiki,Craft / Trade / Industry,Material production,23,157,1835,14377,1.09,1.25,14.65
+frwiki,Writing / Literature,Literary and textual production,3460,14083,3481,14377,97.96,99.4,24.57
+frwiki,Education / Scholarship / Humanities,Intellectual systems,920,2476,3481,14377,17.22,26.43,37.16
+frwiki,Politics / Statecraft / Diplomacy,Institutional power,566,1040,3481,14377,7.23,16.26,54.42
+frwiki,Translation / Philology / Languages,Literary and textual production,544,1355,3481,14377,9.42,15.63,40.15
+frwiki,Religion / Theology,Intellectual systems,400,2439,3481,14377,16.96,11.49,16.4
+frwiki,Print / Publishing / Journalism,Literary and textual production,352,791,3481,14377,5.5,10.11,44.5
+frwiki,Law / Administration,Institutional power,315,1094,3481,14377,7.61,9.05,28.79
+frwiki,Philosophy,Intellectual systems,300,450,3481,14377,3.13,8.62,66.67
+frwiki,Science / Natural History,Scientific knowledge,297,562,3481,14377,3.91,8.53,52.85
+frwiki,Music / Performance / Theatre,Arts and performance,284,665,3481,14377,4.63,8.16,42.71
+frwiki,Visual Arts / Architecture / Design,Arts and performance,236,529,3481,14377,3.68,6.78,44.61
+frwiki,Military,Institutional power,169,411,3481,14377,2.86,4.85,41.12
+frwiki,Unmapped / Review,Needs review,155,469,3481,14377,3.26,4.45,33.05
+frwiki,Sociability / Patronage / Court,Social and cultural mediation,144,262,3481,14377,1.82,4.14,54.96
+frwiki,Economics / Commerce,Institutional power,143,332,3481,14377,2.31,4.11,43.07
+frwiki,Travel / Geography / Exploration,Mobility and empire,124,231,3481,14377,1.61,3.56,53.68
+frwiki,Medicine / Health,Scientific knowledge,119,417,3481,14377,2.9,3.42,28.54
+frwiki,Engineering / Technology,Scientific knowledge,50,86,3481,14377,0.6,1.44,58.14
+frwiki,Social Reform / Activism,Social and cultural mediation,43,71,3481,14377,0.49,1.24,60.56
+frwiki,Craft / Trade / Industry,Material production,37,157,3481,14377,1.09,1.06,23.57
+itwiki,Writing / Literature,Literary and textual production,2034,14083,2049,14377,97.96,99.27,14.44
+itwiki,Education / Scholarship / Humanities,Intellectual systems,604,2476,2049,14377,17.22,29.48,24.39
+itwiki,Politics / Statecraft / Diplomacy,Institutional power,362,1040,2049,14377,7.23,17.67,34.81
+itwiki,Translation / Philology / Languages,Literary and textual production,342,1355,2049,14377,9.42,16.69,25.24
+itwiki,Religion / Theology,Intellectual systems,264,2439,2049,14377,16.96,12.88,10.82
+itwiki,Philosophy,Intellectual systems,246,450,2049,14377,3.13,12.01,54.67
+itwiki,Science / Natural History,Scientific knowledge,209,562,2049,14377,3.91,10.2,37.19
+itwiki,Music / Performance / Theatre,Arts and performance,198,665,2049,14377,4.63,9.66,29.77
+itwiki,Print / Publishing / Journalism,Literary and textual production,195,791,2049,14377,5.5,9.52,24.65
+itwiki,Law / Administration,Institutional power,160,1094,2049,14377,7.61,7.81,14.63
+itwiki,Visual Arts / Architecture / Design,Arts and performance,142,529,2049,14377,3.68,6.93,26.84
+itwiki,Sociability / Patronage / Court,Social and cultural mediation,115,262,2049,14377,1.82,5.61,43.89
+itwiki,Unmapped / Review,Needs review,104,469,2049,14377,3.26,5.08,22.17
+itwiki,Military,Institutional power,100,411,2049,14377,2.86,4.88,24.33
+itwiki,Economics / Commerce,Institutional power,87,332,2049,14377,2.31,4.25,26.2
+itwiki,Medicine / Health,Scientific knowledge,84,417,2049,14377,2.9,4.1,20.14
+itwiki,Travel / Geography / Exploration,Mobility and empire,73,231,2049,14377,1.61,3.56,31.6
+itwiki,Engineering / Technology,Scientific knowledge,35,86,2049,14377,0.6,1.71,40.7
+itwiki,Social Reform / Activism,Social and cultural mediation,33,71,2049,14377,0.49,1.61,46.48
+itwiki,Craft / Trade / Industry,Material production,26,157,2049,14377,1.09,1.27,16.56
+nlwiki,Writing / Literature,Literary and textual production,921,14083,931,14377,97.96,98.93,6.54
+nlwiki,Education / Scholarship / Humanities,Intellectual systems,272,2476,931,14377,17.22,29.22,10.99
+nlwiki,Politics / Statecraft / Diplomacy,Institutional power,220,1040,931,14377,7.23,23.63,21.15
+nlwiki,Translation / Philology / Languages,Literary and textual production,150,1355,931,14377,9.42,16.11,11.07
+nlwiki,Philosophy,Intellectual systems,143,450,931,14377,3.13,15.36,31.78
+nlwiki,Science / Natural History,Scientific knowledge,124,562,931,14377,3.91,13.32,22.06
+nlwiki,Religion / Theology,Intellectual systems,122,2439,931,14377,16.96,13.1,5.0
+nlwiki,Law / Administration,Institutional power,97,1094,931,14377,7.61,10.42,8.87
+nlwiki,Visual Arts / Architecture / Design,Arts and performance,97,529,931,14377,3.68,10.42,18.34
+nlwiki,Print / Publishing / Journalism,Literary and textual production,89,791,931,14377,5.5,9.56,11.25
+nlwiki,Music / Performance / Theatre,Arts and performance,84,665,931,14377,4.63,9.02,12.63
+nlwiki,Unmapped / Review,Needs review,76,469,931,14377,3.26,8.16,16.2
+nlwiki,Sociability / Patronage / Court,Social and cultural mediation,69,262,931,14377,1.82,7.41,26.34
+nlwiki,Economics / Commerce,Institutional power,61,332,931,14377,2.31,6.55,18.37
+nlwiki,Medicine / Health,Scientific knowledge,46,417,931,14377,2.9,4.94,11.03
+nlwiki,Military,Institutional power,45,411,931,14377,2.86,4.83,10.95
+nlwiki,Travel / Geography / Exploration,Mobility and empire,42,231,931,14377,1.61,4.51,18.18
+nlwiki,Engineering / Technology,Scientific knowledge,30,86,931,14377,0.6,3.22,34.88
+nlwiki,Social Reform / Activism,Social and cultural mediation,24,71,931,14377,0.49,2.58,33.8
+nlwiki,Craft / Trade / Industry,Material production,12,157,931,14377,1.09,1.29,7.64
+plwiki,Writing / Literature,Literary and textual production,1202,14083,1207,14377,97.96,99.59,8.54
+plwiki,Education / Scholarship / Humanities,Intellectual systems,390,2476,1207,14377,17.22,32.31,15.75
+plwiki,Politics / Statecraft / Diplomacy,Institutional power,307,1040,1207,14377,7.23,25.43,29.52
+plwiki,Translation / Philology / Languages,Literary and textual production,246,1355,1207,14377,9.42,20.38,18.15
+plwiki,Religion / Theology,Intellectual systems,192,2439,1207,14377,16.96,15.91,7.87
+plwiki,Philosophy,Intellectual systems,183,450,1207,14377,3.13,15.16,40.67
+plwiki,Science / Natural History,Scientific knowledge,147,562,1207,14377,3.91,12.18,26.16
+plwiki,Print / Publishing / Journalism,Literary and textual production,124,791,1207,14377,5.5,10.27,15.68
+plwiki,Law / Administration,Institutional power,118,1094,1207,14377,7.61,9.78,10.79
+plwiki,Music / Performance / Theatre,Arts and performance,109,665,1207,14377,4.63,9.03,16.39
+plwiki,Visual Arts / Architecture / Design,Arts and performance,85,529,1207,14377,3.68,7.04,16.07
+plwiki,Sociability / Patronage / Court,Social and cultural mediation,82,262,1207,14377,1.82,6.79,31.3
+plwiki,Unmapped / Review,Needs review,82,469,1207,14377,3.26,6.79,17.48
+plwiki,Economics / Commerce,Institutional power,71,332,1207,14377,2.31,5.88,21.39
+plwiki,Military,Institutional power,71,411,1207,14377,2.86,5.88,17.27
+plwiki,Medicine / Health,Scientific knowledge,55,417,1207,14377,2.9,4.56,13.19
+plwiki,Travel / Geography / Exploration,Mobility and empire,49,231,1207,14377,1.61,4.06,21.21
+plwiki,Engineering / Technology,Scientific knowledge,37,86,1207,14377,0.6,3.07,43.02
+plwiki,Social Reform / Activism,Social and cultural mediation,26,71,1207,14377,0.49,2.15,36.62
+plwiki,Craft / Trade / Industry,Material production,17,157,1207,14377,1.09,1.41,10.83
+ptwiki,Writing / Literature,Literary and textual production,966,14083,973,14377,97.96,99.28,6.86
+ptwiki,Education / Scholarship / Humanities,Intellectual systems,324,2476,973,14377,17.22,33.3,13.09
+ptwiki,Politics / Statecraft / Diplomacy,Institutional power,218,1040,973,14377,7.23,22.4,20.96
+ptwiki,Philosophy,Intellectual systems,186,450,973,14377,3.13,19.12,41.33
+ptwiki,Science / Natural History,Scientific knowledge,167,562,973,14377,3.91,17.16,29.72
+ptwiki,Translation / Philology / Languages,Literary and textual production,161,1355,973,14377,9.42,16.55,11.88
+ptwiki,Religion / Theology,Intellectual systems,146,2439,973,14377,16.96,15.01,5.99
+ptwiki,Law / Administration,Institutional power,101,1094,973,14377,7.61,10.38,9.23
+ptwiki,Print / Publishing / Journalism,Literary and textual production,100,791,973,14377,5.5,10.28,12.64
+ptwiki,Visual Arts / Architecture / Design,Arts and performance,83,529,973,14377,3.68,8.53,15.69
+ptwiki,Music / Performance / Theatre,Arts and performance,81,665,973,14377,4.63,8.32,12.18
+ptwiki,Unmapped / Review,Needs review,77,469,973,14377,3.26,7.91,16.42
+ptwiki,Sociability / Patronage / Court,Social and cultural mediation,68,262,973,14377,1.82,6.99,25.95
+ptwiki,Economics / Commerce,Institutional power,67,332,973,14377,2.31,6.89,20.18
+ptwiki,Medicine / Health,Scientific knowledge,63,417,973,14377,2.9,6.47,15.11
+ptwiki,Military,Institutional power,55,411,973,14377,2.86,5.65,13.38
+ptwiki,Travel / Geography / Exploration,Mobility and empire,46,231,973,14377,1.61,4.73,19.91
+ptwiki,Engineering / Technology,Scientific knowledge,32,86,973,14377,0.6,3.29,37.21
+ptwiki,Social Reform / Activism,Social and cultural mediation,26,71,973,14377,0.49,2.67,36.62
+ptwiki,Craft / Trade / Industry,Material production,19,157,973,14377,1.09,1.95,12.1
+ruwiki,Writing / Literature,Literary and textual production,2420,14083,2436,14377,97.96,99.34,17.18
+ruwiki,Education / Scholarship / Humanities,Intellectual systems,682,2476,2436,14377,17.22,28.0,27.54
+ruwiki,Translation / Philology / Languages,Literary and textual production,463,1355,2436,14377,9.42,19.01,34.17
+ruwiki,Politics / Statecraft / Diplomacy,Institutional power,451,1040,2436,14377,7.23,18.51,43.37
+ruwiki,Religion / Theology,Intellectual systems,319,2439,2436,14377,16.96,13.1,13.08
+ruwiki,Philosophy,Intellectual systems,257,450,2436,14377,3.13,10.55,57.11
+ruwiki,Science / Natural History,Scientific knowledge,235,562,2436,14377,3.91,9.65,41.81
+ruwiki,Print / Publishing / Journalism,Literary and textual production,226,791,2436,14377,5.5,9.28,28.57
+ruwiki,Music / Performance / Theatre,Arts and performance,192,665,2436,14377,4.63,7.88,28.87
+ruwiki,Law / Administration,Institutional power,191,1094,2436,14377,7.61,7.84,17.46
+ruwiki,Visual Arts / Architecture / Design,Arts and performance,165,529,2436,14377,3.68,6.77,31.19
+ruwiki,Military,Institutional power,148,411,2436,14377,2.86,6.08,36.01
+ruwiki,Unmapped / Review,Needs review,127,469,2436,14377,3.26,5.21,27.08
+ruwiki,Sociability / Patronage / Court,Social and cultural mediation,117,262,2436,14377,1.82,4.8,44.66
+ruwiki,Economics / Commerce,Institutional power,109,332,2436,14377,2.31,4.47,32.83
+ruwiki,Medicine / Health,Scientific knowledge,93,417,2436,14377,2.9,3.82,22.3
+ruwiki,Travel / Geography / Exploration,Mobility and empire,87,231,2436,14377,1.61,3.57,37.66
+ruwiki,Engineering / Technology,Scientific knowledge,48,86,2436,14377,0.6,1.97,55.81
+ruwiki,Social Reform / Activism,Social and cultural mediation,35,71,2436,14377,0.49,1.44,49.3
+ruwiki,Craft / Trade / Industry,Material production,33,157,2436,14377,1.09,1.35,21.02
+svwiki,Writing / Literature,Literary and textual production,1794,14083,1826,14377,97.96,98.25,12.74
+svwiki,Education / Scholarship / Humanities,Intellectual systems,539,2476,1826,14377,17.22,29.52,21.77
+svwiki,Politics / Statecraft / Diplomacy,Institutional power,342,1040,1826,14377,7.23,18.73,32.88
+svwiki,Translation / Philology / Languages,Literary and textual production,327,1355,1826,14377,9.42,17.91,24.13
+svwiki,Religion / Theology,Intellectual systems,288,2439,1826,14377,16.96,15.77,11.81
+svwiki,Philosophy,Intellectual systems,207,450,1826,14377,3.13,11.34,46.0
+svwiki,Print / Publishing / Journalism,Literary and textual production,187,791,1826,14377,5.5,10.24,23.64
+svwiki,Science / Natural History,Scientific knowledge,183,562,1826,14377,3.91,10.02,32.56
+svwiki,Law / Administration,Institutional power,169,1094,1826,14377,7.61,9.26,15.45
+svwiki,Music / Performance / Theatre,Arts and performance,157,665,1826,14377,4.63,8.6,23.61
+svwiki,Visual Arts / Architecture / Design,Arts and performance,121,529,1826,14377,3.68,6.63,22.87
+svwiki,Sociability / Patronage / Court,Social and cultural mediation,117,262,1826,14377,1.82,6.41,44.66
+svwiki,Unmapped / Review,Needs review,109,469,1826,14377,3.26,5.97,23.24
+svwiki,Economics / Commerce,Institutional power,97,332,1826,14377,2.31,5.31,29.22
+svwiki,Military,Institutional power,95,411,1826,14377,2.86,5.2,23.11
+svwiki,Travel / Geography / Exploration,Mobility and empire,66,231,1826,14377,1.61,3.61,28.57
+svwiki,Medicine / Health,Scientific knowledge,62,417,1826,14377,2.9,3.4,14.87
+svwiki,Engineering / Technology,Scientific knowledge,35,86,1826,14377,0.6,1.92,40.7
+svwiki,Social Reform / Activism,Social and cultural mediation,33,71,1826,14377,0.49,1.81,46.48
+svwiki,Craft / Trade / Industry,Material production,27,157,1826,14377,1.09,1.48,17.2
+ukwiki,Writing / Literature,Literary and textual production,862,14083,868,14377,97.96,99.31,6.12
+ukwiki,Education / Scholarship / Humanities,Intellectual systems,272,2476,868,14377,17.22,31.34,10.99
+ukwiki,Politics / Statecraft / Diplomacy,Institutional power,218,1040,868,14377,7.23,25.12,20.96
+ukwiki,Translation / Philology / Languages,Literary and textual production,202,1355,868,14377,9.42,23.27,14.91
+ukwiki,Philosophy,Intellectual systems,154,450,868,14377,3.13,17.74,34.22
+ukwiki,Science / Natural History,Scientific knowledge,130,562,868,14377,3.91,14.98,23.13
+ukwiki,Religion / Theology,Intellectual systems,116,2439,868,14377,16.96,13.36,4.76
+ukwiki,Print / Publishing / Journalism,Literary and textual production,89,791,868,14377,5.5,10.25,11.25
+ukwiki,Law / Administration,Institutional power,84,1094,868,14377,7.61,9.68,7.68
+ukwiki,Visual Arts / Architecture / Design,Arts and performance,82,529,868,14377,3.68,9.45,15.5
+ukwiki,Unmapped / Review,Needs review,74,469,868,14377,3.26,8.53,15.78
+ukwiki,Music / Performance / Theatre,Arts and performance,72,665,868,14377,4.63,8.29,10.83
+ukwiki,Military,Institutional power,68,411,868,14377,2.86,7.83,16.55
+ukwiki,Sociability / Patronage / Court,Social and cultural mediation,55,262,868,14377,1.82,6.34,20.99
+ukwiki,Economics / Commerce,Institutional power,53,332,868,14377,2.31,6.11,15.96
+ukwiki,Medicine / Health,Scientific knowledge,40,417,868,14377,2.9,4.61,9.59
+ukwiki,Travel / Geography / Exploration,Mobility and empire,37,231,868,14377,1.61,4.26,16.02
+ukwiki,Engineering / Technology,Scientific knowledge,30,86,868,14377,0.6,3.46,34.88
+ukwiki,Social Reform / Activism,Social and cultural mediation,22,71,868,14377,0.49,2.53,30.99
+ukwiki,Craft / Trade / Industry,Material production,11,157,868,14377,1.09,1.27,7.01

@@ -1,8 +1,12 @@
 from argparse import ArgumentParser
 from pathlib import Path
 import re
+import sys
 
 import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from cohorts import DEFAULT_COHORT_ID, cohort_paths  # noqa: E402
 
 
 QID_PATTERN = re.compile(r"(Q\d+)$")
@@ -24,6 +28,25 @@ TEXT_ENRICHMENT_COLUMNS = [
     "spoken_written_language_labels",
     "writing_language_ids",
     "writing_language_labels",
+    "gender_ids",
+    "gender_labels",
+    "ethnic_group_ids",
+    "ethnic_group_labels",
+    "occupation_ids",
+    "occupation_labels",
+    "writerly_occupation_ids",
+    "writerly_occupation_labels",
+    "nonwriter_occupation_ids",
+    "nonwriter_occupation_labels",
+    "entity_label_languages",
+    "entity_description_languages",
+    "notable_work_ids",
+    "notable_work_labels",
+    "notable_work_genre_ids",
+    "notable_work_genre_labels",
+    "notable_work_form_ids",
+    "notable_work_form_labels",
+    "source_export_group",
     "source_export_file",
 ]
 
@@ -35,10 +58,18 @@ BOOLEAN_ENRICHMENT_COLUMNS = [
     "has_eswiki",
     "has_plwiki",
     "has_ruwiki",
+    "has_ukwiki",
+    "has_nlwiki",
+    "has_ptwiki",
+    "has_svwiki",
+    "has_dawiki",
 ]
 
 COUNT_ENRICHMENT_COLUMNS = [
     "wikipedia_sitelink_count",
+    "european_label_count",
+    "european_description_count",
+    "notable_work_count",
 ]
 
 EXPECTED_ENRICHMENT_COLUMNS = (
@@ -76,6 +107,45 @@ EVIDENCE_FIELD_FLAGS = {
     "has_wikidata_writing_language": [
         "writing_language_ids",
         "writing_language_labels",
+    ],
+    "has_wikidata_ethnic_group": [
+        "ethnic_group_ids",
+        "ethnic_group_labels",
+    ],
+}
+
+SUPPLEMENTAL_FIELD_FLAGS = {
+    "has_wikidata_gender": [
+        "gender_ids",
+        "gender_labels",
+    ],
+    "has_wikidata_occupation_profile": [
+        "occupation_ids",
+        "occupation_labels",
+    ],
+    "has_wikidata_writerly_occupation": [
+        "writerly_occupation_ids",
+        "writerly_occupation_labels",
+    ],
+    "has_wikidata_nonwriter_occupation": [
+        "nonwriter_occupation_ids",
+        "nonwriter_occupation_labels",
+    ],
+    "has_wikidata_label_coverage": [
+        "entity_label_languages",
+    ],
+    "has_wikidata_description_coverage": [
+        "entity_description_languages",
+    ],
+    "has_wikidata_notable_work": [
+        "notable_work_ids",
+        "notable_work_labels",
+    ],
+    "has_wikidata_notable_work_genre": [
+        "notable_work_genre_ids",
+        "notable_work_genre_labels",
+        "notable_work_form_ids",
+        "notable_work_form_labels",
     ],
 }
 
@@ -183,10 +253,10 @@ def resolve_input_paths(
         raise FileNotFoundError(
             "Missing Wikidata enrichment export file(s):\n"
             f"{missing_list}\n\n"
-            "Run the Step 04 Wikidata query, export the results as CSV, and "
-            "save them as data/raw/wikidata_affiliation_enrichment.csv. "
-            "If you ran chunked queries, pass each CSV export with --input "
-            "or pass a directory containing the chunk CSV files."
+            "Run the API-first Step 04 fetcher:\n"
+            "python scripts/queries/17_fetch_wikidata_enrichment_api.py\n\n"
+            "The default output is data/raw/wikidata_affiliation_enrichment.csv. "
+            "Legacy CSV exports or export directories can still be passed with --input."
         )
 
     if not resolved_paths:
@@ -199,6 +269,11 @@ def read_enrichment_exports(input_paths: list[Path]) -> pd.DataFrame:
     frames = []
     for input_path in input_paths:
         df = pd.read_csv(input_path)
+        df["source_export_group"] = (
+            input_path.stem
+            if input_path.parent.name == "raw"
+            else input_path.parent.name
+        )
         df["source_export_file"] = input_path.name
         frames.append(df)
 
@@ -289,6 +364,13 @@ def add_coverage_flags(enriched_df: pd.DataFrame) -> pd.DataFrame:
         ]
         enriched_df[flag_column] = enriched_df[available_columns].notna().any(axis=1)
 
+    for flag_column, source_columns in SUPPLEMENTAL_FIELD_FLAGS.items():
+        available_columns = [
+            column for column in source_columns
+            if column in enriched_df.columns
+        ]
+        enriched_df[flag_column] = enriched_df[available_columns].notna().any(axis=1)
+
     enriched_df["has_wikidata_wikipedia_sitelinks"] = (
         pd.to_numeric(
             enriched_df["wikipedia_sitelink_count"],
@@ -302,6 +384,11 @@ def add_coverage_flags(enriched_df: pd.DataFrame) -> pd.DataFrame:
     ]
     enriched_df["wikidata_affiliation_evidence_fields_present"] = (
         enriched_df[evidence_flags].sum(axis=1).astype("Int64")
+    )
+
+    supplemental_flags = list(SUPPLEMENTAL_FIELD_FLAGS)
+    enriched_df["wikidata_supplemental_fields_present"] = (
+        enriched_df[supplemental_flags].sum(axis=1).astype("Int64")
     )
 
     return enriched_df
@@ -322,14 +409,21 @@ def build_summary_table(
     total_rows = len(base_df)
     total_entities = int(base_df["wikidata_id"].nunique(dropna=True))
     matched_mask = enriched_df["has_wikidata_enrichment"]
-    duplicate_raw_mask = enrichment_raw_df.duplicated("wikidata_id", keep=False)
+    duplicate_raw_mask = enrichment_raw_df.duplicated(
+        ["wikidata_id", "source_export_group"],
+        keep=False,
+    )
     base_ids = set(base_df["wikidata_id"].dropna().astype(str))
     enrichment_ids = set(enrichment_summary_df["wikidata_id"].dropna().astype(str))
     extra_enrichment_entities = len(enrichment_ids - base_ids)
+    source_export_groups = int(
+        enrichment_raw_df["source_export_group"].dropna().nunique()
+    )
 
     summary_rows = [
         ("total_rows", total_rows, "rows"),
         ("distinct_wikidata_entities", total_entities, "entities"),
+        ("source_export_groups", source_export_groups, pd.NA),
         ("raw_enrichment_rows", len(enrichment_raw_df), pd.NA),
         (
             "normalized_enrichment_entities",
@@ -337,7 +431,7 @@ def build_summary_table(
             "entities",
         ),
         (
-            "duplicate_raw_enrichment_rows",
+            "unexpected_duplicate_raw_enrichment_rows",
             int(duplicate_raw_mask.sum()),
             pd.NA,
         ),
@@ -390,7 +484,7 @@ def build_field_coverage_table(enriched_df: pd.DataFrame) -> pd.DataFrame:
     total_entities = int(enriched_df["wikidata_id"].nunique(dropna=True))
     coverage_flags = list(EVIDENCE_FIELD_FLAGS) + [
         "has_wikidata_wikipedia_sitelinks",
-    ]
+    ] + list(SUPPLEMENTAL_FIELD_FLAGS)
 
     for flag_column in coverage_flags:
         mask = enriched_df[flag_column].fillna(False)
@@ -417,6 +511,12 @@ def parse_args() -> object:
         description="Merge Step 04 Wikidata enrichment exports into the cohort."
     )
     parser.add_argument(
+        "--cohort-id",
+        default=DEFAULT_COHORT_ID,
+        choices=["french_seed", "global_writers"],
+        help=f"Cohort to enrich. Default: {DEFAULT_COHORT_ID}.",
+    )
+    parser.add_argument(
         "--input",
         action="append",
         dest="input_paths",
@@ -432,35 +532,22 @@ def parse_args() -> object:
 def main() -> None:
     args = parse_args()
     project_root = Path(__file__).resolve().parents[2]
+    paths = cohort_paths(project_root, args.cohort_id)
 
-    base_path = project_root / "data" / "interim" / "writers_cleaned.csv"
-    default_input_path = (
-        project_root / "data" / "raw" / "wikidata_affiliation_enrichment.csv"
-    )
-    output_path = (
-        project_root / "data" / "interim" / "writers_wikidata_enriched.csv"
-    )
-    missing_entities_path = (
-        project_root / "data" / "interim" / "wikidata_enrichment_missing_entities.csv"
-    )
-    extra_entities_path = (
-        project_root / "data" / "interim" / "wikidata_enrichment_extra_entities.csv"
-    )
-    duplicate_rows_path = (
-        project_root / "data" / "interim" / "wikidata_enrichment_duplicate_rows.csv"
-    )
-    summary_path = (
-        project_root / "data" / "interim" / "wikidata_enrichment_summary.csv"
-    )
-    field_coverage_path = (
-        project_root / "data" / "interim" / "wikidata_enrichment_field_coverage.csv"
-    )
+    base_path = paths.cleaned_path
+    default_input_path = paths.raw_enrichment_path
+    output_path = paths.enriched_path
+    missing_entities_path = paths.enrichment_missing_entities_path
+    extra_entities_path = paths.enrichment_extra_entities_path
+    duplicate_rows_path = paths.enrichment_duplicate_rows_path
+    summary_path = paths.enrichment_summary_path
+    field_coverage_path = paths.enrichment_field_coverage_path
 
     if not base_path.exists():
         raise SystemExit(
             "Missing cleaned dataset. Run Step 01 and Step 02 first:\n"
-            "python scripts/pipeline/01_build_merged_dataset.py\n"
-            "python scripts/pipeline/02_clean_structural_fields.py"
+            f"python scripts/pipeline/01_build_merged_dataset.py --cohort-id {paths.cohort_id}\n"
+            f"python scripts/pipeline/02_clean_structural_fields.py --cohort-id {paths.cohort_id}"
         )
 
     try:
@@ -481,8 +568,14 @@ def main() -> None:
     enrichment_summary_df = summarize_enrichment_df(enrichment_df)
 
     duplicate_rows_df = enrichment_df.loc[
-        enrichment_df.duplicated("wikidata_id", keep=False)
-    ].sort_values(["wikidata_id", "source_export_file"], na_position="last")
+        enrichment_df.duplicated(
+            ["wikidata_id", "source_export_group"],
+            keep=False,
+        )
+    ].sort_values(
+        ["wikidata_id", "source_export_group", "source_export_file"],
+        na_position="last",
+    )
 
     enriched_df = base_df.merge(
         enrichment_summary_df,
@@ -533,6 +626,7 @@ def main() -> None:
     field_coverage_df.to_csv(field_coverage_path, index=False)
 
     print("Wikidata enrichment merge complete.")
+    print(f"Cohort: {paths.cohort_id}")
     print(f"Input export files: {len(input_paths)}")
     print(f"Output dataset: {output_path}")
     print(f"Summary file: {summary_path}")

@@ -1,0 +1,5 @@
+place_role,place_rows,entities_with_role,entities_with_role_pct,entities_with_mapped_affiliation,entities_with_mapped_affiliation_pct,unique_places
+birth_place,1685,1638,100.0,1629,99.45,775
+death_place,1527,1475,90.05,1469,89.68,529
+work_location,369,234,14.29,234,14.29,123
+residence,127,61,3.72,61,3.72,99
