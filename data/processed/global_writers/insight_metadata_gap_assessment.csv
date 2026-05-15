@@ -1,0 +1,5 @@
+metric,value,threshold,recommendation,notes
+strong_claim_candidates,6,6,defer_wikipedia_metadata_pull,Collect metadata only if fewer than six strong claims exist from current data.
+article_presence_limitation,known,claim requires article depth,collect_later_if_language_claim_needs_depth,"Article presence supports representation claims but not article framing, length, or attention."
+future_metadata_fields,page_id | article_length | lead_extract | categories | revision_count,existing sitelinks only,scope_to_existing_wikipedia_sitelinks,Do not broaden authority systems; enrich only pages already present in the sitelink matrix.
+phase_2_5_decision,defer_wikipedia_metadata_pull,Mine Then Gate,defer_wikipedia_metadata_pull,No new pull is part of this phase.

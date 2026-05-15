@@ -1,0 +1,33 @@
+slice_id,context_label,context_total_entities,field_id,field_label,field_group,field_order,value_count,denominator,value_pct,notes,context_order
+france,France,2922,citizenship,Citizenship,entity evidence,0,1664,2922,56.95,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,place_context,Place context,entity evidence,1,2713,2922,92.85,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,birth_place_context,Birth-place context,entity evidence,2,2076,2922,71.05,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,place_only,Place-only,derived evidence,3,1258,2922,43.05,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,language_evidence,Language evidence,entity evidence,4,2380,2922,81.45,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,wikipedia_representation,Wikipedia representation,representation evidence,5,2309,2922,79.02,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,missing_citizenship,Missing citizenship,data friction,6,526,2922,18.0,Share of context slice entities with this evidence/friction condition.,0
+france,France,2922,low_evidence_affiliation,Low-evidence affiliation,data friction,7,297,2922,10.16,Share of context slice entities with this evidence/friction condition.,0
+germany,Germany,3711,citizenship,Citizenship,entity evidence,0,1368,3711,36.86,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,place_context,Place context,entity evidence,1,3655,3711,98.49,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,birth_place_context,Birth-place context,entity evidence,2,2926,3711,78.85,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,place_only,Place-only,derived evidence,3,2343,3711,63.14,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,language_evidence,Language evidence,entity evidence,4,2594,3711,69.9,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,wikipedia_representation,Wikipedia representation,representation evidence,5,2806,3711,75.61,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,missing_citizenship,Missing citizenship,data friction,6,1456,3711,39.23,Share of context slice entities with this evidence/friction condition.,1
+germany,Germany,3711,low_evidence_affiliation,Low-evidence affiliation,data friction,7,502,3711,13.53,Share of context slice entities with this evidence/friction condition.,1
+british,British,2099,citizenship,Citizenship,entity evidence,0,1454,2099,69.27,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,place_context,Place context,entity evidence,1,1570,2099,74.8,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,birth_place_context,Birth-place context,entity evidence,2,1277,2099,60.84,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,place_only,Place-only,derived evidence,3,645,2099,30.73,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,language_evidence,Language evidence,entity evidence,4,1041,2099,49.6,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,wikipedia_representation,Wikipedia representation,representation evidence,5,1781,2099,84.85,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,missing_citizenship,Missing citizenship,data friction,6,433,2099,20.63,Share of context slice entities with this evidence/friction condition.,2
+british,British,2099,low_evidence_affiliation,Low-evidence affiliation,data friction,7,749,2099,35.68,Share of context slice entities with this evidence/friction condition.,2
+china,China/Qing,424,citizenship,Citizenship,entity evidence,0,404,424,95.28,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,place_context,Place context,entity evidence,1,104,424,24.53,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,birth_place_context,Birth-place context,entity evidence,2,94,424,22.17,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,place_only,Place-only,derived evidence,3,20,424,4.72,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,language_evidence,Language evidence,entity evidence,4,3,424,0.71,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,wikipedia_representation,Wikipedia representation,representation evidence,5,258,424,60.85,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,missing_citizenship,Missing citizenship,data friction,6,14,424,3.3,Share of context slice entities with this evidence/friction condition.,3
+china,China/Qing,424,low_evidence_affiliation,Low-evidence affiliation,data friction,7,330,424,77.83,Share of context slice entities with this evidence/friction condition.,3

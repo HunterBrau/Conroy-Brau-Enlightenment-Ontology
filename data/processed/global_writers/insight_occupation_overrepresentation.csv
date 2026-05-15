@@ -1,0 +1,77 @@
+slice_id,review_group,granular_bucket,bucket_family,slice_entities,slice_total_entities,slice_pct,global_entities,global_pct,context_label,context_order,pct_point_difference_vs_global,index_vs_global,signal_class,notes
+france,France,Print / Publishing / Journalism,Literary and textual production,291,2922,9.96,791,5.5,France,0,4.46,1.8109,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Sociability / Patronage / Court,Social and cultural mediation,95,2922,3.25,262,1.82,France,0,1.43,1.7857,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Politics / Statecraft / Diplomacy,Institutional power,357,2922,12.22,1040,7.23,France,0,4.99,1.6902,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Economics / Commerce,Institutional power,109,2922,3.73,332,2.31,France,0,1.42,1.6147,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Military,Institutional power,129,2922,4.41,411,2.86,France,0,1.55,1.542,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Engineering / Technology,Scientific knowledge,27,2922,0.92,86,0.6,France,0,0.32,1.5333,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Philosophy,Intellectual systems,138,2922,4.72,450,3.13,France,0,1.59,1.508,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Visual Arts / Architecture / Design,Arts and performance,156,2922,5.34,529,3.68,France,0,1.66,1.4511,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Travel / Geography / Exploration,Mobility and empire,68,2922,2.33,231,1.61,France,0,0.72,1.4472,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Music / Performance / Theatre,Arts and performance,188,2922,6.43,665,4.63,France,0,1.8,1.3888,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Law / Administration,Institutional power,306,2922,10.47,1094,7.61,France,0,2.86,1.3758,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Translation / Philology / Languages,Literary and textual production,378,2922,12.94,1355,9.42,France,0,3.52,1.3737,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Science / Natural History,Scientific knowledge,156,2922,5.34,562,3.91,France,0,1.43,1.3657,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Unmapped / Review,Needs review,121,2922,4.14,469,3.26,France,0,0.88,1.2699,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Education / Scholarship / Humanities,Intellectual systems,603,2922,20.64,2476,17.22,France,0,3.42,1.1986,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Social Reform / Activism,Social and cultural mediation,17,2922,0.58,71,0.49,France,0,0.09,1.1837,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Medicine / Health,Scientific knowledge,87,2922,2.98,417,2.9,France,0,0.08,1.0276,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Writing / Literature,Literary and textual production,2903,2922,99.35,14083,97.96,France,0,1.39,1.0142,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Religion / Theology,Intellectual systems,330,2922,11.29,2439,16.96,France,0,-5.67,0.6657,underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+france,France,Craft / Trade / Industry,Material production,21,2922,0.72,157,1.09,France,0,-0.37,0.6606,underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Education / Scholarship / Humanities,Intellectual systems,1055,3711,28.43,2476,17.22,Germany,1,11.21,1.651,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Religion / Theology,Intellectual systems,938,3711,25.28,2439,16.96,Germany,1,8.32,1.4906,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Music / Performance / Theatre,Arts and performance,254,3711,6.84,665,4.63,Germany,1,2.21,1.4773,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Law / Administration,Institutional power,417,3711,11.24,1094,7.61,Germany,1,3.63,1.477,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Philosophy,Intellectual systems,168,3711,4.53,450,3.13,Germany,1,1.4,1.4473,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Translation / Philology / Languages,Literary and textual production,463,3711,12.48,1355,9.42,Germany,1,3.06,1.3248,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Science / Natural History,Scientific knowledge,180,3711,4.85,562,3.91,Germany,1,0.94,1.2404,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Engineering / Technology,Scientific knowledge,27,3711,0.73,86,0.6,Germany,1,0.13,1.2167,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Sociability / Patronage / Court,Social and cultural mediation,81,3711,2.18,262,1.82,Germany,1,0.36,1.1978,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Print / Publishing / Journalism,Literary and textual production,238,3711,6.41,791,5.5,Germany,1,0.91,1.1655,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Medicine / Health,Scientific knowledge,116,3711,3.13,417,2.9,Germany,1,0.23,1.0793,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Unmapped / Review,Needs review,123,3711,3.31,469,3.26,Germany,1,0.05,1.0153,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Military,Institutional power,106,3711,2.86,411,2.86,Germany,1,0.0,1.0,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Writing / Literature,Literary and textual production,3592,3711,96.79,14083,97.96,Germany,1,-1.17,0.9881,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Travel / Geography / Exploration,Mobility and empire,56,3711,1.51,231,1.61,Germany,1,-0.1,0.9379,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Economics / Commerce,Institutional power,71,3711,1.91,332,2.31,Germany,1,-0.4,0.8268,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Visual Arts / Architecture / Design,Arts and performance,111,3711,2.99,529,3.68,Germany,1,-0.69,0.8125,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Craft / Trade / Industry,Material production,32,3711,0.86,157,1.09,Germany,1,-0.23,0.789,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Politics / Statecraft / Diplomacy,Institutional power,205,3711,5.52,1040,7.23,Germany,1,-1.71,0.7635,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+germany,Germany,Social Reform / Activism,Social and cultural mediation,11,3711,0.3,71,0.49,Germany,1,-0.19,0.6122,underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Social Reform / Activism,Social and cultural mediation,37,2099,1.76,71,0.49,British,2,1.27,3.5918,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Craft / Trade / Industry,Material production,63,2099,3.0,157,1.09,British,2,1.91,2.7523,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Travel / Geography / Exploration,Mobility and empire,63,2099,3.0,231,1.61,British,2,1.39,1.8634,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Economics / Commerce,Institutional power,87,2099,4.14,332,2.31,British,2,1.83,1.7922,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Medicine / Health,Scientific knowledge,91,2099,4.34,417,2.9,British,2,1.44,1.4966,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Engineering / Technology,Scientific knowledge,18,2099,0.86,86,0.6,British,2,0.26,1.4333,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Unmapped / Review,Needs review,88,2099,4.19,469,3.26,British,2,0.93,1.2853,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Sociability / Patronage / Court,Social and cultural mediation,49,2099,2.33,262,1.82,British,2,0.51,1.2802,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Science / Natural History,Scientific knowledge,103,2099,4.91,562,3.91,British,2,1.0,1.2558,overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Visual Arts / Architecture / Design,Arts and performance,93,2099,4.43,529,3.68,British,2,0.75,1.2038,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Print / Publishing / Journalism,Literary and textual production,135,2099,6.43,791,5.5,British,2,0.93,1.1691,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Politics / Statecraft / Diplomacy,Institutional power,163,2099,7.77,1040,7.23,British,2,0.54,1.0747,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Music / Performance / Theatre,Arts and performance,102,2099,4.86,665,4.63,British,2,0.23,1.0497,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Philosophy,Intellectual systems,67,2099,3.19,450,3.13,British,2,0.06,1.0192,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Writing / Literature,Literary and textual production,2028,2099,96.62,14083,97.96,British,2,-1.34,0.9863,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Religion / Theology,Intellectual systems,346,2099,16.48,2439,16.96,British,2,-0.48,0.9717,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Translation / Philology / Languages,Literary and textual production,166,2099,7.91,1355,9.42,British,2,-1.51,0.8397,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Education / Scholarship / Humanities,Intellectual systems,281,2099,13.39,2476,17.22,British,2,-3.83,0.7776,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Military,Institutional power,43,2099,2.05,411,2.86,British,2,-0.81,0.7168,underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+british,British,Law / Administration,Institutional power,106,2099,5.05,1094,7.61,British,2,-2.56,0.6636,underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Visual Arts / Architecture / Design,Arts and performance,66,424,15.57,529,3.68,China/Qing,3,11.89,4.231,strong_overrepresented,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Politics / Statecraft / Diplomacy,Institutional power,37,424,8.73,1040,7.23,China/Qing,3,1.5,1.2075,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Writing / Literature,Literary and textual production,422,424,99.53,14083,97.96,China/Qing,3,1.57,1.016,near_baseline,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Sociability / Patronage / Court,Social and cultural mediation,4,424,0.94,262,1.82,China/Qing,3,-0.88,0.5165,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Unmapped / Review,Needs review,7,424,1.65,469,3.26,China/Qing,3,-1.61,0.5061,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Science / Natural History,Scientific knowledge,8,424,1.89,562,3.91,China/Qing,3,-2.02,0.4834,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Philosophy,Intellectual systems,4,424,0.94,450,3.13,China/Qing,3,-2.19,0.3003,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Education / Scholarship / Humanities,Intellectual systems,12,424,2.83,2476,17.22,China/Qing,3,-14.39,0.1643,strong_underrepresented,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Medicine / Health,Scientific knowledge,2,424,0.47,417,2.9,China/Qing,3,-2.43,0.1621,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Economics / Commerce,Institutional power,1,424,0.24,332,2.31,China/Qing,3,-2.07,0.1039,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Music / Performance / Theatre,Arts and performance,2,424,0.47,665,4.63,China/Qing,3,-4.16,0.1015,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Translation / Philology / Languages,Literary and textual production,4,424,0.94,1355,9.42,China/Qing,3,-8.48,0.0998,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Law / Administration,Institutional power,3,424,0.71,1094,7.61,China/Qing,3,-6.9,0.0933,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Military,Institutional power,1,424,0.24,411,2.86,China/Qing,3,-2.62,0.0839,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Religion / Theology,Intellectual systems,6,424,1.42,2439,16.96,China/Qing,3,-15.54,0.0837,small_n,Index compares within-slice bucket share to global cohort bucket share.
+china,China,Print / Publishing / Journalism,Literary and textual production,1,424,0.24,791,5.5,China/Qing,3,-5.26,0.0436,small_n,Index compares within-slice bucket share to global cohort bucket share.

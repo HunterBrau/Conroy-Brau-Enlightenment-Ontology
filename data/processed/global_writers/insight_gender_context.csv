@@ -1,0 +1,17 @@
+slice_id,review_group,gender_category,slice_entities,slice_total_entities,slice_pct,global_entities,global_pct,context_label,context_order,representation_index_vs_global,notes
+france,France,female,372,2922,12.73,1743,12.12,France,0,1.0503,Context slices are non-exclusive; pct is within each context slice.
+france,France,male,2544,2922,87.06,12505,86.98,France,0,1.0009,Context slices are non-exclusive; pct is within each context slice.
+france,France,multiple_or_ambiguous,1,2922,0.03,1,0.01,France,0,3.0,Context slices are non-exclusive; pct is within each context slice.
+france,France,unknown,5,2922,0.17,128,0.89,France,0,0.191,Context slices are non-exclusive; pct is within each context slice.
+germany,Germany,female,260,3711,7.01,1743,12.12,Germany,1,0.5784,Context slices are non-exclusive; pct is within each context slice.
+germany,Germany,male,3442,3711,92.75,12505,86.98,Germany,1,1.0663,Context slices are non-exclusive; pct is within each context slice.
+germany,Germany,multiple_or_ambiguous,0,3711,0.0,1,0.01,Germany,1,0.0,Context slices are non-exclusive; pct is within each context slice.
+germany,Germany,unknown,9,3711,0.24,128,0.89,Germany,1,0.2697,Context slices are non-exclusive; pct is within each context slice.
+british,British,female,418,2099,19.91,1743,12.12,British,2,1.6427,Context slices are non-exclusive; pct is within each context slice.
+british,British,male,1679,2099,79.99,12505,86.98,British,2,0.9196,Context slices are non-exclusive; pct is within each context slice.
+british,British,multiple_or_ambiguous,1,2099,0.05,1,0.01,British,2,5.0,Context slices are non-exclusive; pct is within each context slice.
+british,British,unknown,1,2099,0.05,128,0.89,British,2,0.0562,Context slices are non-exclusive; pct is within each context slice.
+china,China,female,168,424,39.62,1743,12.12,China/Qing,3,3.269,Context slices are non-exclusive; pct is within each context slice.
+china,China,male,242,424,57.08,12505,86.98,China/Qing,3,0.6562,Context slices are non-exclusive; pct is within each context slice.
+china,China,multiple_or_ambiguous,0,424,0.0,1,0.01,China/Qing,3,0.0,Context slices are non-exclusive; pct is within each context slice.
+china,China,unknown,14,424,3.3,128,0.89,China/Qing,3,3.7079,Context slices are non-exclusive; pct is within each context slice.

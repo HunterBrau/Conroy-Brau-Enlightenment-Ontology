@@ -1,0 +1,33 @@
+slice_id,context_order,context_label,bucket,bucket_order,bucket_family,slice_entities,slice_total_entities,slice_pct
+france,0,France,Writing / Literature,0,Literary and textual production,2903,2922,99.35
+france,0,France,Religion / Theology,1,Intellectual systems,330,2922,11.29
+france,0,France,Education / Scholarship / Humanities,2,Intellectual systems,603,2922,20.64
+france,0,France,Philosophy,3,Intellectual systems,138,2922,4.72
+france,0,France,Science / Natural History,4,Scientific knowledge,156,2922,5.34
+france,0,France,Politics / Statecraft / Diplomacy,5,Institutional power,357,2922,12.22
+france,0,France,Law / Administration,6,Institutional power,306,2922,10.47
+france,0,France,Print / Publishing / Journalism,7,Literary and textual production,291,2922,9.96
+germany,1,Germany,Writing / Literature,0,Literary and textual production,3592,3711,96.79
+germany,1,Germany,Religion / Theology,1,Intellectual systems,938,3711,25.28
+germany,1,Germany,Education / Scholarship / Humanities,2,Intellectual systems,1055,3711,28.43
+germany,1,Germany,Philosophy,3,Intellectual systems,168,3711,4.53
+germany,1,Germany,Science / Natural History,4,Scientific knowledge,180,3711,4.85
+germany,1,Germany,Politics / Statecraft / Diplomacy,5,Institutional power,205,3711,5.52
+germany,1,Germany,Law / Administration,6,Institutional power,417,3711,11.24
+germany,1,Germany,Print / Publishing / Journalism,7,Literary and textual production,238,3711,6.41
+british,2,British,Writing / Literature,0,Literary and textual production,2028,2099,96.62
+british,2,British,Religion / Theology,1,Intellectual systems,346,2099,16.48
+british,2,British,Education / Scholarship / Humanities,2,Intellectual systems,281,2099,13.39
+british,2,British,Philosophy,3,Intellectual systems,67,2099,3.19
+british,2,British,Science / Natural History,4,Scientific knowledge,103,2099,4.91
+british,2,British,Politics / Statecraft / Diplomacy,5,Institutional power,163,2099,7.77
+british,2,British,Law / Administration,6,Institutional power,106,2099,5.05
+british,2,British,Print / Publishing / Journalism,7,Literary and textual production,135,2099,6.43
+china,3,China/Qing,Writing / Literature,0,Literary and textual production,422,424,99.53
+china,3,China/Qing,Religion / Theology,1,Intellectual systems,6,424,1.42
+china,3,China/Qing,Education / Scholarship / Humanities,2,Intellectual systems,12,424,2.83
+china,3,China/Qing,Philosophy,3,Intellectual systems,4,424,0.94
+china,3,China/Qing,Science / Natural History,4,Scientific knowledge,8,424,1.89
+china,3,China/Qing,Politics / Statecraft / Diplomacy,5,Institutional power,37,424,8.73
+china,3,China/Qing,Law / Administration,6,Institutional power,3,424,0.71
+china,3,China/Qing,Print / Publishing / Journalism,7,Literary and textual production,1,424,0.24

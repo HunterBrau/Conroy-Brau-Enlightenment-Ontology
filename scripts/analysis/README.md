@@ -233,3 +233,28 @@ affiliation-evidence, and occupation-bucket layers exist:
 ```powershell
 python scripts/analysis/08_build_core_findings_packet.py
 ```
+
+## 09_build_insight_mining_packet.py
+
+Builds a richer conference-facing insight packet from existing
+`global_writers` processed outputs. It does not fetch data or introduce new
+sources.
+
+Outputs:
+
+- `docs/insight_mining_packet.md`
+- `data/processed/global_writers/insight_claim_candidates.csv`
+- `data/processed/global_writers/insight_gender_context.csv`
+- `data/processed/global_writers/insight_gender_language_representation.csv`
+- `data/processed/global_writers/insight_occupation_overrepresentation.csv`
+- `data/processed/global_writers/insight_decade_trends.csv`
+- `data/processed/global_writers/insight_multi_context_entities.csv`
+- `data/processed/global_writers/insight_data_friction_by_context_gender_bucket.csv`
+- `data/processed/global_writers/insight_example_entities.csv`
+- `data/processed/global_writers/insight_metadata_gap_assessment.csv`
+
+Run it after the core findings packet exists:
+
+```powershell
+python scripts/analysis/09_build_insight_mining_packet.py
+```

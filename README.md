@@ -165,6 +165,12 @@ The current trimmed project scope lives in
 The generated core findings packet lives in
 [docs/core_findings_packet.md](docs/core_findings_packet.md).
 
+The computational visual guide lives in
+[docs/computational_visual_plan.md](docs/computational_visual_plan.md).
+
+The conference-facing insight packet lives in
+[docs/insight_mining_packet.md](docs/insight_mining_packet.md).
+
 The current analysis roadmap lives in
 [docs/analysis_roadmap.md](docs/analysis_roadmap.md).
 
@@ -444,11 +450,50 @@ Core Findings Packet
   - builds a compact findings report from existing processed evidence
   - keeps BnF and other external authority sources out of the current scope
 
-## Planned Pipeline Steps
+Computational Visual Layer
 
-| Layer | Purpose |
-|---|---|
-| Visual findings | Build context-slice bars, citizenship/place punchcards, language heatmaps, and occupation-bucket comparisons from the core findings packet |
+- Script: `scripts/visuals/01_build_computational_visual_layer.py`
+- Outputs:
+  - `data/processed/global_writers/visual_matrix_evidence_construction.csv`
+  - `data/processed/global_writers/visual_matrix_language_representation.csv`
+  - `data/processed/global_writers/visual_matrix_occupation_buckets.csv`
+  - `data/processed/global_writers/visual_matrix_data_friction.csv`
+  - `data/processed/global_writers/visual_network_nodes.csv`
+  - `data/processed/global_writers/visual_network_edges.csv`
+  - `figures/context_evidence_matrix.svg`
+  - `figures/context_evidence_punchcard.svg`
+  - `figures/language_representation_heatmap.svg`
+  - `figures/occupation_bucket_matrix.svg`
+- Behavior:
+  - builds matrix-first, slide-ready visuals from `global_writers`
+  - exports network-ready nodes and edges for a later interactive layer
+  - keeps the current source boundary: no BnF, no external authority systems
+
+Insight Mining Packet
+
+- Scripts:
+  - `scripts/analysis/09_build_insight_mining_packet.py`
+  - `scripts/visuals/02_build_insight_figures.py`
+- Outputs:
+  - `docs/insight_mining_packet.md`
+  - `data/processed/global_writers/insight_claim_candidates.csv`
+  - `data/processed/global_writers/insight_gender_context.csv`
+  - `data/processed/global_writers/insight_gender_language_representation.csv`
+  - `data/processed/global_writers/insight_occupation_overrepresentation.csv`
+  - `data/processed/global_writers/insight_decade_trends.csv`
+  - `data/processed/global_writers/insight_multi_context_entities.csv`
+  - `data/processed/global_writers/insight_data_friction_by_context_gender_bucket.csv`
+  - `data/processed/global_writers/insight_example_entities.csv`
+  - `data/processed/global_writers/insight_metadata_gap_assessment.csv`
+  - `figures/gender_context_matrix.svg`
+  - `figures/occupation_overrepresentation_index.svg`
+  - `figures/decade_trends.svg`
+  - `figures/multi_context_entities_matrix.svg`
+  - `figures/data_friction_by_context.svg`
+- Behavior:
+  - mines the existing ontology for 20-25 minute conference-segment claims
+  - produces a metadata gate instead of pulling new data
+  - keeps context slices explicitly non-exclusive
 
 Step 03 should be reusable and re-run after major data expansions.
 

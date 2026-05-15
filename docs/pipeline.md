@@ -51,7 +51,14 @@ and models.
     Generate a compact report and supporting CSVs from the existing processed
     evidence tables.
 
-12. **Visualization Layer - Findings Visuals** *(planned)*
+12. **Visualization Layer - Computational Matrix and Network Data**
+    Generate slide-ready matrix figures plus network-ready node/edge tables
+    from the core findings packet and current processed evidence.
+
+13. **Insight Mining Packet and Metadata Gate**
+    Mine the existing ontology for conference-facing claims, second-layer
+    figures, example entities, and a go/no-go recommendation for future
+    Wikipedia article metadata.
 
 Between Step 03 and Step 04, the repository also includes a non-numbered
 label-correction helper that builds auditable correction tables for unresolved
@@ -894,19 +901,95 @@ tables. This layer is a reporting layer, not a new enrichment step.
 - `data/processed/global_writers/core_findings_occupation_buckets_by_slice.csv`
 - `data/processed/global_writers/core_findings_data_friction.csv`
 
-## Planned Visualization Layer - Findings Visuals
+## Visualization Layer - Computational Matrix and Network Data
 
-The analysis layers already produce provisional cultural-affiliation,
-place-affiliation, formula-backed affiliation evidence, and Wikipedia
-language-edition matrices. A later visualization layer should turn the core
-findings packet into presentation-ready views:
+Script:
 
-- build context-slice bars
-- build citizenship/place punchcards
-- build language-edition heatmaps
-- build occupation-bucket comparisons
-- preserve ambiguous or historically contested place mappings rather than
-  forcing them into modern nation-state categories
+`scripts/visuals/01_build_computational_visual_layer.py`
+
+### Purpose
+
+Turn the core findings packet and existing processed evidence into
+presentation-ready matrix figures and network-ready tables. This layer is
+matrix-first: it visualizes evidence construction before attempting any
+force-directed network rendering.
+
+### Inputs
+
+- `data/processed/global_writers/core_findings_context_slices.csv`
+- `data/processed/global_writers/core_findings_data_friction.csv`
+- `data/processed/global_writers/core_findings_language_by_slice.csv`
+- `data/processed/global_writers/core_findings_occupation_buckets_by_slice.csv`
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/cultural_affiliation_evidence_matrix.csv`
+
+### Outputs
+
+- `data/processed/global_writers/visual_matrix_evidence_construction.csv`
+- `data/processed/global_writers/visual_matrix_language_representation.csv`
+- `data/processed/global_writers/visual_matrix_occupation_buckets.csv`
+- `data/processed/global_writers/visual_matrix_data_friction.csv`
+- `data/processed/global_writers/visual_network_nodes.csv`
+- `data/processed/global_writers/visual_network_edges.csv`
+- `figures/context_evidence_matrix.svg`
+- `figures/context_evidence_punchcard.svg`
+- `figures/language_representation_heatmap.svg`
+- `figures/occupation_bucket_matrix.svg`
+
+### Behavior
+
+- uses only `global_writers`
+- keeps BnF and other external authority sources out of scope
+- preserves ambiguous or historically contested evidence as visible fields
+  instead of forcing a single modern nation-state answer
+- orders context slices as France, Germany, British, and China/Qing
+  throughout the slide-ready outputs
+
+## Insight Mining Packet and Metadata Gate
+
+Scripts:
+
+`scripts/analysis/09_build_insight_mining_packet.py`
+
+`scripts/visuals/02_build_insight_figures.py`
+
+### Purpose
+
+Mine the current `global_writers` ontology for a 20-25 minute computational
+humanities segment. This layer produces ranked claim candidates, presenter
+notes, second-layer figures, reproducible example entities, and a gate on
+whether Wikipedia article metadata is worth collecting later.
+
+### Inputs
+
+- existing `global_writers` processed representation, context, occupation,
+  language, data-friction, and affiliation-evidence tables
+
+### Outputs
+
+- `docs/insight_mining_packet.md`
+- `data/processed/global_writers/insight_claim_candidates.csv`
+- `data/processed/global_writers/insight_gender_context.csv`
+- `data/processed/global_writers/insight_gender_language_representation.csv`
+- `data/processed/global_writers/insight_occupation_overrepresentation.csv`
+- `data/processed/global_writers/insight_decade_trends.csv`
+- `data/processed/global_writers/insight_multi_context_entities.csv`
+- `data/processed/global_writers/insight_data_friction_by_context_gender_bucket.csv`
+- `data/processed/global_writers/insight_example_entities.csv`
+- `data/processed/global_writers/insight_metadata_gap_assessment.csv`
+- `figures/gender_context_matrix.svg`
+- `figures/occupation_overrepresentation_index.svg`
+- `figures/decade_trends.svg`
+- `figures/multi_context_entities_matrix.svg`
+- `figures/data_friction_by_context.svg`
+
+### Behavior
+
+- uses only current processed data
+- adds no BnF, authority system, or corpus broadening
+- treats article presence as representation evidence, not article depth
+- defers Wikipedia metadata collection unless a later claim needs article
+  length, lead text, categories, or revision count
 
 ## Later Research Decisions
 

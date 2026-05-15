@@ -1,0 +1,37 @@
+node_id,label,node_type,group,weight,notes
+slice:british,British,context_slice,context,2099.0,Reviewed context slice within the global writer cohort.
+slice:china,China/Qing,context_slice,context,424.0,Reviewed context slice within the global writer cohort.
+slice:france,France,context_slice,context,2922.0,Reviewed context slice within the global writer cohort.
+slice:germany,Germany,context_slice,context,3711.0,Reviewed context slice within the global writer cohort.
+friction:missing_citizenship,Missing citizenship,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+friction:no_mapped_affiliation_candidate,No mapped affiliation candidate,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+friction:no_place_context,No place context,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+friction:no_tracked_wikipedia_article,No tracked Wikipedia article,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+friction:top_affiliation_lte_1_field,Top affiliation <= 1 field,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+friction:unresolved_name_label,Unresolved name label,data_friction_metric,data friction,0.0,Data-friction metric used to show limits of evidence construction.
+evidence:birth_place_context,Birth-place context,evidence_type,entity evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+evidence:citizenship,Citizenship,evidence_type,entity evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+evidence:language_evidence,Language evidence,evidence_type,entity evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+evidence:place_context,Place context,evidence_type,entity evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+evidence:place_only,Place-only,evidence_type,derived evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+evidence:wikipedia_representation,Wikipedia representation,evidence_type,representation evidence,0.0,Evidence type used to construct context-slice membership or interpretability.
+language:dawiki,Danish,language_edition,Wikipedia,3.95,Tracked Wikipedia language edition.
+language:dewiki,German,language_edition,Wikipedia,27.68,Tracked Wikipedia language edition.
+language:enwiki,English,language_edition,Wikipedia,36.9,Tracked Wikipedia language edition.
+language:eswiki,Spanish,language_edition,Wikipedia,12.76,Tracked Wikipedia language edition.
+language:frwiki,French,language_edition,Wikipedia,24.21,Tracked Wikipedia language edition.
+language:itwiki,Italian,language_edition,Wikipedia,14.25,Tracked Wikipedia language edition.
+language:nlwiki,Dutch,language_edition,Wikipedia,6.48,Tracked Wikipedia language edition.
+language:plwiki,Polish,language_edition,Wikipedia,8.4,Tracked Wikipedia language edition.
+language:ptwiki,Portuguese,language_edition,Wikipedia,6.77,Tracked Wikipedia language edition.
+language:ruwiki,Russian,language_edition,Wikipedia,16.94,Tracked Wikipedia language edition.
+language:svwiki,Swedish,language_edition,Wikipedia,12.7,Tracked Wikipedia language edition.
+language:ukwiki,Ukrainian,language_edition,Wikipedia,6.04,Tracked Wikipedia language edition.
+occupation:education_scholarship_humanities,Education / Scholarship / Humanities,occupation_bucket,Intellectual systems,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:law_administration,Law / Administration,occupation_bucket,Institutional power,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:philosophy,Philosophy,occupation_bucket,Intellectual systems,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:politics_statecraft_diplomacy,Politics / Statecraft / Diplomacy,occupation_bucket,Institutional power,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:print_publishing_journalism,Print / Publishing / Journalism,occupation_bucket,Literary and textual production,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:religion_theology,Religion / Theology,occupation_bucket,Intellectual systems,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:science_natural_history,Science / Natural History,occupation_bucket,Scientific knowledge,0.0,Headline occupation bucket used in slide-ready matrix.
+occupation:writing_literature,Writing / Literature,occupation_bucket,Literary and textual production,0.0,Headline occupation bucket used in slide-ready matrix.

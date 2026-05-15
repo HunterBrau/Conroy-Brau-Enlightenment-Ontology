@@ -1,0 +1,129 @@
+source,target,edge_type,weight_count,weight_pct,weight_index,notes
+slice:france,evidence:citizenship,slice_to_evidence,1664,56.95,,Share of slice entities with the evidence type.
+slice:france,evidence:place_context,slice_to_evidence,2713,92.85,,Share of slice entities with the evidence type.
+slice:france,evidence:birth_place_context,slice_to_evidence,2076,71.05,,Share of slice entities with the evidence type.
+slice:france,evidence:place_only,slice_to_evidence,1258,43.05,,Share of slice entities with the evidence type.
+slice:france,evidence:language_evidence,slice_to_evidence,2380,81.45,,Share of slice entities with the evidence type.
+slice:france,evidence:wikipedia_representation,slice_to_evidence,2309,79.02,,Share of slice entities with the evidence type.
+slice:germany,evidence:citizenship,slice_to_evidence,1368,36.86,,Share of slice entities with the evidence type.
+slice:germany,evidence:place_context,slice_to_evidence,3655,98.49,,Share of slice entities with the evidence type.
+slice:germany,evidence:birth_place_context,slice_to_evidence,2926,78.85,,Share of slice entities with the evidence type.
+slice:germany,evidence:place_only,slice_to_evidence,2343,63.14,,Share of slice entities with the evidence type.
+slice:germany,evidence:language_evidence,slice_to_evidence,2594,69.9,,Share of slice entities with the evidence type.
+slice:germany,evidence:wikipedia_representation,slice_to_evidence,2806,75.61,,Share of slice entities with the evidence type.
+slice:british,evidence:citizenship,slice_to_evidence,1454,69.27,,Share of slice entities with the evidence type.
+slice:british,evidence:place_context,slice_to_evidence,1570,74.8,,Share of slice entities with the evidence type.
+slice:british,evidence:birth_place_context,slice_to_evidence,1277,60.84,,Share of slice entities with the evidence type.
+slice:british,evidence:place_only,slice_to_evidence,645,30.73,,Share of slice entities with the evidence type.
+slice:british,evidence:language_evidence,slice_to_evidence,1041,49.6,,Share of slice entities with the evidence type.
+slice:british,evidence:wikipedia_representation,slice_to_evidence,1781,84.85,,Share of slice entities with the evidence type.
+slice:china,evidence:citizenship,slice_to_evidence,404,95.28,,Share of slice entities with the evidence type.
+slice:china,evidence:place_context,slice_to_evidence,104,24.53,,Share of slice entities with the evidence type.
+slice:china,evidence:birth_place_context,slice_to_evidence,94,22.17,,Share of slice entities with the evidence type.
+slice:china,evidence:place_only,slice_to_evidence,20,4.72,,Share of slice entities with the evidence type.
+slice:china,evidence:language_evidence,slice_to_evidence,3,0.71,,Share of slice entities with the evidence type.
+slice:china,evidence:wikipedia_representation,slice_to_evidence,258,60.85,,Share of slice entities with the evidence type.
+slice:france,language:enwiki,slice_to_language,1244,42.57,1.1537,Language-edition representation relative to the global baseline.
+slice:france,language:dewiki,slice_to_language,1065,36.45,1.3168,Language-edition representation relative to the global baseline.
+slice:france,language:frwiki,slice_to_language,1742,59.62,2.4626,Language-edition representation relative to the global baseline.
+slice:france,language:ruwiki,slice_to_language,709,24.26,1.4321,Language-edition representation relative to the global baseline.
+slice:france,language:itwiki,slice_to_language,779,26.66,1.8709,Language-edition representation relative to the global baseline.
+slice:france,language:eswiki,slice_to_language,559,19.13,1.4992,Language-edition representation relative to the global baseline.
+slice:france,language:svwiki,slice_to_language,530,18.14,1.4283,Language-edition representation relative to the global baseline.
+slice:france,language:plwiki,slice_to_language,329,11.26,1.3405,Language-edition representation relative to the global baseline.
+slice:france,language:ptwiki,slice_to_language,322,11.02,1.6278,Language-edition representation relative to the global baseline.
+slice:france,language:nlwiki,slice_to_language,388,13.28,2.0494,Language-edition representation relative to the global baseline.
+slice:france,language:ukwiki,slice_to_language,238,8.15,1.3493,Language-edition representation relative to the global baseline.
+slice:france,language:dawiki,slice_to_language,156,5.34,1.3519,Language-edition representation relative to the global baseline.
+slice:germany,language:enwiki,slice_to_language,936,25.22,0.6835,Language-edition representation relative to the global baseline.
+slice:germany,language:dewiki,slice_to_language,2202,59.34,2.1438,Language-edition representation relative to the global baseline.
+slice:germany,language:frwiki,slice_to_language,697,18.78,0.7757,Language-edition representation relative to the global baseline.
+slice:germany,language:ruwiki,slice_to_language,682,18.38,1.085,Language-edition representation relative to the global baseline.
+slice:germany,language:itwiki,slice_to_language,523,14.09,0.9888,Language-edition representation relative to the global baseline.
+slice:germany,language:eswiki,slice_to_language,346,9.32,0.7304,Language-edition representation relative to the global baseline.
+slice:germany,language:svwiki,slice_to_language,494,13.31,1.048,Language-edition representation relative to the global baseline.
+slice:germany,language:plwiki,slice_to_language,407,10.97,1.306,Language-edition representation relative to the global baseline.
+slice:germany,language:ptwiki,slice_to_language,211,5.69,0.8405,Language-edition representation relative to the global baseline.
+slice:germany,language:nlwiki,slice_to_language,213,5.74,0.8858,Language-edition representation relative to the global baseline.
+slice:germany,language:ukwiki,slice_to_language,232,6.25,1.0348,Language-edition representation relative to the global baseline.
+slice:germany,language:dawiki,slice_to_language,204,5.5,1.3924,Language-edition representation relative to the global baseline.
+slice:british,language:enwiki,slice_to_language,1689,80.47,2.1808,Language-edition representation relative to the global baseline.
+slice:british,language:dewiki,slice_to_language,492,23.44,0.8468,Language-edition representation relative to the global baseline.
+slice:british,language:frwiki,slice_to_language,680,32.4,1.3383,Language-edition representation relative to the global baseline.
+slice:british,language:ruwiki,slice_to_language,395,18.82,1.111,Language-edition representation relative to the global baseline.
+slice:british,language:itwiki,slice_to_language,389,18.53,1.3004,Language-edition representation relative to the global baseline.
+slice:british,language:eswiki,slice_to_language,369,17.58,1.3777,Language-edition representation relative to the global baseline.
+slice:british,language:svwiki,slice_to_language,336,16.01,1.2606,Language-edition representation relative to the global baseline.
+slice:british,language:plwiki,slice_to_language,245,11.67,1.3893,Language-edition representation relative to the global baseline.
+slice:british,language:ptwiki,slice_to_language,268,12.77,1.8863,Language-edition representation relative to the global baseline.
+slice:british,language:nlwiki,slice_to_language,191,9.1,1.4043,Language-edition representation relative to the global baseline.
+slice:british,language:ukwiki,slice_to_language,175,8.34,1.3808,Language-edition representation relative to the global baseline.
+slice:british,language:dawiki,slice_to_language,106,5.05,1.2785,Language-edition representation relative to the global baseline.
+slice:china,language:enwiki,slice_to_language,70,16.51,0.4474,Language-edition representation relative to the global baseline.
+slice:china,language:dewiki,slice_to_language,22,5.19,0.1875,Language-edition representation relative to the global baseline.
+slice:china,language:frwiki,slice_to_language,35,8.25,0.3408,Language-edition representation relative to the global baseline.
+slice:china,language:ruwiki,slice_to_language,30,7.08,0.4179,Language-edition representation relative to the global baseline.
+slice:china,language:itwiki,slice_to_language,15,3.54,0.2484,Language-edition representation relative to the global baseline.
+slice:china,language:eswiki,slice_to_language,18,4.25,0.3331,Language-edition representation relative to the global baseline.
+slice:china,language:svwiki,slice_to_language,22,5.19,0.4087,Language-edition representation relative to the global baseline.
+slice:china,language:plwiki,slice_to_language,14,3.3,0.3929,Language-edition representation relative to the global baseline.
+slice:china,language:ptwiki,slice_to_language,8,1.89,0.2792,Language-edition representation relative to the global baseline.
+slice:china,language:nlwiki,slice_to_language,24,5.66,0.8735,Language-edition representation relative to the global baseline.
+slice:china,language:ukwiki,slice_to_language,26,6.13,1.0149,Language-edition representation relative to the global baseline.
+slice:china,language:dawiki,slice_to_language,2,0.47,0.119,Language-edition representation relative to the global baseline.
+slice:france,occupation:writing_literature,slice_to_occupation_bucket,2903,99.35,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:religion_theology,slice_to_occupation_bucket,330,11.29,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:education_scholarship_humanities,slice_to_occupation_bucket,603,20.64,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:philosophy,slice_to_occupation_bucket,138,4.72,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:science_natural_history,slice_to_occupation_bucket,156,5.34,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:politics_statecraft_diplomacy,slice_to_occupation_bucket,357,12.22,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:law_administration,slice_to_occupation_bucket,306,10.47,,Share of slice entities tagged with the occupation bucket.
+slice:france,occupation:print_publishing_journalism,slice_to_occupation_bucket,291,9.96,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:writing_literature,slice_to_occupation_bucket,3592,96.79,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:religion_theology,slice_to_occupation_bucket,938,25.28,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:education_scholarship_humanities,slice_to_occupation_bucket,1055,28.43,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:philosophy,slice_to_occupation_bucket,168,4.53,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:science_natural_history,slice_to_occupation_bucket,180,4.85,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:politics_statecraft_diplomacy,slice_to_occupation_bucket,205,5.52,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:law_administration,slice_to_occupation_bucket,417,11.24,,Share of slice entities tagged with the occupation bucket.
+slice:germany,occupation:print_publishing_journalism,slice_to_occupation_bucket,238,6.41,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:writing_literature,slice_to_occupation_bucket,2028,96.62,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:religion_theology,slice_to_occupation_bucket,346,16.48,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:education_scholarship_humanities,slice_to_occupation_bucket,281,13.39,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:philosophy,slice_to_occupation_bucket,67,3.19,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:science_natural_history,slice_to_occupation_bucket,103,4.91,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:politics_statecraft_diplomacy,slice_to_occupation_bucket,163,7.77,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:law_administration,slice_to_occupation_bucket,106,5.05,,Share of slice entities tagged with the occupation bucket.
+slice:british,occupation:print_publishing_journalism,slice_to_occupation_bucket,135,6.43,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:writing_literature,slice_to_occupation_bucket,422,99.53,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:religion_theology,slice_to_occupation_bucket,6,1.42,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:education_scholarship_humanities,slice_to_occupation_bucket,12,2.83,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:philosophy,slice_to_occupation_bucket,4,0.94,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:science_natural_history,slice_to_occupation_bucket,8,1.89,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:politics_statecraft_diplomacy,slice_to_occupation_bucket,37,8.73,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:law_administration,slice_to_occupation_bucket,3,0.71,,Share of slice entities tagged with the occupation bucket.
+slice:china,occupation:print_publishing_journalism,slice_to_occupation_bucket,1,0.24,,Share of slice entities tagged with the occupation bucket.
+slice:france,friction:missing_citizenship,slice_to_data_friction,526,18.0,,No Wikidata P27 value in the enrichment export.
+slice:france,friction:no_place_context,slice_to_data_friction,193,6.61,,No birth/death/residence/work-location context rows recovered.
+slice:france,friction:no_tracked_wikipedia_article,slice_to_data_friction,613,20.98,,No Wikipedia sitelink in the tracked language-edition matrix.
+slice:france,friction:unresolved_name_label,slice_to_data_friction,26,0.89,,Name still appears as a raw Wikidata QID.
+slice:france,friction:no_mapped_affiliation_candidate,slice_to_data_friction,0,0.0,,No mapped candidate in the formula-backed affiliation evidence table.
+slice:france,friction:top_affiliation_lte_1_field,slice_to_data_friction,297,10.16,,Top affiliation candidate is supported by zero or one evidence field.
+slice:germany,friction:missing_citizenship,slice_to_data_friction,1456,39.23,,No Wikidata P27 value in the enrichment export.
+slice:germany,friction:no_place_context,slice_to_data_friction,16,0.43,,No birth/death/residence/work-location context rows recovered.
+slice:germany,friction:no_tracked_wikipedia_article,slice_to_data_friction,905,24.39,,No Wikipedia sitelink in the tracked language-edition matrix.
+slice:germany,friction:unresolved_name_label,slice_to_data_friction,67,1.81,,Name still appears as a raw Wikidata QID.
+slice:germany,friction:no_mapped_affiliation_candidate,slice_to_data_friction,0,0.0,,No mapped candidate in the formula-backed affiliation evidence table.
+slice:germany,friction:top_affiliation_lte_1_field,slice_to_data_friction,502,13.53,,Top affiliation candidate is supported by zero or one evidence field.
+slice:british,friction:missing_citizenship,slice_to_data_friction,433,20.63,,No Wikidata P27 value in the enrichment export.
+slice:british,friction:no_place_context,slice_to_data_friction,503,23.96,,No birth/death/residence/work-location context rows recovered.
+slice:british,friction:no_tracked_wikipedia_article,slice_to_data_friction,318,15.15,,No Wikipedia sitelink in the tracked language-edition matrix.
+slice:british,friction:unresolved_name_label,slice_to_data_friction,16,0.76,,Name still appears as a raw Wikidata QID.
+slice:british,friction:no_mapped_affiliation_candidate,slice_to_data_friction,0,0.0,,No mapped candidate in the formula-backed affiliation evidence table.
+slice:british,friction:top_affiliation_lte_1_field,slice_to_data_friction,749,35.68,,Top affiliation candidate is supported by zero or one evidence field.
+slice:china,friction:missing_citizenship,slice_to_data_friction,14,3.3,,No Wikidata P27 value in the enrichment export.
+slice:china,friction:no_place_context,slice_to_data_friction,319,75.24,,No birth/death/residence/work-location context rows recovered.
+slice:china,friction:no_tracked_wikipedia_article,slice_to_data_friction,166,39.15,,No Wikipedia sitelink in the tracked language-edition matrix.
+slice:china,friction:unresolved_name_label,slice_to_data_friction,22,5.19,,Name still appears as a raw Wikidata QID.
+slice:china,friction:no_mapped_affiliation_candidate,slice_to_data_friction,0,0.0,,No mapped candidate in the formula-backed affiliation evidence table.
+slice:china,friction:top_affiliation_lte_1_field,slice_to_data_friction,330,77.83,,Top affiliation candidate is supported by zero or one evidence field.
