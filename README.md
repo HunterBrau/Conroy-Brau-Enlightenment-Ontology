@@ -41,8 +41,8 @@ Current and planned questions include:
 - Can language-edition representation become an influence map, for example by
   comparing which national or linguistic groups appear in French versus Italian
   or other Wikipedia/Wikidata contexts?
-- How do Wikidata-derived proportions compare with BnF-derived or other
-  bibliographic datasets?
+- Where do citizenship, place context, language evidence, and Wikipedia
+  representation tell different stories about the same people?
 
 ## Pipeline Concept
 
@@ -148,10 +148,9 @@ The project should expand outward in a deliberate order:
 3. Use API-based Wikidata enrichment for both cohorts.
 4. Build explicit comparison and context-slice tables before adding another
    source family.
-5. Add **BnF** as the first external comparison source only after the Wikidata
-   tracks and political-entity crosswalk are stable.
-6. Add domain-specific authorities only if a research question clearly needs
-   them.
+5. Build visualizations only from the existing processed tables.
+6. Add no external authority source unless a specific claim cannot be answered
+   from the current Wikidata/Wikipedia evidence.
 
 This source order keeps the project interpretable. It avoids introducing
 several competing identity systems before the Wikidata-centered cohort has been
@@ -159,6 +158,12 @@ understood.
 
 The fuller source-adoption rationale lives in
 [docs/source_strategy.md](docs/source_strategy.md).
+
+The current trimmed project scope lives in
+[docs/current_scope.md](docs/current_scope.md).
+
+The generated core findings packet lives in
+[docs/core_findings_packet.md](docs/core_findings_packet.md).
 
 The current analysis roadmap lives in
 [docs/analysis_roadmap.md](docs/analysis_roadmap.md).
@@ -424,19 +429,33 @@ Context Slice Layer: Reproducible crosswalk slices
   - reports citizenship, place-context, and birth-place-context evidence
   - audits why the original manual French seed is now redundant as discovery
 
+Core Findings Packet
+
+- Script: `scripts/analysis/08_build_core_findings_packet.py`
+- Outputs:
+  - `docs/core_findings_packet.md`
+  - `data/processed/global_writers/core_findings_key_metrics.csv`
+  - `data/processed/global_writers/core_findings_context_slices.csv`
+  - `data/processed/global_writers/core_findings_language_by_slice.csv`
+  - `data/processed/global_writers/core_findings_gender_by_slice.csv`
+  - `data/processed/global_writers/core_findings_occupation_buckets_by_slice.csv`
+  - `data/processed/global_writers/core_findings_data_friction.csv`
+- Behavior:
+  - builds a compact findings report from existing processed evidence
+  - keeps BnF and other external authority sources out of the current scope
+
 ## Planned Pipeline Steps
 
-| Step | Purpose |
+| Layer | Purpose |
 |---|---|
-| 07 | Compare with BnF |
-| 08 | Optional domain-specific enrichment |
+| Visual findings | Build context-slice bars, citizenship/place punchcards, language heatmaps, and occupation-bucket comparisons from the core findings packet |
 
 Step 03 should be reusable and re-run after major data expansions.
 
-Step 04 stays Wikidata-centered. It adds the fields needed for later inference
-and visualization before the project introduces other external authority
-systems. Step 04 is implemented as a two-part workflow: fetch a Wikidata API
-CSV, then merge that exported CSV back into the cohort.
+Step 04 stays Wikidata-centered. It adds the fields needed for inference and
+visualization without introducing external authority systems. Step 04 is
+implemented as a two-part workflow: fetch a Wikidata API CSV, then merge that
+exported CSV back into the cohort.
 
 The analysis layers already produce provisional cultural-affiliation,
 formula-backed affiliation evidence, granular occupation-bucket, and Wikipedia
@@ -444,9 +463,7 @@ language-edition matrices, with place-derived context kept inspectable. Later
 layers should add visual or network outputs without hiding the evidence fields
 that support each claim.
 
-Step 07 should introduce BnF as the first external comparator. Only after that
-should the project decide whether sources such as CERL, Getty, MusicBrainz, or
-Europeana are necessary.
+External authority comparison is out of current scope.
 
 ## How to Run
 
@@ -519,5 +536,5 @@ Current cleanup focus:
   derived from `global_writers`.
 - Review the political-entity and occupation-bucket crosswalks.
 - Preserve VIAF ambiguity and unresolved-label corrections as audit trails.
-- Add visualization and BnF comparison layers only after the Wikidata evidence
-  tables have been reviewed.
+- Build visualizations from the core findings packet after the review tables
+  have been inspected.

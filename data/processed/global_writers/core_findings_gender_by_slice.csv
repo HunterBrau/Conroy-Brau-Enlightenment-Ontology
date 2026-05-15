@@ -1,0 +1,17 @@
+slice_id,review_group,gender_category,slice_entities,slice_total_entities,slice_pct,global_entities,global_pct
+british,British,male,1679,2099,79.99,12505,86.98
+british,British,female,418,2099,19.91,1743,12.12
+british,British,multiple_or_ambiguous,1,2099,0.05,1,0.01
+british,British,unknown,1,2099,0.05,128,0.89
+china,China,male,242,424,57.08,12505,86.98
+china,China,female,168,424,39.62,1743,12.12
+china,China,unknown,14,424,3.3,128,0.89
+china,China,multiple_or_ambiguous,0,424,0.0,1,0.01
+france,France,male,2544,2922,87.06,12505,86.98
+france,France,female,372,2922,12.73,1743,12.12
+france,France,unknown,5,2922,0.17,128,0.89
+france,France,multiple_or_ambiguous,1,2922,0.03,1,0.01
+germany,Germany,male,3442,3711,92.75,12505,86.98
+germany,Germany,female,260,3711,7.01,1743,12.12
+germany,Germany,unknown,9,3711,0.24,128,0.89
+germany,Germany,multiple_or_ambiguous,0,3711,0.0,1,0.01

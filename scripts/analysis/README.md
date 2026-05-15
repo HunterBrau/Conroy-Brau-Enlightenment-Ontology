@@ -211,3 +211,25 @@ Run it after the global place-context and political crosswalk layers exist:
 ```powershell
 python scripts/analysis/07_build_context_slice_tables.py
 ```
+
+## 08_build_core_findings_packet.py
+
+Builds the current scoped findings packet from existing global-writer outputs.
+It does not fetch data or introduce new sources.
+
+Outputs:
+
+- `docs/core_findings_packet.md`
+- `data/processed/global_writers/core_findings_key_metrics.csv`
+- `data/processed/global_writers/core_findings_context_slices.csv`
+- `data/processed/global_writers/core_findings_language_by_slice.csv`
+- `data/processed/global_writers/core_findings_gender_by_slice.csv`
+- `data/processed/global_writers/core_findings_occupation_buckets_by_slice.csv`
+- `data/processed/global_writers/core_findings_data_friction.csv`
+
+Run it after the context-slice, representation, geographic-scope,
+affiliation-evidence, and occupation-bucket layers exist:
+
+```powershell
+python scripts/analysis/08_build_core_findings_packet.py
+```

@@ -1,0 +1,77 @@
+slice_id,review_group,granular_bucket,bucket_family,slice_entities,slice_total_entities,slice_pct
+british,British,Writing / Literature,Literary and textual production,2028,2099,96.62
+british,British,Religion / Theology,Intellectual systems,346,2099,16.48
+british,British,Education / Scholarship / Humanities,Intellectual systems,281,2099,13.39
+british,British,Translation / Philology / Languages,Literary and textual production,166,2099,7.91
+british,British,Politics / Statecraft / Diplomacy,Institutional power,163,2099,7.77
+british,British,Print / Publishing / Journalism,Literary and textual production,135,2099,6.43
+british,British,Law / Administration,Institutional power,106,2099,5.05
+british,British,Science / Natural History,Scientific knowledge,103,2099,4.91
+british,British,Music / Performance / Theatre,Arts and performance,102,2099,4.86
+british,British,Visual Arts / Architecture / Design,Arts and performance,93,2099,4.43
+british,British,Medicine / Health,Scientific knowledge,91,2099,4.34
+british,British,Unmapped / Review,Needs review,88,2099,4.19
+british,British,Economics / Commerce,Institutional power,87,2099,4.14
+british,British,Philosophy,Intellectual systems,67,2099,3.19
+british,British,Craft / Trade / Industry,Material production,63,2099,3.0
+british,British,Travel / Geography / Exploration,Mobility and empire,63,2099,3.0
+british,British,Sociability / Patronage / Court,Social and cultural mediation,49,2099,2.33
+british,British,Military,Institutional power,43,2099,2.05
+british,British,Social Reform / Activism,Social and cultural mediation,37,2099,1.76
+british,British,Engineering / Technology,Scientific knowledge,18,2099,0.86
+china,China,Writing / Literature,Literary and textual production,422,424,99.53
+china,China,Visual Arts / Architecture / Design,Arts and performance,66,424,15.57
+china,China,Politics / Statecraft / Diplomacy,Institutional power,37,424,8.73
+china,China,Education / Scholarship / Humanities,Intellectual systems,12,424,2.83
+china,China,Science / Natural History,Scientific knowledge,8,424,1.89
+china,China,Unmapped / Review,Needs review,7,424,1.65
+china,China,Religion / Theology,Intellectual systems,6,424,1.42
+china,China,Philosophy,Intellectual systems,4,424,0.94
+china,China,Sociability / Patronage / Court,Social and cultural mediation,4,424,0.94
+china,China,Translation / Philology / Languages,Literary and textual production,4,424,0.94
+china,China,Law / Administration,Institutional power,3,424,0.71
+china,China,Medicine / Health,Scientific knowledge,2,424,0.47
+china,China,Music / Performance / Theatre,Arts and performance,2,424,0.47
+china,China,Economics / Commerce,Institutional power,1,424,0.24
+china,China,Military,Institutional power,1,424,0.24
+china,China,Print / Publishing / Journalism,Literary and textual production,1,424,0.24
+france,France,Writing / Literature,Literary and textual production,2903,2922,99.35
+france,France,Education / Scholarship / Humanities,Intellectual systems,603,2922,20.64
+france,France,Translation / Philology / Languages,Literary and textual production,378,2922,12.94
+france,France,Politics / Statecraft / Diplomacy,Institutional power,357,2922,12.22
+france,France,Religion / Theology,Intellectual systems,330,2922,11.29
+france,France,Law / Administration,Institutional power,306,2922,10.47
+france,France,Print / Publishing / Journalism,Literary and textual production,291,2922,9.96
+france,France,Music / Performance / Theatre,Arts and performance,188,2922,6.43
+france,France,Science / Natural History,Scientific knowledge,156,2922,5.34
+france,France,Visual Arts / Architecture / Design,Arts and performance,156,2922,5.34
+france,France,Philosophy,Intellectual systems,138,2922,4.72
+france,France,Military,Institutional power,129,2922,4.41
+france,France,Unmapped / Review,Needs review,121,2922,4.14
+france,France,Economics / Commerce,Institutional power,109,2922,3.73
+france,France,Sociability / Patronage / Court,Social and cultural mediation,95,2922,3.25
+france,France,Medicine / Health,Scientific knowledge,87,2922,2.98
+france,France,Travel / Geography / Exploration,Mobility and empire,68,2922,2.33
+france,France,Engineering / Technology,Scientific knowledge,27,2922,0.92
+france,France,Craft / Trade / Industry,Material production,21,2922,0.72
+france,France,Social Reform / Activism,Social and cultural mediation,17,2922,0.58
+germany,Germany,Writing / Literature,Literary and textual production,3592,3711,96.79
+germany,Germany,Education / Scholarship / Humanities,Intellectual systems,1055,3711,28.43
+germany,Germany,Religion / Theology,Intellectual systems,938,3711,25.28
+germany,Germany,Translation / Philology / Languages,Literary and textual production,463,3711,12.48
+germany,Germany,Law / Administration,Institutional power,417,3711,11.24
+germany,Germany,Music / Performance / Theatre,Arts and performance,254,3711,6.84
+germany,Germany,Print / Publishing / Journalism,Literary and textual production,238,3711,6.41
+germany,Germany,Politics / Statecraft / Diplomacy,Institutional power,205,3711,5.52
+germany,Germany,Science / Natural History,Scientific knowledge,180,3711,4.85
+germany,Germany,Philosophy,Intellectual systems,168,3711,4.53
+germany,Germany,Unmapped / Review,Needs review,123,3711,3.31
+germany,Germany,Medicine / Health,Scientific knowledge,116,3711,3.13
+germany,Germany,Visual Arts / Architecture / Design,Arts and performance,111,3711,2.99
+germany,Germany,Military,Institutional power,106,3711,2.86
+germany,Germany,Sociability / Patronage / Court,Social and cultural mediation,81,3711,2.18
+germany,Germany,Economics / Commerce,Institutional power,71,3711,1.91
+germany,Germany,Travel / Geography / Exploration,Mobility and empire,56,3711,1.51
+germany,Germany,Craft / Trade / Industry,Material production,32,3711,0.86
+germany,Germany,Engineering / Technology,Scientific knowledge,27,3711,0.73
+germany,Germany,Social Reform / Activism,Social and cultural mediation,11,3711,0.3

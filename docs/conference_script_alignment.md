@@ -16,12 +16,12 @@ from being hidden inside later analysis.
 
 The script frames the project around three research questions:
 
-- how European eighteenth-century writers are represented in Wikidata,
-  Wikipedia, and possibly BnF;
+- how European eighteenth-century writers are represented in Wikidata and
+  Wikipedia;
 - whether Wikidata or Wikipedia language affects which biographies are
   represented;
-- whether BnF nationality proportions resemble or differ from Wikidata
-  proportions.
+- whether evidence fields such as citizenship and place context change the
+  resulting national or imperial picture.
 
 The script's "Global Picture" section describes a broad Wikidata cohort:
 
@@ -219,8 +219,8 @@ spoken/written language
 writing language
 ```
 
-8. Add BnF only after the Wikidata global and French-seed tracks are clearly
-   separated.
+8. Keep BnF out of the current phase; the scoped project now focuses on the
+   reproducible Wikidata/Wikipedia evidence already in the repository.
 
 ## Bottom Line
 

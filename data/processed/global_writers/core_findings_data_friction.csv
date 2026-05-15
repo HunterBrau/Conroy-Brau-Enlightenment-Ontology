@@ -1,0 +1,31 @@
+scope_id,scope_label,metric,entity_count,denominator,pct,notes
+global_writers,Global writers,missing_country_of_citizenship,5302,14377,36.88,No Wikidata P27 value in the enrichment export.
+global_writers,Global writers,no_place_context,3883,14377,27.01,No birth/death/residence/work-location context rows recovered.
+global_writers,Global writers,no_wikipedia_article_in_tracked_editions,3818,14377,26.56,No Wikipedia sitelink in the tracked language-edition matrix.
+global_writers,Global writers,unresolved_name_label,490,14377,3.41,Name still appears as a raw Wikidata QID.
+global_writers,Global writers,no_mapped_affiliation_candidate,2248,14377,15.64,No mapped candidate in the formula-backed affiliation evidence table.
+global_writers,Global writers,top_affiliation_single_field_or_less,4936,14377,34.33,Top affiliation candidate is supported by zero or one evidence field.
+british,British,missing_country_of_citizenship,433,2099,20.63,No Wikidata P27 value in the enrichment export.
+british,British,no_place_context,503,2099,23.96,No birth/death/residence/work-location context rows recovered.
+british,British,no_wikipedia_article_in_tracked_editions,318,2099,15.15,No Wikipedia sitelink in the tracked language-edition matrix.
+british,British,unresolved_name_label,16,2099,0.76,Name still appears as a raw Wikidata QID.
+british,British,no_mapped_affiliation_candidate,0,2099,0.0,No mapped candidate in the formula-backed affiliation evidence table.
+british,British,top_affiliation_single_field_or_less,749,2099,35.68,Top affiliation candidate is supported by zero or one evidence field.
+china,China,missing_country_of_citizenship,14,424,3.3,No Wikidata P27 value in the enrichment export.
+china,China,no_place_context,319,424,75.24,No birth/death/residence/work-location context rows recovered.
+china,China,no_wikipedia_article_in_tracked_editions,166,424,39.15,No Wikipedia sitelink in the tracked language-edition matrix.
+china,China,unresolved_name_label,22,424,5.19,Name still appears as a raw Wikidata QID.
+china,China,no_mapped_affiliation_candidate,0,424,0.0,No mapped candidate in the formula-backed affiliation evidence table.
+china,China,top_affiliation_single_field_or_less,330,424,77.83,Top affiliation candidate is supported by zero or one evidence field.
+france,France,missing_country_of_citizenship,526,2922,18.0,No Wikidata P27 value in the enrichment export.
+france,France,no_place_context,193,2922,6.61,No birth/death/residence/work-location context rows recovered.
+france,France,no_wikipedia_article_in_tracked_editions,613,2922,20.98,No Wikipedia sitelink in the tracked language-edition matrix.
+france,France,unresolved_name_label,26,2922,0.89,Name still appears as a raw Wikidata QID.
+france,France,no_mapped_affiliation_candidate,0,2922,0.0,No mapped candidate in the formula-backed affiliation evidence table.
+france,France,top_affiliation_single_field_or_less,297,2922,10.16,Top affiliation candidate is supported by zero or one evidence field.
+germany,Germany,missing_country_of_citizenship,1456,3711,39.23,No Wikidata P27 value in the enrichment export.
+germany,Germany,no_place_context,16,3711,0.43,No birth/death/residence/work-location context rows recovered.
+germany,Germany,no_wikipedia_article_in_tracked_editions,905,3711,24.39,No Wikipedia sitelink in the tracked language-edition matrix.
+germany,Germany,unresolved_name_label,67,3711,1.81,Name still appears as a raw Wikidata QID.
+germany,Germany,no_mapped_affiliation_candidate,0,3711,0.0,No mapped candidate in the formula-backed affiliation evidence table.
+germany,Germany,top_affiliation_single_field_or_less,502,3711,13.53,Top affiliation candidate is supported by zero or one evidence field.

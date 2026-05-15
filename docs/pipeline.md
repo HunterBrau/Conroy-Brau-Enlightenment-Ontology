@@ -47,11 +47,11 @@ and models.
     Derive France, Germany, British, and China/Qing slices from the global
     cohort and political-entity crosswalk.
 
-11. **Visualization Layer - Map and Network Datasets** *(planned)*
+11. **Core Findings Packet**
+    Generate a compact report and supporting CSVs from the existing processed
+    evidence tables.
 
-12. **Step 07 - Compare with BnF** *(planned)*
-
-13. **Step 08 - Optional Domain-Specific Enrichment** *(planned)*
+12. **Visualization Layer - Findings Visuals** *(planned)*
 
 Between Step 03 and Step 04, the repository also includes a non-numbered
 label-correction helper that builds auditable correction tables for unresolved
@@ -767,20 +767,19 @@ without hiding the calculation.
 - `data/processed/cultural_affiliation_evidence_best.csv`
 - `data/processed/cultural_affiliation_evidence_summary.csv`
 
-## Source Adoption Strategy
+## Source Scope Strategy
 
-The project should widen its sources in a deliberate order:
+The current project phase should not widen its source base. It should use the
+existing Wikidata/Wikipedia evidence spine:
 
 1. Keep **Wikidata** as the main identity spine.
-2. Diagnose the current pilot dataset before broadening the source graph.
-3. Add richer **Wikidata** fields needed for affiliation and representation.
-4. Re-run diagnostics on the enriched Wikidata-centered cohort.
-5. Add **BnF** as the first external comparison source.
-6. Only then decide whether domain-specific authorities are necessary.
+2. Use `global_writers` as the active analytical cohort.
+3. Derive all national and imperial context slices from the same crosswalk.
+4. Keep Wikipedia language-edition sitelinks as representation evidence.
+5. Keep BnF and other external authority systems out of scope for now.
 
-This ordering is methodological as well as technical. It keeps the cohort
-interpretable, avoids premature identity fragmentation, and makes it easier to
-explain how each new source changes the dataset.
+This trim is methodological as well as technical. It keeps the cohort
+interpretable and avoids premature identity fragmentation.
 
 See also:
 
@@ -862,43 +861,52 @@ because:
 - 286 crosswalk-France citizenship global writers are absent from the legacy
   seed.
 
-## Planned Visualization Layer - Map and Network Datasets
+## Core Findings Packet
+
+Script:
+
+`scripts/analysis/08_build_core_findings_packet.py`
+
+### Purpose
+
+Create the current conference-facing findings packet from existing processed
+tables. This layer is a reporting layer, not a new enrichment step.
+
+### Inputs
+
+- `data/processed/global_writers/context_slice_summary.csv`
+- `data/processed/global_writers/context_slice_membership.csv`
+- `data/processed/global_writers/representation_entities.csv`
+- `data/processed/global_writers/geographic_scope_summary.csv`
+- `data/processed/global_writers/cultural_affiliation_evidence_summary.csv`
+- `data/processed/global_writers/cultural_affiliation_evidence_best.csv`
+- `data/processed/global_writers/occupation_bucket_summary.csv`
+- `data/processed/global_writers/occupation_bucket_entities_long.csv`
+- `data/processed/global_writers/wikidata_label_coverage_by_language.csv`
+
+### Outputs
+
+- `docs/core_findings_packet.md`
+- `data/processed/global_writers/core_findings_key_metrics.csv`
+- `data/processed/global_writers/core_findings_context_slices.csv`
+- `data/processed/global_writers/core_findings_language_by_slice.csv`
+- `data/processed/global_writers/core_findings_gender_by_slice.csv`
+- `data/processed/global_writers/core_findings_occupation_buckets_by_slice.csv`
+- `data/processed/global_writers/core_findings_data_friction.csv`
+
+## Planned Visualization Layer - Findings Visuals
 
 The analysis layers already produce provisional cultural-affiliation,
 place-affiliation, formula-backed affiliation evidence, and Wikipedia
-language-edition matrices. A later visualization layer should turn those
-tables into presentation-ready geography and network datasets:
+language-edition matrices. A later visualization layer should turn the core
+findings packet into presentation-ready views:
 
-- produce geography-ready tables for maps, mobility views, and network
-  analysis
-- build selected punch-card examples that compare citizenship/language evidence
-  with place-derived evidence
+- build context-slice bars
+- build citizenship/place punchcards
+- build language-edition heatmaps
+- build occupation-bucket comparisons
 - preserve ambiguous or historically contested place mappings rather than
   forcing them into modern nation-state categories
-
-## Planned Step 07 - Compare with BnF
-
-BnF should be the first external comparison source. It is the most relevant
-next authority system for the current French-facing research questions, and it
-is a better first comparator than introducing several unrelated external
-datasets at once.
-
-The role of Step 07 is to compare coverage, proportions, and category patterns
-between the Wikidata-centered cohort and BnF-derived data. It should not
-replace Wikidata as the identity spine.
-
-## Planned Step 08 - Optional Domain-Specific Enrichment
-
-Only after the Wikidata-centered cohort has been enriched, re-diagnosed, and
-compared with BnF should the project decide whether domain-specific sources are
-worth the additional complexity.
-
-Possible later sources include:
-
-- CERL for early modern print culture and variant-name authority work
-- Getty vocabularies for visual-art-heavy cohorts
-- MusicBrainz for music and opera-heavy cohorts
-- Europeana for cultural heritage enrichment and discovery
 
 ## Later Research Decisions
 
@@ -910,8 +918,8 @@ Several decisions remain intentionally open:
   meaningful historical ambiguity.
 - Whether place-derived affiliation evidence should remain contextual or later
   modify the core cultural-affiliation score.
-- How to compare Wikidata-derived data with BnF, Procope, or other
-  bibliographic and cultural datasets.
+- Whether any external source is needed for a concrete claim not answerable
+  from the current Wikidata/Wikipedia evidence.
 
 These are interpretive and methodological decisions. They should be made
 explicitly in later steps, not hidden inside cleaning or merge scripts.

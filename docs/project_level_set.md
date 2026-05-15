@@ -1,11 +1,11 @@
 # Project Level Set
 
-Last updated: 2026-05-11.
+Last updated: 2026-05-15.
 
 This note is the current working map of the repository after the French-seed
-to global-writer bridge and the reproducible context-slice layer. It separates
-active project truth from legacy provenance, generated data, local caches, and
-open decisions.
+to global-writer bridge, the reproducible context-slice layer, and the core
+findings packet. It separates active project truth from legacy provenance,
+generated data, local caches, and open decisions.
 
 ## Current Scholarly Scope
 
@@ -13,7 +13,7 @@ open decisions.
 - Identity spine: Wikidata QIDs.
 - Current source family: Wikidata. VIAF is retained as supporting metadata for
   the original French-seed export only.
-- Not yet active: BnF or additional external authority files.
+- Out of current scope: BnF or additional external authority files.
 - Primary comparison frame approved in discussion: France, British/British
   imperial context, China/Qing context, and Germany.
 
@@ -54,7 +54,8 @@ The active workflow is API-first after global discovery:
 12. Build formula-backed affiliation evidence.
 13. Build granular occupation-bucket tables.
 14. Build reproducible context-slice tables.
-15. Build backward-compatible legacy/global comparison outputs only when
+15. Build the core findings packet.
+16. Build backward-compatible legacy/global comparison outputs only when
     needed.
 
 Commands are documented in:
@@ -78,6 +79,8 @@ Commands are documented in:
 | `data/raw/*place_context*.csv` | generated source | Wikidata API place-context exports |
 | `data/processed/global_writers/context_slice_membership.csv` | generated deliverable | reproducible France/Germany/British/China slice membership |
 | `data/processed/global_writers/context_slice_summary.csv` | generated deliverable | summary of reproducible context slices |
+| `docs/core_findings_packet.md` | generated deliverable | compact conference-facing findings packet |
+| `data/processed/global_writers/core_findings_*.csv` | generated deliverable | reusable tables behind the core findings packet |
 | `data/processed/french_seed_redundancy_audit.csv` | generated audit | overlap between legacy French seed and global-derived French slices |
 | `data/interim/` | generated, ignored | merge/clean/diagnostic working tables |
 | `data/processed/` | generated deliverables | analysis-ready outputs, correction tables, comparison tables |
@@ -107,6 +110,7 @@ Commands are documented in:
 | `scripts/analysis/05_build_affiliation_evidence_matrix.py` | active | formula-backed affiliation evidence tallies |
 | `scripts/analysis/06_build_occupation_bucket_tables.py` | active | occupation bucket crosswalk and bucket representation tables |
 | `scripts/analysis/07_build_context_slice_tables.py` | active | reproducible global context slices and legacy French-seed audit |
+| `scripts/analysis/08_build_core_findings_packet.py` | active | scoped findings report and supporting packet tables |
 
 ## Legacy Or Provenance Scripts
 
@@ -198,7 +202,7 @@ Current reproducible context slices from `global_writers`:
   as research artifacts or regenerated locally as needed.
 - Decide which language editions appear in final visualizations versus full
   analysis tables.
-- Decide when to add BnF after the Wikidata tracks are stable.
+- Decide which packet tables should become conference figures.
 
 ## Recommended Next Cleanup
 

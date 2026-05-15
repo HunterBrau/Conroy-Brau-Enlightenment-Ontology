@@ -1,107 +1,72 @@
 # Source Strategy
 
-This document records the source-adoption plan for the project so that new data
-is added in a deliberate order rather than as a collection of interesting but
-incompatible datasets.
+This project is scoped around one reproducible Wikidata/Wikipedia evidence
+spine. New sources are not planned for the current phase unless a specific
+conference claim cannot be answered from the existing data.
 
-## Guiding Principle
+## Current Scope
 
-Use **Wikidata as the identity spine** for the project unless there is a clear
-reason not to. New sources should enrich, compare against, or diagnose the
-Wikidata-centered cohort before they are allowed to redefine it.
+Use `global_writers` as the active analytical cohort:
 
-This keeps the pipeline:
+- humans in Wikidata;
+- born 1675-1775;
+- occupation `writer` or any subclass of writer;
+- one row per Wikidata QID after normalization.
 
-- easier to explain
-- easier to debug
-- easier to reproduce
-- less likely to fragment into competing identity systems too early
+Use the reviewed political-entity crosswalk to derive comparable context
+slices from that cohort:
 
-## Immediate Sequence
+- France;
+- Germany;
+- British/British imperial contexts;
+- China/Qing contexts.
 
-1. Keep the legacy French seed as provenance, but use `global_writers` as the
-   discovery spine for new comparative claims.
-2. Maintain Wikidata API enrichment as the shared route for both cohorts.
-3. Build and review the political-entity crosswalk for France, Germany,
-   British/British imperial contexts, and China/Qing contexts.
-4. Use the context-slice layer to derive France, Germany, British, and
-   China/Qing comparison groups from the global cohort.
-5. Re-run diagnostics and representation matrices after crosswalk changes.
-6. Add BnF as the first external comparison source only after the Wikidata
-   tracks are stable.
-7. Decide whether domain-specific external authorities are worth the added
-   complexity.
+The legacy `french_seed` files remain provenance and backward compatibility
+only. They are not a separate national methodology.
 
-## Tier 1: Wikidata-Centered Expansion
+## In Scope
 
-The next data expansion should stay within Wikidata and Wikimedia-linked data.
-The goal is to support the cultural-affiliation matrix and the future
-influence-map questions without introducing a second identity spine too early.
+- Wikidata API enrichment already present in the repository.
+- Wikipedia language-edition representation from sitelinks.
+- Country of citizenship as one evidence field, not a complete nationality
+  answer.
+- Place context from birth, death, residence, and work-location evidence.
+- Formula-backed affiliation evidence tallies.
+- Gender representation.
+- Occupation buckets, including Religion / Theology as its own bucket.
+- Data-friction metrics such as missing citizenship, missing place context,
+  missing Wikipedia articles, unresolved labels, and low-evidence affiliation
+  cases.
+- Visualizations generated from the current processed tables.
 
-The first enrichment pass should prioritize:
+## Out Of Current Scope
 
-| Field family | Why it matters |
-|---|---|
-| Place of death | affiliation evidence |
-| Country of citizenship | affiliation evidence |
-| Residence and work location | affiliation evidence |
-| Native language and languages spoken/written | affiliation evidence |
-| Writing language | affiliation evidence |
-| Wikipedia language-edition sitelinks | representation and influence analysis |
-| Sex or gender | representation axis |
-| Ethnic group | contextual evidence only; interpret cautiously |
-| Occupation | writerly and non-writing professional axes |
-| Labels and descriptions by language | Wikidata representation and data-friction evidence |
-| Notable-work genres/forms | sparse literary-genre evidence |
+- BnF comparison.
+- CERL, Getty, MusicBrainz, Europeana, or other authority systems.
+- Expanding beyond writer/subclass occupations.
+- Replacing the Wikidata QID spine.
+- Assigning high/medium/low affiliation confidence thresholds before reviewing
+  the formula-backed tally outputs.
 
-Wikipedia language-edition presence should be treated as representation
-evidence, not as nationality evidence. It answers which language communities
-have articles about a person, not what nationality that person had.
+## Why This Trim Helps
 
-Ethnic group should not participate in the cultural-affiliation tally. It may
-be useful as contextual evidence or for data-availability analysis.
+The conference argument is strongest when the method stays legible:
 
-## Tier 2: BnF Comparison
+1. Start with a reproducible global writer cohort.
+2. Derive all national and imperial comparison slices the same way.
+3. Show how evidence fields change the map, especially citizenship versus
+   place context.
+4. Compare representation across Wikipedia language editions.
+5. Keep missingness and low-evidence cases visible.
 
-BnF is the first external comparison source because the project remains
-French-facing in its conference framing, even now that the repository also has
-a global writer/subclass comparison cohort.
+This is enough to make a computational humanities argument without bringing in
+another identity system.
 
-BnF should be used to:
+## Purposeful Next Work
 
-- compare coverage and omissions
-- compare proportions across national or occupational categories
-- test whether Wikidata and bibliographic authority data tell similar stories
-
-BnF should not replace Wikidata as the identity spine. It should be a
-comparison and enrichment layer.
-
-## Tier 3: Optional Domain-Specific Sources
-
-Only add these if a clear research question demands them:
-
-| Source | Best use case |
-|---|---|
-| CERL | early modern print culture, variant names, book-history authority work |
-| Getty vocabularies | visual-art-heavy cohorts |
-| MusicBrainz | music, opera, and composer-heavy cohorts |
-| Europeana | cultural heritage discovery and enrichment |
-
-These sources are powerful, but they add complexity. They should come after the
-Wikidata-centered cohort is stable and after BnF comparison has been scoped.
-
-## What This Means for the Pipeline
-
-- Step 03 is not a one-time report. It should be re-run after major data
-  expansions.
-- Step 04 should enrich Wikidata fields before new external comparisons.
-- The first analysis layer should build cultural-affiliation and representation
-  matrices from explicit evidence fields.
-- The occupation-bucket layer should keep writerly, non-writerly, and
-  religion/theology occupations visible for review.
-- The context-slice layer should replace the manual French seed for new
-  France/Germany/British/China comparisons.
-- A later visualization layer should turn the matrices into map and network
-  datasets.
-- Step 07 should introduce BnF.
-- Step 09 should remain optional until a concrete question justifies it.
+1. Review the political-entity crosswalk rows that feed the context slices.
+2. Review the occupation-bucket crosswalk rows marked for manual review.
+3. Build a small visualization set from the core findings packet:
+   context-slice bars, citizenship-vs-place punchcards, language heatmaps, and
+   occupation-bucket comparisons.
+4. Add no new data source unless a concrete claim needs it.

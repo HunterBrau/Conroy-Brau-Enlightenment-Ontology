@@ -96,4 +96,4 @@ The following are not cleanup targets right now:
 - How to set high/medium/low thresholds for the formula-backed affiliation
   evidence scores.
 - Which language editions should appear in final visualizations.
-- When to add BnF as the first external comparison source.
+- Which core findings packet tables should become conference figures.

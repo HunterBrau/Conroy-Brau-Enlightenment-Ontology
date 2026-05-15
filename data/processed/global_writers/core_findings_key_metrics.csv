@@ -1,0 +1,22 @@
+section,metric,value,pct,notes
+cohort,global_writer_entities,14377,100.0,Distinct Wikidata QIDs in the active 1675-1775 writer/subclass cohort.
+data_friction,missing_country_of_citizenship,5302,36.88,Entities without Wikidata P27 in the enrichment export.
+data_friction,any_mapped_affiliation_candidate,12129,84.36,Entities with at least one mapped affiliation candidate across the evidence matrix.
+data_friction,unique_top_affiliation_candidate,9632,67.0,Entities whose formula-backed evidence has one top affiliation candidate.
+context_slice,british_any_citizenship_or_place_evidence,2099,14.6,British slice membership from citizenship or place context.
+context_slice,china_any_citizenship_or_place_evidence,424,2.95,China slice membership from citizenship or place context.
+context_slice,france_any_citizenship_or_place_evidence,2922,20.32,France slice membership from citizenship or place context.
+context_slice,germany_any_citizenship_or_place_evidence,3711,25.81,Germany slice membership from citizenship or place context.
+language_representation,enwiki_represented_entities,5305,36.9,Wikipedia language edition article coverage for the global cohort.
+language_representation,dewiki_represented_entities,3980,27.68,Wikipedia language edition article coverage for the global cohort.
+language_representation,frwiki_represented_entities,3481,24.21,Wikipedia language edition article coverage for the global cohort.
+language_representation,ruwiki_represented_entities,2436,16.94,Wikipedia language edition article coverage for the global cohort.
+language_representation,itwiki_represented_entities,2049,14.25,Wikipedia language edition article coverage for the global cohort.
+occupation_bucket,Writing / Literature,14083,97.96,Literary and textual production
+occupation_bucket,Education / Scholarship / Humanities,2476,17.22,Intellectual systems
+occupation_bucket,Religion / Theology,2439,16.96,Intellectual systems
+occupation_bucket,Translation / Philology / Languages,1355,9.42,Literary and textual production
+occupation_bucket,Law / Administration,1094,7.61,Institutional power
+occupation_bucket,Politics / Statecraft / Diplomacy,1040,7.23,Institutional power
+occupation_bucket,Print / Publishing / Journalism,791,5.5,Literary and textual production
+occupation_bucket,Music / Performance / Theatre,665,4.63,Arts and performance
